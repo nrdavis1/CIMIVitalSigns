@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+  <id value="respiratoryRateMeasDeviceVS"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"/>
+  </meta>
+  <url value="http://hl7.org/fhir/hspc/ValueSet/respiratoryRateMeasDeviceVS"/>
+    <version value="0.01"/>
+    <name value="CIMI Respiratory Rate Measurement Device value set"/>
+    <status value="draft"/>
+    <date value="2018-11-08"/>
+    <publisher value="Clinical Information Modeling Inititative"/>
+    <description value="SELECT SNOMED CT code system values."/>
+    <copyright value="TBD"/>
+    <extensible value="true"/>
+    <compose>
+        <include>
+            <system value="http://snomed.info/sct"/>
+			<concept>	
+				<code value ="250863006"/>
+				<display value ="Capnograph waveform"/>
+			</concept>
+			<concept>	
+				<code value ="334990001"/>
+				<display value ="Peak flow meter"/>
+			</concept>
+			<concept>	
+				<code value ="717730001"/>
+				<display value ="Impedance pneumography recording/analysis system"/>
+			</concept>
+			<concept>	
+				<code value ="17120007"/>
+				<display value ="Biofeedback, strain gauge"/>
+			</concept>
+        </include>
+    </compose>
+</ValueSet>

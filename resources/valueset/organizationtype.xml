@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="organizationtype"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <url value="http://hl7.org/fhir/hspc/ValueSet/organizationtype"/>
+  <version value="0.01"/>
+  <name value="HSPC Organization Type"/>
+  <status value="draft"/>
+  <publisher value="HSPC"/>
+  <contact>
+    <telecom>
+      <system value="other"/>
+      <value value="http://healthcaresoa.org"/>
+    </telecom>
+  </contact>
+  <date value="2015-05-19"/>
+  <description value="The set of codes that describe a kind of organization."/>
+  <immutable value="true"/>
+  <copyright value="Intermountain Healthcare"/>
+  <extensible value="true"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/organization-hspc-organizationtype"/>
+    </include>
+  </compose>
+</ValueSet>

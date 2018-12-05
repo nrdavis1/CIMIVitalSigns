@@ -1,0 +1,59 @@
+{
+  "resourceType": "ValueSet",
+  "id": "bodyTempMeasDeviceVS",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CIMI Body Temperature Measurement Device value set</h2><div><p>SELECT SNOMED CT code system values.</p>\n</div><p><b>Copyright Statement:</b> TBD</p><p>This value set includes codes from the following code systems:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=467862000\">467862000</a></td><td>Capillary patient thermometer, mercury</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=462983001\">462983001</a></td><td>Liquid-crystal patient thermometer</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=118376009\">118376009</a></td><td>Thermocouple</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=448349000\">448349000</a></td><td>Tympanic thermometer</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=448735006\">448735006</a></td><td>Forehead thermometer</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=706158001\">706158001</a></td><td>Electronic patient thermometer</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=464210001\">464210001</a></td><td>Thermographic camera</td><td/></tr></table></li></ul></div>"
+  },
+  "url": "http://hl7.org/fhir/hspc/ValueSet/bodyTempMeasDeviceVS",
+  "version": "0.01",
+  "name": "CIMI Body Temperature Measurement Device value set",
+  "status": "draft",
+  "date": "2018-11-08T00:00:00-07:00",
+  "publisher": "Clinical Information Modeling Inititative",
+  "description": "SELECT SNOMED CT code system values.",
+  "copyright": "TBD",
+  "extensible": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "467862000",
+            "display": "Capillary patient thermometer, mercury"
+          },
+          {
+            "code": "462983001",
+            "display": "Liquid-crystal patient thermometer"
+          },
+          {
+            "code": "118376009",
+            "display": "Thermocouple"
+          },
+          {
+            "code": "448349000",
+            "display": "Tympanic thermometer"
+          },
+          {
+            "code": "448735006",
+            "display": "Forehead thermometer"
+          },
+          {
+            "code": "706158001",
+            "display": "Electronic patient thermometer"
+          },
+          {
+            "code": "464210001",
+            "display": "Thermographic camera"
+          }
+        ]
+      }
+    ]
+  }
+}

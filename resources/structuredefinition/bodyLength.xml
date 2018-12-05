@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <!--© 2018 IHC Health Services, Inc. All Rights Reserved. This document is machine generated.-->
+    <id value="bodyLength"/>
+    <url value="http://hl7.org/fhir/hspc/StructureDefinition/bodyLength"/>
+    <name value="CIMI Body Length"/>
+    <status value="draft"/>
+    <date value="2018-12-03"/>
+    <publisher value="Clinical Information Modeling Initiative"/>
+    <description value="Body Length, the measured length of an individual's body.  This measurement is usually taken while lying down."/>
+    <fhirVersion value="3.0.1"/>
+    <kind value="complex-type"/>
+    <abstract value="false"/>
+    <type value="Observation"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Observation:cimiBodyLength">
+            <path value="Observation"/>
+			<short value="Body Length"/>
+            <definition value="Body Length, the measured length of an individual's body.  This measurement is usually taken while lying down."/>
+        </element>
+        <element id="Observation:cimiBodyLength.code">
+            <path value="Observation.code"/>
+        </element>
+		<element id="Observation:cimiBodyLength.code.coding">
+			<path value="Observation.code.coding"/>
+		</element>
+		<element id="Observation:cimiBodyLength.code.coding.system">
+			<path value="Observation.code.coding.system"/>
+			<fixedUri value="http://loinc.org"/>
+		</element>
+		<element id="Observation:cimiBodyLength.code.coding.code">
+			<path value="Observation.code.coding.code"/>
+			<fixedCode value="8306-3"/>
+		</element>
+		<element id="Observation:cimiBodyLength.code.coding.display">
+			<path value="Observation.code.coding.display"/>
+			<fixedString value="Body height --lying"/>
+		</element>
+        <element id="Observation:cimiBodyLength.valueQuantity">
+            <path value="Observation.valueQuantity"/>
+            <type>
+                <code value="Quantity"/>
+            </type>
+        </element>
+		<element id="Observation:cimiBodyLength.component.valueQuantity.system">
+			<path value="Observation.valueQuantity.system"/>
+			<type>
+                <code value="uri"/>
+                <profile value="http://hl7.org/fhir/StructureDefinition/uri"/>
+            </type>
+            <fixedUri value="http://unitsofmeasure.org"/>
+		</element>
+		<element id="Observation:cimiBodyLength.component.valueQuantity.code">
+			<path value="Observation.valueQuantity.code"/>
+			<type>
+                <code value="code"/>
+                <profile value="http://hl7.org/fhir/StructureDefinition/code"/>
+            </type>
+            <fixedCode value="cm"/>
+		</element>
+		<element id="Observation:cimiBodyLength.interpretation">
+			<path value="Observation.interpretation"/>
+			<binding>
+				<strength value="preferred"/>
+				<valueSetReference>
+					<reference value="http://hl7.org/fhir/hspc/ValueSet/abnIntNumericNom"/>
+				</valueSetReference>
+			</binding>
+		</element>
+		<element id="Observation:cimiBodyLength.extension">
+			<path value="Observation.extension"/>
+            <slicing id="10">
+                <discriminator>
+                    <type value="value"/>
+                    <path value="Observation.extension"/>
+                </discriminator>
+                <ordered value="false"/>
+                <rules value="open"/>
+            </slicing>
+		</element>
+        <element id="Observation:cimiBodyLength.extension:deltaFlag">
+            <path value="Observation.extension"/>
+			<sliceName value="deltaFlag"/>
+			<short value="Delta Flag"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="extension"/>
+                <profile value="http://hl7.org/fhir/hspc/StructureDefinition/deltaFlag"/>
+            </type>
+            <binding>
+                <strength value="preferred"/>
+                <valueSetReference>
+                    <reference value="http://hl7.org/fhir/hspc/ValueSet/deltaFlagnumericNom"/>
+                </valueSetReference>
+            </binding>
+        </element>
+		<element id="Observation:cimiBodyLength.extension:measurementDevice">
+			<path value="Observation.extension"/>
+			<sliceName value="measurementDevice"/>
+			<short value="Measurement Device"/>
+			<type>
+				<code value="extension"/>
+				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/measurementDevice"/>
+			</type>
+            <binding>
+                <strength value="preferred"/>
+                <valueSetReference>
+                    <reference value="http://hl7.org/fhir/hspc/ValueSet/heightLengthMeasDeviceVS"/>
+                </valueSetReference>
+            </binding>
+		</element>
+		<element id="Observation:cimiBodyLength.extension:dataOriginationMode">
+			<path value="Observation.extension"/>
+			<sliceName value="dataOriginationMode"/>
+			<short value="Data Origination Mode"/>
+			<type>
+				<code value="extension"/>
+				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/dataOriginationMode"/>
+			</type>
+			<binding>
+				<strength value="preferred"/>
+				<valueSetReference>
+					<reference value="http://hl7.org/fhir/hspc/ValueSet/dataOriginationModeVS"/>
+				</valueSetReference>
+			</binding>
+		</element>
+		<element id="Observation:cimiBodyLength.method">
+			<path value="Observation.method"/>
+			<binding>
+				<strength value="preferred"/>
+				<valueSetReference>
+					<reference value="http://hl7.org/fhir/hspc/ValueSet/heightLengthMeasMethodVS"/>
+				</valueSetReference>
+			</binding>
+		</element>
+    </differential>
+</StructureDefinition>

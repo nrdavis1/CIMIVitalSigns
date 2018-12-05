@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "id": "definedLimitsVS",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CIMI Defined Limits value set</h2><div><p>Select SNOMED CT codes.</p>\n</div><p><b>Copyright Statement:</b> TBD</p><p>This value set includes codes from the following code systems:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=449501000124109\">449501000124109</a></td><td>Within defined limits</td><td/></tr></table></li></ul></div>"
+  },
+  "url": "http://hl7.org/fhir/hspc/ValueSet/definedLimitsVS",
+  "version": "0.01",
+  "name": "CIMI Defined Limits value set",
+  "status": "draft",
+  "experimental": true,
+  "date": "2018-11-09T00:00:00-07:00",
+  "publisher": "Clinical Information Modeling Initiative",
+  "description": "Select SNOMED CT codes.",
+  "immutable": true,
+  "copyright": "TBD",
+  "extensible": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "449501000124109",
+            "display": "Within defined limits"
+          }
+        ]
+      }
+    ]
+  }
+}

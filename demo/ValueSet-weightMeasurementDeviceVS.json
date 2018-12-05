@@ -1,0 +1,59 @@
+{
+  "resourceType": "ValueSet",
+  "id": "weightMeasurementDeviceVS",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CIMI Weight Measurement Device</h2><div><p>SELECT SNOMED CT code system values.</p>\n</div><p><b>Copyright Statement:</b> TBD</p><p>This value set includes codes from the following code systems:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=466289007\">466289007</a></td><td>Bed scale</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=720689000\">720689000</a></td><td>Chair scale</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=462242008\">462242008</a></td><td>Patient sling scale</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=58514003\">58514003</a></td><td>Infant scale</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=444063009\">444063009</a></td><td>Broselow Luten color coding system for pediatric weight estimation</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=469204003\">469204003</a></td><td>Floor scale, electronic</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=469787007\">469787007</a></td><td>Floor scale, mechanical</td><td/></tr></table></li></ul></div>"
+  },
+  "url": "http://hl7.org/fhir/hspc/ValueSet/weightMeasurementDeviceVS",
+  "version": "0.01",
+  "name": "CIMI Weight Measurement Device",
+  "status": "draft",
+  "date": "2018-11-08T00:00:00-07:00",
+  "publisher": "Clinical Information Modeling Inititative",
+  "description": "SELECT SNOMED CT code system values.",
+  "copyright": "TBD",
+  "extensible": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "466289007",
+            "display": "Bed scale"
+          },
+          {
+            "code": "720689000",
+            "display": "Chair scale"
+          },
+          {
+            "code": "462242008",
+            "display": "Patient sling scale"
+          },
+          {
+            "code": "58514003",
+            "display": "Infant scale"
+          },
+          {
+            "code": "444063009",
+            "display": "Broselow Luten color coding system for pediatric weight estimation"
+          },
+          {
+            "code": "469204003",
+            "display": "Floor scale, electronic"
+          },
+          {
+            "code": "469787007",
+            "display": "Floor scale, mechanical"
+          }
+        ]
+      }
+    ]
+  }
+}

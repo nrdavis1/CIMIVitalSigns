@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="woundTunnelingDirection"/>
+  <url value="http://hl7.org/fhir/hspc/StructureDefinition/woundTunnelingDirection"/>
+  <version value="2.0.0"/>
+  <name value="woundTunnelingDirection"/>
+  <title value="Wound Tunneling Direction"/>
+  <status value="draft"/>
+  <date value="2018-10-19"/>
+  <publisher value="HSPC"/>
+  <description value="The direction a wound sinus travels form the center of a wound."/>
+  <fhirVersion value="3.0.0"/>
+  <kind value="complex-type"/>
+  <abstract value="false"/>
+  <contextType value="resource"/>
+  <context value="Observation"/>
+  <type value="Extension"/>
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+  <derivation value="constraint"/>
+  <differential>
+    <element id="Extension:woundTunnelingDirection">
+      <path value="Extension"/>
+      <sliceName value="woundTunnelingDirection"/>
+      <definition value="The direction a wound sinus travels form the center of a wound."/>
+      <min value="0"/>
+      <max value="1"/>
+      <isModifier value="false"/>
+    </element>
+    <element id="Extension:woundTunnelingDirection.url">
+      <path value="Extension.url"/>
+      <fixedUri value="http://hl7.org/fhir/hspc/StructureDefinition/woundTunnelingDirection"/>
+    </element>
+    <element id="Extension:woundTunnelingDirection.valueCodeableConcept">
+      <path value="Extension.valueCodeableConcept"/>
+      <type>
+        <code value="CodeableConcept"/>
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept"/>
+      </type>
+		<binding>
+            <strength value="preferred"/>
+            <valueSetReference>
+                <reference value="http://hl7.org/fhir/hspc/ValueSet/clockFacePositionVS"/>
+            </valueSetReference>
+        </binding>
+    </element>
+  </differential>
+</StructureDefinition>

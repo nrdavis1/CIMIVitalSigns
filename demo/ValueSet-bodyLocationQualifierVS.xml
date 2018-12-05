@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="bodyLocationQualifierVS"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>CIMI Body Location Qualifier value set</h2><div><p>Select SNOMED code system values.  Codes that add further description to a body location.</p>
+</div><p><b>Copyright Statement:</b> TBD</p><p>This value set includes codes from the following code systems:</p><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=32088001">32088001</a></td><td>Fifth</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=11896004">11896004</a></td><td>Intermediate</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=263871007">263871007</a></td><td>Sinusoidal</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=38033009">38033009</a></td><td>Amputation stump</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=13351007">13351007</a></td><td>Structure of bursa</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=66787007">66787007</a></td><td>Cephalic</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255286006">255286006</a></td><td>Glandular</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255509001">255509001</a></td><td>Large</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385494008">385494008</a></td><td>Hematoma</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=39352004">39352004</a></td><td>Joint structure</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=264082005">264082005</a></td><td>Lumbar</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=260642009">260642009</a></td><td>Retroperitoneal</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=272432007">272432007</a></td><td>Wall structure</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=397406000">397406000</a></td><td>Collateral branch of vessel</td><td/></tr></table></li></ul></div>
+  </text>
+  <url value="http://hl7.org/fhir/hspc/ValueSet/bodyLocationQualifierVS"/>
+  <version value="0.01"/>
+  <name value="CIMI Body Location Qualifier value set"/>
+  <status value="draft"/>
+  <date value="2016-10-11T00:00:00-06:00"/>
+  <publisher value="Health Services Platform Consortium (HSPC)"/>
+  <description value="Select SNOMED code system values.  Codes that add further description to a body location."/>
+  <immutable value="true"/>
+  <copyright value="TBD"/>
+  <extensible value="true"/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="32088001"/>
+        <display value="Fifth"/>
+      </concept>
+      <concept>
+        <code value="11896004"/>
+        <display value="Intermediate"/>
+      </concept>
+      <concept>
+        <code value="263871007"/>
+        <display value="Sinusoidal"/>
+      </concept>
+      <concept>
+        <code value="38033009"/>
+        <display value="Amputation stump"/>
+      </concept>
+      <concept>
+        <code value="13351007"/>
+        <display value="Structure of bursa"/>
+      </concept>
+      <concept>
+        <code value="66787007"/>
+        <display value="Cephalic"/>
+      </concept>
+      <concept>
+        <code value="255286006"/>
+        <display value="Glandular"/>
+      </concept>
+      <concept>
+        <code value="255509001"/>
+        <display value="Large"/>
+      </concept>
+      <concept>
+        <code value="385494008"/>
+        <display value="Hematoma"/>
+      </concept>
+      <concept>
+        <code value="39352004"/>
+        <display value="Joint structure"/>
+      </concept>
+      <concept>
+        <code value="264082005"/>
+        <display value="Lumbar"/>
+      </concept>
+      <concept>
+        <code value="260642009"/>
+        <display value="Retroperitoneal"/>
+      </concept>
+      <concept>
+        <code value="272432007"/>
+        <display value="Wall structure"/>
+      </concept>
+      <concept>
+        <code value="397406000"/>
+        <display value="Collateral branch of vessel"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

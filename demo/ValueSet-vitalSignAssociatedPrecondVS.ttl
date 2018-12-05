@@ -1,0 +1,113 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/hspc/ValueSet/vitalSignAssociatedPrecondVS> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "vitalSignAssociatedPrecondVS"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition";
+       fhir:index 0
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CIMI Vital Sign Associated Precondition value set</h2><div><p>SELECT SNOMED CT code system values.</p>\n</div><p><b>Copyright Statement:</b> TBD</p><p>This value set includes codes from the following code systems:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=250980009:3110006\">250980009:3110006</a></td><td>After cardioversion</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=276986009\">276986009</a></td><td>Antepartum</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=263678003\">263678003</a></td><td>At rest</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=250980009:307153007\">250980009:307153007</a></td><td>Before cardioversion</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=250980009:307154001\">250980009:307154001</a></td><td>During cardioversion</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255566006\">255566006</a></td><td>Post-dose</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255235001\">255235001</a></td><td>Pre-dose</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=262068006\">262068006</a></td><td>Preoperative</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255410009\">255410009</a></td><td>Postpartum</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=262061000\">262061000</a></td><td>Postoperative period</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=277671009\">277671009</a></td><td>Intraoperative</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255399007\">255399007</a></td><td>Congenital</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=307159006\">307159006</a></td><td>Pregnancy time period</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=884001\">884001</a></td><td>Initial</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=309604004\">309604004</a></td><td>During exercise</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255214003\">255214003</a></td><td>After exercise</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=307166007\">307166007</a></td><td>Before exercise</td><td/></tr></table></li></ul></div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "http://hl7.org/fhir/hspc/ValueSet/vitalSignAssociatedPrecondVS"];
+  fhir:ValueSet.version [ fhir:value "0.01"];
+  fhir:ValueSet.name [ fhir:value "CIMI Vital Sign Associated Precondition value set"];
+  fhir:ValueSet.status [ fhir:value "draft"];
+  fhir:ValueSet.date [ fhir:value "2018-11-08T00:00:00-07:00"^^xsd:dateTime];
+  fhir:ValueSet.publisher [ fhir:value "Clinical Information Modeling Inititative"];
+  fhir:ValueSet.description [ fhir:value "SELECT SNOMED CT code system values."];
+  fhir:ValueSet.copyright [ fhir:value "TBD"];
+  fhir:ValueSet.extensible [ fhir:value "true"^^xsd:boolean];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "250980009:3110006" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "After cardioversion" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "276986009" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Antepartum" ]
+       ], [
+         fhir:index 2;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "263678003" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "At rest" ]
+       ], [
+         fhir:index 3;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "250980009:307153007" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Before cardioversion" ]
+       ], [
+         fhir:index 4;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "250980009:307154001" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "During cardioversion" ]
+       ], [
+         fhir:index 5;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "255566006" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Post-dose" ]
+       ], [
+         fhir:index 6;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "255235001" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pre-dose" ]
+       ], [
+         fhir:index 7;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "262068006" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Preoperative" ]
+       ], [
+         fhir:index 8;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "255410009" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Postpartum" ]
+       ], [
+         fhir:index 9;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "262061000" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Postoperative period" ]
+       ], [
+         fhir:index 10;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "277671009" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Intraoperative" ]
+       ], [
+         fhir:index 11;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "255399007" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Congenital" ]
+       ], [
+         fhir:index 12;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "307159006" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pregnancy time period" ]
+       ], [
+         fhir:index 13;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "884001" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Initial" ]
+       ], [
+         fhir:index 14;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "309604004" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "During exercise" ]
+       ], [
+         fhir:index 15;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "255214003" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "After exercise" ]
+       ], [
+         fhir:index 16;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "307166007" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Before exercise" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/hspc/ValueSet/vitalSignAssociatedPrecondVS.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/hspc/ValueSet/vitalSignAssociatedPrecondVS.ttl> .
+
+# -------------------------------------------------------------------------------------
+

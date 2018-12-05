@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+  <id value="weightMeasurementDeviceVS"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"/>
+  </meta>
+  <url value="http://hl7.org/fhir/hspc/ValueSet/weightMeasurementDeviceVS"/>
+    <version value="0.01"/>
+    <name value="CIMI Weight Measurement Device"/>
+    <status value="draft"/>
+    <date value="2018-11-08"/>
+    <publisher value="Clinical Information Modeling Inititative"/>
+    <description value="SELECT SNOMED CT code system values."/>
+    <copyright value="TBD"/>
+    <extensible value="true"/>
+    <compose>
+        <include>
+            <system value="http://snomed.info/sct"/>
+            <concept>
+				<code value="466289007"/>
+				<display value="Bed scale"/>
+			</concept>
+			<concept>
+				<code value="720689000"/>
+				<display value="Chair scale"/>
+			</concept>
+			<concept>
+				<code value="462242008"/>
+				<display value="Patient sling scale"/>
+			</concept>
+			<concept>
+				<code value="58514003"/>
+				<display value="Infant scale"/>
+			</concept>
+			<concept>
+				<code value="444063009"/>
+				<display value="Broselow Luten color coding system for pediatric weight estimation"/>
+			</concept>
+			<concept>
+				<code value="469204003"/>
+				<display value="Floor scale, electronic"/>
+			</concept>
+			<concept>
+				<code value="469787007"/>
+				<display value="Floor scale, mechanical"/>
+			</concept>
+        </include>
+    </compose>
+</ValueSet>

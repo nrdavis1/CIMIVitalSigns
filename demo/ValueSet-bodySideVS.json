@@ -1,0 +1,48 @@
+{
+  "resourceType": "ValueSet",
+  "id": "bodySideVS",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CIMI Body Side value set</h2><div><p>Select SNOMED code system values.  Codes that describe sides of the body.</p>\n</div><p><b>Copyright Statement:</b> TBD</p><p>This value set includes codes from the following code systems:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=51440002\">51440002</a></td><td>Right and left</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=399488007\">399488007</a></td><td>Midline</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=85421007\">85421007</a></td><td>Structure of right half of body</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=31156008\">31156008</a></td><td>Structure of left half of body</td><td/></tr></table></li></ul></div>"
+  },
+  "url": "http://hl7.org/fhir/hspc/ValueSet/bodySideVS",
+  "version": "0.01",
+  "name": "CIMI Body Side value set",
+  "status": "draft",
+  "date": "2016-10-11T00:00:00-06:00",
+  "publisher": "Clinical Information Modeling Initiative (CIMI)",
+  "description": "Select SNOMED code system values.  Codes that describe sides of the body.",
+  "immutable": true,
+  "copyright": "TBD",
+  "extensible": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "51440002",
+            "display": "Right and left"
+          },
+          {
+            "code": "399488007",
+            "display": "Midline"
+          },
+          {
+            "code": "85421007",
+            "display": "Structure of right half of body"
+          },
+          {
+            "code": "31156008",
+            "display": "Structure of left half of body"
+          }
+        ]
+      }
+    ]
+  }
+}

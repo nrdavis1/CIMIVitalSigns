@@ -1,0 +1,11 @@
+/.project
+/.java-version
+/output/
+/qa/
+/temp/
+/txCache/
+*.swp
+*.zip
+*.jar
+.DS_Store
+.DS_Store
