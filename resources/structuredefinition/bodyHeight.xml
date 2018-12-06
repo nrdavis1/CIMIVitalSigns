@@ -127,7 +127,7 @@
                 </valueSetReference>
             </binding>
 		</element>
-		<element id="Observation:cimiBodyHeight.extension:dataOriginationMode">
+		<!-- <element id="Observation:cimiBodyHeight.extension:dataOriginationMode">
 			<path value="Observation.extension"/>
 			<sliceName value="dataOriginationMode"/>
 			<short value="Data Origination Mode"/>
@@ -141,7 +141,7 @@
 					<reference value="http://hl7.org/fhir/hspc/ValueSet/dataOriginationModeVS"/>
 				</valueSetReference>
 			</binding>
-		</element>
+		</element> -->
 		<!-- <element id="Observation:cimiBodyHeight.extension:associatedPrecondition">
 			<path value="Observation.extension"/>
 			<sliceName value="associatedPrecondition"/>

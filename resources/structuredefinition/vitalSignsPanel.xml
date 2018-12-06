@@ -31,11 +31,11 @@
 		</element>
 		<element id="Observation:cimiVitalSignsPanel.code.coding.code">
 			<path value="Observation.code.coding.code"/>
-			<fixedCode value="67795-5"/>
+			<fixedCode value="85353-1"/>
 		</element>
 		<element id="Observation:cimiVitalSignsPanel.code.coding.display">
 			<path value="Observation.code.coding.display"/>
-			<fixedString value="Vital signs, weight, height, head circumference and oximetry panel"/>
+			<fixedString value="Vital signs, weight, height, head circumference, oxygen saturation and BMI panel"/>
 		</element>
 		<element id="Observation:cimiVitalSignsPanel.valueQuantity">
 			<path value="Observation.valueQuantity"/>

@@ -35,6 +35,37 @@
 			<concept>	
 				<code value="720738005"/>
 				<display value="Blood pressure cuff, adult size large"/>
+			</concept><concept>	
+				<code value ="8741000205104"/>
+				<display value ="Blood pressure cuff, ankle type"/>
+			</concept>	
+			<concept>	
+				<code value ="8731000205109"/>
+				<display value ="Blood pressure cuff, extra large adult thigh cuff"/>
+			</concept>	
+			<concept>	
+				<code value ="8861000205108"/>
+				<display value ="Blood pressure cuff, infant size"/>
+			</concept>	
+			<concept>	
+				<code value ="8841000205107"/>
+				<display value ="Blood pressure cuff, neonatal size 1"/>
+			</concept>	
+			<concept>	
+				<code value ="8851000205105"/>
+				<display value ="Blood pressure cuff, neonatal size 2"/>
+			</concept>	
+			<concept>	
+				<code value ="8821000205104"/>
+				<display value ="Blood pressure cuff, neonatal size 3"/>
+			</concept>	
+			<concept>	
+				<code value ="8811000205106"/>
+				<display value ="Blood pressure cuff, neonatal size 4"/>
+			</concept>	
+			<concept>	
+				<code value ="8801000205109"/>
+				<display value ="Blood pressure cuff, neonatal size 5"/>
 			</concept>
         </include>
     </compose>
