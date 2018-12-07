@@ -62,7 +62,7 @@
 	"StructureDefinition/heartRate":{"base":"StructureDefinition-heartRate.html"},
 	"StructureDefinition/respiratoryRate":{"base":"StructureDefinition-respiratoryRate.html"},
 	"StructureDefinition/meanArterialBloodPressure":{"base":"StructureDefinition-meanArterialBloodPressure.html"},
-	"StructureDefinition/bloodPressurePanel":{"base":"StructureDefinition-bloodPressurePanel.html"},
+	"StructureDefinition/bloodPressure":{"base":"StructureDefinition-bloodPressure.html"},
 	"StructureDefinition/bodyMassIndex":{"base":"StructureDefinition-bodyMassIndex.html"},
 	
 	"ValueSet/bpmeasbodylocationprecoord":{"base":"ValueSet-bpmeasbodylocationprecoord.html"},

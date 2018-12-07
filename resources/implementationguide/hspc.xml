@@ -210,8 +210,8 @@
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="StructureDefinition/bloodPressurePanel"/>
-				<display value="Blood Pressure Panel"/>
+				<reference value="StructureDefinition/bloodPressure"/>
+				<display value="Blood Pressure"/>
 			</sourceReference>
 		</resource>
 		<resource>
