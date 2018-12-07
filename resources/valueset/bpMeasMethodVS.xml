@@ -40,6 +40,10 @@
 				<code value="17146006"/>
 				<display value="Arterial pressure monitoring, non-invasive method"/>
 			</concept>
+            <concept>
+				<code value="77938009"/>
+				<display value="Arterial pressure monitoring, invasive method"/>
+			</concept>
         </include>
     </compose>
 </ValueSet>

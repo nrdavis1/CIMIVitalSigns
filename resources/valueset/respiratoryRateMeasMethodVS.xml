@@ -24,6 +24,10 @@
 				<code value ="32750006"/>
 				<display value ="Inspection"/>
 			</concept>
+			<concept>
+				<code value="258104002"/>
+				<display value="Measured"/>
+			</concept>
         </include>
     </compose>
 </ValueSet>

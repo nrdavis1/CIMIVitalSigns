@@ -3,7 +3,7 @@
   <id value="hspc" />
   <url value="http://hl7.org/fhir/hspc/ImplementationGuide/hspc"/>
   <version value="1.0"/>
-  <name value="HSPC Skin Assessment Panel Implementation Guide" />
+  <name value="CIMI Vital Signs Implementation Guide" />
   <status value="draft" />
   <date value="2018-09-26"/>
   <publisher value="Health Services Platform Consortium"/>
