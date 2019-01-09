@@ -49,6 +49,7 @@
 	"Extension/bpCuffSize":{"base":"Extension-bpCuffSize.html"},
 	"Extension/sensorDescription":{"base":"Extension-sensorDescription.html"},
 	"Extension/sleepStatus":{"base":"Extension-sleepStatus.html"},
+	"Extension/methodDevice":{"base":"Extension-methodDevice.html"},
 	
 	"StructureDefinition/vitalSignsPanel":{"base":"StructureDefinition-vitalSignsPanel.html"},
 	"StructureDefinition/sPO2":{"base":"StructureDefinition-sPO2.html"},
@@ -92,6 +93,7 @@
 	"ValueSet/bpMeasMethodVS":{"base":"ValueSet-bpMeasMethodVS.html"},
 	"ValueSet/bodyPositionVS":{"base":"ValueSet-bodyPositionVS.html"},
 	"ValueSet/sensorDescriptionVS":{"base":"ValueSet-sensorDescriptionVS.html"},
-	"ValueSet/sleepStatusVS":{"base":"ValueSet-sleepStatusVS.html"}
+	"ValueSet/sleepStatusVS":{"base":"ValueSet-sleepStatusVS.html"},
+	"ValueSet/bodyTempMeasMethodDeviceVS":{"base":"ValueSet-bodyTempMeasMethodDeviceVS.html"}
   }
 }

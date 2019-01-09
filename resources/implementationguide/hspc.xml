@@ -122,6 +122,13 @@
 				<display value ="Sleep Status"/>
 			</sourceReference>	
 		</resource>
+		<resource>		
+			<example value="false"/>	
+			<sourceReference>	
+				<reference value ="Extension/methodDevice"/>
+				<display value ="Method/Device"/>
+			</sourceReference>	
+		</resource>
 		
 		<resource>
 			<example value="false"/>
@@ -437,6 +444,13 @@
 			<sourceReference>
 				<reference value="ValueSet/bpMeasDeviceVS"/>
 				<display value="Blood Pressure Measurement Device value set"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="ValueSet/bodyTempMeasMethodDeviceVS"/>
+				<display value="Body Temperature Measurement Method/Device value set"/>
 			</sourceReference>
 		</resource>
     </package>

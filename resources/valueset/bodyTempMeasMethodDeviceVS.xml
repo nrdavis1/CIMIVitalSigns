@@ -10,39 +10,47 @@
     <status value="draft"/>
     <date value="2018-11-08"/>
     <publisher value="Clinical Information Modeling Inititative"/>
-    <description value="SELECT SNOMED CT code system values."/>
+    <description value="SELECT SNOMED CT code system values.  This value set is still being created, not all values have been added nor vetted."/>
     <copyright value="TBD"/>
     <extensible value="true"/>
     <compose>
         <include>
             <system value="http://snomed.info/sct"/>
             <concept>	
-				<code value =""/>
-				<display value =""/>
+				<code value ="260548002"/>
+				<display value ="Oral"/>
 			</concept>	
 			<concept>	
-				<code value =""/>
-				<display value =""/>
+				<code value ="255582007"/>
+				<display value ="Rectal"/>
+			</concept>
+			<concept>	
+				<code value ="467862000"/>
+				<display value ="Capillary patient thermometer, mercury"/>
 			</concept>	
 			<concept>	
-				<code value =""/>
-				<display value =""/>
+				<code value ="462983001"/>
+				<display value ="Liquid-crystal patient thermometer"/>
 			</concept>	
 			<concept>	
-				<code value =""/>
-				<display value =""/>
+				<code value ="118376009"/>
+				<display value ="Thermocouple"/>
 			</concept>	
 			<concept>	
-				<code value =""/>
-				<display value =""/>
+				<code value ="448349000"/>
+				<display value ="Tympanic thermometer"/>
 			</concept>	
 			<concept>	
-				<code value =""/>
-				<display value =""/>
+				<code value ="448735006"/>
+				<display value ="Forehead thermometer"/>
 			</concept>	
 			<concept>	
-				<code value =""/>
-				<display value =""/>
+				<code value ="706158001"/>
+				<display value ="Electronic patient thermometer"/>
+			</concept>	
+			<concept>	
+				<code value ="464210001"/>
+				<display value ="Thermographic camera"/>
 			</concept>
         </include>
     </compose>

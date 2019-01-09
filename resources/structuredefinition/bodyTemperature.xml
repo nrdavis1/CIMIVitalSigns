@@ -103,6 +103,21 @@
 				</valueSetReference>
 			</binding>
 		</element>
+		<element id="Observation:cimiBodyTemperature.extension:methodDevice">
+			<path value="Observation.extension"/>
+			<sliceName value="methodDevice"/>
+			<short value="Method/Device"/>
+			<type>
+				<code value="extension"/>
+				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/methodDevice"/>
+			</type>
+			<binding>
+				<strength value="preferred"/>
+				<valueSetReference>
+					<reference value="http://hl7.org/fhir/hspc/ValueSet/bodyTempMeasMethodDeviceVS"/>
+				</valueSetReference>
+			</binding>
+		</element>
 		<element id="Observation:cimiBodyTemperature.bodySite">
 			<path value="Observation.bodySite"/>
 			<binding>
@@ -121,16 +136,15 @@
 				</valueSetReference>
 			</binding>
 		</element>
-		<element id="Observation:cimiBodyTemperature.method:methodDevice">
+		<element id="Observation:cimiBodyTemperature.method">
 			<path value="Observation.method"/>
-			<sliceName value="methodDevice"/>
-			<short value="Body Temperature Measurement Method/Device"/>
-			<binding>
-				<strength value="preferred"/>
-				<valueSetReference>
-					<reference value="http://hl7.org/fhir/hspc/ValueSet/bodyTempMeasMethodDeviceVS"/>
-				</valueSetReference>
-			</binding>
+			<min value="0"/>
+			<max value="0"/>
+		</element>
+		<element id="Observation:cimiBodyTemperature.device">
+			<path value="Observation.device"/>
+			<min value="0"/>
+			<max value="0"/>
 		</element>
     </differential>
 </StructureDefinition>
