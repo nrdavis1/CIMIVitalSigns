@@ -1,0 +1,738 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "hspc",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CIMI Vital Signs Implementation Guide</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/hspc/ImplementationGuide/hspc</pre><div><p>The Implementation Guide resource profile for HSPC</p>\n</div></div>"
+  },
+  "url": "http://hl7.org/fhir/hspc/ImplementationGuide/hspc",
+  "version": "1.0",
+  "name": "CIMI Vital Signs Implementation Guide",
+  "status": "draft",
+  "date": "2018-09-26T00:00:00-06:00",
+  "publisher": "Health Services Platform Consortium",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email",
+          "value": "HSPC@HSPConsortium.org"
+        }
+      ]
+    }
+  ],
+  "description": "The Implementation Guide resource profile for HSPC",
+  "copyright": "HSPC",
+  "fhirVersion": "3.0.1",
+  "package": [
+    {
+      "id": "p1",
+      "name": "Profiles in this Implementation Guide",
+      "resource": [
+        {
+          "example": false,
+          "sourceReference": {
+            "reference": "Extension/associatedPrecondition",
+            "display": "Associated Precondition"
+          }
+        },
+        {
+          "example": false,
+          "sourceReference": {
+            "reference": "Extension/bodyLaterality",
+            "display": "Body Laterality"
+          }
+        },
+        {
+          "example": false,
+          "sourceReference": {
+            "reference": "Extension/bodyLocationQualifier",
+            "display": "Body Location Qualifier"
+          }
+        },
+        {
+          "example": false,
+          "sourceReference": {
+            "reference": "Extension/bodySide",
+            "display": "Body Side"
+          }
+        },
+        {
+          "example": false,
+          "sourceReference": {
+            "reference": "Extension/dataAbsentReason",
+            "display": "Data Absent Reason"
+          }
+        },
+        {
+          "example": false,
+          "sourceReference": {
+            "reference": "Extension/device",
+            "display": "Device"
+          }
+        },
+        {
+          "example": false,
+          "sourceReference": {
+            "reference": "Extension/deltaFlag",
+            "display": "Delta Flag"
+          }
+        },
+        {
+          "example": false,
+          "sourceReference": {
+            "reference": "Extension/bodyPosition",
+            "display": "Body Position"
+          }
+        },
+        {
+          "example": false,
+          "sourceReference": {
+            "reference": "Extension/measurementDevice",
+            "display": "Measurement Device"
+          }
+        },
+        {
+          "example": false,
+          "sourceReference": {
+            "reference": "Extension/focalSubject",
+            "display": "Focal Subject"
+          }
+        },
+        {
+          "example": false,
+          "sourceReference": {
+            "reference": "Extension/dataOriginationMode",
+            "display": "Data Origination Mode"
+          }
+        },
+        {
+          "example": false,
+          "sourceReference": {
+            "reference": "Extension/bpCuffSize",
+            "display": "Blood Pressure Cuff Size"
+          }
+        },
+        {
+          "example": false,
+          "sourceReference": {
+            "reference": "Extension/sensorDescription",
+            "display": "Sensor Description"
+          }
+        },
+        {
+          "example": false,
+          "sourceReference": {
+            "reference": "Extension/sleepStatus",
+            "display": "Sleep Status"
+          }
+        },
+        {
+          "example": false,
+          "sourceReference": {
+            "reference": "Extension/methodDevice",
+            "display": "Method/Device"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "StructureDefinition-vitalSignsPanel.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "StructureDefinition/vitalSignsPanel",
+            "display": "CIMI Vital Signs Panel"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "StructureDefinition-sPO2.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "StructureDefinition/sPO2",
+            "display": "Oxygen Saturation in Arterial Blood by Pulse Oximetry"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "StructureDefinition-bodyWeight.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "StructureDefinition/bodyWeight",
+            "display": "Body Weight"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "StructureDefinition-headCircumference.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "StructureDefinition/headCircumference",
+            "display": "Head Circumference"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "StructureDefinition-bodyHeight.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "StructureDefinition/bodyHeight",
+            "display": "Body Height"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "StructureDefinition-bodyLength.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "StructureDefinition/bodyLength",
+            "display": "Body Length"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "StructureDefinition-bodyTemperature.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "StructureDefinition/bodyTemperature",
+            "display": "Body Temperature"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "StructureDefinition-diastolicbp.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "StructureDefinition/diastolicbp",
+            "display": "Diastolic Blood Pressure"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "StructureDefinition-systolicbp.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "StructureDefinition/systolicbp",
+            "display": "Systolic Blood Pressure"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "StructureDefinition-heartRate.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "StructureDefinition/heartRate",
+            "display": "Heart Rate"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "StructureDefinition-respiratoryRate.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "StructureDefinition/respiratoryRate",
+            "display": "Respiratory Rate"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "StructureDefinition-meanArterialBloodPressure.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "StructureDefinition/meanArterialBloodPressure",
+            "display": "Mean Arterial Blood Pressure"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "StructureDefinition-bloodPressure.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "StructureDefinition/bloodPressure",
+            "display": "Blood Pressure"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "StructureDefinition-bodyMassIndex.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "StructureDefinition/bodyMassIndex",
+            "display": "Body Mass Index"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-bodyLocationQualifierVS.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ValueSet/bodyLocationQualifierVS",
+            "display": "Body Location Qualifier value set"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-bodySideVS.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ValueSet/bodySideVS",
+            "display": "Body Side value set"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-bodyLateralityVS.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ValueSet/bodyLateralityVS",
+            "display": "Body Laterality value set"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-bpmeasbodylocationprecoord.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ValueSet/bpmeasbodylocationprecoord",
+            "display": "Blood Pressure Measurement Body Location - precoordinated value set"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-bpbodyposition.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ValueSet/bpbodyposition",
+            "display": "Blood Pressure Body Position value set"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-sPO2BodyLocationVS.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ValueSet/sPO2BodyLocationVS",
+            "display": "Oxygen Saturation Body Location value set"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-deltaFlagnumericNom.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ValueSet/deltaFlagnumericNom",
+            "display": "Delta Flag Numeric Nominal value set"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-weightMeasurementMethodVS.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ValueSet/weightMeasurementMethodVS",
+            "display": "Weight Measurement Method value set"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-weightMeasurementDeviceVS.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ValueSet/weightMeasurementDeviceVS",
+            "display": "Weight Measurement Device value set"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-bodyWeightMeasurementAssociatedPrecondVS.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ValueSet/bodyWeightMeasurementAssociatedPrecondVS",
+            "display": "Body Weight Measurement Associated Precondition value set"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-abnIntNumericNom.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ValueSet/abnIntNumericNom",
+            "display": "Abnormal Interpretation Numeric Nominal value set"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-heightLengthMeasMethodVS.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ValueSet/heightLengthMeasMethodVS",
+            "display": "Height/Length Measurement Method value set"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-heightLengthMeasDeviceVS.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ValueSet/heightLengthMeasDeviceVS",
+            "display": "Height/Length Measurement Device value set"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-bodyTempMeasDeviceVS.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ValueSet/bodyTempMeasDeviceVS",
+            "display": "Body Temperature Measurement Device value set"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-vitalSignAssociatedPrecondVS.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ValueSet/vitalSignAssociatedPrecondVS",
+            "display": "Vital Sign Associated Precondition value set"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-heartRateMeasMethodVS.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ValueSet/heartRateMeasMethodVS",
+            "display": "Heart Rate Measurement Method value set"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-heartRateMeasDeviceVS.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ValueSet/heartRateMeasDeviceVS",
+            "display": "Heart Rate Measurement Device value set"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-heartRateMeasBodyLocationPrecoordVS.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ValueSet/heartRateMeasBodyLocationPrecoordVS",
+            "display": "Heart Rate Measurement Body Location Precoordinated value set"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-vitalSignFocalSubjectRelationshipVS.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ValueSet/vitalSignFocalSubjectRelationshipVS",
+            "display": "Vital Sign Focal Subject Relationship value set"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-respiratoryRateMeasMethodVS.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ValueSet/respiratoryRateMeasMethodVS",
+            "display": "Respiratory Rate Measurement Method value set"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-respiratoryRateMeasDeviceVS.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ValueSet/respiratoryRateMeasDeviceVS",
+            "display": "Respiratory Rate Measurement Device value set"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-bodyTempMeasBodyLocationPrecoordVS.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ValueSet/bodyTempMeasBodyLocationPrecoordVS",
+            "display": "Body Temperature Body Location Precoordinated value set"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-dataOriginationModeVS.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ValueSet/dataOriginationModeVS",
+            "display": "Data Origination Mode value set"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-definedLimitsVS.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ValueSet/definedLimitsVS",
+            "display": "Defined Limits value set"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-heightBodyPositionVS.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ValueSet/heightBodyPositionVS",
+            "display": "Height Body Position value set"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-bpCuffSizeVS.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ValueSet/bpCuffSizeVS",
+            "display": "Blood Pressure Cuff Size value set"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-bpMeasMethodVS.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ValueSet/bpMeasMethodVS",
+            "display": "Blood Pressure Measurement Method value set"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-bodyPositionVS.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ValueSet/bodyPositionVS",
+            "display": "Body Position value set"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-sensorDescriptionVS.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ValueSet/sensorDescriptionVS",
+            "display": "Sensor Description value set"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-sleepStatusVS.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ValueSet/sleepStatusVS",
+            "display": "Sleep Status value set"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-bpMeasDeviceVS.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ValueSet/bpMeasDeviceVS",
+            "display": "Blood Pressure Measurement Device value set"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-bodyTempMeasMethodDeviceVS.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ValueSet/bodyTempMeasMethodDeviceVS",
+            "display": "Body Temperature Measurement Method/Device value set"
+          }
+        }
+      ]
+    }
+  ]
+}

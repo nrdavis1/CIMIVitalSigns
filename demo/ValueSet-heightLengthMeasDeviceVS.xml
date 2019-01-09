@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="heightLengthMeasDeviceVS"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>CIMI Height/Length Measurement Device value set</h2><div><p>SELECT SNOMED CT code system values.</p>
+</div><p><b>Copyright Statement:</b> TBD</p><p>This value set includes codes from the following code systems:</p><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=51791000">51791000</a></td><td>Measuring tape</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=462588003">462588003</a></td><td>Patient-height measure</td><td/></tr></table></li></ul></div>
+  </text>
+  <url value="http://hl7.org/fhir/hspc/ValueSet/heightLengthMeasDeviceVS"/>
+  <version value="0.01"/>
+  <name value="CIMI Height/Length Measurement Device value set"/>
+  <status value="draft"/>
+  <date value="2018-11-08T00:00:00-07:00"/>
+  <publisher value="Clinical Information Modeling Inititative"/>
+  <description value="SELECT SNOMED CT code system values."/>
+  <copyright value="TBD"/>
+  <extensible value="true"/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="51791000"/>
+        <display value="Measuring tape"/>
+      </concept>
+      <concept>
+        <code value="462588003"/>
+        <display value="Patient-height measure"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

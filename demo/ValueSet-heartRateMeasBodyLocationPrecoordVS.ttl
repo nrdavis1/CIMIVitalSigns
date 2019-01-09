@@ -1,0 +1,141 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/hspc/ValueSet/heartRateMeasBodyLocationPrecoordVS> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "heartRateMeasBodyLocationPrecoordVS"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition";
+       fhir:index 0
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CIMI Heart Rate Measurement Body Location Precoordinated value set</h2><div><p>SELECT SNOMED CT code system values.</p>\n</div><p><b>Copyright Statement:</b> TBD</p><p>This value set includes codes from the following code systems:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=17137000\">17137000</a></td><td>Structure of brachial artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=17137000\">17137000</a></td><td>Structure of brachial artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=13383001\">13383001</a></td><td>Structure of apex of heart</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=69105007\">69105007</a></td><td>Carotid artery structure</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=69105007\">69105007</a></td><td>Carotid artery structure</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=25885001\">25885001</a></td><td>Left popliteal artery structure</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=57832007\">57832007</a></td><td>Structure of right popliteal artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=214912001\">214912001</a></td><td>Structure of left posterior tibial artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=214811007\">214811007</a></td><td>Structure of right posterior tibial artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368504007\">368504007</a></td><td>Structure of left radial artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368503001\">368503001</a></td><td>Structure of right radial artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368506009\">368506009</a></td><td>Structure of left ulnar artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368505008\">368505008</a></td><td>Structure of right ulnar artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=17137000\">17137000</a></td><td>Structure of brachial artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=69105007\">69105007</a></td><td>Carotid artery structure</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=43899006\">43899006</a></td><td>Structure of popliteal artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=15672000\">15672000</a></td><td>Structure of superficial temporal artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=7657000\">7657000</a></td><td>Structure of femoral artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=45631007\">45631007</a></td><td>Structure of radial artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=44984001\">44984001</a></td><td>Structure of ulnar artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=113270003\">113270003</a></td><td>Structure of left femoral artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=69833005\">69833005</a></td><td>Structure of right femoral artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=86547008\">86547008</a></td><td>Structure of dorsalis pedis artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=13363002\">13363002</a></td><td>Structure of posterior tibial artery</td><td/></tr></table></li></ul></div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "http://hl7.org/fhir/hspc/ValueSet/heartRateMeasBodyLocationPrecoordVS"];
+  fhir:ValueSet.version [ fhir:value "0.01"];
+  fhir:ValueSet.name [ fhir:value "CIMI Heart Rate Measurement Body Location Precoordinated value set"];
+  fhir:ValueSet.status [ fhir:value "draft"];
+  fhir:ValueSet.date [ fhir:value "2018-11-08T00:00:00-07:00"^^xsd:dateTime];
+  fhir:ValueSet.publisher [ fhir:value "Clinical Information Modeling Inititative"];
+  fhir:ValueSet.description [ fhir:value "SELECT SNOMED CT code system values."];
+  fhir:ValueSet.copyright [ fhir:value "TBD"];
+  fhir:ValueSet.extensible [ fhir:value "true"^^xsd:boolean];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "17137000" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure of brachial artery" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "17137000" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure of brachial artery" ]
+       ], [
+         fhir:index 2;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "13383001" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure of apex of heart" ]
+       ], [
+         fhir:index 3;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "69105007" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Carotid artery structure" ]
+       ], [
+         fhir:index 4;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "69105007" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Carotid artery structure" ]
+       ], [
+         fhir:index 5;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "25885001" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Left popliteal artery structure" ]
+       ], [
+         fhir:index 6;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "57832007" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure of right popliteal artery" ]
+       ], [
+         fhir:index 7;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "214912001" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure of left posterior tibial artery" ]
+       ], [
+         fhir:index 8;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "214811007" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure of right posterior tibial artery" ]
+       ], [
+         fhir:index 9;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "368504007" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure of left radial artery" ]
+       ], [
+         fhir:index 10;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "368503001" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure of right radial artery" ]
+       ], [
+         fhir:index 11;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "368506009" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure of left ulnar artery" ]
+       ], [
+         fhir:index 12;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "368505008" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure of right ulnar artery" ]
+       ], [
+         fhir:index 13;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "17137000" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure of brachial artery" ]
+       ], [
+         fhir:index 14;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "69105007" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Carotid artery structure" ]
+       ], [
+         fhir:index 15;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "43899006" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure of popliteal artery" ]
+       ], [
+         fhir:index 16;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "15672000" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure of superficial temporal artery" ]
+       ], [
+         fhir:index 17;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "7657000" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure of femoral artery" ]
+       ], [
+         fhir:index 18;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "45631007" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure of radial artery" ]
+       ], [
+         fhir:index 19;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "44984001" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure of ulnar artery" ]
+       ], [
+         fhir:index 20;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "113270003" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure of left femoral artery" ]
+       ], [
+         fhir:index 21;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "69833005" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure of right femoral artery" ]
+       ], [
+         fhir:index 22;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "86547008" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure of dorsalis pedis artery" ]
+       ], [
+         fhir:index 23;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "13363002" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure of posterior tibial artery" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/hspc/ValueSet/heartRateMeasBodyLocationPrecoordVS.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/hspc/ValueSet/heartRateMeasBodyLocationPrecoordVS.ttl> .
+
+# -------------------------------------------------------------------------------------
+
