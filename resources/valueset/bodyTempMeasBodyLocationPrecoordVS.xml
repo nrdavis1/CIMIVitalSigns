@@ -6,10 +6,10 @@
   </meta>
   <url value="http://hl7.org/fhir/hspc/ValueSet/bodyTempMeasBodyLocationPrecoordVS"/>
     <version value="0.01"/>
-    <name value="CIMI Body Temperature Measurement Body Location Precoordinated value set"/>
+    <name value="Body Temperature Measurement Body Location value set"/>
     <status value="draft"/>
     <date value="2018-11-08"/>
-    <publisher value="Clinical Information Modeling Inititative"/>
+    <publisher value="Clinical Information Modeling Inititative (CIMI)"/>
     <description value="SELECT SNOMED CT code system values."/>
     <copyright value="TBD"/>
     <extensible value="true"/>
@@ -59,6 +59,10 @@
 			<concept>	
 				<code value ="279549004"/>
 				<display value ="Nasal cavity structure"/>
+			</concept>	
+			<concept>	
+				<code value ="74262004"/>
+				<display value ="Oral cavity structure"/>
 			</concept>
         </include>
     </compose>

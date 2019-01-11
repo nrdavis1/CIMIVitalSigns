@@ -6,7 +6,7 @@
   </meta>
   <url value="http://hl7.org/fhir/hspc/ValueSet/definedLimitsVS"/>
     <version value="0.01"/>
-    <name value="CIMI Defined Limits value set"/>
+    <name value="Defined Limits value set"/>
     <status value="draft"/>
 	<experimental value="true"/>
     <date value="2018-11-09"/>

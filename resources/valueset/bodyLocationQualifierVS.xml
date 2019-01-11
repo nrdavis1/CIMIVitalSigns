@@ -6,7 +6,7 @@
   </meta>
   <url value="http://hl7.org/fhir/hspc/ValueSet/bodyLocationQualifierVS"/>
   <version value="0.01"/>
-  <name value="CIMI Body Location Qualifier value set"/>
+  <name value="Body Location Qualifier value set"/>
   <status value="draft"/>
   <date value="2016-10-11"/>
   <publisher value="Health Services Platform Consortium (HSPC)"/>

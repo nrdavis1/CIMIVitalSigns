@@ -6,7 +6,7 @@
   </meta>
   <url value="http://hl7.org/fhir/hspc/ValueSet/vitalSignFocalSubjectRelationshipVS"/>
     <version value="0.01"/>
-    <name value="CIMI Vital Sign Focal Subject Relationship value set"/>
+    <name value="Vital Sign Focal Subject Relationship value set"/>
     <status value="draft"/>
     <date value="2018-11-08"/>
     <publisher value="Clinical Information Modeling Inititative"/>

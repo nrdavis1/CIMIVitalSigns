@@ -7,7 +7,7 @@
   </meta>
   <url value="http://hl7.org/fhir/hspc/ValueSet/organizationtype"/>
   <version value="0.01"/>
-  <name value="HSPC Organization Type"/>
+  <name value="Organization Type"/>
   <status value="draft"/>
   <publisher value="HSPC"/>
   <contact>

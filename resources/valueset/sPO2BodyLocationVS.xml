@@ -6,11 +6,11 @@
   </meta>
   <url value="http://hl7.org/fhir/hspc/ValueSet/sPO2BodyLocationVS"/>
     <version value="0.01"/>
-    <name value="CIMI Oxygen Saturation Body Location value set"/>
+    <name value="Oxygen Saturation Body Location value set"/>
     <status value="draft"/>
 	<experimental value="true"/>
     <date value="2018-11-09"/>
-    <publisher value="CIMI"/>
+    <publisher value="Clinical Information Modeling Initiative (CIMI)"/>
     <description value="Select SNOMED CT codes. An set of codes for the location at which oxygen saturation was assessed."/>
     <immutable value="true"/>
     <copyright value="TBD"/>

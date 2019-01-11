@@ -6,7 +6,7 @@
   </meta>
   <url value="http://hl7.org/fhir/hspc/ValueSet/bodyTempMeasMethodDeviceVS"/>
     <version value="0.01"/>
-    <name value="CIMI Body Temperature Measurement Method/Device value set"/>
+    <name value="Body Temperature Measurement Method/Device value set"/>
     <status value="draft"/>
     <date value="2018-11-08"/>
     <publisher value="Clinical Information Modeling Inititative"/>
@@ -51,6 +51,14 @@
 			<concept>	
 				<code value ="464210001"/>
 				<display value ="Thermographic camera"/>
+			</concept>	
+			<concept>	
+				<code value ="1461000205102"/>
+				<display value ="Digital thermometer"/>
+			</concept>	
+			<concept>	
+				<code value ="2331000205106"/>
+				<display value ="Non-contact infrared thermometer"/>
 			</concept>
         </include>
     </compose>

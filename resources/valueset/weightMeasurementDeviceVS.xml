@@ -6,7 +6,7 @@
   </meta>
   <url value="http://hl7.org/fhir/hspc/ValueSet/weightMeasurementDeviceVS"/>
     <version value="0.01"/>
-    <name value="CIMI Weight Measurement Device"/>
+    <name value="Weight Measurement Device"/>
     <status value="draft"/>
     <date value="2018-11-08"/>
     <publisher value="Clinical Information Modeling Inititative"/>

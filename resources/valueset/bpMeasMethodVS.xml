@@ -6,7 +6,7 @@
   </meta>
   <url value="http://hl7.org/fhir/hspc/ValueSet/bpMeasMethodVS"/>
     <version value="0.01"/>
-    <name value="CIMI Blood Pressure Measurement Method value set"/>
+    <name value="Blood Pressure Measurement Method value set"/>
     <status value="draft"/>
     <date value="2018-12-04"/>
     <publisher value="Clinical Information Modeling Inititative"/>
@@ -43,6 +43,14 @@
             <concept>
 				<code value="77938009"/>
 				<display value="Arterial pressure monitoring, invasive method"/>
+			</concept>
+            <concept>
+				<code value="641000205104"/>
+				<display value="Computer aided auscultation "/>
+			</concept>
+            <concept>
+				<code value="911000205109"/>
+				<display value="Measurement of blood pressure using intravascular transducer "/>
 			</concept>
         </include>
     </compose>

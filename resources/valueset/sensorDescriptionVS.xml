@@ -6,7 +6,7 @@
   </meta>
   <url value="http://hl7.org/fhir/hspc/ValueSet/sensorDescriptionVS"/>
     <version value="0.01"/>
-    <name value="CIMI Sensor Description value set"/>
+    <name value="Sensor Description value set"/>
     <status value="draft"/>
     <date value="2018-12-04"/>
     <publisher value="Clinical Information Modeling Inititative"/>

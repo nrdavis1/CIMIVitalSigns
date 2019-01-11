@@ -6,7 +6,7 @@
   </meta>
   <url value="http://hl7.org/fhir/hspc/ValueSet/bodySideVS"/>
   <version value="0.01"/>
-  <name value="CIMI Body Side value set"/>
+  <name value="Body Side value set"/>
   <status value="draft"/>
   <date value="2016-10-11"/>
   <publisher value="Clinical Information Modeling Initiative (CIMI)"/>

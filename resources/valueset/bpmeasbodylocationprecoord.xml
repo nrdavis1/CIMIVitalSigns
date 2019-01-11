@@ -6,10 +6,10 @@
   </meta>
   <url value="http://hl7.org/fhir/hspc/ValueSet/bpmeasbodylocationprecoord"/>
     <version value="0.01"/>
-    <name value="CIMI Blood Pressure Measurement Body Location Precoodinated"/>
+    <name value="Blood Pressure Measurement Body Location Precoodinated"/>
     <status value="draft"/>
     <date value="2015-06-11"/>
-    <publisher value="Health Services Platform Consortium (HSPC)"/>
+    <publisher value="Clinical Information Modeling Initiative (CIMI)"/>
     <description value="SELECT SNOMED CT code system values."/>
     <copyright value="TBD"/>
     <extensible value="true"/>
@@ -43,6 +43,70 @@
 			<concept>
 				<code value="209570001"/>
 				<display value="Right thigh (body structure)"/>
+			</concept>
+			<concept>	
+				<code value ="7569003"/>
+				<display value ="Finger structure"/>
+			</concept>	
+			<concept>	
+				<code value ="368208006"/>
+				<display value ="Left upper arm structure"/>
+			</concept>	
+			<concept>	
+				<code value ="368209003"/>
+				<display value ="Right upper arm structure"/>
+			</concept>	
+			<concept>	
+				<code value ="17137000"/>
+				<display value ="Structure of brachial artery"/>
+			</concept>	
+			<concept>	
+				<code value ="51636004"/>
+				<display value ="Structure of left ankle"/>
+			</concept>	
+			<concept>	
+				<code value ="113270003"/>
+				<display value ="Structure of left femoral artery"/>
+			</concept>	
+			<concept>	
+				<code value ="368504007"/>
+				<display value ="Structure of left radial artery"/>
+			</concept>	
+			<concept>	
+				<code value ="61396006"/>
+				<display value ="Structure of left thigh"/>
+			</concept>	
+			<concept>	
+				<code value ="368506009"/>
+				<display value ="Structure of left ulnar artery"/>
+			</concept>	
+			<concept>	
+				<code value ="6685009"/>
+				<display value ="Structure of right ankle"/>
+			</concept>	
+			<concept>	
+				<code value ="69833005"/>
+				<display value ="Structure of right femoral artery"/>
+			</concept>	
+			<concept>	
+				<code value ="368503001"/>
+				<display value ="Structure of right radial artery"/>
+			</concept>	
+			<concept>	
+				<code value ="11207009"/>
+				<display value ="Structure of right thigh"/>
+			</concept>	
+			<concept>	
+				<code value ="368505008"/>
+				<display value ="Structure of right ulnar artery"/>
+			</concept>	
+			<concept>	
+				<code value ="29707007"/>
+				<display value ="Toe structure"/>
+			</concept>	
+			<concept>	
+				<code value ="40983000"/>
+				<display value ="Upper arm structure"/>
 			</concept>
         </include>
     </compose>

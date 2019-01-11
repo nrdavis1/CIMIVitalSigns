@@ -232,27 +232,6 @@
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="ValueSet/bodyLocationQualifierVS"/>
-				<display value="Body Location Qualifier value set"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="ValueSet/bodySideVS"/>
-				<display value="Body Side value set"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="ValueSet/bodyLateralityVS"/>
-				<display value="Body Laterality value set"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
 				<reference value="ValueSet/bpmeasbodylocationprecoord"/>
 				<display value="Blood Pressure Measurement Body Location - precoordinated value set"/>
 			</sourceReference>
@@ -323,13 +302,6 @@
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="ValueSet/bodyTempMeasDeviceVS"/>
-				<display value="Body Temperature Measurement Device value set"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
 				<reference value="ValueSet/vitalSignAssociatedPrecondVS"/>
 				<display value="Vital Sign Associated Precondition value set"/>
 			</sourceReference>
@@ -353,13 +325,6 @@
 			<sourceReference>
 				<reference value="ValueSet/heartRateMeasBodyLocationPrecoordVS"/>
 				<display value="Heart Rate Measurement Body Location Precoordinated value set"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="ValueSet/vitalSignFocalSubjectRelationshipVS"/>
-				<display value="Vital Sign Focal Subject Relationship value set"/>
 			</sourceReference>
 		</resource>
 		<resource>

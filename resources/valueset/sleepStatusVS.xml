@@ -6,7 +6,7 @@
   </meta>
   <url value="http://hl7.org/fhir/hspc/ValueSet/sleepStatusVS"/>
     <version value="0.01"/>
-    <name value="CIMI Sleep Status value set"/>
+    <name value="Sleep Status value set"/>
     <status value="draft"/>
     <date value="2018-12-04"/>
     <publisher value="Clinical Information Modeling Inititative"/>
