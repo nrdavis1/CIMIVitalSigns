@@ -1,0 +1,47 @@
+{
+  "resourceType": "ValueSet",
+  "id": "respiratoryRateMeasDeviceVS",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Respiratory Rate Measurement Device value set</h2><div><p>SELECT SNOMED CT code system values.</p>\n</div><p><b>Copyright Statement:</b> TBD</p><p>This value set includes codes from the following code systems:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=250863006\">250863006</a></td><td>Capnograph waveform</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=334990001\">334990001</a></td><td>Peak flow meter</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=717730001\">717730001</a></td><td>Impedance pneumography recording/analysis system</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=17120007\">17120007</a></td><td>Biofeedback, strain gauge</td><td/></tr></table></li></ul></div>"
+  },
+  "url": "http://hl7.org/fhir/hspc/ValueSet/respiratoryRateMeasDeviceVS",
+  "version": "0.01",
+  "name": "Respiratory Rate Measurement Device value set",
+  "status": "draft",
+  "date": "2018-11-08T00:00:00-07:00",
+  "publisher": "Clinical Information Modeling Inititative",
+  "description": "SELECT SNOMED CT code system values.",
+  "copyright": "TBD",
+  "extensible": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "250863006",
+            "display": "Capnograph waveform"
+          },
+          {
+            "code": "334990001",
+            "display": "Peak flow meter"
+          },
+          {
+            "code": "717730001",
+            "display": "Impedance pneumography recording/analysis system"
+          },
+          {
+            "code": "17120007",
+            "display": "Biofeedback, strain gauge"
+          }
+        ]
+      }
+    ]
+  }
+}

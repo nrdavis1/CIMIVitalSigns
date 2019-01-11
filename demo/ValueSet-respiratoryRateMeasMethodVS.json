@@ -1,0 +1,43 @@
+{
+  "resourceType": "ValueSet",
+  "id": "respiratoryRateMeasMethodVS",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Respiratory Rate Measurement Method value set</h2><div><p>SELECT SNOMED CT code system values.</p>\n</div><p><b>Copyright Statement:</b> TBD</p><p>This value set includes codes from the following code systems:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=37931006\">37931006</a></td><td>Auscultation</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=32750006\">32750006</a></td><td>Inspection</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=258104002\">258104002</a></td><td>Measured</td><td/></tr></table></li></ul></div>"
+  },
+  "url": "http://hl7.org/fhir/hspc/ValueSet/respiratoryRateMeasMethodVS",
+  "version": "0.01",
+  "name": "Respiratory Rate Measurement Method value set",
+  "status": "draft",
+  "date": "2018-11-08T00:00:00-07:00",
+  "publisher": "Clinical Information Modeling Inititative",
+  "description": "SELECT SNOMED CT code system values.",
+  "copyright": "TBD",
+  "extensible": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "37931006",
+            "display": "Auscultation"
+          },
+          {
+            "code": "32750006",
+            "display": "Inspection"
+          },
+          {
+            "code": "258104002",
+            "display": "Measured"
+          }
+        ]
+      }
+    ]
+  }
+}

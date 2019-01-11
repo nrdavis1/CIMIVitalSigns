@@ -1,0 +1,137 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/hspc/ValueSet/bpmeasbodylocationprecoord> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "bpmeasbodylocationprecoord"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition";
+       fhir:index 0
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Blood Pressure Measurement Body Location Precoodinated</h2><div><p>SELECT SNOMED CT code system values.</p>\n</div><p><b>Copyright Statement:</b> TBD</p><p>This value set includes codes from the following code systems:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=241784008\">241784008</a></td><td>Left ankle (body structure)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=241699003\">241699003</a></td><td>Right ankle (body structure)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=182245002\">182245002</a></td><td>Arm (body structure)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=72098002\">72098002</a></td><td>Left arm (body structure)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=59126009\">59126009</a></td><td>Right arm (body structure)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=209672000\">209672000</a></td><td>Left thigh (body structure)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=209570001\">209570001</a></td><td>Right thigh (body structure)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=7569003\">7569003</a></td><td>Finger structure</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368208006\">368208006</a></td><td>Left upper arm structure</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368209003\">368209003</a></td><td>Right upper arm structure</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=17137000\">17137000</a></td><td>Structure of brachial artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=51636004\">51636004</a></td><td>Structure of left ankle</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=113270003\">113270003</a></td><td>Structure of left femoral artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368504007\">368504007</a></td><td>Structure of left radial artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=61396006\">61396006</a></td><td>Structure of left thigh</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368506009\">368506009</a></td><td>Structure of left ulnar artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=6685009\">6685009</a></td><td>Structure of right ankle</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=69833005\">69833005</a></td><td>Structure of right femoral artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368503001\">368503001</a></td><td>Structure of right radial artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=11207009\">11207009</a></td><td>Structure of right thigh</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368505008\">368505008</a></td><td>Structure of right ulnar artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=29707007\">29707007</a></td><td>Toe structure</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=40983000\">40983000</a></td><td>Upper arm structure</td><td/></tr></table></li></ul></div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "http://hl7.org/fhir/hspc/ValueSet/bpmeasbodylocationprecoord"];
+  fhir:ValueSet.version [ fhir:value "0.01"];
+  fhir:ValueSet.name [ fhir:value "Blood Pressure Measurement Body Location Precoodinated"];
+  fhir:ValueSet.status [ fhir:value "draft"];
+  fhir:ValueSet.date [ fhir:value "2015-06-11T00:00:00-06:00"^^xsd:dateTime];
+  fhir:ValueSet.publisher [ fhir:value "Clinical Information Modeling Initiative (CIMI)"];
+  fhir:ValueSet.description [ fhir:value "SELECT SNOMED CT code system values."];
+  fhir:ValueSet.copyright [ fhir:value "TBD"];
+  fhir:ValueSet.extensible [ fhir:value "true"^^xsd:boolean];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "241784008" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Left ankle (body structure)" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "241699003" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Right ankle (body structure)" ]
+       ], [
+         fhir:index 2;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "182245002" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Arm (body structure)" ]
+       ], [
+         fhir:index 3;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "72098002" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Left arm (body structure)" ]
+       ], [
+         fhir:index 4;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "59126009" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Right arm (body structure)" ]
+       ], [
+         fhir:index 5;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "209672000" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Left thigh (body structure)" ]
+       ], [
+         fhir:index 6;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "209570001" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Right thigh (body structure)" ]
+       ], [
+         fhir:index 7;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "7569003" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Finger structure" ]
+       ], [
+         fhir:index 8;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "368208006" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Left upper arm structure" ]
+       ], [
+         fhir:index 9;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "368209003" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Right upper arm structure" ]
+       ], [
+         fhir:index 10;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "17137000" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure of brachial artery" ]
+       ], [
+         fhir:index 11;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "51636004" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure of left ankle" ]
+       ], [
+         fhir:index 12;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "113270003" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure of left femoral artery" ]
+       ], [
+         fhir:index 13;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "368504007" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure of left radial artery" ]
+       ], [
+         fhir:index 14;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "61396006" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure of left thigh" ]
+       ], [
+         fhir:index 15;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "368506009" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure of left ulnar artery" ]
+       ], [
+         fhir:index 16;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "6685009" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure of right ankle" ]
+       ], [
+         fhir:index 17;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "69833005" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure of right femoral artery" ]
+       ], [
+         fhir:index 18;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "368503001" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure of right radial artery" ]
+       ], [
+         fhir:index 19;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "11207009" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure of right thigh" ]
+       ], [
+         fhir:index 20;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "368505008" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Structure of right ulnar artery" ]
+       ], [
+         fhir:index 21;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "29707007" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Toe structure" ]
+       ], [
+         fhir:index 22;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "40983000" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Upper arm structure" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/hspc/ValueSet/bpmeasbodylocationprecoord.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/hspc/ValueSet/bpmeasbodylocationprecoord.ttl> .
+
+# -------------------------------------------------------------------------------------
+

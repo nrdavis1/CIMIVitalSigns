@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="hspc"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>CIMI Vital Signs Implementation Guide</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/hspc/ImplementationGuide/hspc</pre><div><p>The Implementation Guide resource profile for HSPC</p>
+</div></div>
+  </text>
+  <url value="http://hl7.org/fhir/hspc/ImplementationGuide/hspc"/>
+  <version value="1.0"/>
+  <name value="CIMI Vital Signs Implementation Guide"/>
+  <status value="draft"/>
+  <date value="2018-09-26T00:00:00-06:00"/>
+  <publisher value="Health Services Platform Consortium"/>
+  <contact>
+    <telecom>
+      <system value="email"/>
+      <value value="HSPC@HSPConsortium.org"/>
+    </telecom>
+  </contact>
+  <description value="The Implementation Guide resource profile for HSPC"/>
+  <copyright value="HSPC"/>
+  <fhirVersion value="3.0.1"/>
+  <package id="p1">
+    <name value="Profiles in this Implementation Guide"/>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="Extension/associatedPrecondition"/>
+        <display value="Associated Precondition"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="Extension/bodyLaterality"/>
+        <display value="Body Laterality"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="Extension/bodyLocationQualifier"/>
+        <display value="Body Location Qualifier"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="Extension/bodySide"/>
+        <display value="Body Side"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="Extension/dataAbsentReason"/>
+        <display value="Data Absent Reason"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="Extension/device"/>
+        <display value="Device"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="Extension/deltaFlag"/>
+        <display value="Delta Flag"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="Extension/bodyPosition"/>
+        <display value="Body Position"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="Extension/measurementDevice"/>
+        <display value="Measurement Device"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="Extension/focalSubject"/>
+        <display value="Focal Subject"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="Extension/dataOriginationMode"/>
+        <display value="Data Origination Mode"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="Extension/bpCuffSize"/>
+        <display value="Blood Pressure Cuff Size"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="Extension/sensorDescription"/>
+        <display value="Sensor Description"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="Extension/sleepStatus"/>
+        <display value="Sleep Status"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="Extension/methodDevice"/>
+        <display value="Method/Device"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-vitalSignsPanel.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/vitalSignsPanel"/>
+        <display value="CIMI Vital Signs Panel"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-sPO2.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/sPO2"/>
+        <display value="Oxygen Saturation in Arterial Blood by Pulse Oximetry"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-bodyWeight.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/bodyWeight"/>
+        <display value="Body Weight"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-headCircumference.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/headCircumference"/>
+        <display value="Head Circumference"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-bodyHeight.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/bodyHeight"/>
+        <display value="Body Height"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-bodyLength.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/bodyLength"/>
+        <display value="Body Length"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-bodyTemperature.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/bodyTemperature"/>
+        <display value="Body Temperature"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-diastolicbp.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/diastolicbp"/>
+        <display value="Diastolic Blood Pressure"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-systolicbp.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/systolicbp"/>
+        <display value="Systolic Blood Pressure"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-heartRate.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/heartRate"/>
+        <display value="Heart Rate"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-respiratoryRate.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/respiratoryRate"/>
+        <display value="Respiratory Rate"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-meanArterialBloodPressure.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/meanArterialBloodPressure"/>
+        <display value="Mean Arterial Blood Pressure"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-bloodPressure.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/bloodPressure"/>
+        <display value="Blood Pressure"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-bodyMassIndex.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/bodyMassIndex"/>
+        <display value="Body Mass Index"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-bpmeasbodylocationprecoord.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/bpmeasbodylocationprecoord"/>
+        <display value="Blood Pressure Measurement Body Location - precoordinated value set"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-bpbodyposition.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/bpbodyposition"/>
+        <display value="Blood Pressure Body Position value set"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-sPO2BodyLocationVS.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/sPO2BodyLocationVS"/>
+        <display value="Oxygen Saturation Body Location value set"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-deltaFlagnumericNom.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/deltaFlagnumericNom"/>
+        <display value="Delta Flag Numeric Nominal value set"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-weightMeasurementMethodVS.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/weightMeasurementMethodVS"/>
+        <display value="Weight Measurement Method value set"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-weightMeasurementDeviceVS.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/weightMeasurementDeviceVS"/>
+        <display value="Weight Measurement Device value set"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-bodyWeightMeasurementAssociatedPrecondVS.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/bodyWeightMeasurementAssociatedPrecondVS"/>
+        <display value="Body Weight Measurement Associated Precondition value set"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-abnIntNumericNom.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/abnIntNumericNom"/>
+        <display value="Abnormal Interpretation Numeric Nominal value set"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-heightLengthMeasMethodVS.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/heightLengthMeasMethodVS"/>
+        <display value="Height/Length Measurement Method value set"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-heightLengthMeasDeviceVS.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/heightLengthMeasDeviceVS"/>
+        <display value="Height/Length Measurement Device value set"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-vitalSignAssociatedPrecondVS.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/vitalSignAssociatedPrecondVS"/>
+        <display value="Vital Sign Associated Precondition value set"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-heartRateMeasMethodVS.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/heartRateMeasMethodVS"/>
+        <display value="Heart Rate Measurement Method value set"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-heartRateMeasDeviceVS.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/heartRateMeasDeviceVS"/>
+        <display value="Heart Rate Measurement Device value set"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-heartRateMeasBodyLocationPrecoordVS.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/heartRateMeasBodyLocationPrecoordVS"/>
+        <display value="Heart Rate Measurement Body Location Precoordinated value set"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-respiratoryRateMeasMethodVS.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/respiratoryRateMeasMethodVS"/>
+        <display value="Respiratory Rate Measurement Method value set"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-respiratoryRateMeasDeviceVS.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/respiratoryRateMeasDeviceVS"/>
+        <display value="Respiratory Rate Measurement Device value set"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-bodyTempMeasBodyLocationPrecoordVS.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/bodyTempMeasBodyLocationPrecoordVS"/>
+        <display value="Body Temperature Body Location Precoordinated value set"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-dataOriginationModeVS.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/dataOriginationModeVS"/>
+        <display value="Data Origination Mode value set"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-definedLimitsVS.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/definedLimitsVS"/>
+        <display value="Defined Limits value set"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-heightBodyPositionVS.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/heightBodyPositionVS"/>
+        <display value="Height Body Position value set"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-bpCuffSizeVS.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/bpCuffSizeVS"/>
+        <display value="Blood Pressure Cuff Size value set"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-bpMeasMethodVS.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/bpMeasMethodVS"/>
+        <display value="Blood Pressure Measurement Method value set"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-bodyPositionVS.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/bodyPositionVS"/>
+        <display value="Body Position value set"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-sensorDescriptionVS.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/sensorDescriptionVS"/>
+        <display value="Sensor Description value set"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-sleepStatusVS.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/sleepStatusVS"/>
+        <display value="Sleep Status value set"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-bpMeasDeviceVS.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/bpMeasDeviceVS"/>
+        <display value="Blood Pressure Measurement Device value set"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-bodyTempMeasMethodDeviceVS.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/bodyTempMeasMethodDeviceVS"/>
+        <display value="Body Temperature Measurement Method/Device value set"/>
+      </sourceReference>
+    </resource>
+  </package>
+</ImplementationGuide>

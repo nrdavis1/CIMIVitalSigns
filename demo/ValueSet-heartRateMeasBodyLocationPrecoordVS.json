@@ -1,0 +1,127 @@
+{
+  "resourceType": "ValueSet",
+  "id": "heartRateMeasBodyLocationPrecoordVS",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Heart Rate Measurement Body Location Precoordinated value set</h2><div><p>SELECT SNOMED CT code system values.</p>\n</div><p><b>Copyright Statement:</b> TBD</p><p>This value set includes codes from the following code systems:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=17137000\">17137000</a></td><td>Structure of brachial artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=17137000\">17137000</a></td><td>Structure of brachial artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=13383001\">13383001</a></td><td>Structure of apex of heart</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=69105007\">69105007</a></td><td>Carotid artery structure</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=69105007\">69105007</a></td><td>Carotid artery structure</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=25885001\">25885001</a></td><td>Left popliteal artery structure</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=57832007\">57832007</a></td><td>Structure of right popliteal artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=214912001\">214912001</a></td><td>Structure of left posterior tibial artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=214811007\">214811007</a></td><td>Structure of right posterior tibial artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368504007\">368504007</a></td><td>Structure of left radial artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368503001\">368503001</a></td><td>Structure of right radial artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368506009\">368506009</a></td><td>Structure of left ulnar artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368505008\">368505008</a></td><td>Structure of right ulnar artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=17137000\">17137000</a></td><td>Structure of brachial artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=69105007\">69105007</a></td><td>Carotid artery structure</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=43899006\">43899006</a></td><td>Structure of popliteal artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=15672000\">15672000</a></td><td>Structure of superficial temporal artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=7657000\">7657000</a></td><td>Structure of femoral artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=45631007\">45631007</a></td><td>Structure of radial artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=44984001\">44984001</a></td><td>Structure of ulnar artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=113270003\">113270003</a></td><td>Structure of left femoral artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=69833005\">69833005</a></td><td>Structure of right femoral artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=86547008\">86547008</a></td><td>Structure of dorsalis pedis artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=13363002\">13363002</a></td><td>Structure of posterior tibial artery</td><td/></tr></table></li></ul></div>"
+  },
+  "url": "http://hl7.org/fhir/hspc/ValueSet/heartRateMeasBodyLocationPrecoordVS",
+  "version": "0.01",
+  "name": "Heart Rate Measurement Body Location Precoordinated value set",
+  "status": "draft",
+  "date": "2018-11-08T00:00:00-07:00",
+  "publisher": "Clinical Information Modeling Inititative",
+  "description": "SELECT SNOMED CT code system values.",
+  "copyright": "TBD",
+  "extensible": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "17137000",
+            "display": "Structure of brachial artery"
+          },
+          {
+            "code": "17137000",
+            "display": "Structure of brachial artery"
+          },
+          {
+            "code": "13383001",
+            "display": "Structure of apex of heart"
+          },
+          {
+            "code": "69105007",
+            "display": "Carotid artery structure"
+          },
+          {
+            "code": "69105007",
+            "display": "Carotid artery structure"
+          },
+          {
+            "code": "25885001",
+            "display": "Left popliteal artery structure"
+          },
+          {
+            "code": "57832007",
+            "display": "Structure of right popliteal artery"
+          },
+          {
+            "code": "214912001",
+            "display": "Structure of left posterior tibial artery"
+          },
+          {
+            "code": "214811007",
+            "display": "Structure of right posterior tibial artery"
+          },
+          {
+            "code": "368504007",
+            "display": "Structure of left radial artery"
+          },
+          {
+            "code": "368503001",
+            "display": "Structure of right radial artery"
+          },
+          {
+            "code": "368506009",
+            "display": "Structure of left ulnar artery"
+          },
+          {
+            "code": "368505008",
+            "display": "Structure of right ulnar artery"
+          },
+          {
+            "code": "17137000",
+            "display": "Structure of brachial artery"
+          },
+          {
+            "code": "69105007",
+            "display": "Carotid artery structure"
+          },
+          {
+            "code": "43899006",
+            "display": "Structure of popliteal artery"
+          },
+          {
+            "code": "15672000",
+            "display": "Structure of superficial temporal artery"
+          },
+          {
+            "code": "7657000",
+            "display": "Structure of femoral artery"
+          },
+          {
+            "code": "45631007",
+            "display": "Structure of radial artery"
+          },
+          {
+            "code": "44984001",
+            "display": "Structure of ulnar artery"
+          },
+          {
+            "code": "113270003",
+            "display": "Structure of left femoral artery"
+          },
+          {
+            "code": "69833005",
+            "display": "Structure of right femoral artery"
+          },
+          {
+            "code": "86547008",
+            "display": "Structure of dorsalis pedis artery"
+          },
+          {
+            "code": "13363002",
+            "display": "Structure of posterior tibial artery"
+          }
+        ]
+      }
+    ]
+  }
+}

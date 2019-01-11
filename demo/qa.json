@@ -1,0 +1,12 @@
+﻿{
+  "url": "http://hl7.org/fhir/hspc/ImplementationGuide/hspc",
+  "name": "CIMI Vital Signs Implementation Guide",
+  "package-id": "hl7.fhir.hspc",
+  "ig-ver": "1.0",
+  "date": "Fri, 11 Jan, 2019 10:22:02 -0700",
+  "errs": 70,
+  "warnings": 26,
+  "hints": 0,
+  "version": "3.0.1",
+  "tool": "3.4.0-13844"
+}
