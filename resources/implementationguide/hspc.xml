@@ -133,98 +133,98 @@
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="StructureDefinition/vitalSignsPanel"/>
+				<reference value="StructureDefinition/HL7FHIRVitalSignsPanel"/>
 				<display value="CIMI Vital Signs Panel"/>
 			</sourceReference>
 		</resource>
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="StructureDefinition/sPO2"/>
+				<reference value="StructureDefinition/OxygenSaturationArterialBloodMeas"/>
 				<display value="Oxygen Saturation in Arterial Blood by Pulse Oximetry"/>
 			</sourceReference>
 		</resource>
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="StructureDefinition/bodyWeight"/>
+				<reference value="StructureDefinition/BodyWeightMeas"/>
 				<display value="Body Weight"/>
 			</sourceReference>
 		</resource>
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="StructureDefinition/headCircumference"/>
+				<reference value="StructureDefinition/HeadOccipitalFrontalCircumference"/>
 				<display value="Head Circumference"/>
 			</sourceReference>
 		</resource>
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="StructureDefinition/bodyHeight"/>
+				<reference value="StructureDefinition/HeightMeas"/>
 				<display value="Body Height"/>
 			</sourceReference>
 		</resource>
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="StructureDefinition/bodyLength"/>
+				<reference value="StructureDefinition/BodyLength"/>
 				<display value="Body Length"/>
 			</sourceReference>
 		</resource>
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="StructureDefinition/bodyTemperature"/>
+				<reference value="StructureDefinition/BodyTemperatureMeas"/>
 				<display value="Body Temperature"/>
 			</sourceReference>
 		</resource>
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="StructureDefinition/diastolicbp"/>
+				<reference value="StructureDefinition/DiastolicBloodPressureMeas"/>
 				<display value="Diastolic Blood Pressure"/>
 			</sourceReference>
 		</resource>
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="StructureDefinition/systolicbp"/>
+				<reference value="StructureDefinition/SystolicBloodPressureMeas"/>
 				<display value="Systolic Blood Pressure"/>
 			</sourceReference>
 		</resource>
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="StructureDefinition/heartRate"/>
+				<reference value="StructureDefinition/HeartRateMeas"/>
 				<display value="Heart Rate"/>
 			</sourceReference>
 		</resource>
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="StructureDefinition/respiratoryRate"/>
+				<reference value="StructureDefinition/RespiratoryRateMeas"/>
 				<display value="Respiratory Rate"/>
 			</sourceReference>
 		</resource>
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="StructureDefinition/meanArterialBloodPressure"/>
+				<reference value="StructureDefinition/MeanArterialPressureMeas"/>
 				<display value="Mean Arterial Blood Pressure"/>
 			</sourceReference>
 		</resource>
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="StructureDefinition/bloodPressure"/>
-				<display value="Blood Pressure"/>
+				<reference value="StructureDefinition/BloodPressurePanel"/>
+				<display value="Blood Pressure Panel"/>
 			</sourceReference>
 		</resource>
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="StructureDefinition/bodyMassIndex"/>
+				<reference value="StructureDefinition/BodyMassIndexMeas"/>
 				<display value="Body Mass Index"/>
 			</sourceReference>
 		</resource>

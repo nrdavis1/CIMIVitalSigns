@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <!--© 2018 IHC Health Services, Inc. All Rights Reserved. This document is machine generated.-->
+    <id value="OxygenSaturationArterialBloodMeas"/>
+    <url value="http://hl7.org/fhir/hspc/StructureDefinition/OxygenSaturationArterialBloodMeas"/>
+    <name value="CIMI Oxygen Saturation in Arterial Blood by Pulse Oximetry"/>
+    <status value="draft"/>
+    <date value="2018-11-08"/>
+    <publisher value="Clinical Information Modeling Initiative"/>
+    <description value="Oxygen Saturation in Arterial Blood by Pulse Oximetry."/>
+    <fhirVersion value="3.0.1"/>
+    <kind value="complex-type"/>
+    <abstract value="false"/>
+    <type value="Observation"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Observation:cimiSPO2">
+            <path value="Observation"/>
+			<short value="SPO2"/>
+            <definition value="Oxygen Saturation in Arterial Blood by Pulse Oximetry."/>
+        </element>
+        <element id="Observation:cimiSPO2.code">
+            <path value="Observation.code"/>
+        </element>
+		<element id="Observation:cimiSPO2.code.coding">
+			<path value="Observation.code.coding"/>
+		</element>
+		<element id="Observation:cimiSPO2.code.coding.system">
+			<path value="Observation.code.coding.system"/>
+			<fixedUri value="http://loinc.org"/>
+		</element>
+		<element id="Observation:cimiSPO2.code.coding.code">
+			<path value="Observation.code.coding.code"/>
+			<fixedCode value="59408-5"/>
+		</element>
+		<element id="Observation:cimiSPO2.code.coding.display">
+			<path value="Observation.code.coding.display"/>
+			<fixedString value="Oxygen saturation in Arterial blood by Pulse oximetry"/>
+		</element>
+        <element id="Observation:cimiSPO2.valueQuantity">
+            <path value="Observation.valueQuantity"/>
+            <type>
+                <code value="Quantity"/>
+            </type>
+        </element>
+		<element id="Observation:cimiSPO2.component.valueQuantity.system">
+			<path value="Observation.valueQuantity.system"/>
+			<type>
+                <code value="uri"/>
+                <profile value="http://hl7.org/fhir/StructureDefinition/uri"/>
+            </type>
+            <fixedUri value="http://unitsofmeasure.org"/>
+		</element>
+		<element id="Observation:cimiSPO2.component.valueQuantity.code">
+			<path value="Observation.valueQuantity.code"/>
+			<type>
+                <code value="code"/>
+                <profile value="http://hl7.org/fhir/StructureDefinition/code"/>
+            </type>
+            <fixedCode value="%"/>
+		</element>
+		<element id="Observation:cimiSPO2.bodySite">
+		  <path value="Observation.bodySite"/>
+		  <mustSupport value="false"/>
+		  <isModifier value="false"/>
+		  <isSummary value="false"/>
+		  <binding>
+			<strength value="preferred"/>
+			<description value="A set of codes that describe where on/in the body an observation or procedure took place"/>
+			<valueSetReference>
+			  <reference value="http://hl7.org/fhir/hspc/ValueSet/sPO2BodyLocationVS"/>
+			</valueSetReference>
+		  </binding>
+		</element>
+        <element id="Observation:cimiSPO2.interpretation">
+            <path value="Observation.interpretation"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="CodeableConcept"/>
+            </type>
+		  <binding>
+			<strength value="preferred"/>
+			<valueSetReference>
+			  <reference value="http://hl7.org/fhir/hspc/ValueSet/abnIntNumericNom"/>
+			</valueSetReference>
+		  </binding>
+        </element>
+        <element id="Observation:cimiSPO2.extension:deltaFlag">
+            <path value="Observation.extension"/>
+			<sliceName value="deltaFlag"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="extension"/>
+                <profile value="http://hl7.org/fhir/hspc/StructureDefinition/deltaFlag"/>
+            </type>
+            <binding>
+                <strength value="preferred"/>
+                <valueSetReference>
+                    <reference value="http://hl7.org/fhir/hspc/ValueSet/deltaFlagnumericNom"/>
+                </valueSetReference>
+            </binding>
+        </element>
+		<element id="Observation:cimiSPO2.extension:sensorDescription">
+			<path value="Observation.extension"/>
+			<sliceName value="sensorDescription"/>
+			<short value="Sensor Description"/>
+			<type>
+				<code value="extension"/>
+				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/sensorDescription"/>
+			</type>
+			<binding>
+				<strength value="preferred"/>
+				<valueSetReference>
+					<reference value="http://hl7.org/fhir/hspc/ValueSet/sensorDescriptionVS"/>
+				</valueSetReference>
+			</binding>
+		</element>
+    </differential>
+</StructureDefinition>
