@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="hspc"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
+    <valueString value="/Users/lpplangf/_biz/ig/CIMIVitalSigns/resources"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages">
+    <valueString value="/Users/lpplangf/_biz/ig/CIMIVitalSigns/pages"/>
+  </extension>
+  <url value="http://hl7.org/fhir/hspc/ImplementationGuide/hspc"/>
+  <version value="1.0"/>
+  <name value="CIMI Vital Signs Implementation Guide"/>
+  <status value="draft"/>
+  <date value="2018-09-26T00:00:00-06:00"/>
+  <publisher value="Health Services Platform Consortium"/>
+  <contact>
+    <telecom>
+      <system value="email"/>
+      <value value="HSPC@HSPConsortium.org"/>
+    </telecom>
+  </contact>
+  <description value="The Implementation Guide resource profile for HSPC"/>
+  <copyright value="HSPC"/>
+  <packageId value="hl7.fhir.hspc"/>
+  <license value="CC0-1.0"/>
+  <fhirVersion value="3.0.1"/>
+  <dependsOn id="USCore">
+    <uri value="http://hl7.org/fhir/us/core"/>
+    <packageId value="hl7.fhir.us.core"/>
+    <version value="1.1.0"/>
+  </dependsOn>
+  <definition>
+    <grouping id="p1">
+      <name value="Profiles in this Implementation Guide"/>
+    </grouping>
+    <resource>
+      <reference>
+        <reference value="Extension/associatedPrecondition"/>
+        <display value="Associated Precondition"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Extension/bodyLaterality"/>
+        <display value="Body Laterality"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Extension/bodyLocationQualifier"/>
+        <display value="Body Location Qualifier"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Extension/bodySide"/>
+        <display value="Body Side"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Extension/dataAbsentReason"/>
+        <display value="Data Absent Reason"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Extension/device"/>
+        <display value="Device"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Extension/deltaFlag"/>
+        <display value="Delta Flag"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Extension/bodyPosition"/>
+        <display value="Body Position"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Extension/measurementDevice"/>
+        <display value="Measurement Device"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Extension/focalSubject"/>
+        <display value="Focal Subject"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Extension/dataOriginationMode"/>
+        <display value="Data Origination Mode"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Extension/bpCuffSize"/>
+        <display value="Blood Pressure Cuff Size"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Extension/sensorDescription"/>
+        <display value="Sensor Description"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Extension/sleepStatus"/>
+        <display value="Sleep Status"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Extension/methodDevice"/>
+        <display value="Method/Device"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/HL7FHIRVitalSignsPanel"/>
+        <display value="CIMI Vital Signs Panel"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/OxygenSaturationArterialBloodMeas"/>
+        <display value="Oxygen Saturation in Arterial Blood by Pulse Oximetry"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BodyWeightMeas"/>
+        <display value="Body Weight"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/HeadOccipitalFrontalCircumference"/>
+        <display value="Head Circumference"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/HeightMeas"/>
+        <display value="Body Height"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BodyLength"/>
+        <display value="Body Length"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BodyTemperatureMeas"/>
+        <display value="Body Temperature"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/DiastolicBloodPressureMeas"/>
+        <display value="Diastolic Blood Pressure"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/SystolicBloodPressureMeas"/>
+        <display value="Systolic Blood Pressure"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/HeartRateMeas"/>
+        <display value="Heart Rate"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/RespiratoryRateMeas"/>
+        <display value="Respiratory Rate"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/MeanArterialPressureMeas"/>
+        <display value="Mean Arterial Blood Pressure"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BloodPressurePanel"/>
+        <display value="Blood Pressure Panel"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BodyMassIndexMeas"/>
+        <display value="Body Mass Index"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/bpmeasbodylocationprecoord"/>
+        <display value="Blood Pressure Measurement Body Location - precoordinated value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/bpbodyposition"/>
+        <display value="Blood Pressure Body Position value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/sPO2BodyLocationVS"/>
+        <display value="Oxygen Saturation Body Location value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/deltaFlagnumericNom"/>
+        <display value="Delta Flag Numeric Nominal value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/weightMeasurementMethodVS"/>
+        <display value="Weight Measurement Method value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/weightMeasurementDeviceVS"/>
+        <display value="Weight Measurement Device value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/bodyWeightMeasurementAssociatedPrecondVS"/>
+        <display value="Body Weight Measurement Associated Precondition value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/abnIntNumericNom"/>
+        <display value="Abnormal Interpretation Numeric Nominal value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/heightLengthMeasMethodVS"/>
+        <display value="Height/Length Measurement Method value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/heightLengthMeasDeviceVS"/>
+        <display value="Height/Length Measurement Device value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/vitalSignAssociatedPrecondVS"/>
+        <display value="Vital Sign Associated Precondition value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/heartRateMeasMethodVS"/>
+        <display value="Heart Rate Measurement Method value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/heartRateMeasDeviceVS"/>
+        <display value="Heart Rate Measurement Device value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/heartRateMeasBodyLocationPrecoordVS"/>
+        <display value="Heart Rate Measurement Body Location Precoordinated value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/respiratoryRateMeasMethodVS"/>
+        <display value="Respiratory Rate Measurement Method value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/respiratoryRateMeasDeviceVS"/>
+        <display value="Respiratory Rate Measurement Device value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/bodyTempMeasBodyLocationPrecoordVS"/>
+        <display value="Body Temperature Body Location Precoordinated value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/dataOriginationModeVS"/>
+        <display value="Data Origination Mode value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/definedLimitsVS"/>
+        <display value="Defined Limits value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/heightBodyPositionVS"/>
+        <display value="Height Body Position value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/bpCuffSizeVS"/>
+        <display value="Blood Pressure Cuff Size value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/bpMeasMethodVS"/>
+        <display value="Blood Pressure Measurement Method value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/bodyPositionVS"/>
+        <display value="Body Position value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/sensorDescriptionVS"/>
+        <display value="Sensor Description value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/sleepStatusVS"/>
+        <display value="Sleep Status value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/bpMeasDeviceVS"/>
+        <display value="Blood Pressure Measurement Device value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/bodyTempMeasMethodDeviceVS"/>
+        <display value="Body Temperature Measurement Method/Device value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <parameter>
+      <code value="generate-json"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="generate-xml"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="generate-turtle"/>
+      <value value="true"/>
+    </parameter>
+  </definition>
+</ImplementationGuide>
