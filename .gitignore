@@ -12,3 +12,5 @@
 /resources/implementationguide/ig-new.xml
 /resources/implementationguide/ig-validation-parameters.json
 ig.ini
+.DS_Store
+.DS_Store
