@@ -20,113 +20,92 @@
 		<resource>		
 			<example value="false"/>	
 			<sourceReference>	
-				<reference value ="Extension/associatedPrecondition"/>
+				<reference value ="Extension/AssociatedPrecondition"/>
 				<display value ="Associated Precondition"/>
 			</sourceReference>	
-		</resource>	
+		</resource>
 		<resource>		
 			<example value="false"/>	
 			<sourceReference>	
-				<reference value ="Extension/bodyLaterality"/>
-				<display value ="Body Laterality"/>
-			</sourceReference>	
-		</resource>	
-		<resource>		
-			<example value="false"/>	
-			<sourceReference>	
-				<reference value ="Extension/bodyLocationQualifier"/>
-				<display value ="Body Location Qualifier"/>
-			</sourceReference>	
-		</resource>	
-		<resource>		
-			<example value="false"/>	
-			<sourceReference>	
-				<reference value ="Extension/bodySide"/>
-				<display value ="Body Side"/>
-			</sourceReference>	
-		</resource>	
-		<resource>		
-			<example value="false"/>	
-			<sourceReference>	
-				<reference value ="Extension/dataAbsentReason"/>
+				<reference value ="Extension/DataAbsentReason"/>
 				<display value ="Data Absent Reason"/>
 			</sourceReference>	
 		</resource>	
 		<resource>		
 			<example value="false"/>	
 			<sourceReference>	
-				<reference value ="Extension/device"/>
+				<reference value ="Extension/Device"/>
 				<display value ="Device"/>
 			</sourceReference>	
 		</resource>	
 		<resource>		
 			<example value="false"/>	
 			<sourceReference>	
-				<reference value ="Extension/deltaFlag"/>
+				<reference value ="Extension/DeltaFlag"/>
 				<display value ="Delta Flag"/>
 			</sourceReference>	
 		</resource>
 		<resource>		
 			<example value="false"/>	
 			<sourceReference>	
-				<reference value ="Extension/bodyPosition"/>
+				<reference value ="Extension/BodyPosition"/>
 				<display value ="Body Position"/>
 			</sourceReference>	
 		</resource>
 		<resource>		
 			<example value="false"/>	
 			<sourceReference>	
-				<reference value ="Extension/measurementDevice"/>
+				<reference value ="Extension/MeasurementDevice"/>
 				<display value ="Measurement Device"/>
 			</sourceReference>	
 		</resource>
 		<resource>		
 			<example value="false"/>	
 			<sourceReference>	
-				<reference value ="Extension/focalSubject"/>
+				<reference value ="Extension/FocalSubject"/>
 				<display value ="Focal Subject"/>
 			</sourceReference>	
 		</resource>
 		<resource>		
 			<example value="false"/>	
 			<sourceReference>	
-				<reference value ="Extension/dataOriginationMode"/>
+				<reference value ="Extension/DataOriginationMode"/>
 				<display value ="Data Origination Mode"/>
 			</sourceReference>	
 		</resource>
-		<!-- <resource>		
-			<example value="false"/>	
-			<sourceReference>	
-				<reference value ="Extension/bodyLocation"/>
-				<display value ="Body Location"/>
-			</sourceReference>	
-		</resource> -->
 		<resource>		
 			<example value="false"/>	
 			<sourceReference>	
-				<reference value ="Extension/bpCuffSize"/>
+				<reference value ="Extension/BloodPressureCuffSize"/>
 				<display value ="Blood Pressure Cuff Size"/>
 			</sourceReference>	
 		</resource>
 		<resource>		
 			<example value="false"/>	
 			<sourceReference>	
-				<reference value ="Extension/sensorDescription"/>
+				<reference value ="Extension/SensorDescription"/>
 				<display value ="Sensor Description"/>
 			</sourceReference>	
 		</resource>
 		<resource>		
 			<example value="false"/>	
 			<sourceReference>	
-				<reference value ="Extension/sleepStatus"/>
+				<reference value ="Extension/SleepStatus"/>
 				<display value ="Sleep Status"/>
 			</sourceReference>	
 		</resource>
 		<resource>		
 			<example value="false"/>	
 			<sourceReference>	
-				<reference value ="Extension/methodDevice"/>
+				<reference value ="Extension/MethodDevice"/>
 				<display value ="Method/Device"/>
+			</sourceReference>	
+		</resource>
+		<resource>		
+			<example value="false"/>	
+			<sourceReference>	
+				<reference value ="Extension/EstimatedInd"/>
+				<display value ="Estimated Indicator"/>
 			</sourceReference>	
 		</resource>
 		
