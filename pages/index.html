@@ -32,6 +32,8 @@ title:  Index page
 
               <ul class="nav nav-tabs" role="tablist">
                 <li role="presentation" class="active"><a href="#overview" aria-controls="home" role="tab" data-toggle="tab">Overview</a></li>
+                <li role="presentation"><a href="#profiles" aria-controls="profile" role="tab" data-toggle="tab">Profiles</a></li>
+                <li role="presentation"><a href="#value-sets" aria-controls="profile" role="tab" data-toggle="tab">Value Sets</a></li>
               </ul>
 
               <!-- Tab panes -->
@@ -39,6 +41,12 @@ title:  Index page
                 <div role="tabpanel" class="tab-pane active" id="overview">
                   {% include background.html %}
                   {% include overview.html %}
+                </div>
+                <div role="tabpanel" class="tab-pane" id="profiles">
+                  {% include profiles.html %}
+                </div>
+                <div role="tabpanel" class="tab-pane" id="value-sets">
+                  {% include value-sets.html %}
                 </div>
               </div>
             </div>
