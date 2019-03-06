@@ -97,7 +97,7 @@
 		<resource>		
 			<example value="false"/>	
 			<sourceReference>	
-				<reference value ="Extension/MethodDevice"/>
+				<reference value ="Extension/methodDevice"/>
 				<display value ="Method/Device"/>
 			</sourceReference>	
 		</resource>

@@ -45,7 +45,7 @@
 	"Extension/BloodPressureCuffSize":{"base":"Extension-BloodPressureCuffSize.html"},
 	"Extension/SensorDescription":{"base":"Extension-SensorDescription.html"},
 	"Extension/SleepStatus":{"base":"Extension-SleepStatus.html"},
-	"Extension/MethodDevice":{"base":"Extension-MethodDevice.html"},
+	"Extension/methodDevice":{"base":"Extension-methodDevice.html"},
 	
 	"StructureDefinition/HL7FHIRVitalSignsPanel":{"base":"StructureDefinition-HL7FHIRVitalSignsPanel.html"},
 	"StructureDefinition/OxygenSaturationArterialBloodMeas":{"base":"StructureDefinition-OxygenSaturationArterialBloodMeas.html"},
