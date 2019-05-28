@@ -31,11 +31,11 @@
 		</element>
 		<element id="Observation:cimiBloodPressurePanel.code.coding.code">
 			<path value="Observation.code.coding.code"/>
-			<fixedCode value="35094-2"/>
+			<fixedCode value="85354-9"/>
 		</element>
 		<element id="Observation:cimiBloodPressurePanel.code.coding.display">
 			<path value="Observation.code.coding.display"/>
-			<fixedString value="Blood pressure panel"/>
+			<fixedString value="Blood pressure panel with all children optional"/>
 		</element>
         <element id="Observation:cimiBloodPressurePanel.externalIdentifier">
             <path value="Observation.identifier"/>

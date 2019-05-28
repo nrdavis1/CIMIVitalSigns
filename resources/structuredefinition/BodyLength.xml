@@ -44,7 +44,7 @@
                 <code value="Quantity"/>
             </type>
         </element>
-		<element id="Observation:cimiBodyLength.component.valueQuantity.system">
+		<element id="Observation:cimiBodyLength.valueQuantity.system">
 			<path value="Observation.valueQuantity.system"/>
 			<type>
                 <code value="uri"/>
@@ -52,7 +52,7 @@
             </type>
             <fixedUri value="http://unitsofmeasure.org"/>
 		</element>
-		<element id="Observation:cimiBodyLength.component.valueQuantity.code">
+		<element id="Observation:cimiBodyLength.valueQuantity.code">
 			<path value="Observation.valueQuantity.code"/>
 			<type>
                 <code value="code"/>
