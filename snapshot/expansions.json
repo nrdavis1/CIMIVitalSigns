@@ -1,21 +1,43 @@
 {
   "resourceType" : "Bundle",
-  "id" : "e5dad072-ce33-40b1-beb1-852f794caee4",
+  "id" : "c872c376-5b55-426a-b52b-fb0333bca355",
   "meta" : {
-    "lastUpdated" : "2019-05-28T12:37:20.772-06:00"
+    "lastUpdated" : "2019-05-29T14:01:22.828-06:00"
   },
   "type" : "collection",
   "entry" : [{
+    "fullUrl" : "http://hl7.org/fhir/hspc/ValueSet/bpmeasbodylocationprecoord",
     "resource" : {
       "resourceType" : "ValueSet",
+      "id" : "bpmeasbodylocationprecoord",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"]
+      },
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 23 concepts</p><p>All codes from system <a href=\"http://hl7.org/fhir/2017Jan/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-241784008\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=241784008\">241784008</a></td><td>Left ankle (body structure)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-241699003\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=241699003\">241699003</a></td><td>Right ankle (body structure)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-182245002\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=182245002\">182245002</a></td><td>Arm (body structure)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-72098002\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=72098002\">72098002</a></td><td>Left arm (body structure)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-59126009\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=59126009\">59126009</a></td><td>Right arm (body structure)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-209672000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=209672000\">209672000</a></td><td>Left thigh (body structure)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-209570001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=209570001\">209570001</a></td><td>Right thigh (body structure)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-7569003\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=7569003\">7569003</a></td><td>Finger structure</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-368208006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368208006\">368208006</a></td><td>Left upper arm structure</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-368209003\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368209003\">368209003</a></td><td>Right upper arm structure</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-17137000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=17137000\">17137000</a></td><td>Structure of brachial artery</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-51636004\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=51636004\">51636004</a></td><td>Structure of left ankle</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-113270003\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=113270003\">113270003</a></td><td>Structure of left femoral artery</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-368504007\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368504007\">368504007</a></td><td>Structure of left radial artery</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-61396006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=61396006\">61396006</a></td><td>Structure of left thigh</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-368506009\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368506009\">368506009</a></td><td>Structure of left ulnar artery</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-6685009\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=6685009\">6685009</a></td><td>Structure of right ankle</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-69833005\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=69833005\">69833005</a></td><td>Structure of right femoral artery</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-368503001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368503001\">368503001</a></td><td>Structure of right radial artery</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-11207009\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=11207009\">11207009</a></td><td>Structure of right thigh</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-368505008\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368505008\">368505008</a></td><td>Structure of right ulnar artery</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-29707007\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=29707007\">29707007</a></td><td>Toe structure</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-40983000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=40983000\">40983000</a></td><td>Upper arm structure</td><td/></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-extensible",
+        "valueBoolean" : true
+      }],
+      "url" : "http://hl7.org/fhir/hspc/ValueSet/bpmeasbodylocationprecoord",
+      "version" : "0.01",
+      "name" : "Blood Pressure Measurement Body Location Precoodinated",
+      "status" : "draft",
+      "date" : "2015-06-11T00:00:00-06:00",
+      "publisher" : "Clinical Information Modeling Initiative (CIMI)",
+      "description" : "SELECT SNOMED CT code system values.",
+      "copyright" : "TBD",
       "expansion" : {
-        "identifier" : "urn:uuid:30eb6d85-8aa9-4918-889d-f57e7e8675f3",
-        "timestamp" : "2019-01-28T11:50:23-07:00",
+        "identifier" : "urn:uuid:97807b88-2ba7-4f99-b6ef-596077c8f6f8",
+        "timestamp" : "2019-05-29T14:01:56-06:00",
+        "total" : 23,
         "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
           "name" : "limitedExpansion",
           "valueString" : "-1"
         },
@@ -142,16 +164,39 @@
     }
   },
   {
+    "fullUrl" : "http://hl7.org/fhir/hspc/ValueSet/bpbodyposition",
     "resource" : {
       "resourceType" : "ValueSet",
+      "id" : "bpbodyposition",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"]
+      },
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 13 concepts</p><p>All codes from system <a href=\"http://hl7.org/fhir/2017Jan/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-40199007\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=40199007\">40199007</a></td><td>Supine body position</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-33586001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=33586001\">33586001</a></td><td>Sitting position</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-10904000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=10904000\">10904000</a></td><td>Orthostatic body position</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-414585002\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=414585002\">414585002</a></td><td>Left lateral tilt</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-415346000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=415346000\">415346000</a></td><td>Right lateral tilt</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-30212006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=30212006\">30212006</a></td><td>Fowler's position</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-26527006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=26527006\">26527006</a></td><td>Inverse Trendelenburg position</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-102536004\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=102536004\">102536004</a></td><td>Left lateral decubitus position</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-1240000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1240000\">1240000</a></td><td>Prone body position</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-102538003\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=102538003\">102538003</a></td><td>Recumbent body position</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-423413008\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=423413008\">423413008</a></td><td>Reverse trendelenburg positioning</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-102535000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=102535000\">102535000</a></td><td>Right lateral decubitus position</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-34106002\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=34106002\">34106002</a></td><td>Trendelenburg position</td><td/></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-extensible",
+        "valueBoolean" : true
+      }],
+      "url" : "http://hl7.org/fhir/hspc/ValueSet/bpbodyposition",
+      "version" : "0.01",
+      "name" : "Blood Pressure Measurement Body Position",
+      "status" : "draft",
+      "date" : "2018-11-08T00:00:00-07:00",
+      "publisher" : "Clinical Information Modeling Initiative",
+      "description" : "SELECT SNOMED CT code system values.",
+      "immutable" : true,
+      "copyright" : "TBD",
       "expansion" : {
-        "identifier" : "urn:uuid:ed375d28-5b6a-4219-9e9f-905c3f46721a",
-        "timestamp" : "2019-01-28T11:50:24-07:00",
+        "identifier" : "urn:uuid:6fb57da5-5f91-4654-a3e4-f88cd4845ce1",
+        "timestamp" : "2019-05-29T14:01:57-06:00",
+        "total" : 13,
         "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
           "name" : "limitedExpansion",
           "valueString" : "-1"
         },
@@ -228,16 +273,40 @@
     }
   },
   {
+    "fullUrl" : "http://hl7.org/fhir/hspc/ValueSet/sPO2BodyLocationVS",
     "resource" : {
       "resourceType" : "ValueSet",
+      "id" : "sPO2BodyLocationVS",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+      },
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p>All codes from system <a href=\"http://hl7.org/fhir/2017Jan/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-48800003\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=48800003\">48800003</a></td><td>Ear lobule structure</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-52795006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=52795006\">52795006</a></td><td>Forehead structure</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-29707007\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=29707007\">29707007</a></td><td>Toe structure</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-7569003\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=7569003\">7569003</a></td><td>Finger structure</td><td/></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-extensible",
+        "valueBoolean" : true
+      }],
+      "url" : "http://hl7.org/fhir/hspc/ValueSet/sPO2BodyLocationVS",
+      "version" : "0.01",
+      "name" : "Oxygen Saturation Body Location value set",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2018-11-09T00:00:00-07:00",
+      "publisher" : "Clinical Information Modeling Initiative (CIMI)",
+      "description" : "Select SNOMED CT codes. An set of codes for the location at which oxygen saturation was assessed.",
+      "immutable" : true,
+      "copyright" : "TBD",
       "expansion" : {
-        "identifier" : "urn:uuid:f4348def-c73d-4fff-a74a-45d8b235a428",
-        "timestamp" : "2019-01-28T11:50:24-07:00",
+        "identifier" : "urn:uuid:32e2a7e4-aff3-430b-87f7-eb44f5cc22ef",
+        "timestamp" : "2019-05-29T14:01:57-06:00",
+        "total" : 4,
         "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
           "name" : "limitedExpansion",
           "valueString" : "-1"
         },
@@ -296,8 +365,8 @@
       "description" : "HL7 V3:ObservationInterpretation OID: 2.16.840.1.113883.5.83 + SNOMED CT SNOMED CT concepts from the Degree findings (qualifier value)272520006, Presence findings (qualifier value)260411009, Absence findings (qualifier value)272519000",
       "copyright" : "IHC",
       "expansion" : {
-        "identifier" : "urn:uuid:4ef2996d-7316-42ad-8305-a247d02bebaf",
-        "timestamp" : "2019-05-28T12:37:41-06:00",
+        "identifier" : "urn:uuid:99c5f4ed-88b1-4d95-bbb7-aa2ca2a2155f",
+        "timestamp" : "2019-05-29T14:01:58-06:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -331,16 +400,38 @@
     }
   },
   {
+    "fullUrl" : "http://hl7.org/fhir/hspc/ValueSet/weightMeasurementMethodVS",
     "resource" : {
       "resourceType" : "ValueSet",
+      "id" : "weightMeasurementMethodVS",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+      },
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p>All codes from system <a href=\"http://hl7.org/fhir/2017Jan/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-414135002\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=414135002\">414135002</a></td><td>Estimated</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-258104002\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=258104002\">258104002</a></td><td>Measured</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-77989009\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=77989009\">77989009</a></td><td>Measurement of skin fold thickness</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-733985002\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=733985002\">733985002</a></td><td>Reported</td><td/></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-extensible",
+        "valueBoolean" : true
+      }],
+      "url" : "http://hl7.org/fhir/hspc/ValueSet/weightMeasurementMethodVS",
+      "version" : "0.01",
+      "name" : "Weight Measurement Method",
+      "status" : "draft",
+      "date" : "2018-11-08T00:00:00-07:00",
+      "publisher" : "Clinical Information Modeling Inititative",
+      "description" : "SELECT SNOMED CT code system values.",
+      "copyright" : "TBD",
       "expansion" : {
-        "identifier" : "urn:uuid:b14834a2-c780-4077-b630-5ca46a645a2b",
-        "timestamp" : "2019-01-28T11:50:24-07:00",
+        "identifier" : "urn:uuid:61640338-9cdd-4494-bbab-93d0554696a8",
+        "timestamp" : "2019-05-29T14:01:58-06:00",
+        "total" : 4,
         "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
           "name" : "limitedExpansion",
           "valueString" : "-1"
         },
@@ -372,16 +463,38 @@
     }
   },
   {
+    "fullUrl" : "http://hl7.org/fhir/hspc/ValueSet/weightMeasurementDeviceVS",
     "resource" : {
       "resourceType" : "ValueSet",
+      "id" : "weightMeasurementDeviceVS",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"]
+      },
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 7 concepts</p><p>All codes from system <a href=\"http://hl7.org/fhir/2017Jan/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-466289007\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=466289007\">466289007</a></td><td>Bed scale</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-720689000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=720689000\">720689000</a></td><td>Chair scale</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-462242008\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=462242008\">462242008</a></td><td>Patient sling scale</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-58514003\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=58514003\">58514003</a></td><td>Infant scale</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-444063009\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=444063009\">444063009</a></td><td>Broselow Luten color coding system for pediatric weight estimation</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-469204003\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=469204003\">469204003</a></td><td>Floor scale, electronic</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-469787007\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=469787007\">469787007</a></td><td>Floor scale, mechanical</td><td/></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-extensible",
+        "valueBoolean" : true
+      }],
+      "url" : "http://hl7.org/fhir/hspc/ValueSet/weightMeasurementDeviceVS",
+      "version" : "0.01",
+      "name" : "Weight Measurement Device",
+      "status" : "draft",
+      "date" : "2018-11-08T00:00:00-07:00",
+      "publisher" : "Clinical Information Modeling Inititative",
+      "description" : "SELECT SNOMED CT code system values.",
+      "copyright" : "TBD",
       "expansion" : {
-        "identifier" : "urn:uuid:7c8749da-c40f-4074-a6af-e80658f1fc8f",
-        "timestamp" : "2019-01-28T11:50:24-07:00",
+        "identifier" : "urn:uuid:71af955b-1b75-4884-8dba-2336442dbb69",
+        "timestamp" : "2019-05-29T14:01:59-06:00",
+        "total" : 7,
         "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
           "name" : "limitedExpansion",
           "valueString" : "-1"
         },
@@ -428,16 +541,38 @@
     }
   },
   {
+    "fullUrl" : "http://hl7.org/fhir/hspc/ValueSet/bodyWeightMeasurementAssociatedPrecondVS",
     "resource" : {
       "resourceType" : "ValueSet",
+      "id" : "bodyWeightMeasurementAssociatedPrecondVS",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"]
+      },
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p>All codes from system <a href=\"http://hl7.org/fhir/2017Jan/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-971000205103\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=971000205103\">971000205103</a></td><td>Wearing street clothes with shoes</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-961000205106\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=961000205106\">961000205106</a></td><td>Wearing street clothes, no shoes</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-951000205108\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=951000205108\">951000205108</a></td><td>Wearing underwear or less</td><td/></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-extensible",
+        "valueBoolean" : true
+      }],
+      "url" : "http://hl7.org/fhir/hspc/ValueSet/bodyWeightMeasurementAssociatedPrecondVS",
+      "version" : "0.01",
+      "name" : "Body Weight Measurement Associated Precondition value set",
+      "status" : "draft",
+      "date" : "2018-11-08T00:00:00-07:00",
+      "publisher" : "Clinical Information Modeling Inititative",
+      "description" : "SELECT SNOMED CT code system values.",
+      "copyright" : "TBD",
       "expansion" : {
-        "identifier" : "urn:uuid:791d7650-4899-40ca-a110-4aa5d63b09a8",
-        "timestamp" : "2019-01-28T11:50:25-07:00",
+        "identifier" : "urn:uuid:eff2c43b-9b36-49b0-a1fc-2e5157937abb",
+        "timestamp" : "2019-05-29T14:01:59-06:00",
+        "total" : 3,
         "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
           "name" : "limitedExpansion",
           "valueString" : "-1"
         },
@@ -491,8 +626,8 @@
       "description" : "HL7 V3:ObservationInterpretation OID: 2.16.840.1.113883.5.83 + SNOMED CT SNOMED CT concepts from the Degree findings (qualifier value)272520006, Presence findings (qualifier value)260411009, Absence findings (qualifier value)272519000",
       "copyright" : "IHC",
       "expansion" : {
-        "identifier" : "urn:uuid:ce9da95a-162d-4fdd-9faa-78478f2d27ec",
-        "timestamp" : "2019-05-28T12:37:41-06:00",
+        "identifier" : "urn:uuid:5d3c5e9d-5dc1-4ca9-9af5-81a499035e4c",
+        "timestamp" : "2019-05-29T14:02:00-06:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -531,16 +666,38 @@
     }
   },
   {
+    "fullUrl" : "http://hl7.org/fhir/hspc/ValueSet/heightLengthMeasMethodVS",
     "resource" : {
       "resourceType" : "ValueSet",
+      "id" : "heightLengthMeasMethodVS",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+      },
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p>All codes from system <a href=\"http://hl7.org/fhir/2017Jan/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-414135002\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=414135002\">414135002</a></td><td>Estimated</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-258104002\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=258104002\">258104002</a></td><td>Measured</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-733985002\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=733985002\">733985002</a></td><td>Reported</td><td/></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-extensible",
+        "valueBoolean" : true
+      }],
+      "url" : "http://hl7.org/fhir/hspc/ValueSet/heightLengthMeasMethodVS",
+      "version" : "0.01",
+      "name" : "Height/Length Measurement Method value set",
+      "status" : "draft",
+      "date" : "2018-11-08T00:00:00-07:00",
+      "publisher" : "Clinical Information Modeling Inititative",
+      "description" : "SELECT SNOMED CT code system values.",
+      "copyright" : "TBD",
       "expansion" : {
-        "identifier" : "urn:uuid:6af4db8f-3002-4c67-af07-4a2c49f8455f",
-        "timestamp" : "2019-01-28T11:50:25-07:00",
+        "identifier" : "urn:uuid:021d25a8-f82c-464c-be54-ee1ab3ec0dac",
+        "timestamp" : "2019-05-29T14:02:00-06:00",
+        "total" : 3,
         "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
           "name" : "limitedExpansion",
           "valueString" : "-1"
         },
@@ -567,16 +724,38 @@
     }
   },
   {
+    "fullUrl" : "http://hl7.org/fhir/hspc/ValueSet/heightLengthMeasDeviceVS",
     "resource" : {
       "resourceType" : "ValueSet",
+      "id" : "heightLengthMeasDeviceVS",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+      },
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p>All codes from system <a href=\"http://hl7.org/fhir/2017Jan/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-51791000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=51791000\">51791000</a></td><td>Measuring tape</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-462588003\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=462588003\">462588003</a></td><td>Patient-height measure</td><td/></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-extensible",
+        "valueBoolean" : true
+      }],
+      "url" : "http://hl7.org/fhir/hspc/ValueSet/heightLengthMeasDeviceVS",
+      "version" : "0.01",
+      "name" : "Height/Length Measurement Device value set",
+      "status" : "draft",
+      "date" : "2018-11-08T00:00:00-07:00",
+      "publisher" : "Clinical Information Modeling Inititative",
+      "description" : "SELECT SNOMED CT code system values.",
+      "copyright" : "TBD",
       "expansion" : {
-        "identifier" : "urn:uuid:604f2cf3-f53f-4bbd-b7bd-0c20e50cef1d",
-        "timestamp" : "2019-01-28T11:50:25-07:00",
+        "identifier" : "urn:uuid:f03aa333-20cf-492b-87a8-d659a72c178d",
+        "timestamp" : "2019-05-29T14:02:00-06:00",
+        "total" : 2,
         "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
           "name" : "limitedExpansion",
           "valueString" : "-1"
         },
@@ -598,16 +777,38 @@
     }
   },
   {
+    "fullUrl" : "http://hl7.org/fhir/hspc/ValueSet/vitalSignAssociatedPrecondVS",
     "resource" : {
       "resourceType" : "ValueSet",
+      "id" : "vitalSignAssociatedPrecondVS",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"]
+      },
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 17 concepts</p><p>All codes from system <a href=\"http://hl7.org/fhir/2017Jan/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-250980009-3110006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=250980009:3110006\">250980009:3110006</a></td><td>After cardioversion</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-276986009\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=276986009\">276986009</a></td><td>Antepartum</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-263678003\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=263678003\">263678003</a></td><td>At rest</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-250980009-307153007\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=250980009:307153007\">250980009:307153007</a></td><td>Before cardioversion</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-250980009-307154001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=250980009:307154001\">250980009:307154001</a></td><td>During cardioversion</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-255566006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255566006\">255566006</a></td><td>Post-dose</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-255235001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255235001\">255235001</a></td><td>Pre-dose</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-262068006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=262068006\">262068006</a></td><td>Preoperative</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-255410009\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255410009\">255410009</a></td><td>Postpartum</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-262061000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=262061000\">262061000</a></td><td>Postoperative period</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-277671009\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=277671009\">277671009</a></td><td>Intraoperative</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-255399007\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255399007\">255399007</a></td><td>Congenital</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-307159006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=307159006\">307159006</a></td><td>Pregnancy time period</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-884001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=884001\">884001</a></td><td>Initial</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-309604004\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=309604004\">309604004</a></td><td>During exercise</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-255214003\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255214003\">255214003</a></td><td>After exercise</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-307166007\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=307166007\">307166007</a></td><td>Before exercise</td><td/></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-extensible",
+        "valueBoolean" : true
+      }],
+      "url" : "http://hl7.org/fhir/hspc/ValueSet/vitalSignAssociatedPrecondVS",
+      "version" : "0.01",
+      "name" : "Vital Sign Associated Precondition value set",
+      "status" : "draft",
+      "date" : "2018-11-08T00:00:00-07:00",
+      "publisher" : "Clinical Information Modeling Inititative",
+      "description" : "SELECT SNOMED CT code system values.",
+      "copyright" : "TBD",
       "expansion" : {
-        "identifier" : "urn:uuid:44fb75a9-c63f-4f54-83c1-37d52a052430",
-        "timestamp" : "2019-01-28T11:50:25-07:00",
+        "identifier" : "urn:uuid:41da5c87-e676-4032-a092-bb22d435c8a0",
+        "timestamp" : "2019-05-29T14:02:01-06:00",
+        "total" : 17,
         "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
           "name" : "limitedExpansion",
           "valueString" : "-1"
         },
@@ -704,16 +905,38 @@
     }
   },
   {
+    "fullUrl" : "http://hl7.org/fhir/hspc/ValueSet/heartRateMeasMethodVS",
     "resource" : {
       "resourceType" : "ValueSet",
+      "id" : "heartRateMeasMethodVS",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"]
+      },
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 8 concepts</p><p>All codes from system <a href=\"http://hl7.org/fhir/2017Jan/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-37931006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=37931006\">37931006</a></td><td>Auscultation</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-13385008\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=13385008\">13385008</a></td><td>Mediate auscultation</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-246263003\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=246263003\">246263003</a></td><td>Impedance</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-113011001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=113011001\">113011001</a></td><td>Palpation</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-260933004\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=260933004\">260933004</a></td><td>Pressure waveform</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-32750006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=32750006\">32750006</a></td><td>Inspection</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-46825001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=46825001\">46825001</a></td><td>Electrocardiographic monitoring</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-268447006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=268447006\">268447006</a></td><td>Doppler studies</td><td/></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-extensible",
+        "valueBoolean" : true
+      }],
+      "url" : "http://hl7.org/fhir/hspc/ValueSet/heartRateMeasMethodVS",
+      "version" : "0.01",
+      "name" : "Heart Rate Measurement Method value set",
+      "status" : "draft",
+      "date" : "2018-11-08T00:00:00-07:00",
+      "publisher" : "Clinical Information Modeling Inititative",
+      "description" : "SELECT SNOMED CT code system values.",
+      "copyright" : "TBD",
       "expansion" : {
-        "identifier" : "urn:uuid:4c319977-27d3-48d1-bc35-e3c4b3503735",
-        "timestamp" : "2019-01-28T11:50:26-07:00",
+        "identifier" : "urn:uuid:92852855-2db3-461f-9f66-6014866fb977",
+        "timestamp" : "2019-05-29T14:02:02-06:00",
+        "total" : 8,
         "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
           "name" : "limitedExpansion",
           "valueString" : "-1"
         },
@@ -765,16 +988,38 @@
     }
   },
   {
+    "fullUrl" : "http://hl7.org/fhir/hspc/ValueSet/heartRateMeasDeviceVS",
     "resource" : {
       "resourceType" : "ValueSet",
+      "id" : "heartRateMeasDeviceVS",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"]
+      },
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 6 concepts</p><p>All codes from system <a href=\"http://hl7.org/fhir/2017Jan/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-43770009\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=43770009\">43770009</a></td><td>Doppler device</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-448703006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=448703006\">448703006</a></td><td>Pulse oximeter</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-467178001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=467178001\">467178001</a></td><td>Bedside heart rate monitor</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-469801002\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=469801002\">469801002</a></td><td>Invasive blood pressure monitor</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-258057004\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=258057004\">258057004</a></td><td>Non-invasive blood pressure monitor</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-86184003\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=86184003\">86184003</a></td><td>Electrocardiographic monitor and recorder</td><td/></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-extensible",
+        "valueBoolean" : true
+      }],
+      "url" : "http://hl7.org/fhir/hspc/ValueSet/heartRateMeasDeviceVS",
+      "version" : "0.01",
+      "name" : "Heart Rate Measurement Device value set",
+      "status" : "draft",
+      "date" : "2018-11-08T00:00:00-07:00",
+      "publisher" : "Clinical Information Modeling Inititative",
+      "description" : "SELECT SNOMED CT code system values.",
+      "copyright" : "TBD",
       "expansion" : {
-        "identifier" : "urn:uuid:4a437678-d038-4616-9d9c-c3b2bf9f0314",
-        "timestamp" : "2019-01-28T11:50:26-07:00",
+        "identifier" : "urn:uuid:e9c1c2fe-c221-4a6a-870a-d7680bb12fb0",
+        "timestamp" : "2019-05-29T14:02:02-06:00",
+        "total" : 6,
         "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
           "name" : "limitedExpansion",
           "valueString" : "-1"
         },
@@ -816,16 +1061,38 @@
     }
   },
   {
+    "fullUrl" : "http://hl7.org/fhir/hspc/ValueSet/heartRateMeasBodyLocationPrecoordVS",
     "resource" : {
       "resourceType" : "ValueSet",
+      "id" : "heartRateMeasBodyLocationPrecoordVS",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"]
+      },
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 20 concepts</p><p>All codes from system <a href=\"http://hl7.org/fhir/2017Jan/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-17137000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=17137000\">17137000</a></td><td>Structure of brachial artery</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-13383001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=13383001\">13383001</a></td><td>Structure of apex of heart</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-69105007\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=69105007\">69105007</a></td><td>Carotid artery structure</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-25885001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=25885001\">25885001</a></td><td>Left popliteal artery structure</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-57832007\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=57832007\">57832007</a></td><td>Structure of right popliteal artery</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-214912001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=214912001\">214912001</a></td><td>Structure of left posterior tibial artery</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-214811007\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=214811007\">214811007</a></td><td>Structure of right posterior tibial artery</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-368504007\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368504007\">368504007</a></td><td>Structure of left radial artery</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-368503001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368503001\">368503001</a></td><td>Structure of right radial artery</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-368506009\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368506009\">368506009</a></td><td>Structure of left ulnar artery</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-368505008\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368505008\">368505008</a></td><td>Structure of right ulnar artery</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-43899006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=43899006\">43899006</a></td><td>Structure of popliteal artery</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-15672000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=15672000\">15672000</a></td><td>Structure of superficial temporal artery</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-7657000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=7657000\">7657000</a></td><td>Structure of femoral artery</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-45631007\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=45631007\">45631007</a></td><td>Structure of radial artery</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-44984001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=44984001\">44984001</a></td><td>Structure of ulnar artery</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-113270003\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=113270003\">113270003</a></td><td>Structure of left femoral artery</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-69833005\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=69833005\">69833005</a></td><td>Structure of right femoral artery</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-86547008\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=86547008\">86547008</a></td><td>Structure of dorsalis pedis artery</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-13363002\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=13363002\">13363002</a></td><td>Structure of posterior tibial artery</td><td/></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-extensible",
+        "valueBoolean" : true
+      }],
+      "url" : "http://hl7.org/fhir/hspc/ValueSet/heartRateMeasBodyLocationPrecoordVS",
+      "version" : "0.01",
+      "name" : "Heart Rate Measurement Body Location Precoordinated value set",
+      "status" : "draft",
+      "date" : "2018-11-08T00:00:00-07:00",
+      "publisher" : "Clinical Information Modeling Inititative",
+      "description" : "SELECT SNOMED CT code system values.",
+      "copyright" : "TBD",
       "expansion" : {
-        "identifier" : "urn:uuid:aa08ee03-4139-408d-b650-b3fa8b29b1da",
-        "timestamp" : "2019-01-28T11:50:26-07:00",
+        "identifier" : "urn:uuid:29896999-fbf4-429f-bb5b-169885d40e13",
+        "timestamp" : "2019-05-29T14:02:02-06:00",
+        "total" : 20,
         "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
           "name" : "limitedExpansion",
           "valueString" : "-1"
         },
@@ -937,16 +1204,38 @@
     }
   },
   {
+    "fullUrl" : "http://hl7.org/fhir/hspc/ValueSet/respiratoryRateMeasMethodVS",
     "resource" : {
       "resourceType" : "ValueSet",
+      "id" : "respiratoryRateMeasMethodVS",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"]
+      },
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p>All codes from system <a href=\"http://hl7.org/fhir/2017Jan/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-37931006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=37931006\">37931006</a></td><td>Auscultation</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-32750006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=32750006\">32750006</a></td><td>Inspection</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-258104002\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=258104002\">258104002</a></td><td>Measured</td><td/></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-extensible",
+        "valueBoolean" : true
+      }],
+      "url" : "http://hl7.org/fhir/hspc/ValueSet/respiratoryRateMeasMethodVS",
+      "version" : "0.01",
+      "name" : "Respiratory Rate Measurement Method value set",
+      "status" : "draft",
+      "date" : "2018-11-08T00:00:00-07:00",
+      "publisher" : "Clinical Information Modeling Inititative",
+      "description" : "SELECT SNOMED CT code system values.",
+      "copyright" : "TBD",
       "expansion" : {
-        "identifier" : "urn:uuid:3405a6fa-f4c7-46cc-998c-ae78d33dee67",
-        "timestamp" : "2019-01-28T11:50:26-07:00",
+        "identifier" : "urn:uuid:f16c1c63-2257-4fe9-be1c-ad26a64a99c1",
+        "timestamp" : "2019-05-29T14:02:03-06:00",
+        "total" : 3,
         "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
           "name" : "limitedExpansion",
           "valueString" : "-1"
         },
@@ -973,16 +1262,38 @@
     }
   },
   {
+    "fullUrl" : "http://hl7.org/fhir/hspc/ValueSet/respiratoryRateMeasDeviceVS",
     "resource" : {
       "resourceType" : "ValueSet",
+      "id" : "respiratoryRateMeasDeviceVS",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"]
+      },
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p>All codes from system <a href=\"http://hl7.org/fhir/2017Jan/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-250863006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=250863006\">250863006</a></td><td>Capnograph waveform</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-334990001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=334990001\">334990001</a></td><td>Peak flow meter</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-717730001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=717730001\">717730001</a></td><td>Impedance pneumography recording/analysis system</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-17120007\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=17120007\">17120007</a></td><td>Biofeedback, strain gauge</td><td/></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-extensible",
+        "valueBoolean" : true
+      }],
+      "url" : "http://hl7.org/fhir/hspc/ValueSet/respiratoryRateMeasDeviceVS",
+      "version" : "0.01",
+      "name" : "Respiratory Rate Measurement Device value set",
+      "status" : "draft",
+      "date" : "2018-11-08T00:00:00-07:00",
+      "publisher" : "Clinical Information Modeling Inititative",
+      "description" : "SELECT SNOMED CT code system values.",
+      "copyright" : "TBD",
       "expansion" : {
-        "identifier" : "urn:uuid:99b110e2-340b-495b-9f88-6a3350fce4ed",
-        "timestamp" : "2019-01-28T11:50:27-07:00",
+        "identifier" : "urn:uuid:f6f77ce0-4304-4be6-ad3c-4cdc5407fe33",
+        "timestamp" : "2019-05-29T14:02:04-06:00",
+        "total" : 4,
         "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
           "name" : "limitedExpansion",
           "valueString" : "-1"
         },
@@ -1014,16 +1325,38 @@
     }
   },
   {
+    "fullUrl" : "http://hl7.org/fhir/hspc/ValueSet/bodyTempMeasBodyLocationPrecoordVS",
     "resource" : {
       "resourceType" : "ValueSet",
+      "id" : "bodyTempMeasBodyLocationPrecoordVS",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+      },
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 12 concepts</p><p>All codes from system <a href=\"http://hl7.org/fhir/2017Jan/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-52795006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=52795006\">52795006</a></td><td>Forehead structure</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-29707007\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=29707007\">29707007</a></td><td>Toe structure</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-42859004\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=42859004\">42859004</a></td><td>Tympanic membrane structure</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-117590005\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=117590005\">117590005</a></td><td>Ear structure</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-91470000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=91470000\">91470000</a></td><td>Axillary region structure</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-7569003\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=7569003\">7569003</a></td><td>Finger structure</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-123851003\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=123851003\">123851003</a></td><td>Mouth region structure</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-89837001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=89837001\">89837001</a></td><td>Urinary bladder structure</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-71836000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=71836000\">71836000</a></td><td>Nasopharyngeal structure</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-34402009\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=34402009\">34402009</a></td><td>Rectum structure</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-279549004\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=279549004\">279549004</a></td><td>Nasal cavity structure</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-74262004\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=74262004\">74262004</a></td><td>Oral cavity structure</td><td/></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-extensible",
+        "valueBoolean" : true
+      }],
+      "url" : "http://hl7.org/fhir/hspc/ValueSet/bodyTempMeasBodyLocationPrecoordVS",
+      "version" : "0.01",
+      "name" : "Body Temperature Measurement Body Location value set",
+      "status" : "draft",
+      "date" : "2018-11-08T00:00:00-07:00",
+      "publisher" : "Clinical Information Modeling Inititative (CIMI)",
+      "description" : "SELECT SNOMED CT code system values.",
+      "copyright" : "TBD",
       "expansion" : {
-        "identifier" : "urn:uuid:603a747b-a591-4917-9b42-24f460a3ec7e",
-        "timestamp" : "2019-01-28T11:50:27-07:00",
+        "identifier" : "urn:uuid:3c65648f-cdde-43a3-a503-7e5c82042f77",
+        "timestamp" : "2019-05-29T14:02:05-06:00",
+        "total" : 12,
         "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
           "name" : "limitedExpansion",
           "valueString" : "-1"
         },
@@ -1095,16 +1428,38 @@
     }
   },
   {
+    "fullUrl" : "http://hl7.org/fhir/hspc/ValueSet/dataOriginationModeVS",
     "resource" : {
       "resourceType" : "ValueSet",
+      "id" : "dataOriginationModeVS",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+      },
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p>All codes from system <a href=\"http://hl7.org/fhir/2017Jan/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-258104002\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=258104002\">258104002</a></td><td>Measured</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-733985002\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=733985002\">733985002</a></td><td>Reported</td><td/></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-extensible",
+        "valueBoolean" : true
+      }],
+      "url" : "http://hl7.org/fhir/hspc/ValueSet/dataOriginationModeVS",
+      "version" : "0.01",
+      "name" : "Data Origination Mode value set",
+      "status" : "draft",
+      "date" : "2018-12-03T00:00:00-07:00",
+      "publisher" : "Clinical Information Modeling Inititative",
+      "description" : "SELECT SNOMED CT code system values.",
+      "copyright" : "TBD",
       "expansion" : {
-        "identifier" : "urn:uuid:0c5dedbb-95c1-4bd6-972b-0612b8f93b63",
-        "timestamp" : "2019-01-28T11:50:27-07:00",
+        "identifier" : "urn:uuid:b5fe495f-8150-4ece-bac7-a75905732abd",
+        "timestamp" : "2019-05-29T14:02:05-06:00",
+        "total" : 2,
         "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
           "name" : "limitedExpansion",
           "valueString" : "-1"
         },
@@ -1126,16 +1481,40 @@
     }
   },
   {
+    "fullUrl" : "http://hl7.org/fhir/hspc/ValueSet/definedLimitsVS",
     "resource" : {
       "resourceType" : "ValueSet",
+      "id" : "definedLimitsVS",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+      },
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p>All codes from system <a href=\"http://hl7.org/fhir/2017Jan/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-449501000124109\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=449501000124109\">449501000124109</a></td><td>Within defined limits</td><td/></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-extensible",
+        "valueBoolean" : true
+      }],
+      "url" : "http://hl7.org/fhir/hspc/ValueSet/definedLimitsVS",
+      "version" : "0.01",
+      "name" : "Defined Limits value set",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2018-11-09T00:00:00-07:00",
+      "publisher" : "Clinical Information Modeling Initiative",
+      "description" : "Select SNOMED CT codes.",
+      "immutable" : true,
+      "copyright" : "TBD",
       "expansion" : {
-        "identifier" : "urn:uuid:daf2ae52-3766-46ad-b489-9490ee961706",
-        "timestamp" : "2019-01-28T11:50:28-07:00",
+        "identifier" : "urn:uuid:37abc993-c555-498a-b895-0842d04d8c27",
+        "timestamp" : "2019-05-29T14:02:06-06:00",
+        "total" : 1,
         "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
           "name" : "limitedExpansion",
           "valueString" : "-1"
         },
@@ -1152,16 +1531,38 @@
     }
   },
   {
+    "fullUrl" : "http://hl7.org/fhir/hspc/ValueSet/heightBodyPositionVS",
     "resource" : {
       "resourceType" : "ValueSet",
+      "id" : "heightBodyPositionVS",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+      },
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 11 concepts</p><p>All codes from system <a href=\"http://hl7.org/fhir/2017Jan/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-40199007\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=40199007\">40199007</a></td><td>Supine body position</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-10904000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=10904000\">10904000</a></td><td>Orthostatic body position</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-1240000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1240000\">1240000</a></td><td>Prone body position</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-34106002\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=34106002\">34106002</a></td><td>Trendelenburg position</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-26527006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=26527006\">26527006</a></td><td>Inverse Trendelenburg position</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-33586001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=33586001\">33586001</a></td><td>Sitting position</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-102536004\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=102536004\">102536004</a></td><td>Left lateral decubitus position</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-102535000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=102535000\">102535000</a></td><td>Right lateral decubitus position</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-414585002\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=414585002\">414585002</a></td><td>Left lateral tilt</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-30212006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=30212006\">30212006</a></td><td>Fowler's position</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-102538003\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=102538003\">102538003</a></td><td>Recumbent body position</td><td/></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-extensible",
+        "valueBoolean" : true
+      }],
+      "url" : "http://hl7.org/fhir/hspc/ValueSet/heightBodyPositionVS",
+      "version" : "0.01",
+      "name" : "Height Body Position value set",
+      "status" : "draft",
+      "date" : "2018-11-08T00:00:00-07:00",
+      "publisher" : "Clinical Information Modeling Inititative",
+      "description" : "SELECT SNOMED CT code system values.",
+      "copyright" : "TBD",
       "expansion" : {
-        "identifier" : "urn:uuid:f47b3f1e-f605-4540-95de-7e63f3609d63",
-        "timestamp" : "2019-01-28T11:50:28-07:00",
+        "identifier" : "urn:uuid:bb2dcc39-8753-419e-853a-330bf5b43879",
+        "timestamp" : "2019-05-29T14:02:06-06:00",
+        "total" : 11,
         "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
           "name" : "limitedExpansion",
           "valueString" : "-1"
         },
@@ -1228,16 +1629,38 @@
     }
   },
   {
+    "fullUrl" : "http://hl7.org/fhir/hspc/ValueSet/bpCuffSizeVS",
     "resource" : {
       "resourceType" : "ValueSet",
+      "id" : "bpCuffSizeVS",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+      },
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 13 concepts</p><p>All codes from system <a href=\"http://hl7.org/fhir/2017Jan/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-720740000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=720740000\">720740000</a></td><td>Blood pressure cuff, adult thigh type</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-720737000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=720737000\">720737000</a></td><td>Blood pressure cuff, adult size</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-720736009\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=720736009\">720736009</a></td><td>Blood pressure cuff, pediatric size</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-720739002\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=720739002\">720739002</a></td><td>Blood pressure cuff, adult size small</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-720738005\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=720738005\">720738005</a></td><td>Blood pressure cuff, adult size large</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-8741000205104\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=8741000205104\">8741000205104</a></td><td>Blood pressure cuff, ankle type</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-8731000205109\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=8731000205109\">8731000205109</a></td><td>Blood pressure cuff, extra large adult thigh cuff</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-8861000205108\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=8861000205108\">8861000205108</a></td><td>Blood pressure cuff, infant size</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-8841000205107\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=8841000205107\">8841000205107</a></td><td>Blood pressure cuff, neonatal size 1</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-8851000205105\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=8851000205105\">8851000205105</a></td><td>Blood pressure cuff, neonatal size 2</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-8821000205104\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=8821000205104\">8821000205104</a></td><td>Blood pressure cuff, neonatal size 3</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-8811000205106\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=8811000205106\">8811000205106</a></td><td>Blood pressure cuff, neonatal size 4</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-8801000205109\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=8801000205109\">8801000205109</a></td><td>Blood pressure cuff, neonatal size 5</td><td/></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-extensible",
+        "valueBoolean" : true
+      }],
+      "url" : "http://hl7.org/fhir/hspc/ValueSet/bpCuffSizeVS",
+      "version" : "0.01",
+      "name" : "Blood Pressure Cuff Size value set",
+      "status" : "draft",
+      "date" : "2018-11-08T00:00:00-07:00",
+      "publisher" : "Clinical Information Modeling Inititative",
+      "description" : "SELECT SNOMED CT code system values.",
+      "copyright" : "TBD",
       "expansion" : {
-        "identifier" : "urn:uuid:b257e563-f758-49b5-8958-b07188c68ff0",
-        "timestamp" : "2019-01-28T11:50:28-07:00",
+        "identifier" : "urn:uuid:17c2783a-b439-4916-bcc5-aea950b725bd",
+        "timestamp" : "2019-05-29T14:02:06-06:00",
+        "total" : 13,
         "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
           "name" : "limitedExpansion",
           "valueString" : "-1"
         },
@@ -1314,16 +1737,38 @@
     }
   },
   {
+    "fullUrl" : "http://hl7.org/fhir/hspc/ValueSet/bpMeasMethodVS",
     "resource" : {
       "resourceType" : "ValueSet",
+      "id" : "bpMeasMethodVS",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+      },
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 9 concepts</p><p>All codes from system <a href=\"http://hl7.org/fhir/2017Jan/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-37931006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=37931006\">37931006</a></td><td>Auscultation</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-13385008\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=13385008\">13385008</a></td><td>Mediate auscultation</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-268447006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=268447006\">268447006</a></td><td>Doppler studies</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-113011001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=113011001\">113011001</a></td><td>Palpation</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-31813000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=31813000\">31813000</a></td><td>Oscillometry</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-17146006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=17146006\">17146006</a></td><td>Arterial pressure monitoring, non-invasive method</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-77938009\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=77938009\">77938009</a></td><td>Arterial pressure monitoring, invasive method</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-641000205104\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=641000205104\">641000205104</a></td><td>Computer aided auscultation</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-911000205109\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=911000205109\">911000205109</a></td><td>Measurement of blood pressure using intravascular transducer</td><td/></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-extensible",
+        "valueBoolean" : true
+      }],
+      "url" : "http://hl7.org/fhir/hspc/ValueSet/bpMeasMethodVS",
+      "version" : "0.01",
+      "name" : "Blood Pressure Measurement Method value set",
+      "status" : "draft",
+      "date" : "2018-12-04T00:00:00-07:00",
+      "publisher" : "Clinical Information Modeling Inititative",
+      "description" : "SELECT SNOMED CT code system values.",
+      "copyright" : "TBD",
       "expansion" : {
-        "identifier" : "urn:uuid:993f6284-ce68-47c3-a3c1-8b2536c140b0",
-        "timestamp" : "2019-01-28T11:50:28-07:00",
+        "identifier" : "urn:uuid:3e2db62a-823d-4960-a389-01cbdea804c8",
+        "timestamp" : "2019-05-29T14:02:07-06:00",
+        "total" : 9,
         "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
           "name" : "limitedExpansion",
           "valueString" : "-1"
         },
@@ -1380,16 +1825,38 @@
     }
   },
   {
+    "fullUrl" : "http://hl7.org/fhir/hspc/ValueSet/heightBodyPositionVS",
     "resource" : {
       "resourceType" : "ValueSet",
+      "id" : "heightBodyPositionVS",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+      },
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 11 concepts</p><p>All codes from system <a href=\"http://hl7.org/fhir/2017Jan/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-40199007\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=40199007\">40199007</a></td><td>Supine body position</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-10904000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=10904000\">10904000</a></td><td>Orthostatic body position</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-1240000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1240000\">1240000</a></td><td>Prone body position</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-34106002\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=34106002\">34106002</a></td><td>Trendelenburg position</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-26527006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=26527006\">26527006</a></td><td>Inverse Trendelenburg position</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-33586001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=33586001\">33586001</a></td><td>Sitting position</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-102536004\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=102536004\">102536004</a></td><td>Left lateral decubitus position</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-102535000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=102535000\">102535000</a></td><td>Right lateral decubitus position</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-414585002\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=414585002\">414585002</a></td><td>Left lateral tilt</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-30212006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=30212006\">30212006</a></td><td>Fowler's position</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-102538003\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=102538003\">102538003</a></td><td>Recumbent body position</td><td/></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-extensible",
+        "valueBoolean" : true
+      }],
+      "url" : "http://hl7.org/fhir/hspc/ValueSet/heightBodyPositionVS",
+      "version" : "0.01",
+      "name" : "Height Body Position value set",
+      "status" : "draft",
+      "date" : "2018-11-08T00:00:00-07:00",
+      "publisher" : "Clinical Information Modeling Inititative",
+      "description" : "SELECT SNOMED CT code system values.",
+      "copyright" : "TBD",
       "expansion" : {
-        "identifier" : "urn:uuid:f47b3f1e-f605-4540-95de-7e63f3609d63",
-        "timestamp" : "2019-01-28T11:50:28-07:00",
+        "identifier" : "urn:uuid:bb2dcc39-8753-419e-853a-330bf5b43879",
+        "timestamp" : "2019-05-29T14:02:06-06:00",
+        "total" : 11,
         "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
           "name" : "limitedExpansion",
           "valueString" : "-1"
         },
@@ -1456,16 +1923,38 @@
     }
   },
   {
+    "fullUrl" : "http://hl7.org/fhir/hspc/ValueSet/sensorDescriptionVS",
     "resource" : {
       "resourceType" : "ValueSet",
+      "id" : "sensorDescriptionVS",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+      },
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p>All codes from system <a href=\"http://hl7.org/fhir/2017Jan/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-462664005\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=462664005\">462664005</a></td><td>Pulse oximeter probe, single-use</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-462513001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=462513001\">462513001</a></td><td>Pulse oximeter probe, reusable</td><td/></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-extensible",
+        "valueBoolean" : true
+      }],
+      "url" : "http://hl7.org/fhir/hspc/ValueSet/sensorDescriptionVS",
+      "version" : "0.01",
+      "name" : "Sensor Description value set",
+      "status" : "draft",
+      "date" : "2018-12-04T00:00:00-07:00",
+      "publisher" : "Clinical Information Modeling Inititative",
+      "description" : "SELECT SNOMED CT code system values.",
+      "copyright" : "TBD",
       "expansion" : {
-        "identifier" : "urn:uuid:3f4493bc-acdf-4f2d-9597-a5a355e34ecd",
-        "timestamp" : "2019-01-28T11:50:29-07:00",
+        "identifier" : "urn:uuid:df7c6ede-de65-430e-bb2e-0864b839c2c9",
+        "timestamp" : "2019-05-29T14:02:07-06:00",
+        "total" : 2,
         "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
           "name" : "limitedExpansion",
           "valueString" : "-1"
         },
@@ -1487,16 +1976,38 @@
     }
   },
   {
+    "fullUrl" : "http://hl7.org/fhir/hspc/ValueSet/sleepStatusVS",
     "resource" : {
       "resourceType" : "ValueSet",
+      "id" : "sleepStatusVS",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+      },
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p>All codes from system <a href=\"http://hl7.org/fhir/2017Jan/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-248218005\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=248218005\">248218005</a></td><td>Awake</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-248220008\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=248220008\">248220008</a></td><td>Asleep</td><td/></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-extensible",
+        "valueBoolean" : true
+      }],
+      "url" : "http://hl7.org/fhir/hspc/ValueSet/sleepStatusVS",
+      "version" : "0.01",
+      "name" : "Sleep Status value set",
+      "status" : "draft",
+      "date" : "2018-12-04T00:00:00-07:00",
+      "publisher" : "Clinical Information Modeling Inititative",
+      "description" : "SELECT SNOMED CT code system values.",
+      "copyright" : "TBD",
       "expansion" : {
-        "identifier" : "urn:uuid:3d9995a3-6024-4f11-a187-8fe9e589723b",
-        "timestamp" : "2019-01-28T11:50:29-07:00",
+        "identifier" : "urn:uuid:a55b230e-beca-4f83-8d94-b10589c2d316",
+        "timestamp" : "2019-05-29T14:02:08-06:00",
+        "total" : 2,
         "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
           "name" : "limitedExpansion",
           "valueString" : "-1"
         },
@@ -1518,16 +2029,38 @@
     }
   },
   {
+    "fullUrl" : "http://hl7.org/fhir/hspc/ValueSet/bpMeasDeviceVS",
     "resource" : {
       "resourceType" : "ValueSet",
+      "id" : "bpMeasDeviceVS",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+      },
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p>All codes from system <a href=\"http://hl7.org/fhir/2017Jan/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-43770009\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=43770009\">43770009</a></td><td>Doppler device</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-309642005\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=309642005\">309642005</a></td><td>Mercury sphygmomanometer</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-309641003\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=309641003\">309641003</a></td><td>Aneroid sphygmomanometer</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-469801002\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=469801002\">469801002</a></td><td>Invasive blood pressure monitor</td><td/></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-extensible",
+        "valueBoolean" : true
+      }],
+      "url" : "http://hl7.org/fhir/hspc/ValueSet/bpMeasDeviceVS",
+      "version" : "0.01",
+      "name" : "Blood Pressure Measurement Device value set",
+      "status" : "draft",
+      "date" : "2018-11-08T00:00:00-07:00",
+      "publisher" : "Clinical Information Modeling Inititative",
+      "description" : "SELECT SNOMED CT code system values.",
+      "copyright" : "TBD",
       "expansion" : {
-        "identifier" : "urn:uuid:e5afd634-8dd9-4cf2-ac36-8bafffbe59d1",
-        "timestamp" : "2019-01-28T11:50:29-07:00",
+        "identifier" : "urn:uuid:235ab9d2-896d-40f2-b682-720584bd4c24",
+        "timestamp" : "2019-05-29T14:02:09-06:00",
+        "total" : 4,
         "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
           "name" : "limitedExpansion",
           "valueString" : "-1"
         },
@@ -1559,16 +2092,38 @@
     }
   },
   {
+    "fullUrl" : "http://hl7.org/fhir/hspc/ValueSet/bodyTempMeasMethodDeviceVS",
     "resource" : {
       "resourceType" : "ValueSet",
+      "id" : "bodyTempMeasMethodDeviceVS",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"]
+      },
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 11 concepts</p><p>All codes from system <a href=\"http://hl7.org/fhir/2017Jan/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-260548002\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=260548002\">260548002</a></td><td>Oral</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-255582007\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255582007\">255582007</a></td><td>Rectal</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-467862000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=467862000\">467862000</a></td><td>Capillary patient thermometer, mercury</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-462983001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=462983001\">462983001</a></td><td>Liquid-crystal patient thermometer</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-118376009\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=118376009\">118376009</a></td><td>Thermocouple</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-448349000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=448349000\">448349000</a></td><td>Tympanic thermometer</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-448735006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=448735006\">448735006</a></td><td>Forehead thermometer</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-706158001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=706158001\">706158001</a></td><td>Electronic patient thermometer</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-464210001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=464210001\">464210001</a></td><td>Thermographic camera</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-1461000205102\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1461000205102\">1461000205102</a></td><td>Digital thermometer</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-2331000205106\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=2331000205106\">2331000205106</a></td><td>Non-contact infrared thermometer</td><td/></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-extensible",
+        "valueBoolean" : true
+      }],
+      "url" : "http://hl7.org/fhir/hspc/ValueSet/bodyTempMeasMethodDeviceVS",
+      "version" : "0.01",
+      "name" : "Body Temperature Measurement Method/Device value set",
+      "status" : "draft",
+      "date" : "2018-11-08T00:00:00-07:00",
+      "publisher" : "Clinical Information Modeling Inititative",
+      "description" : "SELECT SNOMED CT code system values.  This value set is still being created, not all values have been added nor vetted.",
+      "copyright" : "TBD",
       "expansion" : {
-        "identifier" : "urn:uuid:9dc17dc6-a4be-4536-a842-68b155665fd1",
-        "timestamp" : "2019-01-28T11:50:30-07:00",
+        "identifier" : "urn:uuid:bab9f6d8-2986-4c52-82a5-ac87da91a4d4",
+        "timestamp" : "2019-05-29T14:02:09-06:00",
+        "total" : 11,
         "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
           "name" : "limitedExpansion",
           "valueString" : "-1"
         },
