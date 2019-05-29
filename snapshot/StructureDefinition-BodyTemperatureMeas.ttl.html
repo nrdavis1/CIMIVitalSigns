@@ -472,7 +472,7 @@
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.base.max">fhir:ElementDefinition.base.max</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;*&quot; ]       ];
        <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type">fhir:ElementDefinition.type</a> [
          <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 0;
-         <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type.code">fhir:ElementDefinition.type.code</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;extension&quot; ];
+         <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type.code">fhir:ElementDefinition.type.code</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;Extension&quot; ];
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type.profile">fhir:ElementDefinition.type.profile</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/hspc/StructureDefinition/deltaFlag&quot; ]       ];
        <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.condition">fhir:ElementDefinition.condition</a> [
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#id">fhir:value</a> &quot;ele-1&quot;;
@@ -507,8 +507,17 @@
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.base.max">fhir:ElementDefinition.base.max</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;*&quot; ]       ];
        <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type">fhir:ElementDefinition.type</a> [
          <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 0;
-         <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type.code">fhir:ElementDefinition.type.code</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;Reference&quot; ];
-         <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type.profile">fhir:ElementDefinition.type.profile</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/hspc/StructureDefinition/associatedPrecondition&quot; ]       ]     ], [
+         <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type.code">fhir:ElementDefinition.type.code</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;Extension&quot; ];
+         <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type.profile">fhir:ElementDefinition.type.profile</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/hspc/StructureDefinition/associatedPrecondition&quot; ]       ];
+       <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.constraint">fhir:ElementDefinition.constraint</a> [
+         <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 0;
+         <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.constraint.key">fhir:ElementDefinition.constraint.key</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#id">fhir:value</a> &quot;ext-1&quot; ];
+         <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.constraint.severity">fhir:ElementDefinition.constraint.severity</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#code">fhir:value</a> &quot;error&quot; ];
+         <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.constraint.human">fhir:ElementDefinition.constraint.human</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;Must have either extensions or value[x], not both&quot; ];
+         <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.constraint.expression">fhir:ElementDefinition.constraint.expression</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;extension.exists() != value.exists()&quot; ];
+         <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.constraint.xpath">fhir:ElementDefinition.constraint.xpath</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])&quot; ];
+         <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.constraint.source">fhir:ElementDefinition.constraint.source</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;Extension:associatedPrecondition&quot; ]       ];
+       <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.isModifier">fhir:ElementDefinition.isModifier</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#boolean">fhir:value</a> &quot;false&quot;^^xsd:boolean ]     ], [
        <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 10;
        <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;Observation.extension:methodDevice&quot; ];
        <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.path">fhir:ElementDefinition.path</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;Observation.extension&quot; ];
@@ -523,7 +532,7 @@
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.base.max">fhir:ElementDefinition.base.max</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;*&quot; ]       ];
        <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type">fhir:ElementDefinition.type</a> [
          <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 0;
-         <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type.code">fhir:ElementDefinition.type.code</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;extension&quot; ];
+         <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type.code">fhir:ElementDefinition.type.code</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;Extension&quot; ];
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type.profile">fhir:ElementDefinition.type.profile</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/hspc/StructureDefinition/methodDevice&quot; ]       ];
        <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.condition">fhir:ElementDefinition.condition</a> [
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#id">fhir:value</a> &quot;ele-1&quot;;
@@ -2460,7 +2469,7 @@
        <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.max">fhir:ElementDefinition.max</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;1&quot; ];
        <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type">fhir:ElementDefinition.type</a> [
          <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 0;
-         <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type.code">fhir:ElementDefinition.type.code</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;extension&quot; ];
+         <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type.code">fhir:ElementDefinition.type.code</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;Extension&quot; ];
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type.profile">fhir:ElementDefinition.type.profile</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/hspc/StructureDefinition/deltaFlag&quot; ]       ];
        <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.binding">fhir:ElementDefinition.binding</a> [
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.binding.strength">fhir:ElementDefinition.binding.strength</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#code">fhir:value</a> &quot;preferred&quot; ];
@@ -2474,7 +2483,7 @@
        <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.short">fhir:ElementDefinition.short</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;Associated Precondition&quot; ];
        <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type">fhir:ElementDefinition.type</a> [
          <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 0;
-         <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type.code">fhir:ElementDefinition.type.code</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;Reference&quot; ];
+         <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type.code">fhir:ElementDefinition.type.code</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;Extension&quot; ];
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type.profile">fhir:ElementDefinition.type.profile</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/hspc/StructureDefinition/associatedPrecondition&quot; ]       ];
        <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.binding">fhir:ElementDefinition.binding</a> [
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.binding.strength">fhir:ElementDefinition.binding.strength</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#code">fhir:value</a> &quot;preferred&quot; ];
@@ -2488,7 +2497,7 @@
        <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.short">fhir:ElementDefinition.short</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;Method/Device&quot; ];
        <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type">fhir:ElementDefinition.type</a> [
          <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 0;
-         <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type.code">fhir:ElementDefinition.type.code</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;extension&quot; ];
+         <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type.code">fhir:ElementDefinition.type.code</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;Extension&quot; ];
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type.profile">fhir:ElementDefinition.type.profile</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/hspc/StructureDefinition/methodDevice&quot; ]       ];
        <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.binding">fhir:ElementDefinition.binding</a> [
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.binding.strength">fhir:ElementDefinition.binding.strength</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#code">fhir:value</a> &quot;preferred&quot; ];
@@ -2619,7 +2628,7 @@
       <!-- container -->
       <div class="inner-wrapper">
         <p> &#169; HL7.org 2011+. FHIR STU3 Candidate (v3.0.1-11917) generated on
-          Thu, Feb 28, 2019 12:00-0700. <a href="qa.html">QA Page</a>
+          Tue, May 28, 2019 12:37-0600. <a href="qa.html">QA Page</a>
           <br/>
           <span style="color: #FFFF77"> Links: <a style="color: #81BEF7"
               href="http://hl7.org/fhir/search.cfm">Search <img style="text-align: baseline"

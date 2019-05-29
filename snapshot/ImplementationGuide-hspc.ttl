@@ -125,8 +125,8 @@
        fhir:index 11;
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <http://hl7.org/fhir/hspc/Extension/MethodDevice>;
-         fhir:Reference.reference [ fhir:value "Extension/MethodDevice" ];
+         fhir:link <http://hl7.org/fhir/hspc/Extension/methodDevice>;
+         fhir:Reference.reference [ fhir:value "Extension/methodDevice" ];
          fhir:Reference.display [ fhir:value "Method/Device" ]
        ]
      ], [
@@ -695,7 +695,7 @@
 
 <http://hl7.org/fhir/hspc/Extension/SleepStatus> a fhir:hspc .
 
-<http://hl7.org/fhir/hspc/Extension/MethodDevice> a fhir:hspc .
+<http://hl7.org/fhir/hspc/Extension/methodDevice> a fhir:hspc .
 
 <http://hl7.org/fhir/hspc/Extension/EstimatedInd> a fhir:hspc .
 

@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="71dd56c8-2ca5-446d-9268-a4f73df8d13a"/>
+  <id value="e5dad072-ce33-40b1-beb1-852f794caee4"/>
   <meta>
-    <lastUpdated value="2019-02-28T12:00:30.237-07:00"/>
+    <lastUpdated value="2019-05-28T12:37:20.772-06:00"/>
   </meta>
   <type value="collection"/>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/bpmeasbodylocationprecoord"/>
     <resource>
       <ValueSet>
-        <id value="bpmeasbodylocationprecoord"/>
-        <meta>
-          <profile value="http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"/>
-        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -222,25 +217,9 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
-          <valueBoolean value="true"/>
-        </extension>
-        <url value="http://hl7.org/fhir/hspc/ValueSet/bpmeasbodylocationprecoord"/>
-        <version value="0.01"/>
-        <name value="Blood Pressure Measurement Body Location Precoodinated"/>
-        <status value="draft"/>
-        <date value="2015-06-11T00:00:00-06:00"/>
-        <publisher value="Clinical Information Modeling Initiative (CIMI)"/>
-        <description value="SELECT SNOMED CT code system values."/>
-        <copyright value="TBD"/>
         <expansion>
-          <identifier value="urn:uuid:67e0df58-8b50-439f-a554-f7f47dd69f19"/>
-          <timestamp value="2019-02-28T12:00:54-07:00"/>
-          <total value="23"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:30eb6d85-8aa9-4918-889d-f57e7e8675f3"/>
+          <timestamp value="2019-01-28T11:50:23-07:00"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>
@@ -369,13 +348,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/bpbodyposition"/>
     <resource>
       <ValueSet>
-        <id value="bpbodyposition"/>
-        <meta>
-          <profile value="http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"/>
-        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -504,26 +478,9 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
-          <valueBoolean value="true"/>
-        </extension>
-        <url value="http://hl7.org/fhir/hspc/ValueSet/bpbodyposition"/>
-        <version value="0.01"/>
-        <name value="Blood Pressure Measurement Body Position"/>
-        <status value="draft"/>
-        <date value="2018-11-08T00:00:00-07:00"/>
-        <publisher value="Clinical Information Modeling Initiative"/>
-        <description value="SELECT SNOMED CT code system values."/>
-        <immutable value="true"/>
-        <copyright value="TBD"/>
         <expansion>
-          <identifier value="urn:uuid:dba219f2-bc22-4a0e-9f78-f53bd51e1b31"/>
-          <timestamp value="2019-02-28T12:00:55-07:00"/>
-          <total value="13"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:ed375d28-5b6a-4219-9e9f-905c3f46721a"/>
+          <timestamp value="2019-01-28T11:50:24-07:00"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>
@@ -602,13 +559,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/sPO2BodyLocationVS"/>
     <resource>
       <ValueSet>
-        <id value="sPO2BodyLocationVS"/>
-        <meta>
-          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
-        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -665,27 +617,9 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
-          <valueBoolean value="true"/>
-        </extension>
-        <url value="http://hl7.org/fhir/hspc/ValueSet/sPO2BodyLocationVS"/>
-        <version value="0.01"/>
-        <name value="Oxygen Saturation Body Location value set"/>
-        <status value="draft"/>
-        <experimental value="true"/>
-        <date value="2018-11-09T00:00:00-07:00"/>
-        <publisher value="Clinical Information Modeling Initiative (CIMI)"/>
-        <description value="Select SNOMED CT codes. An set of codes for the location at which oxygen saturation was assessed."/>
-        <immutable value="true"/>
-        <copyright value="TBD"/>
         <expansion>
-          <identifier value="urn:uuid:7650f643-3afe-4e45-932f-992286e9293c"/>
-          <timestamp value="2019-02-28T12:00:55-07:00"/>
-          <total value="4"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:f4348def-c73d-4fff-a74a-45d8b235a428"/>
+          <timestamp value="2019-01-28T11:50:24-07:00"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>
@@ -803,8 +737,8 @@
         <description value="HL7 V3:ObservationInterpretation OID: 2.16.840.1.113883.5.83 + SNOMED CT SNOMED CT concepts from the Degree findings (qualifier value)272520006, Presence findings (qualifier value)260411009, Absence findings (qualifier value)272519000"/>
         <copyright value="IHC"/>
         <expansion>
-          <identifier value="urn:uuid:2ebab159-d165-40d7-b633-55a9d8009bee"/>
-          <timestamp value="2019-02-28T12:00:55-07:00"/>
+          <identifier value="urn:uuid:4ef2996d-7316-42ad-8305-a247d02bebaf"/>
+          <timestamp value="2019-05-28T12:37:41-06:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -839,13 +773,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/weightMeasurementMethodVS"/>
     <resource>
       <ValueSet>
-        <id value="weightMeasurementMethodVS"/>
-        <meta>
-          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
-        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -902,25 +831,9 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
-          <valueBoolean value="true"/>
-        </extension>
-        <url value="http://hl7.org/fhir/hspc/ValueSet/weightMeasurementMethodVS"/>
-        <version value="0.01"/>
-        <name value="Weight Measurement Method"/>
-        <status value="draft"/>
-        <date value="2018-11-08T00:00:00-07:00"/>
-        <publisher value="Clinical Information Modeling Inititative"/>
-        <description value="SELECT SNOMED CT code system values."/>
-        <copyright value="TBD"/>
         <expansion>
-          <identifier value="urn:uuid:8ebaa71a-1b86-47d0-a3f9-f6ff52907d77"/>
-          <timestamp value="2019-02-28T12:00:55-07:00"/>
-          <total value="4"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:b14834a2-c780-4077-b630-5ca46a645a2b"/>
+          <timestamp value="2019-01-28T11:50:24-07:00"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>
@@ -954,13 +867,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/weightMeasurementDeviceVS"/>
     <resource>
       <ValueSet>
-        <id value="weightMeasurementDeviceVS"/>
-        <meta>
-          <profile value="http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"/>
-        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -1041,25 +949,9 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
-          <valueBoolean value="true"/>
-        </extension>
-        <url value="http://hl7.org/fhir/hspc/ValueSet/weightMeasurementDeviceVS"/>
-        <version value="0.01"/>
-        <name value="Weight Measurement Device"/>
-        <status value="draft"/>
-        <date value="2018-11-08T00:00:00-07:00"/>
-        <publisher value="Clinical Information Modeling Inititative"/>
-        <description value="SELECT SNOMED CT code system values."/>
-        <copyright value="TBD"/>
         <expansion>
-          <identifier value="urn:uuid:c471ce91-eda5-4055-b2b3-5cbaca16c250"/>
-          <timestamp value="2019-02-28T12:00:56-07:00"/>
-          <total value="7"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:7c8749da-c40f-4074-a6af-e80658f1fc8f"/>
+          <timestamp value="2019-01-28T11:50:24-07:00"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>
@@ -1108,13 +1000,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/bodyWeightMeasurementAssociatedPrecondVS"/>
     <resource>
       <ValueSet>
-        <id value="bodyWeightMeasurementAssociatedPrecondVS"/>
-        <meta>
-          <profile value="http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"/>
-        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -1163,25 +1050,9 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
-          <valueBoolean value="true"/>
-        </extension>
-        <url value="http://hl7.org/fhir/hspc/ValueSet/bodyWeightMeasurementAssociatedPrecondVS"/>
-        <version value="0.01"/>
-        <name value="Body Weight Measurement Associated Precondition value set"/>
-        <status value="draft"/>
-        <date value="2018-11-08T00:00:00-07:00"/>
-        <publisher value="Clinical Information Modeling Inititative"/>
-        <description value="SELECT SNOMED CT code system values."/>
-        <copyright value="TBD"/>
         <expansion>
-          <identifier value="urn:uuid:3833bdba-43ec-499f-b57e-ae08d3309faa"/>
-          <timestamp value="2019-02-28T12:00:56-07:00"/>
-          <total value="3"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:791d7650-4899-40ca-a110-4aa5d63b09a8"/>
+          <timestamp value="2019-01-28T11:50:25-07:00"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>
@@ -1308,8 +1179,8 @@
         <description value="HL7 V3:ObservationInterpretation OID: 2.16.840.1.113883.5.83 + SNOMED CT SNOMED CT concepts from the Degree findings (qualifier value)272520006, Presence findings (qualifier value)260411009, Absence findings (qualifier value)272519000"/>
         <copyright value="IHC"/>
         <expansion>
-          <identifier value="urn:uuid:f762bc90-7bca-4639-bb62-9ecdd8075bd0"/>
-          <timestamp value="2019-02-28T12:00:56-07:00"/>
+          <identifier value="urn:uuid:ce9da95a-162d-4fdd-9faa-78478f2d27ec"/>
+          <timestamp value="2019-05-28T12:37:41-06:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1349,13 +1220,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/heightLengthMeasMethodVS"/>
     <resource>
       <ValueSet>
-        <id value="heightLengthMeasMethodVS"/>
-        <meta>
-          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
-        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -1404,25 +1270,9 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
-          <valueBoolean value="true"/>
-        </extension>
-        <url value="http://hl7.org/fhir/hspc/ValueSet/heightLengthMeasMethodVS"/>
-        <version value="0.01"/>
-        <name value="Height/Length Measurement Method value set"/>
-        <status value="draft"/>
-        <date value="2018-11-08T00:00:00-07:00"/>
-        <publisher value="Clinical Information Modeling Inititative"/>
-        <description value="SELECT SNOMED CT code system values."/>
-        <copyright value="TBD"/>
         <expansion>
-          <identifier value="urn:uuid:4da9e7ad-dc03-401d-b1fe-dcf03e7f8211"/>
-          <timestamp value="2019-02-28T12:00:56-07:00"/>
-          <total value="3"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:6af4db8f-3002-4c67-af07-4a2c49f8455f"/>
+          <timestamp value="2019-01-28T11:50:25-07:00"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>
@@ -1451,13 +1301,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/heightLengthMeasDeviceVS"/>
     <resource>
       <ValueSet>
-        <id value="heightLengthMeasDeviceVS"/>
-        <meta>
-          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
-        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -1498,25 +1343,9 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
-          <valueBoolean value="true"/>
-        </extension>
-        <url value="http://hl7.org/fhir/hspc/ValueSet/heightLengthMeasDeviceVS"/>
-        <version value="0.01"/>
-        <name value="Height/Length Measurement Device value set"/>
-        <status value="draft"/>
-        <date value="2018-11-08T00:00:00-07:00"/>
-        <publisher value="Clinical Information Modeling Inititative"/>
-        <description value="SELECT SNOMED CT code system values."/>
-        <copyright value="TBD"/>
         <expansion>
-          <identifier value="urn:uuid:37dad3f1-9b31-411d-9374-682732b35d50"/>
-          <timestamp value="2019-02-28T12:00:56-07:00"/>
-          <total value="2"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:604f2cf3-f53f-4bbd-b7bd-0c20e50cef1d"/>
+          <timestamp value="2019-01-28T11:50:25-07:00"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>
@@ -1540,13 +1369,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/vitalSignAssociatedPrecondVS"/>
     <resource>
       <ValueSet>
-        <id value="vitalSignAssociatedPrecondVS"/>
-        <meta>
-          <profile value="http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"/>
-        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -1707,25 +1531,9 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
-          <valueBoolean value="true"/>
-        </extension>
-        <url value="http://hl7.org/fhir/hspc/ValueSet/vitalSignAssociatedPrecondVS"/>
-        <version value="0.01"/>
-        <name value="Vital Sign Associated Precondition value set"/>
-        <status value="draft"/>
-        <date value="2018-11-08T00:00:00-07:00"/>
-        <publisher value="Clinical Information Modeling Inititative"/>
-        <description value="SELECT SNOMED CT code system values."/>
-        <copyright value="TBD"/>
         <expansion>
-          <identifier value="urn:uuid:e058ae58-9656-4958-b3c5-14b37b9781b8"/>
-          <timestamp value="2019-02-28T12:00:57-07:00"/>
-          <total value="17"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:44fb75a9-c63f-4f54-83c1-37d52a052430"/>
+          <timestamp value="2019-01-28T11:50:25-07:00"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>
@@ -1824,13 +1632,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/heartRateMeasMethodVS"/>
     <resource>
       <ValueSet>
-        <id value="heartRateMeasMethodVS"/>
-        <meta>
-          <profile value="http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"/>
-        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -1919,25 +1722,9 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
-          <valueBoolean value="true"/>
-        </extension>
-        <url value="http://hl7.org/fhir/hspc/ValueSet/heartRateMeasMethodVS"/>
-        <version value="0.01"/>
-        <name value="Heart Rate Measurement Method value set"/>
-        <status value="draft"/>
-        <date value="2018-11-08T00:00:00-07:00"/>
-        <publisher value="Clinical Information Modeling Inititative"/>
-        <description value="SELECT SNOMED CT code system values."/>
-        <copyright value="TBD"/>
         <expansion>
-          <identifier value="urn:uuid:a77b3e0f-a134-48fc-a881-4681fb5199f5"/>
-          <timestamp value="2019-02-28T12:00:57-07:00"/>
-          <total value="8"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:4c319977-27d3-48d1-bc35-e3c4b3503735"/>
+          <timestamp value="2019-01-28T11:50:26-07:00"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>
@@ -1991,13 +1778,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/heartRateMeasDeviceVS"/>
     <resource>
       <ValueSet>
-        <id value="heartRateMeasDeviceVS"/>
-        <meta>
-          <profile value="http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"/>
-        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -2070,25 +1852,9 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
-          <valueBoolean value="true"/>
-        </extension>
-        <url value="http://hl7.org/fhir/hspc/ValueSet/heartRateMeasDeviceVS"/>
-        <version value="0.01"/>
-        <name value="Heart Rate Measurement Device value set"/>
-        <status value="draft"/>
-        <date value="2018-11-08T00:00:00-07:00"/>
-        <publisher value="Clinical Information Modeling Inititative"/>
-        <description value="SELECT SNOMED CT code system values."/>
-        <copyright value="TBD"/>
         <expansion>
-          <identifier value="urn:uuid:933f94c5-7fc9-4865-819a-048e8170ccf4"/>
-          <timestamp value="2019-02-28T12:00:57-07:00"/>
-          <total value="6"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:4a437678-d038-4616-9d9c-c3b2bf9f0314"/>
+          <timestamp value="2019-01-28T11:50:26-07:00"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>
@@ -2132,13 +1898,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/heartRateMeasBodyLocationPrecoordVS"/>
     <resource>
       <ValueSet>
-        <id value="heartRateMeasBodyLocationPrecoordVS"/>
-        <meta>
-          <profile value="http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"/>
-        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -2323,25 +2084,9 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
-          <valueBoolean value="true"/>
-        </extension>
-        <url value="http://hl7.org/fhir/hspc/ValueSet/heartRateMeasBodyLocationPrecoordVS"/>
-        <version value="0.01"/>
-        <name value="Heart Rate Measurement Body Location Precoordinated value set"/>
-        <status value="draft"/>
-        <date value="2018-11-08T00:00:00-07:00"/>
-        <publisher value="Clinical Information Modeling Inititative"/>
-        <description value="SELECT SNOMED CT code system values."/>
-        <copyright value="TBD"/>
         <expansion>
-          <identifier value="urn:uuid:4f898c5e-3561-428e-ad98-e290f3dfbb8b"/>
-          <timestamp value="2019-02-28T12:00:57-07:00"/>
-          <total value="20"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:aa08ee03-4139-408d-b650-b3fa8b29b1da"/>
+          <timestamp value="2019-01-28T11:50:26-07:00"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>
@@ -2455,13 +2200,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/respiratoryRateMeasMethodVS"/>
     <resource>
       <ValueSet>
-        <id value="respiratoryRateMeasMethodVS"/>
-        <meta>
-          <profile value="http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"/>
-        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -2510,25 +2250,9 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
-          <valueBoolean value="true"/>
-        </extension>
-        <url value="http://hl7.org/fhir/hspc/ValueSet/respiratoryRateMeasMethodVS"/>
-        <version value="0.01"/>
-        <name value="Respiratory Rate Measurement Method value set"/>
-        <status value="draft"/>
-        <date value="2018-11-08T00:00:00-07:00"/>
-        <publisher value="Clinical Information Modeling Inititative"/>
-        <description value="SELECT SNOMED CT code system values."/>
-        <copyright value="TBD"/>
         <expansion>
-          <identifier value="urn:uuid:8996f082-fd43-423d-8590-f4a00cfcbf15"/>
-          <timestamp value="2019-02-28T12:00:58-07:00"/>
-          <total value="3"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:3405a6fa-f4c7-46cc-998c-ae78d33dee67"/>
+          <timestamp value="2019-01-28T11:50:26-07:00"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>
@@ -2557,13 +2281,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/respiratoryRateMeasDeviceVS"/>
     <resource>
       <ValueSet>
-        <id value="respiratoryRateMeasDeviceVS"/>
-        <meta>
-          <profile value="http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"/>
-        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -2620,25 +2339,9 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
-          <valueBoolean value="true"/>
-        </extension>
-        <url value="http://hl7.org/fhir/hspc/ValueSet/respiratoryRateMeasDeviceVS"/>
-        <version value="0.01"/>
-        <name value="Respiratory Rate Measurement Device value set"/>
-        <status value="draft"/>
-        <date value="2018-11-08T00:00:00-07:00"/>
-        <publisher value="Clinical Information Modeling Inititative"/>
-        <description value="SELECT SNOMED CT code system values."/>
-        <copyright value="TBD"/>
         <expansion>
-          <identifier value="urn:uuid:e883931f-9b4f-4448-94ef-56108d16fbed"/>
-          <timestamp value="2019-02-28T12:00:58-07:00"/>
-          <total value="4"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:99b110e2-340b-495b-9f88-6a3350fce4ed"/>
+          <timestamp value="2019-01-28T11:50:27-07:00"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>
@@ -2672,13 +2375,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/bodyTempMeasBodyLocationPrecoordVS"/>
     <resource>
       <ValueSet>
-        <id value="bodyTempMeasBodyLocationPrecoordVS"/>
-        <meta>
-          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
-        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -2799,25 +2497,9 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
-          <valueBoolean value="true"/>
-        </extension>
-        <url value="http://hl7.org/fhir/hspc/ValueSet/bodyTempMeasBodyLocationPrecoordVS"/>
-        <version value="0.01"/>
-        <name value="Body Temperature Measurement Body Location value set"/>
-        <status value="draft"/>
-        <date value="2018-11-08T00:00:00-07:00"/>
-        <publisher value="Clinical Information Modeling Inititative (CIMI)"/>
-        <description value="SELECT SNOMED CT code system values."/>
-        <copyright value="TBD"/>
         <expansion>
-          <identifier value="urn:uuid:692fd56d-fb85-42d2-af4b-74e975fd0b57"/>
-          <timestamp value="2019-02-28T12:00:58-07:00"/>
-          <total value="12"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:603a747b-a591-4917-9b42-24f460a3ec7e"/>
+          <timestamp value="2019-01-28T11:50:27-07:00"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>
@@ -2891,13 +2573,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/dataOriginationModeVS"/>
     <resource>
       <ValueSet>
-        <id value="dataOriginationModeVS"/>
-        <meta>
-          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
-        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -2938,25 +2615,9 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
-          <valueBoolean value="true"/>
-        </extension>
-        <url value="http://hl7.org/fhir/hspc/ValueSet/dataOriginationModeVS"/>
-        <version value="0.01"/>
-        <name value="Data Origination Mode value set"/>
-        <status value="draft"/>
-        <date value="2018-12-03T00:00:00-07:00"/>
-        <publisher value="Clinical Information Modeling Inititative"/>
-        <description value="SELECT SNOMED CT code system values."/>
-        <copyright value="TBD"/>
         <expansion>
-          <identifier value="urn:uuid:d69ebbe7-db43-4709-a34f-278d9829d767"/>
-          <timestamp value="2019-02-28T12:00:58-07:00"/>
-          <total value="2"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:0c5dedbb-95c1-4bd6-972b-0612b8f93b63"/>
+          <timestamp value="2019-01-28T11:50:27-07:00"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>
@@ -2980,13 +2641,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/definedLimitsVS"/>
     <resource>
       <ValueSet>
-        <id value="definedLimitsVS"/>
-        <meta>
-          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
-        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -3019,27 +2675,9 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
-          <valueBoolean value="true"/>
-        </extension>
-        <url value="http://hl7.org/fhir/hspc/ValueSet/definedLimitsVS"/>
-        <version value="0.01"/>
-        <name value="Defined Limits value set"/>
-        <status value="draft"/>
-        <experimental value="true"/>
-        <date value="2018-11-09T00:00:00-07:00"/>
-        <publisher value="Clinical Information Modeling Initiative"/>
-        <description value="Select SNOMED CT codes."/>
-        <immutable value="true"/>
-        <copyright value="TBD"/>
         <expansion>
-          <identifier value="urn:uuid:0eaf95f1-0507-48cf-bab6-72300a4a8e81"/>
-          <timestamp value="2019-02-28T12:00:59-07:00"/>
-          <total value="1"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:daf2ae52-3766-46ad-b489-9490ee961706"/>
+          <timestamp value="2019-01-28T11:50:28-07:00"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>
@@ -3058,13 +2696,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/heightBodyPositionVS"/>
     <resource>
       <ValueSet>
-        <id value="heightBodyPositionVS"/>
-        <meta>
-          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
-        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -3177,25 +2810,9 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
-          <valueBoolean value="true"/>
-        </extension>
-        <url value="http://hl7.org/fhir/hspc/ValueSet/heightBodyPositionVS"/>
-        <version value="0.01"/>
-        <name value="Height Body Position value set"/>
-        <status value="draft"/>
-        <date value="2018-11-08T00:00:00-07:00"/>
-        <publisher value="Clinical Information Modeling Inititative"/>
-        <description value="SELECT SNOMED CT code system values."/>
-        <copyright value="TBD"/>
         <expansion>
-          <identifier value="urn:uuid:fcfa3a4e-6b0e-4b00-a802-c734559b6f85"/>
-          <timestamp value="2019-02-28T12:00:59-07:00"/>
-          <total value="11"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:f47b3f1e-f605-4540-95de-7e63f3609d63"/>
+          <timestamp value="2019-01-28T11:50:28-07:00"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>
@@ -3264,13 +2881,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/bpCuffSizeVS"/>
     <resource>
       <ValueSet>
-        <id value="bpCuffSizeVS"/>
-        <meta>
-          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
-        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -3399,25 +3011,9 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
-          <valueBoolean value="true"/>
-        </extension>
-        <url value="http://hl7.org/fhir/hspc/ValueSet/bpCuffSizeVS"/>
-        <version value="0.01"/>
-        <name value="Blood Pressure Cuff Size value set"/>
-        <status value="draft"/>
-        <date value="2018-11-08T00:00:00-07:00"/>
-        <publisher value="Clinical Information Modeling Inititative"/>
-        <description value="SELECT SNOMED CT code system values."/>
-        <copyright value="TBD"/>
         <expansion>
-          <identifier value="urn:uuid:057aba9d-8882-43fe-b56a-fd87f2d1d263"/>
-          <timestamp value="2019-02-28T12:00:59-07:00"/>
-          <total value="13"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:b257e563-f758-49b5-8958-b07188c68ff0"/>
+          <timestamp value="2019-01-28T11:50:28-07:00"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>
@@ -3496,13 +3092,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/bpMeasMethodVS"/>
     <resource>
       <ValueSet>
-        <id value="bpMeasMethodVS"/>
-        <meta>
-          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
-        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -3599,25 +3190,9 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
-          <valueBoolean value="true"/>
-        </extension>
-        <url value="http://hl7.org/fhir/hspc/ValueSet/bpMeasMethodVS"/>
-        <version value="0.01"/>
-        <name value="Blood Pressure Measurement Method value set"/>
-        <status value="draft"/>
-        <date value="2018-12-04T00:00:00-07:00"/>
-        <publisher value="Clinical Information Modeling Inititative"/>
-        <description value="SELECT SNOMED CT code system values."/>
-        <copyright value="TBD"/>
         <expansion>
-          <identifier value="urn:uuid:179ffdc3-84d8-4232-b8e4-d831d6381273"/>
-          <timestamp value="2019-02-28T12:01:00-07:00"/>
-          <total value="9"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:993f6284-ce68-47c3-a3c1-8b2536c140b0"/>
+          <timestamp value="2019-01-28T11:50:28-07:00"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>
@@ -3676,13 +3251,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/heightBodyPositionVS"/>
     <resource>
       <ValueSet>
-        <id value="heightBodyPositionVS"/>
-        <meta>
-          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
-        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -3795,25 +3365,9 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
-          <valueBoolean value="true"/>
-        </extension>
-        <url value="http://hl7.org/fhir/hspc/ValueSet/heightBodyPositionVS"/>
-        <version value="0.01"/>
-        <name value="Height Body Position value set"/>
-        <status value="draft"/>
-        <date value="2018-11-08T00:00:00-07:00"/>
-        <publisher value="Clinical Information Modeling Inititative"/>
-        <description value="SELECT SNOMED CT code system values."/>
-        <copyright value="TBD"/>
         <expansion>
-          <identifier value="urn:uuid:fcfa3a4e-6b0e-4b00-a802-c734559b6f85"/>
-          <timestamp value="2019-02-28T12:00:59-07:00"/>
-          <total value="11"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:f47b3f1e-f605-4540-95de-7e63f3609d63"/>
+          <timestamp value="2019-01-28T11:50:28-07:00"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>
@@ -3882,13 +3436,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/sensorDescriptionVS"/>
     <resource>
       <ValueSet>
-        <id value="sensorDescriptionVS"/>
-        <meta>
-          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
-        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -3929,25 +3478,9 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
-          <valueBoolean value="true"/>
-        </extension>
-        <url value="http://hl7.org/fhir/hspc/ValueSet/sensorDescriptionVS"/>
-        <version value="0.01"/>
-        <name value="Sensor Description value set"/>
-        <status value="draft"/>
-        <date value="2018-12-04T00:00:00-07:00"/>
-        <publisher value="Clinical Information Modeling Inititative"/>
-        <description value="SELECT SNOMED CT code system values."/>
-        <copyright value="TBD"/>
         <expansion>
-          <identifier value="urn:uuid:2e7681f0-96ac-406e-baec-5a01efb5ff9d"/>
-          <timestamp value="2019-02-28T12:01:00-07:00"/>
-          <total value="2"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:3f4493bc-acdf-4f2d-9597-a5a355e34ecd"/>
+          <timestamp value="2019-01-28T11:50:29-07:00"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>
@@ -3971,13 +3504,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/sleepStatusVS"/>
     <resource>
       <ValueSet>
-        <id value="sleepStatusVS"/>
-        <meta>
-          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
-        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -4018,25 +3546,9 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
-          <valueBoolean value="true"/>
-        </extension>
-        <url value="http://hl7.org/fhir/hspc/ValueSet/sleepStatusVS"/>
-        <version value="0.01"/>
-        <name value="Sleep Status value set"/>
-        <status value="draft"/>
-        <date value="2018-12-04T00:00:00-07:00"/>
-        <publisher value="Clinical Information Modeling Inititative"/>
-        <description value="SELECT SNOMED CT code system values."/>
-        <copyright value="TBD"/>
         <expansion>
-          <identifier value="urn:uuid:49008675-812d-47d4-a3cf-66fadac4bcfc"/>
-          <timestamp value="2019-02-28T12:01:01-07:00"/>
-          <total value="2"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:3d9995a3-6024-4f11-a187-8fe9e589723b"/>
+          <timestamp value="2019-01-28T11:50:29-07:00"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>
@@ -4060,13 +3572,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/bpMeasDeviceVS"/>
     <resource>
       <ValueSet>
-        <id value="bpMeasDeviceVS"/>
-        <meta>
-          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
-        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -4123,25 +3630,9 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
-          <valueBoolean value="true"/>
-        </extension>
-        <url value="http://hl7.org/fhir/hspc/ValueSet/bpMeasDeviceVS"/>
-        <version value="0.01"/>
-        <name value="Blood Pressure Measurement Device value set"/>
-        <status value="draft"/>
-        <date value="2018-11-08T00:00:00-07:00"/>
-        <publisher value="Clinical Information Modeling Inititative"/>
-        <description value="SELECT SNOMED CT code system values."/>
-        <copyright value="TBD"/>
         <expansion>
-          <identifier value="urn:uuid:30469465-c97e-423c-91f7-9d19b5fd7e61"/>
-          <timestamp value="2019-02-28T12:01:01-07:00"/>
-          <total value="4"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:e5afd634-8dd9-4cf2-ac36-8bafffbe59d1"/>
+          <timestamp value="2019-01-28T11:50:29-07:00"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>
@@ -4175,13 +3666,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/bodyTempMeasMethodDeviceVS"/>
     <resource>
       <ValueSet>
-        <id value="bodyTempMeasMethodDeviceVS"/>
-        <meta>
-          <profile value="http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"/>
-        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -4294,25 +3780,9 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
-          <valueBoolean value="true"/>
-        </extension>
-        <url value="http://hl7.org/fhir/hspc/ValueSet/bodyTempMeasMethodDeviceVS"/>
-        <version value="0.01"/>
-        <name value="Body Temperature Measurement Method/Device value set"/>
-        <status value="draft"/>
-        <date value="2018-11-08T00:00:00-07:00"/>
-        <publisher value="Clinical Information Modeling Inititative"/>
-        <description value="SELECT SNOMED CT code system values.  This value set is still being created, not all values have been added nor vetted."/>
-        <copyright value="TBD"/>
         <expansion>
-          <identifier value="urn:uuid:957f3faa-d504-45c8-8b0e-cec9c383c0ab"/>
-          <timestamp value="2019-02-28T12:01:01-07:00"/>
-          <total value="11"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:9dc17dc6-a4be-4536-a842-68b155665fd1"/>
+          <timestamp value="2019-01-28T11:50:30-07:00"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>

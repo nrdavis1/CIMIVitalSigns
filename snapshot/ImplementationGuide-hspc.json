@@ -109,7 +109,7 @@
         {
           "example": false,
           "sourceReference": {
-            "reference": "Extension/MethodDevice",
+            "reference": "Extension/methodDevice",
             "display": "Method/Device"
           }
         },
