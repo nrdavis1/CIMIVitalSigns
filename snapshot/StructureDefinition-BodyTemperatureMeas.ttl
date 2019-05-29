@@ -372,7 +372,7 @@
        ];
        fhir:ElementDefinition.type [
          fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "extension" ];
+         fhir:ElementDefinition.type.code [ fhir:value "Extension" ];
          fhir:ElementDefinition.type.profile [ fhir:value "http://hl7.org/fhir/hspc/StructureDefinition/deltaFlag" ]
        ];
        fhir:ElementDefinition.condition [
@@ -413,9 +413,19 @@
        ];
        fhir:ElementDefinition.type [
          fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
+         fhir:ElementDefinition.type.code [ fhir:value "Extension" ];
          fhir:ElementDefinition.type.profile [ fhir:value "http://hl7.org/fhir/hspc/StructureDefinition/associatedPrecondition" ]
-       ]
+       ];
+       fhir:ElementDefinition.constraint [
+         fhir:index 0;
+         fhir:ElementDefinition.constraint.key [ fhir:value "ext-1" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "Must have either extensions or value[x], not both" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "extension.exists() != value.exists()" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])" ];
+         fhir:ElementDefinition.constraint.source [ fhir:value "Extension:associatedPrecondition" ]
+       ];
+       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 10;
        fhir:Element.id [ fhir:value "Observation.extension:methodDevice" ];
@@ -432,7 +442,7 @@
        ];
        fhir:ElementDefinition.type [
          fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "extension" ];
+         fhir:ElementDefinition.type.code [ fhir:value "Extension" ];
          fhir:ElementDefinition.type.profile [ fhir:value "http://hl7.org/fhir/hspc/StructureDefinition/methodDevice" ]
        ];
        fhir:ElementDefinition.condition [
@@ -2834,7 +2844,7 @@
        fhir:ElementDefinition.max [ fhir:value "1" ];
        fhir:ElementDefinition.type [
          fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "extension" ];
+         fhir:ElementDefinition.type.code [ fhir:value "Extension" ];
          fhir:ElementDefinition.type.profile [ fhir:value "http://hl7.org/fhir/hspc/StructureDefinition/deltaFlag" ]
        ];
        fhir:ElementDefinition.binding [
@@ -2852,7 +2862,7 @@
        fhir:ElementDefinition.short [ fhir:value "Associated Precondition" ];
        fhir:ElementDefinition.type [
          fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
+         fhir:ElementDefinition.type.code [ fhir:value "Extension" ];
          fhir:ElementDefinition.type.profile [ fhir:value "http://hl7.org/fhir/hspc/StructureDefinition/associatedPrecondition" ]
        ];
        fhir:ElementDefinition.binding [
@@ -2870,7 +2880,7 @@
        fhir:ElementDefinition.short [ fhir:value "Method/Device" ];
        fhir:ElementDefinition.type [
          fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "extension" ];
+         fhir:ElementDefinition.type.code [ fhir:value "Extension" ];
          fhir:ElementDefinition.type.profile [ fhir:value "http://hl7.org/fhir/hspc/StructureDefinition/methodDevice" ]
        ];
        fhir:ElementDefinition.binding [

@@ -323,7 +323,7 @@
         <max value="*"/>
       </base>
       <type>
-        <code value="extension"/>
+        <code value="Extension"/>
         <profile value="http://hl7.org/fhir/hspc/StructureDefinition/deltaFlag"/>
       </type>
       <condition value="ele-1"/>
@@ -358,9 +358,18 @@
         <max value="*"/>
       </base>
       <type>
-        <code value="Reference"/>
+        <code value="Extension"/>
         <profile value="http://hl7.org/fhir/hspc/StructureDefinition/associatedPrecondition"/>
       </type>
+      <constraint>
+        <key value="ext-1"/>
+        <severity value="error"/>
+        <human value="Must have either extensions or value[x], not both"/>
+        <expression value="extension.exists() != value.exists()"/>
+        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &#39;value&#39;)])"/>
+        <source value="Extension:associatedPrecondition"/>
+      </constraint>
+      <isModifier value="false"/>
     </element>
     <element id="Observation.extension:methodDevice">
       <path value="Observation.extension"/>
@@ -375,7 +384,7 @@
         <max value="*"/>
       </base>
       <type>
-        <code value="extension"/>
+        <code value="Extension"/>
         <profile value="http://hl7.org/fhir/hspc/StructureDefinition/methodDevice"/>
       </type>
       <condition value="ele-1"/>
@@ -2422,7 +2431,7 @@
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="extension"/>
+        <code value="Extension"/>
         <profile value="http://hl7.org/fhir/hspc/StructureDefinition/deltaFlag"/>
       </type>
       <binding>
@@ -2437,7 +2446,7 @@
       <sliceName value="associatedPrecondition"/>
       <short value="Associated Precondition"/>
       <type>
-        <code value="Reference"/>
+        <code value="Extension"/>
         <profile value="http://hl7.org/fhir/hspc/StructureDefinition/associatedPrecondition"/>
       </type>
       <binding>
@@ -2452,7 +2461,7 @@
       <sliceName value="methodDevice"/>
       <short value="Method/Device"/>
       <type>
-        <code value="extension"/>
+        <code value="Extension"/>
         <profile value="http://hl7.org/fhir/hspc/StructureDefinition/methodDevice"/>
       </type>
       <binding>

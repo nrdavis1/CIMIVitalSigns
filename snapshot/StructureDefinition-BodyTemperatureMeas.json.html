@@ -534,7 +534,7 @@ This element is labelled as a modifier because the implicit rules may provide ad
         },
         "<a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type">type</a>" : [
           {
-            "<a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type.code">code</a>" : "extension",
+            "<a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type.code">code</a>" : "Extension",
             "<a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type.profile">profile</a>" : "http://hl7.org/fhir/hspc/StructureDefinition/deltaFlag"
           }
         ],
@@ -576,10 +576,21 @@ This element is labelled as a modifier because the implicit rules may provide ad
         },
         "<a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type">type</a>" : [
           {
-            "<a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type.code">code</a>" : "Reference",
+            "<a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type.code">code</a>" : "Extension",
             "<a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type.profile">profile</a>" : "http://hl7.org/fhir/hspc/StructureDefinition/associatedPrecondition"
           }
-        ]
+        ],
+        "<a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.constraint">constraint</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.constraint.key">key</a>" : "ext-1",
+            "<a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.constraint.severity">severity</a>" : "error",
+            "<a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.constraint.human">human</a>" : "Must have either extensions or value[x], not both",
+            "<a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.constraint.expression">expression</a>" : "extension.exists() != value.exists()",
+            "<a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.constraint.xpath">xpath</a>" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])",
+            "<a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.constraint.source">source</a>" : "Extension:associatedPrecondition"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.isModifier">isModifier</a>" : false
       },
       {
         "<a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.id">id</a>" : "Observation.extension:methodDevice",
@@ -596,7 +607,7 @@ This element is labelled as a modifier because the implicit rules may provide ad
         },
         "<a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type">type</a>" : [
           {
-            "<a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type.code">code</a>" : "extension",
+            "<a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type.code">code</a>" : "Extension",
             "<a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type.profile">profile</a>" : "http://hl7.org/fhir/hspc/StructureDefinition/methodDevice"
           }
         ],
@@ -3079,7 +3090,7 @@ This element is labelled as a modifier because the implicit rules may provide ad
         "<a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.max">max</a>" : "1",
         "<a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type">type</a>" : [
           {
-            "<a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type.code">code</a>" : "extension",
+            "<a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type.code">code</a>" : "Extension",
             "<a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type.profile">profile</a>" : "http://hl7.org/fhir/hspc/StructureDefinition/deltaFlag"
           }
         ],
@@ -3097,7 +3108,7 @@ This element is labelled as a modifier because the implicit rules may provide ad
         "<a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.short">short</a>" : "Associated Precondition",
         "<a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type">type</a>" : [
           {
-            "<a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type.code">code</a>" : "Reference",
+            "<a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type.code">code</a>" : "Extension",
             "<a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type.profile">profile</a>" : "http://hl7.org/fhir/hspc/StructureDefinition/associatedPrecondition"
           }
         ],
@@ -3115,7 +3126,7 @@ This element is labelled as a modifier because the implicit rules may provide ad
         "<a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.short">short</a>" : "Method/Device",
         "<a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type">type</a>" : [
           {
-            "<a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type.code">code</a>" : "extension",
+            "<a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type.code">code</a>" : "Extension",
             "<a href="http://hl7.org/fhir/2017Jan/datatypes.html#ElementDefinition#ElementDefinition.type.profile">profile</a>" : "http://hl7.org/fhir/hspc/StructureDefinition/methodDevice"
           }
         ],
@@ -3230,7 +3241,7 @@ This element is labelled as a modifier because the implicit rules may provide ad
       <!-- container -->
       <div class="inner-wrapper">
         <p> &#169; HL7.org 2011+. FHIR STU3 Candidate (v3.0.1-11917) generated on
-          Thu, Feb 28, 2019 12:00-0700. <a href="qa.html">QA Page</a>
+          Tue, May 28, 2019 12:37-0600. <a href="qa.html">QA Page</a>
           <br/>
           <span style="color: #FFFF77"> Links: <a style="color: #81BEF7"
               href="http://hl7.org/fhir/search.cfm">Search <img style="text-align: baseline"
