@@ -176,17 +176,6 @@
                 <code value="CodeableConcept"/>
             </type>
         </element>
-		<element id="Observation:cimiBloodPressurePanel.responsibleObserver">
-			<path value="Observation.performer"/>
-            <type>
-                <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/StructureDefinition/Practitioner"/>
-            </type>
-            <type>
-                <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization"/>
-            </type>
-        </element>
 		<element id="Observation:cimiBloodPressurePanel.related">
 			<path value="Observation.related"/>
 			<min value="0"/>
