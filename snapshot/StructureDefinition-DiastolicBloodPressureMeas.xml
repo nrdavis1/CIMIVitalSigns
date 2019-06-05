@@ -20,9 +20,9 @@
   </text>
   <url value="http://hl7.org/fhir/hspc/StructureDefinition/DiastolicBloodPressureMeas"/>
   <version value="2.0.0"/>
-  <name value="CIMI Diastolic Blood Pressure Profile"/>
+  <name value="Diastolic Blood Pressure Profile"/>
   <status value="draft"/>
-  <date value="2017-06-06T00:00:00-06:00"/>
+  <date value="2017-06-06T00:00:00-05:00"/>
   <publisher value="Clinical Information Modeling Initiative"/>
   <description value="Diastolic Blood Pressure, the pressure in the arteries when the heart rests between beats."/>
   <fhirVersion value="3.0.1"/>

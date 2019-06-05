@@ -20,7 +20,7 @@
   "version": "0.01",
   "name": "Respiratory Rate Measurement Device value set",
   "status": "draft",
-  "date": "2018-11-08T00:00:00-07:00",
+  "date": "2018-11-08T00:00:00-06:00",
   "publisher": "Clinical Information Modeling Inititative",
   "description": "SELECT SNOMED CT code system values.",
   "copyright": "TBD",

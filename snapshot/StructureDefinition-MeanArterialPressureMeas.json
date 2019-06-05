@@ -9,7 +9,7 @@
   "version": "2.0.0",
   "name": "Mean Areterial Blood Pressure",
   "status": "draft",
-  "date": "2018-11-08T00:00:00-07:00",
+  "date": "2018-11-08T00:00:00-06:00",
   "publisher": "Clinical Information Modeling Initiative",
   "description": "Mean Areterial Blood Pressure, the average arterial pressure during one cardiac cycle.",
   "fhirVersion": "3.0.1",

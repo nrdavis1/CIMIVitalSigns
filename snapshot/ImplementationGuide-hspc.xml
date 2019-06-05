@@ -10,7 +10,7 @@
   <version value="1.0"/>
   <name value="CIMI Vital Signs Implementation Guide"/>
   <status value="draft"/>
-  <date value="2018-09-26T00:00:00-06:00"/>
+  <date value="2018-09-26T00:00:00-05:00"/>
   <publisher value="Health Services Platform Consortium"/>
   <contact>
     <telecom>
@@ -26,91 +26,91 @@
     <resource>
       <example value="false"/>
       <sourceReference>
-        <reference value="Extension/AssociatedPrecondition"/>
+        <reference value="Extension/AssociatedPreconditionExt"/>
         <display value="Associated Precondition"/>
       </sourceReference>
     </resource>
     <resource>
       <example value="false"/>
       <sourceReference>
-        <reference value="Extension/DataAbsentReason"/>
+        <reference value="Extension/DataAbsentReasonExt"/>
         <display value="Data Absent Reason"/>
       </sourceReference>
     </resource>
     <resource>
       <example value="false"/>
       <sourceReference>
-        <reference value="Extension/Device"/>
+        <reference value="Extension/DeviceExt"/>
         <display value="Device"/>
       </sourceReference>
     </resource>
     <resource>
       <example value="false"/>
       <sourceReference>
-        <reference value="Extension/DeltaFlag"/>
+        <reference value="Extension/DeltaFlagExt"/>
         <display value="Delta Flag"/>
       </sourceReference>
     </resource>
     <resource>
       <example value="false"/>
       <sourceReference>
-        <reference value="Extension/BodyPosition"/>
+        <reference value="Extension/BodyPositionExt"/>
         <display value="Body Position"/>
       </sourceReference>
     </resource>
     <resource>
       <example value="false"/>
       <sourceReference>
-        <reference value="Extension/MeasurementDevice"/>
+        <reference value="Extension/MeasurementDeviceExt"/>
         <display value="Measurement Device"/>
       </sourceReference>
     </resource>
     <resource>
       <example value="false"/>
       <sourceReference>
-        <reference value="Extension/FocalSubject"/>
+        <reference value="Extension/FocalSubjectExt"/>
         <display value="Focal Subject"/>
       </sourceReference>
     </resource>
     <resource>
       <example value="false"/>
       <sourceReference>
-        <reference value="Extension/DataOriginationMode"/>
+        <reference value="Extension/DataOriginationModeExt"/>
         <display value="Data Origination Mode"/>
       </sourceReference>
     </resource>
     <resource>
       <example value="false"/>
       <sourceReference>
-        <reference value="Extension/BloodPressureCuffSize"/>
+        <reference value="Extension/BloodPressureCuffSizeExt"/>
         <display value="Blood Pressure Cuff Size"/>
       </sourceReference>
     </resource>
     <resource>
       <example value="false"/>
       <sourceReference>
-        <reference value="Extension/SensorDescription"/>
+        <reference value="Extension/SensorDescriptionExt"/>
         <display value="Sensor Description"/>
       </sourceReference>
     </resource>
     <resource>
       <example value="false"/>
       <sourceReference>
-        <reference value="Extension/SleepStatus"/>
+        <reference value="Extension/SleepStatusExt"/>
         <display value="Sleep Status"/>
       </sourceReference>
     </resource>
     <resource>
       <example value="false"/>
       <sourceReference>
-        <reference value="Extension/methodDevice"/>
+        <reference value="Extension/MethodDeviceExt"/>
         <display value="Method/Device"/>
       </sourceReference>
     </resource>
     <resource>
       <example value="false"/>
       <sourceReference>
-        <reference value="Extension/EstimatedInd"/>
+        <reference value="Extension/EstimatedIndExt"/>
         <display value="Estimated Indicator"/>
       </sourceReference>
     </resource>
