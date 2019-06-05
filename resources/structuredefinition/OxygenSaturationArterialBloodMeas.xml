@@ -3,7 +3,7 @@
     <!--© 2018 IHC Health Services, Inc. All Rights Reserved. This document is machine generated.-->
     <id value="OxygenSaturationArterialBloodMeas"/>
     <url value="http://hl7.org/fhir/hspc/StructureDefinition/OxygenSaturationArterialBloodMeas"/>
-    <name value="CIMI Oxygen Saturation in Arterial Blood by Pulse Oximetry"/>
+    <name value="Oxygen Saturation in Arterial Blood by Pulse Oximetry"/>
     <status value="draft"/>
     <date value="2018-11-08"/>
     <publisher value="Clinical Information Modeling Initiative"/>
@@ -90,11 +90,12 @@
         <element id="Observation:cimiSPO2.extension:deltaFlag">
             <path value="Observation.extension"/>
 			<sliceName value="deltaFlag"/>
+			<short value="Delta Flag"/>
             <min value="0"/>
             <max value="1"/>
             <type>
                 <code value="extension"/>
-                <profile value="http://hl7.org/fhir/hspc/StructureDefinition/deltaFlag"/>
+                <profile value="http://hl7.org/fhir/hspc/StructureDefinition/DeltaFlagExt"/>
             </type>
             <binding>
                 <strength value="preferred"/>
@@ -109,7 +110,7 @@
 			<short value="Sensor Description"/>
 			<type>
 				<code value="extension"/>
-				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/sensorDescription"/>
+				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/SensorDescriptionExt"/>
 			</type>
 			<binding>
 				<strength value="preferred"/>

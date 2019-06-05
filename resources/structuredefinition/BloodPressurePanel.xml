@@ -3,7 +3,7 @@
     <!--© 2018 IHC Health Services, Inc. All Rights Reserved. This document is machine generated.-->
     <id value="BloodPressurePanel"/>
     <url value="http://hl7.org/fhir/hspc/StructureDefinition/BloodPressurePanel"/>
-    <name value="CIMI Blood Pressure"/>
+    <name value="Blood Pressure"/>
     <status value="draft"/>
     <date value="2018-09-26"/>
     <publisher value="Clinical Information Modeling Initiative"/>
@@ -63,7 +63,7 @@
 		  <short value="Body Position"/>
 		  <type>
 			<code value="extension"/>
-			<profile value="http://hl7.org/fhir/hspc/StructureDefinition/bodyPosition"/>
+			<profile value="http://hl7.org/fhir/hspc/StructureDefinition/BodyPositionExt"/>
 		  </type>
 		  <mustSupport value="false"/>
 		  <isModifier value="false"/>
@@ -82,7 +82,7 @@
 			<short value="Measurement Device"/>
 			<type>
 				<code value="extension"/>
-				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/measurementDevice"/>
+				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementDeviceExt"/>
 			</type>
             <binding>
                 <strength value="preferred"/>
@@ -97,7 +97,7 @@
 			<short value="Blood Pressure Cuff Size"/>
 			<type>
 				<code value="extension"/>
-				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/bpCuffSize"/>
+				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/BloodPressureCuffSizeExt"/>
 			</type>
 			<binding>
 				<strength value="preferred"/>
@@ -112,7 +112,7 @@
 			<short value="Sleep Status"/>
 			<type>
 				<code value="extension"/>
-				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/sleepStatus"/>
+				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/SleepStatusExt"/>
 			</type>
 			<binding>
 				<strength value="preferred"/>
@@ -127,7 +127,7 @@
 			<short value="Associated Precondition"/>
 			<type>
 				<code value="extension"/>
-				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/associatedPrecondition"/>
+				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/AssociatedPreconditionExt"/>
 			</type>
 			<binding>
 				<strength value="preferred"/>

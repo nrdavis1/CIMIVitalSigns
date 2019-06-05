@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="measurementDevice"/>
-  <url value="http://hl7.org/fhir/hspc/StructureDefinition/measurementDevice"/>
+  <id value="DeviceExt"/>
+  <url value="http://hl7.org/fhir/hspc/StructureDefinition/DeviceExt"/>
   <version value="2.0.0"/>
-  <name value="measurementDevice"/>
-  <title value="Measurement Device"/>
+  <name value="Device (simple)"/>
   <status value="draft"/>
-  <date value="2017-06-11"/>
-  <publisher value="CIMI"/>
-  <description value="The instrument by which a measurement was obtained."/>
+  <date value="2018-10-18"/>
+  <publisher value="HSPC"/>
+  <description value="An instrument, tool, analyzer, etc.."/>
   <fhirVersion value="3.0.0"/>
-  <mapping>
-    <identity value="rim"/>
-    <uri value="http://hl7.org/v3"/>
-    <name value="RIM Mapping"/>
-  </mapping>
   <kind value="complex-type"/>
   <abstract value="false"/>
   <contextType value="resource"/>
@@ -24,19 +18,19 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
   <derivation value="constraint"/>
   <differential>
-    <element id="Extension:measurementDevice">
+    <element id="Extension:device">
       <path value="Extension"/>
-      <sliceName value="measurementDevice"/>
-      <definition value="The instrument by which a measurement was obtained."/>
+      <sliceName value="device"/>
+      <definition value="An instrument, tool, analyzer, etc.."/>
       <min value="0"/>
       <max value="1"/>
       <isModifier value="false"/>
     </element>
-    <element id="Extension:measurementDevice.url">
+    <element id="Extension:device.url">
       <path value="Extension.url"/>
-      <fixedUri value="http://hl7.org/fhir/hspc/StructureDefinition/measurementDevice"/>
+      <fixedUri value="http://hl7.org/fhir/hspc/StructureDefinition/DeviceExt"/>
     </element>
-    <element id="Extension:measurementDevice.valueCodeableConcept">
+    <element id="Extension:device.valueCodeableConcept">
       <path value="Extension.valueCodeableConcept"/>
       <type>
         <code value="CodeableConcept"/>

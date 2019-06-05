@@ -26,26 +26,27 @@
       "template-format": "instance-template-fmt.html"
     },
     "StructureDefinition": {
-      "template-defns": "instance-template-defns.html"
+      "template-defns": "instance-template-sdef-defns.html",
+	  "template-format": "instance-template-sdef-fmt.html"
     }
   },
   "canonicalBase": "http://hl7.org/fhir/hspc", 
   "sct-edition": "http://snomed.info/sct/731000124108",
   "do-transforms": "true",
   "resources":{
-    "Extension/AssociatedPrecondition":{"base":"Extension-AssociatedPrecondition.html"},
-	"Extension/DataAbsentReason":{"base":"Extension-DataAbsentReason.html"},
-	"Extension/Device":{"base":"Extension-Device.html"},
-	"Extension/EstimatedInd":{"base":"Extension-EstimatedInd.html"},
-	"Extension/DeltaFlag":{"base":"Extension-DeltaFlag.html"},
-	"Extension/BodyPosition":{"base":"Extension-BodyPosition.html"},
-	"Extension/MeasurementDevice":{"base":"Extension-MeasurementDevice.html"},
-	"Extension/FocalSubject":{"base":"Extension-FocalSubject.html"},
-	"Extension/DataOriginationMode":{"base":"Extension-DataOriginationMode.html"},
-	"Extension/BloodPressureCuffSize":{"base":"Extension-BloodPressureCuffSize.html"},
-	"Extension/SensorDescription":{"base":"Extension-SensorDescription.html"},
-	"Extension/SleepStatus":{"base":"Extension-SleepStatus.html"},
-	"Extension/methodDevice":{"base":"Extension-methodDevice.html"},
+    "StructureDefinition/AssociatedPreconditionExt":{"base":"StructureDefinition-AssociatedPreconditionExt.html"},
+	"StructureDefinition/DataAbsentReasonExt":{"base":"StructureDefinition-DataAbsentReasonExt.html"},
+	"StructureDefinition/DeviceExt":{"base":"StructureDefinition-DeviceExt.html"},
+	"StructureDefinition/EstimatedIndExt":{"base":"StructureDefinition-EstimatedIndExt.html"},
+	"StructureDefinition/DeltaFlagExt":{"base":"StructureDefinition-DeltaFlagExt.html"},
+	"StructureDefinition/BodyPositionExt":{"base":"StructureDefinition-BodyPositionExt.html"},
+	"StructureDefinition/MeasurementDeviceExt":{"base":"StructureDefinition-MeasurementDeviceExt.html"},
+	"StructureDefinition/FocalSubjectExt":{"base":"StructureDefinition-FocalSubjectExt.html"},
+	"StructureDefinition/DataOriginationModeExt":{"base":"StructureDefinition-DataOriginationModeExt.html"},
+	"StructureDefinition/BloodPressureCuffSizeExt":{"base":"StructureDefinition-BloodPressureCuffSizeExt.html"},
+	"StructureDefinition/SensorDescriptionExt":{"base":"StructureDefinition-SensorDescriptionExt.html"},
+	"StructureDefinition/SleepStatusExt":{"base":"StructureDefinition-SleepStatusExt.html"},
+	"StructureDefinition/MethodDeviceExt":{"base":"StructureDefinition-MethodDeviceExt.html"},
 	
 	"StructureDefinition/HL7FHIRVitalSignsPanel":{"base":"StructureDefinition-HL7FHIRVitalSignsPanel.html"},
 	"StructureDefinition/OxygenSaturationArterialBloodMeas":{"base":"StructureDefinition-OxygenSaturationArterialBloodMeas.html"},

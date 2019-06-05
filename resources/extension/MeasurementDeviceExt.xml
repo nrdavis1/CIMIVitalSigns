@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="focalSubject"/>
-  <url value="http://hl7.org/fhir/hspc/StructureDefinition/focalSubject"/>
+  <id value="MeasurementDeviceExt"/>
+  <url value="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementDeviceExt"/>
   <version value="2.0.0"/>
-  <name value="FocalSubject"/>
-  <title value="FocalSubject"/>
+  <name value="Measurement Device"/>
   <status value="draft"/>
   <date value="2017-06-11"/>
-  <publisher value="HSPC"/>
-  <contact>
-    <telecom>
-      <system value="other"/>
-      <value value="http://healthcaresoa.org"/>
-    </telecom>
-  </contact>
-  <description value="The focus of an observation when not the patient of record."/>
+  <publisher value="CIMI"/>
+  <description value="The instrument by which a measurement was obtained."/>
   <fhirVersion value="3.0.0"/>
   <mapping>
     <identity value="rim"/>
@@ -30,30 +23,24 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
   <derivation value="constraint"/>
   <differential>
-    <element id="Extension:focalsubject">
+    <element id="Extension:measurementDevice">
       <path value="Extension"/>
-      <sliceName value="focalSubject"/>
-      <definition value="The focus of an observation when not the patient of record."/>
+      <sliceName value="measurementDevice"/>
+      <definition value="The instrument by which a measurement was obtained."/>
       <min value="0"/>
       <max value="1"/>
-      <isModifier value="true"/>
+      <isModifier value="false"/>
     </element>
-    <element id="Extension:focalsubject.url">
+    <element id="Extension:measurementDevice.url">
       <path value="Extension.url"/>
-      <fixedUri value="http://hl7.org/fhir/hspc/StructureDefinition/focalSubject"/>
+      <fixedUri value="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementDeviceExt"/>
     </element>
-    <element id="Extension:focalsubject.valueCodeableConcept">
+    <element id="Extension:measurementDevice.valueCodeableConcept">
       <path value="Extension.valueCodeableConcept"/>
       <type>
         <code value="CodeableConcept"/>
         <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept"/>
       </type>
-	  <binding>
-		<strength value="preferred"/>
-		<valueSetReference>
-			<reference value="http://hl7.org/fhir/hspc/ValueSet/focalSubject"/>
-		</valueSetReference>
-	  </binding>
     </element>
   </differential>
 </StructureDefinition>

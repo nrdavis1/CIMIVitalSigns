@@ -3,7 +3,7 @@
     <!--© 2018 IHC Health Services, Inc. All Rights Reserved. This document is machine generated.-->
     <id value="HL7FHIRVitalSignsPanel"/>
     <url value="http://hl7.org/fhir/hspc/StructureDefinition/HL7FHIRVitalSignsPanel"/>
-    <name value="CIMI HL7 FHIR Vital Signs Panel"/>
+    <name value="HL7 FHIR Vital Signs Panel"/>
     <status value="draft"/>
     <date value="2018-09-26"/>
     <publisher value="Clinical Information Modeling Initiative"/>

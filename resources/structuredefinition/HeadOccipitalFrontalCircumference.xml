@@ -3,7 +3,7 @@
     <!--© 2018 IHC Health Services, Inc. All Rights Reserved. This document is machine generated.-->
     <id value="HeadOccipitalFrontalCircumference"/>
     <url value="http://hl7.org/fhir/hspc/StructureDefinition/HeadOccipitalFrontalCircumference"/>
-    <name value="CIMI Head Occipital/Frontal Circumference by Tape Measure"/>
+    <name value="Head Occipital/Frontal Circumference by Tape Measure"/>
     <status value="draft"/>
     <date value="2018-11-08"/>
     <publisher value="Clinical Information Modeling Initiative"/>
@@ -88,7 +88,7 @@
             <max value="1"/>
             <type>
                 <code value="extension"/>
-                <profile value="http://hl7.org/fhir/hspc/StructureDefinition/deltaFlag"/>
+                <profile value="http://hl7.org/fhir/hspc/StructureDefinition/DeltaFlagExt"/>
             </type>
             <binding>
                 <strength value="preferred"/>
@@ -103,7 +103,7 @@
 			<short value="Data Origination Mode"/>
 			<type>
 				<code value="extension"/>
-				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/dataOriginationMode"/>
+				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/DataOriginationModeExt"/>
 			</type>
 			<binding>
 				<strength value="preferred"/>

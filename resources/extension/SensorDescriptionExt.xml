@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="dataOriginationMode"/>
-  <url value="http://hl7.org/fhir/hspc/StructureDefinition/dataOriginationMode"/>
+  <id value="SensorDescriptionExt"/>
+  <url value="http://hl7.org/fhir/hspc/StructureDefinition/SensorDescriptionExt"/>
   <version value="2.0.0"/>
-  <name value="DataOriginationMode"/>
-  <title value="DataOriginationMode"/>
+  <name value="Sensor Description"/>
   <status value="draft"/>
-  <date value="2017-06-11"/>
-  <publisher value="HSPC"/>
-  <contact>
-    <telecom>
-      <system value="other"/>
-      <value value="http://healthcaresoa.org"/>
-    </telecom>
-  </contact>
-  <description value="The means by which the data came into being."/>
+  <date value="2018-12-04"/>
+  <publisher value="CIMI"/>
+  <description value="The kind of sensor used to measure the oxygen saturation."/>
   <fhirVersion value="3.0.0"/>
   <mapping>
     <identity value="rim"/>
@@ -30,19 +23,19 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
   <derivation value="constraint"/>
   <differential>
-    <element id="Extension:dataoriginationmode">
+    <element id="Extension:sensorDescription">
       <path value="Extension"/>
-      <sliceName value="dataOriginationMode"/>
-      <definition value="The means by which the data came into being."/>
+      <sliceName value="sensorDescription"/>
+      <definition value="The kind of sensor used to measure the oxygen saturation."/>
       <min value="0"/>
       <max value="1"/>
       <isModifier value="false"/>
     </element>
-    <element id="Extension:dataoriginationmode.url">
+    <element id="Extension:sensorDescription.url">
       <path value="Extension.url"/>
-      <fixedUri value="http://hl7.org/fhir/fpar/StructureDefinition/extensions-dataOriginationMode"/>
+      <fixedUri value="http://hl7.org/fhir/hspc/StructureDefinition/SensorDescriptionExt"/>
     </element>
-    <element id="Extension:dataoriginationmode.valueCodeableConcept">
+    <element id="Extension:sensorDescription.valueCodeableConcept">
       <path value="Extension.valueCodeableConcept"/>
       <type>
         <code value="CodeableConcept"/>

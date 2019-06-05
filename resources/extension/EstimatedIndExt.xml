@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="methodDevice"/>
-  <url value="http://hl7.org/fhir/hspc/StructureDefinition/methodDevice"/>
+  <id value="EstimatedIndExt"/>
+  <url value="http://hl7.org/fhir/hspc/StructureDefinition/EstimatedIndExt"/>
   <version value="2.0.0"/>
-  <name value="methodDevice"/>
-  <title value="Method/Device"/>
+  <name value="Estimated Indicator"/>
   <status value="draft"/>
-  <date value="2017-06-11"/>
-  <publisher value="CIMI"/>
-  <description value="The means by which a measurement was obtained."/>
+  <date value="2018-10-18"/>
+  <publisher value="HSPC"/>
+  <description value="An indication that a measurement was estimated.  Answered as yes or no."/>
   <fhirVersion value="3.0.0"/>
-  <mapping>
-    <identity value="rim"/>
-    <uri value="http://hl7.org/v3"/>
-    <name value="RIM Mapping"/>
-  </mapping>
   <kind value="complex-type"/>
   <abstract value="false"/>
   <contextType value="resource"/>
@@ -24,24 +18,30 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
   <derivation value="constraint"/>
   <differential>
-    <element id="Extension:methodDevice">
+    <element id="Extension:estimatedInd">
       <path value="Extension"/>
-      <sliceName value="methodDevice"/>
-      <definition value="The means by which a measurement was obtained."/>
+      <sliceName value="estimatedInd"/>
+      <definition value="An indication that a measurement was estimated.  Answered as yes or no."/>
       <min value="0"/>
       <max value="1"/>
       <isModifier value="false"/>
     </element>
-    <element id="Extension:methodDevice.url">
+    <element id="Extension:estimatedInd.url">
       <path value="Extension.url"/>
-      <fixedUri value="http://hl7.org/fhir/hspc/StructureDefinition/methodDevice"/>
+      <fixedUri value="http://hl7.org/fhir/hspc/StructureDefinition/EstimatedIndExt"/>
     </element>
-    <element id="Extension:methodDevice.valueCodeableConcept">
+    <element id="Extension:estimatedInd.valueCodeableConcept">
       <path value="Extension.valueCodeableConcept"/>
       <type>
         <code value="CodeableConcept"/>
         <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept"/>
       </type>
+        <binding>
+            <strength value="preferred"/>
+            <valueSetReference>
+                <reference value="http://hl7.org/fhir/hspc/ValueSet/yesNo"/>
+            </valueSetReference>
+        </binding>
     </element>
   </differential>
 </StructureDefinition>

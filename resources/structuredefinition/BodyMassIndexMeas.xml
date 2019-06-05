@@ -3,7 +3,7 @@
     <!--© 2018 IHC Health Services, Inc. All Rights Reserved. This document is machine generated.-->
     <id value="BodyMassIndexMeas"/>
     <url value="http://hl7.org/fhir/hspc/StructureDefinition/BodyMassIndexMeas"/>
-    <name value="CIMI Body Mass Index"/>
+    <name value="Body Mass Index"/>
     <status value="draft"/>
     <date value="2018-12-04"/>
     <publisher value="Clinical Information Modeling Initiative"/>
@@ -79,7 +79,7 @@
             <max value="1"/>
             <type>
                 <code value="extension"/>
-                <profile value="http://hl7.org/fhir/hspc/StructureDefinition/deltaFlag"/>
+                <profile value="http://hl7.org/fhir/hspc/StructureDefinition/DeltaFlagExt"/>
             </type>
             <binding>
                 <strength value="preferred"/>

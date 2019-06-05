@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="sensorDescription"/>
-  <url value="http://hl7.org/fhir/hspc/StructureDefinition/sensorDescription"/>
+  <id value="DeltaFlagExt"/>
+  <url value="http://hl7.org/fhir/hspc/StructureDefinition/DeltaFlagExt"/>
   <version value="2.0.0"/>
-  <name value="Sensor Description"/>
-  <title value="Sensor Description"/>
+  <name value="Delta Flag"/>
   <status value="draft"/>
-  <date value="2018-12-04"/>
-  <publisher value="CIMI"/>
-  <description value="The kind of sensor used to measure the oxygen saturation."/>
+  <date value="2017-06-11"/>
+  <publisher value="HSPC"/>
+  <contact>
+    <telecom>
+      <system value="other"/>
+      <value value="http://healthcaresoa.org"/>
+    </telecom>
+  </contact>
+  <description value="The qualitative change in the value relative to the previous measurement. Usually only recorded if the change is clinically significant."/>
   <fhirVersion value="3.0.0"/>
   <mapping>
     <identity value="rim"/>
@@ -24,19 +29,19 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
   <derivation value="constraint"/>
   <differential>
-    <element id="Extension:sensorDescription">
+    <element id="Extension:deltaflag">
       <path value="Extension"/>
-      <sliceName value="sensorDescription"/>
-      <definition value="The kind of sensor used to measure the oxygen saturation."/>
+      <sliceName value="deltaFlag"/>
+      <definition value="The qualitative change in the value relative to the previous measurement. Usually only recorded if the change is clinically significant."/>
       <min value="0"/>
       <max value="1"/>
       <isModifier value="false"/>
     </element>
-    <element id="Extension:sensorDescription.url">
+    <element id="Extension:deltaflag.url">
       <path value="Extension.url"/>
-      <fixedUri value="http://hl7.org/fhir/hspc/StructureDefinition/sensorDescription"/>
+      <fixedUri value="http://hl7.org/fhir/hspc/StructureDefinition/DeltaFlagExt"/>
     </element>
-    <element id="Extension:sensorDescription.valueCodeableConcept">
+    <element id="Extension:deltaflag.valueCodeableConcept">
       <path value="Extension.valueCodeableConcept"/>
       <type>
         <code value="CodeableConcept"/>

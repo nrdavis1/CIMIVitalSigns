@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="measurementMethod"/>
-  <url value="http://hl7.org/fhir/hspc/StructureDefinition/measurementMethod"/>
+  <id value="DataOriginationModeExt"/>
+  <url value="http://hl7.org/fhir/hspc/StructureDefinition/DataOriginationModeExt"/>
   <version value="2.0.0"/>
-  <name value="measurementMethod"/>
-  <title value="Measurement Method"/>
+  <name value="Data Origination Mode"/>
   <status value="draft"/>
   <date value="2017-06-11"/>
-  <publisher value="CIMI"/>
-  <description value="The means by which a measurement was obtained."/>
+  <publisher value="HSPC"/>
+  <contact>
+    <telecom>
+      <system value="other"/>
+      <value value="http://healthcaresoa.org"/>
+    </telecom>
+  </contact>
+  <description value="The means by which the data came into being."/>
   <fhirVersion value="3.0.0"/>
   <mapping>
     <identity value="rim"/>
@@ -24,19 +29,19 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
   <derivation value="constraint"/>
   <differential>
-    <element id="Extension:measurementMethod">
+    <element id="Extension:dataoriginationmode">
       <path value="Extension"/>
-      <sliceName value="measurementMethod"/>
-      <definition value="The means by which a measurement was obtained."/>
+      <sliceName value="dataOriginationMode"/>
+      <definition value="The means by which the data came into being."/>
       <min value="0"/>
       <max value="1"/>
       <isModifier value="false"/>
     </element>
-    <element id="Extension:measurementMethod.url">
+    <element id="Extension:dataoriginationmode.url">
       <path value="Extension.url"/>
-      <fixedUri value="http://hl7.org/fhir/hspc/StructureDefinition/measurementMethod"/>
+      <fixedUri value="http://hl7.org/fhir/fpar/StructureDefinition/DataOriginationModeExt"/>
     </element>
-    <element id="Extension:measurementMethod.valueCodeableConcept">
+    <element id="Extension:dataoriginationmode.valueCodeableConcept">
       <path value="Extension.valueCodeableConcept"/>
       <type>
         <code value="CodeableConcept"/>

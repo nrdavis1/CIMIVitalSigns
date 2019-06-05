@@ -3,7 +3,7 @@
   <id value="DiastolicBloodPressureMeas"/>
   <url value="http://hl7.org/fhir/hspc/StructureDefinition/DiastolicBloodPressureMeas"/>
   <version value="2.0.0"/>
-  <name value="CIMI Diastolic Blood Pressure Profile"/>
+  <name value="Diastolic Blood Pressure Profile"/>
   <status value="draft"/>
   <date value="2017-06-06"/>
   <publisher value="Clinical Information Modeling Initiative"/>

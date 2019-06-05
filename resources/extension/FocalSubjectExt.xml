@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="bpCuffSize"/>
-  <url value="http://hl7.org/fhir/hspc/StructureDefinition/bpCuffSize"/>
+  <id value="FocalSubjectExt"/>
+  <url value="http://hl7.org/fhir/hspc/StructureDefinition/FocalSubjectExt"/>
   <version value="2.0.0"/>
-  <name value="Blood Pressure Cuff Size"/>
-  <title value="Blood Pressure Cuff Size"/>
+  <name value="Focal Subject"/>
   <status value="draft"/>
-  <date value="2018-12-04"/>
-  <publisher value="CIMI"/>
-  <description value="The size of pressure cuff used to measure blood pressure."/>
+  <date value="2017-06-11"/>
+  <publisher value="HSPC"/>
+  <contact>
+    <telecom>
+      <system value="other"/>
+      <value value="http://healthcaresoa.org"/>
+    </telecom>
+  </contact>
+  <description value="The focus of an observation when not the patient of record."/>
   <fhirVersion value="3.0.0"/>
   <mapping>
     <identity value="rim"/>
@@ -24,24 +29,30 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
   <derivation value="constraint"/>
   <differential>
-    <element id="Extension:bpCuffSize">
+    <element id="Extension:focalsubject">
       <path value="Extension"/>
-      <sliceName value="bpCuffSize"/>
-      <definition value="The size of pressure cuff used to measure blood pressure."/>
+      <sliceName value="focalSubject"/>
+      <definition value="The focus of an observation when not the patient of record."/>
       <min value="0"/>
       <max value="1"/>
-      <isModifier value="false"/>
+      <isModifier value="true"/>
     </element>
-    <element id="Extension:bpCuffSize.url">
+    <element id="Extension:focalsubject.url">
       <path value="Extension.url"/>
-      <fixedUri value="http://hl7.org/fhir/hspc/StructureDefinition/bpCuffSize"/>
+      <fixedUri value="http://hl7.org/fhir/hspc/StructureDefinition/FocalSubjectExt"/>
     </element>
-    <element id="Extension:bpCuffSize.valueCodeableConcept">
+    <element id="Extension:focalsubject.valueCodeableConcept">
       <path value="Extension.valueCodeableConcept"/>
       <type>
         <code value="CodeableConcept"/>
         <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept"/>
       </type>
+	  <binding>
+		<strength value="preferred"/>
+		<valueSetReference>
+			<reference value="http://hl7.org/fhir/hspc/ValueSet/focalSubject"/>
+		</valueSetReference>
+	  </binding>
     </element>
   </differential>
 </StructureDefinition>
