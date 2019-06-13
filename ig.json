@@ -28,25 +28,29 @@
     "StructureDefinition": {
       "template-defns": "instance-template-sdef-defns.html",
 	  "template-format": "instance-template-sdef-fmt.html"
-    }
+    },
+	"Extension": {
+	  "template-base": "instance-template-base.html",
+	  "template-format": "instance-template-fmt.html"
+	}
   },
   "canonicalBase": "http://hl7.org/fhir/hspc", 
   "sct-edition": "http://snomed.info/sct/731000124108",
   "do-transforms": "true",
   "resources":{
-    "StructureDefinition/AssociatedPreconditionExt":{"base":"StructureDefinition-AssociatedPreconditionExt.html"},
-	"StructureDefinition/DataAbsentReasonExt":{"base":"StructureDefinition-DataAbsentReasonExt.html"},
-	"StructureDefinition/DeviceExt":{"base":"StructureDefinition-DeviceExt.html"},
-	"StructureDefinition/EstimatedIndExt":{"base":"StructureDefinition-EstimatedIndExt.html"},
-	"StructureDefinition/DeltaFlagExt":{"base":"StructureDefinition-DeltaFlagExt.html"},
-	"StructureDefinition/BodyPositionExt":{"base":"StructureDefinition-BodyPositionExt.html"},
-	"StructureDefinition/MeasurementDeviceExt":{"base":"StructureDefinition-MeasurementDeviceExt.html"},
-	"StructureDefinition/FocalSubjectExt":{"base":"StructureDefinition-FocalSubjectExt.html"},
-	"StructureDefinition/DataOriginationModeExt":{"base":"StructureDefinition-DataOriginationModeExt.html"},
-	"StructureDefinition/BloodPressureCuffSizeExt":{"base":"StructureDefinition-BloodPressureCuffSizeExt.html"},
-	"StructureDefinition/SensorDescriptionExt":{"base":"StructureDefinition-SensorDescriptionExt.html"},
-	"StructureDefinition/SleepStatusExt":{"base":"StructureDefinition-SleepStatusExt.html"},
-	"StructureDefinition/MethodDeviceExt":{"base":"StructureDefinition-MethodDeviceExt.html"},
+    "Extension/AssociatedPreconditionExt":{"base":"Extension-AssociatedPreconditionExt.html"},
+	"Extension/DataAbsentReasonExt":{"base":"Extension-DataAbsentReasonExt.html"},
+	"Extension/DeviceExt":{"base":"Extension-DeviceExt.html"},
+	"Extension/EstimatedIndExt":{"base":"Extension-EstimatedIndExt.html"},
+	"Extension/DeltaFlagExt":{"base":"Extension-DeltaFlagExt.html"},
+	"Extension/BodyPositionExt":{"base":"Extension-BodyPositionExt.html"},
+	"Extension/MeasurementDeviceExt":{"base":"Extension-MeasurementDeviceExt.html"},
+	"Extension/FocalSubjectExt":{"base":"Extension-FocalSubjectExt.html"},
+	"Extension/DataOriginationModeExt":{"base":"Extension-DataOriginationModeExt.html"},
+	"Extension/BloodPressureCuffSizeExt":{"base":"Extension-BloodPressureCuffSizeExt.html"},
+	"Extension/SensorDescriptionExt":{"base":"Extension-SensorDescriptionExt.html"},
+	"Extension/SleepStatusExt":{"base":"Extension-SleepStatusExt.html"},
+	"Extension/MethodDeviceExt":{"base":"Extension-MethodDeviceExt.html"},
 	
 	"StructureDefinition/HL7FHIRVitalSignsPanel":{"base":"StructureDefinition-HL7FHIRVitalSignsPanel.html"},
 	"StructureDefinition/OxygenSaturationArterialBloodMeas":{"base":"StructureDefinition-OxygenSaturationArterialBloodMeas.html"},
@@ -62,6 +66,8 @@
 	"StructureDefinition/MeanArterialPressureMeas":{"base":"StructureDefinition-MeanArterialPressureMeas.html"},
 	"StructureDefinition/BloodPressurePanel":{"base":"StructureDefinition-BloodPressurePanel.html"},
 	"StructureDefinition/BodyMassIndexMeas":{"base":"StructureDefinition-BodyMassIndexMeas.html"},
+	"StructureDefinition/SystolicBloodPressure24HourMeanMeas":{"base":"StructureDefinition-SystolicBloodPressure24HourMeanMeas.html"},
+	"StructureDefinition/DiastolicBloodPressure24HourMeanMeas":{"base":"StructureDefinition-DiastolicBloodPressure24HourMeanMeas.html"},
 	
 	"ValueSet/bpmeasbodylocationprecoord":{"base":"ValueSet-bpmeasbodylocationprecoord.html"},
 	"ValueSet/bpMeasDeviceVS":{"base":"ValueSet-bpMeasDeviceVS.html"},
@@ -89,6 +95,7 @@
 	"ValueSet/bodyPositionVS":{"base":"ValueSet-bodyPositionVS.html"},
 	"ValueSet/sensorDescriptionVS":{"base":"ValueSet-sensorDescriptionVS.html"},
 	"ValueSet/sleepStatusVS":{"base":"ValueSet-sleepStatusVS.html"},
-	"ValueSet/bodyTempMeasMethodDeviceVS":{"base":"ValueSet-bodyTempMeasMethodDeviceVS.html"}
+	"ValueSet/bodyTempMeasMethodDeviceVS":{"base":"ValueSet-bodyTempMeasMethodDeviceVS.html"},
+	"ValueSet/bpMeasMethodDeviceVS":{"base":"ValueSet-bpMeasMethodDeviceVS.html"}
   }
 }

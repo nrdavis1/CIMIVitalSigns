@@ -207,6 +207,20 @@
 				<display value="Body Mass Index"/>
 			</sourceReference>
 		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="StructureDefinition/DiastolicBloodPressure24HourMeanMeas"/>
+				<display value="Diastolic Blood Pressure 24 Hour Mean"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="StructureDefinition/SystolicBloodPressure24HourMeanMeas"/>
+				<display value="Systolic Blood Pressure 24 Hour Mean"/>
+			</sourceReference>
+		</resource>
 		
 		<resource>
 			<example value="false"/>
@@ -395,6 +409,13 @@
 			<sourceReference>
 				<reference value="ValueSet/bodyTempMeasMethodDeviceVS"/>
 				<display value="Body Temperature Measurement Method/Device value set"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="ValueSet/bpMeasMethodDeviceVS"/>
+				<display value="Blood Pressure Measurement Method/Device value set"/>
 			</sourceReference>
 		</resource>
     </package>

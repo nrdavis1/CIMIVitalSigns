@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="SystolicBloodPressureMeas"/>
-  <url value="http://hl7.org/fhir/hspc/StructureDefinition/SystolicBloodPressureMeas"/>
+  <id value="SystolicBloodPressure24HourMeanMeas"/>
+  <url value="http://hl7.org/fhir/hspc/StructureDefinition/SystolicBloodPressure24HourMeanMeas"/>
   <version value="2.0.0"/>
-  <name value="Systolic Blood Pressure"/>
+  <name value="Systolic Blood Pressure 24 Hour Mean"/>
   <status value="draft"/>
   <date value="2018-11-08"/>
   <publisher value="Clinical Information Modeling Initiative"/>
-  <description value="Systolic Blood Pressure, the pressure in the arteries durring a contraction of the heart."/>
+  <description value="Systolic Blood Pressure 24 Hour Mean.  The average systolic pressure calculated from a series of systolic pressure measurements taken over a twenty four hour period."/>
   <fhirVersion value="3.0.0"/>
   <kind value="resource"/>
   <abstract value="false"/>
@@ -15,16 +15,16 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation"/>
   <derivation value="constraint"/>
   <differential>
-    <element id="Observation:cimiSystolicBloodPressure">
+    <element id="Observation:hspcsystolicbloodpressure24hmean">
       <path value="Observation"/>
-      <sliceName value="cimiSystolicBloodPressure"/>
+      <sliceName value="hspcsystolicbloodpressure24hmean"/>
 	  <short value="Systolic Blood Pressure"/>
-      <definition value="The pressure in the arteries durring a contraction of the heart."/>
+      <definition value="The average systolic pressure calculated from a series of systolic pressure measurements taken over a twenty four hour period."/>
       <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
     </element>
-    <element id="Observation:cimiSystolicBloodPressure.extension:bodyposition$Extension">
+    <element id="Observation:hspcsystolicbloodpressure24hmean.extension:bodyposition$Extension">
       <path value="Observation.extension"/>
       <sliceName value="BodyPosition"/>
       <type>
@@ -42,30 +42,30 @@
         </valueSetReference>
       </binding>
     </element>
-    <element id="Observation:cimiSystolicBloodPressure.code">
+    <element id="Observation:hspcsystolicbloodpressure24hmean.code">
         <path value="Observation.code"/>
     </element>
-	<element id="Observation:cimiSystolicBloodPressure.code.coding">
+	<element id="Observation:hspcsystolicbloodpressure24hmean.code.coding">
 		<path value="Observation.code.coding"/>
 	</element>
-	<element id="Observation:cimiSystolicBloodPressure.code.coding.system">
+	<element id="Observation:hspcsystolicbloodpressure24hmean.code.coding.system">
 		<path value="Observation.code.coding.system"/>
 		<fixedUri value="http://loinc.org"/>
 	</element>
-	<element id="Observation:cimiSystolicBloodPressure.code.coding.code">
+	<element id="Observation:hspcsystolicbloodpressure24hmean.code.coding.code">
 		<path value="Observation.code.coding.code"/>
-		<fixedCode value="8480-6"/>
+		<fixedCode value="8490-5"/>
 	</element>
-	<element id="Observation:cimiSystolicBloodPressure.code.coding.display">
+	<element id="Observation:hspcsystolicbloodpressure24hmean.code.coding.display">
 		<path value="Observation.code.coding.display"/>
-		<fixedString value="Systolic blood pressure"/>
+		<fixedString value="Systolic blood pressure 24 hour mean"/>
 	</element>
-    <element id="Observation:cimiSystolicBloodPressure.issued">
+    <element id="Observation:hspcsystolicbloodpressure24hmean.issued">
       <path value="Observation.issued"/>
       <min value="0"/>
       <max value="0"/>
     </element>
-    <element id="Observation:cimiSystolicBloodPressure.valueQuantity">
+    <element id="Observation:hspcsystolicbloodpressure24hmean.valueQuantity">
       <path value="Observation.valueQuantity"/>
       <min value="1"/>
       <max value="1"/>
@@ -77,7 +77,7 @@
       <isModifier value="false"/>
       <isSummary value="false"/>
     </element>
-    <element id="Observation:cimiSystolicBloodPressure.valueQuantity.system">
+    <element id="Observation:hspcsystolicbloodpressure24hmean.valueQuantity.system">
       <path value="Observation.valueQuantity.system"/>
       <type>
         <code value="uri"/>
@@ -88,7 +88,7 @@
       <isModifier value="false"/>
       <isSummary value="false"/>
     </element>
-    <element id="Observation:cimiSystolicBloodPressure.valueQuantity.code">
+    <element id="Observation:hspcsystolicbloodpressure24hmean.valueQuantity.code">
       <path value="Observation.valueQuantity.code"/>
       <type>
         <code value="code"/>
@@ -99,7 +99,7 @@
       <isModifier value="false"/>
       <isSummary value="false"/>
     </element>
-    <element id="Observation:cimiSystolicBloodPressure.dataAbsentReason">
+    <element id="Observation:hspcsystolicbloodpressure24hmean.dataAbsentReason">
       <path value="Observation.dataAbsentReason"/>
       <min value="0"/>
       <max value="0"/>
@@ -107,7 +107,7 @@
       <isModifier value="false"/>
       <isSummary value="false"/>
     </element>
-    <element id="Observation:cimiSystolicBloodPressure.bodySite">
+    <element id="Observation:hspcsystolicbloodpressure24hmean.bodySite">
       <path value="Observation.bodySite"/>
       <mustSupport value="false"/>
       <isModifier value="false"/>
@@ -120,7 +120,7 @@
         </valueSetReference>
       </binding>
     </element>
-    <element id="Observation:cimiSystolicBloodPressure.method">
+    <element id="Observation:hspcsystolicbloodpressure24hmean.method">
       <path value="Observation.method"/>
       <mustSupport value="false"/>
       <isModifier value="false"/>
@@ -133,7 +133,7 @@
         </valueSetReference>
       </binding>
     </element>
-    <element id="Observation:cimiSystolicBloodPressure.specimen">
+    <element id="Observation:hspcsystolicbloodpressure24hmean.specimen">
       <path value="Observation.specimen"/>
       <min value="0"/>
       <max value="0"/>

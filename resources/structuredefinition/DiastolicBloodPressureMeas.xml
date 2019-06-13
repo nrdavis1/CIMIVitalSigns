@@ -97,7 +97,7 @@
         <strength value="preferred"/>
         <description value="A set of codes that describe the method used to measure a blood pressure"/>
         <valueSetReference>
-          <reference value="http://hl7.org/fhir/hspc/ValueSet/bpmeasmethoddevice"/>
+          <reference value="http://hl7.org/fhir/hspc/ValueSet/bpMeasMethodDeviceVS"/>
         </valueSetReference>
       </binding>
     </element>

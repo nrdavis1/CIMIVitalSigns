@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+  <id value="bpMeasMethodDeviceVS"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <url value="http://hl7.org/fhir/hspc/ValueSet/bpMeasMethodDeviceVS"/>
+    <version value="0.01"/>
+    <name value="Blood Pressure Measurement Method/Device value set"/>
+    <status value="draft"/>
+    <date value="2018-12-04"/>
+    <publisher value="Clinical Information Modeling Inititative"/>
+    <description value="SELECT SNOMED CT code system values."/>
+    <copyright value="TBD"/>
+    <extensible value="true"/>
+    <compose>
+        <include>
+            <system value="http://snomed.info/sct"/>
+            <concept>
+				<code value="37931006"/>
+				<display value="Auscultation"/>
+			</concept>
+			<concept>
+				<code value="13385008"/>
+				<display value="Mediate auscultation"/>
+			</concept>
+            <concept>
+				<code value="268447006"/>
+				<display value="Doppler studies"/>
+			</concept>
+            <concept>
+				<code value="113011001"/>
+				<display value="Palpation"/>
+			</concept>
+            <concept>
+				<code value="31813000"/>
+				<display value="Oscillometry"/>
+			</concept>
+            <concept>
+				<code value="17146006"/>
+				<display value="Arterial pressure monitoring, non-invasive method"/>
+			</concept>
+            <concept>
+				<code value="77938009"/>
+				<display value="Arterial pressure monitoring, invasive method"/>
+			</concept>
+            <concept>
+				<code value="641000205104"/>
+				<display value="Computer aided auscultation "/>
+			</concept>
+            <concept>
+				<code value="911000205109"/>
+				<display value="Measurement of blood pressure using intravascular transducer "/>
+			</concept><concept>
+				<code value="43770009"/>
+				<display value="Doppler device"/>
+			</concept>
+			<concept>
+				<code value="309642005"/>
+				<display value="Mercury sphygmomanometer"/>
+			</concept>
+            <concept>
+				<code value="309641003"/>
+				<display value="Aneroid sphygmomanometer"/>
+			</concept>
+            <concept>
+				<code value="469801002"/>
+				<display value="Invasive blood pressure monitor"/>
+			</concept>
+            <concept>
+				<code value="720737000"/>
+				<display value="Blood pressure cuff, adult size"/>
+			</concept>
+            <concept>
+				<code value="720736009"/>
+				<display value="Blood pressure cuff, pediatric size"/>
+			</concept>
+            <concept>
+				<code value="720740000"/>
+				<display value="Blood pressure cuff, adult thigh type"/>
+			</concept>
+        </include>
+    </compose>
+</ValueSet>
