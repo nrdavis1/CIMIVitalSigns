@@ -14,9 +14,9 @@
   ];
   fhir:StructureDefinition.url [ fhir:value "http://hl7.org/fhir/hspc/StructureDefinition/DiastolicBloodPressureMeas"];
   fhir:StructureDefinition.version [ fhir:value "2.0.0"];
-  fhir:StructureDefinition.name [ fhir:value "CIMI Diastolic Blood Pressure Profile"];
+  fhir:StructureDefinition.name [ fhir:value "Diastolic Blood Pressure Profile"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
-  fhir:StructureDefinition.date [ fhir:value "2017-06-06T00:00:00-06:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2017-06-06T00:00:00-05:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Clinical Information Modeling Initiative"];
   fhir:StructureDefinition.description [ fhir:value "Diastolic Blood Pressure, the pressure in the arteries when the heart rests between beats."];
   fhir:StructureDefinition.fhirVersion [ fhir:value "3.0.1"];

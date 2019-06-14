@@ -22,15 +22,15 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 "Observation.extension","","","",0,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:Observation.extension}
 ","",,"open","DomainResource.extension",0,*,"",""
-"Observation.extension","deltaFlag","","",0,1,"","","","extension {[CanonicalType[http://hl7.org/fhir/hspc/StructureDefinition/deltaFlag]]} {[]}
+"Observation.extension","deltaFlag","","",0,1,"","","","extension {[CanonicalType[http://hl7.org/fhir/hspc/StructureDefinition/DeltaFlagExt]]} {[]}
 ","Delta Flag","The qualitative change in the value relative to the previous measurement. Usually only recorded if the change is clinically significant.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Observation.extension","measurementDevice","","",0,*,"","","","extension {[CanonicalType[http://hl7.org/fhir/hspc/StructureDefinition/measurementDevice]]} {[]}
+"Observation.extension","measurementDevice","","",0,*,"","","","extension {[CanonicalType[http://hl7.org/fhir/hspc/StructureDefinition/MeasurementDeviceExt]]} {[]}
 ","Measurement Device","The instrument by which a measurement was obtained.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Observation.extension","associatedPrecondition","","",0,*,"","","","extension {[CanonicalType[http://hl7.org/fhir/hspc/StructureDefinition/associatedPrecondition]]} {[]}
+"Observation.extension","associatedPrecondition","","",0,*,"","","","extension {[CanonicalType[http://hl7.org/fhir/hspc/StructureDefinition/AssociatedPreconditionExt]]} {[]}
 ","Associated Precondition","The set of codes that describe conditions or events that effect an observation.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}
 "
 "Observation.modifierExtension","","extensions

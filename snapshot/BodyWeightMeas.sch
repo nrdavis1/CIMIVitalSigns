@@ -12,7 +12,7 @@
   <sch:pattern>
     <sch:title>f:Observation</sch:title>
     <sch:rule context="f:Observation">
-      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/hspc/StructureDefinition/deltaFlag']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/hspc/StructureDefinition/deltaFlag': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/hspc/StructureDefinition/DeltaFlagExt']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/hspc/StructureDefinition/DeltaFlagExt': maximum cardinality of 'extension' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>

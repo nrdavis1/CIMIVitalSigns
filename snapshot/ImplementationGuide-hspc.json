@@ -9,7 +9,7 @@
   "version": "1.0",
   "name": "CIMI Vital Signs Implementation Guide",
   "status": "draft",
-  "date": "2018-09-26T00:00:00-06:00",
+  "date": "2018-09-26T00:00:00-05:00",
   "publisher": "Health Services Platform Consortium",
   "contact": [
     {
@@ -32,91 +32,91 @@
         {
           "example": false,
           "sourceReference": {
-            "reference": "Extension/AssociatedPrecondition",
+            "reference": "Extension/AssociatedPreconditionExt",
             "display": "Associated Precondition"
           }
         },
         {
           "example": false,
           "sourceReference": {
-            "reference": "Extension/DataAbsentReason",
+            "reference": "Extension/DataAbsentReasonExt",
             "display": "Data Absent Reason"
           }
         },
         {
           "example": false,
           "sourceReference": {
-            "reference": "Extension/Device",
+            "reference": "Extension/DeviceExt",
             "display": "Device"
           }
         },
         {
           "example": false,
           "sourceReference": {
-            "reference": "Extension/DeltaFlag",
+            "reference": "Extension/DeltaFlagExt",
             "display": "Delta Flag"
           }
         },
         {
           "example": false,
           "sourceReference": {
-            "reference": "Extension/BodyPosition",
+            "reference": "Extension/BodyPositionExt",
             "display": "Body Position"
           }
         },
         {
           "example": false,
           "sourceReference": {
-            "reference": "Extension/MeasurementDevice",
+            "reference": "Extension/MeasurementDeviceExt",
             "display": "Measurement Device"
           }
         },
         {
           "example": false,
           "sourceReference": {
-            "reference": "Extension/FocalSubject",
+            "reference": "Extension/FocalSubjectExt",
             "display": "Focal Subject"
           }
         },
         {
           "example": false,
           "sourceReference": {
-            "reference": "Extension/DataOriginationMode",
+            "reference": "Extension/DataOriginationModeExt",
             "display": "Data Origination Mode"
           }
         },
         {
           "example": false,
           "sourceReference": {
-            "reference": "Extension/BloodPressureCuffSize",
+            "reference": "Extension/BloodPressureCuffSizeExt",
             "display": "Blood Pressure Cuff Size"
           }
         },
         {
           "example": false,
           "sourceReference": {
-            "reference": "Extension/SensorDescription",
+            "reference": "Extension/SensorDescriptionExt",
             "display": "Sensor Description"
           }
         },
         {
           "example": false,
           "sourceReference": {
-            "reference": "Extension/SleepStatus",
+            "reference": "Extension/SleepStatusExt",
             "display": "Sleep Status"
           }
         },
         {
           "example": false,
           "sourceReference": {
-            "reference": "Extension/methodDevice",
+            "reference": "Extension/MethodDeviceExt",
             "display": "Method/Device"
           }
         },
         {
           "example": false,
           "sourceReference": {
-            "reference": "Extension/EstimatedInd",
+            "reference": "Extension/EstimatedIndExt",
             "display": "Estimated Indicator"
           }
         },

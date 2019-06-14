@@ -16,7 +16,7 @@
   <version value="0.01"/>
   <name value="Heart Rate Measurement Device value set"/>
   <status value="draft"/>
-  <date value="2018-11-08T00:00:00-07:00"/>
+  <date value="2018-11-08T00:00:00-06:00"/>
   <publisher value="Clinical Information Modeling Inititative"/>
   <description value="SELECT SNOMED CT code system values."/>
   <copyright value="TBD"/>

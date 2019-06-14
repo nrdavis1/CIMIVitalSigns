@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "1.0"];
   fhir:ImplementationGuide.name [ fhir:value "CIMI Vital Signs Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2018-09-26T00:00:00-06:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2018-09-26T00:00:00-05:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Health Services Platform Consortium"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -37,104 +37,104 @@
        fhir:index 0;
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <http://hl7.org/fhir/hspc/Extension/AssociatedPrecondition>;
-         fhir:Reference.reference [ fhir:value "Extension/AssociatedPrecondition" ];
+         fhir:link <http://hl7.org/fhir/hspc/Extension/AssociatedPreconditionExt>;
+         fhir:Reference.reference [ fhir:value "Extension/AssociatedPreconditionExt" ];
          fhir:Reference.display [ fhir:value "Associated Precondition" ]
        ]
      ], [
        fhir:index 1;
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <http://hl7.org/fhir/hspc/Extension/DataAbsentReason>;
-         fhir:Reference.reference [ fhir:value "Extension/DataAbsentReason" ];
+         fhir:link <http://hl7.org/fhir/hspc/Extension/DataAbsentReasonExt>;
+         fhir:Reference.reference [ fhir:value "Extension/DataAbsentReasonExt" ];
          fhir:Reference.display [ fhir:value "Data Absent Reason" ]
        ]
      ], [
        fhir:index 2;
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <http://hl7.org/fhir/hspc/Extension/Device>;
-         fhir:Reference.reference [ fhir:value "Extension/Device" ];
+         fhir:link <http://hl7.org/fhir/hspc/Extension/DeviceExt>;
+         fhir:Reference.reference [ fhir:value "Extension/DeviceExt" ];
          fhir:Reference.display [ fhir:value "Device" ]
        ]
      ], [
        fhir:index 3;
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <http://hl7.org/fhir/hspc/Extension/DeltaFlag>;
-         fhir:Reference.reference [ fhir:value "Extension/DeltaFlag" ];
+         fhir:link <http://hl7.org/fhir/hspc/Extension/DeltaFlagExt>;
+         fhir:Reference.reference [ fhir:value "Extension/DeltaFlagExt" ];
          fhir:Reference.display [ fhir:value "Delta Flag" ]
        ]
      ], [
        fhir:index 4;
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <http://hl7.org/fhir/hspc/Extension/BodyPosition>;
-         fhir:Reference.reference [ fhir:value "Extension/BodyPosition" ];
+         fhir:link <http://hl7.org/fhir/hspc/Extension/BodyPositionExt>;
+         fhir:Reference.reference [ fhir:value "Extension/BodyPositionExt" ];
          fhir:Reference.display [ fhir:value "Body Position" ]
        ]
      ], [
        fhir:index 5;
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <http://hl7.org/fhir/hspc/Extension/MeasurementDevice>;
-         fhir:Reference.reference [ fhir:value "Extension/MeasurementDevice" ];
+         fhir:link <http://hl7.org/fhir/hspc/Extension/MeasurementDeviceExt>;
+         fhir:Reference.reference [ fhir:value "Extension/MeasurementDeviceExt" ];
          fhir:Reference.display [ fhir:value "Measurement Device" ]
        ]
      ], [
        fhir:index 6;
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <http://hl7.org/fhir/hspc/Extension/FocalSubject>;
-         fhir:Reference.reference [ fhir:value "Extension/FocalSubject" ];
+         fhir:link <http://hl7.org/fhir/hspc/Extension/FocalSubjectExt>;
+         fhir:Reference.reference [ fhir:value "Extension/FocalSubjectExt" ];
          fhir:Reference.display [ fhir:value "Focal Subject" ]
        ]
      ], [
        fhir:index 7;
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <http://hl7.org/fhir/hspc/Extension/DataOriginationMode>;
-         fhir:Reference.reference [ fhir:value "Extension/DataOriginationMode" ];
+         fhir:link <http://hl7.org/fhir/hspc/Extension/DataOriginationModeExt>;
+         fhir:Reference.reference [ fhir:value "Extension/DataOriginationModeExt" ];
          fhir:Reference.display [ fhir:value "Data Origination Mode" ]
        ]
      ], [
        fhir:index 8;
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <http://hl7.org/fhir/hspc/Extension/BloodPressureCuffSize>;
-         fhir:Reference.reference [ fhir:value "Extension/BloodPressureCuffSize" ];
+         fhir:link <http://hl7.org/fhir/hspc/Extension/BloodPressureCuffSizeExt>;
+         fhir:Reference.reference [ fhir:value "Extension/BloodPressureCuffSizeExt" ];
          fhir:Reference.display [ fhir:value "Blood Pressure Cuff Size" ]
        ]
      ], [
        fhir:index 9;
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <http://hl7.org/fhir/hspc/Extension/SensorDescription>;
-         fhir:Reference.reference [ fhir:value "Extension/SensorDescription" ];
+         fhir:link <http://hl7.org/fhir/hspc/Extension/SensorDescriptionExt>;
+         fhir:Reference.reference [ fhir:value "Extension/SensorDescriptionExt" ];
          fhir:Reference.display [ fhir:value "Sensor Description" ]
        ]
      ], [
        fhir:index 10;
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <http://hl7.org/fhir/hspc/Extension/SleepStatus>;
-         fhir:Reference.reference [ fhir:value "Extension/SleepStatus" ];
+         fhir:link <http://hl7.org/fhir/hspc/Extension/SleepStatusExt>;
+         fhir:Reference.reference [ fhir:value "Extension/SleepStatusExt" ];
          fhir:Reference.display [ fhir:value "Sleep Status" ]
        ]
      ], [
        fhir:index 11;
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <http://hl7.org/fhir/hspc/Extension/methodDevice>;
-         fhir:Reference.reference [ fhir:value "Extension/methodDevice" ];
+         fhir:link <http://hl7.org/fhir/hspc/Extension/MethodDeviceExt>;
+         fhir:Reference.reference [ fhir:value "Extension/MethodDeviceExt" ];
          fhir:Reference.display [ fhir:value "Method/Device" ]
        ]
      ], [
        fhir:index 12;
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <http://hl7.org/fhir/hspc/Extension/EstimatedInd>;
-         fhir:Reference.reference [ fhir:value "Extension/EstimatedInd" ];
+         fhir:link <http://hl7.org/fhir/hspc/Extension/EstimatedIndExt>;
+         fhir:Reference.reference [ fhir:value "Extension/EstimatedIndExt" ];
          fhir:Reference.display [ fhir:value "Estimated Indicator" ]
        ]
      ], [
@@ -673,31 +673,31 @@
      ]
   ] .
 
-<http://hl7.org/fhir/hspc/Extension/AssociatedPrecondition> a fhir:hspc .
+<http://hl7.org/fhir/hspc/Extension/AssociatedPreconditionExt> a fhir:hspc .
 
-<http://hl7.org/fhir/hspc/Extension/DataAbsentReason> a fhir:hspc .
+<http://hl7.org/fhir/hspc/Extension/DataAbsentReasonExt> a fhir:hspc .
 
-<http://hl7.org/fhir/hspc/Extension/Device> a fhir:hspc .
+<http://hl7.org/fhir/hspc/Extension/DeviceExt> a fhir:hspc .
 
-<http://hl7.org/fhir/hspc/Extension/DeltaFlag> a fhir:hspc .
+<http://hl7.org/fhir/hspc/Extension/DeltaFlagExt> a fhir:hspc .
 
-<http://hl7.org/fhir/hspc/Extension/BodyPosition> a fhir:hspc .
+<http://hl7.org/fhir/hspc/Extension/BodyPositionExt> a fhir:hspc .
 
-<http://hl7.org/fhir/hspc/Extension/MeasurementDevice> a fhir:hspc .
+<http://hl7.org/fhir/hspc/Extension/MeasurementDeviceExt> a fhir:hspc .
 
-<http://hl7.org/fhir/hspc/Extension/FocalSubject> a fhir:hspc .
+<http://hl7.org/fhir/hspc/Extension/FocalSubjectExt> a fhir:hspc .
 
-<http://hl7.org/fhir/hspc/Extension/DataOriginationMode> a fhir:hspc .
+<http://hl7.org/fhir/hspc/Extension/DataOriginationModeExt> a fhir:hspc .
 
-<http://hl7.org/fhir/hspc/Extension/BloodPressureCuffSize> a fhir:hspc .
+<http://hl7.org/fhir/hspc/Extension/BloodPressureCuffSizeExt> a fhir:hspc .
 
-<http://hl7.org/fhir/hspc/Extension/SensorDescription> a fhir:hspc .
+<http://hl7.org/fhir/hspc/Extension/SensorDescriptionExt> a fhir:hspc .
 
-<http://hl7.org/fhir/hspc/Extension/SleepStatus> a fhir:hspc .
+<http://hl7.org/fhir/hspc/Extension/SleepStatusExt> a fhir:hspc .
 
-<http://hl7.org/fhir/hspc/Extension/methodDevice> a fhir:hspc .
+<http://hl7.org/fhir/hspc/Extension/MethodDeviceExt> a fhir:hspc .
 
-<http://hl7.org/fhir/hspc/Extension/EstimatedInd> a fhir:hspc .
+<http://hl7.org/fhir/hspc/Extension/EstimatedIndExt> a fhir:hspc .
 
 <http://hl7.org/fhir/hspc/StructureDefinition/HL7FHIRVitalSignsPanel> a fhir:hspc .
 

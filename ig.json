@@ -30,8 +30,8 @@
 	  "template-format": "instance-template-sdef-fmt.html"
     },
 	"Extension": {
-	  "template-base": "instance-template-base.html",
-	  "template-format": "instance-template-fmt.html"
+	  "template-base": "instance-template-sdef-base.html",
+	  "template-format": "instance-template-sdef-fmt.html"
 	}
   },
   "canonicalBase": "http://hl7.org/fhir/hspc", 
