@@ -71,7 +71,7 @@
 	
 	"ValueSet/bpMeasBodyLocationPrecoordVS":{"base":"ValueSet-bpMeasBodyLocationPrecoordVS.html"},
 	"ValueSet/bpMeasDeviceVS":{"base":"ValueSet-bpMeasDeviceVS.html"},
-	"ValueSet/bPBodyPositionVS":{"base":"ValueSet-bPBodyPositionVS.html"},
+	"ValueSet/bpBodyPositionVS":{"base":"ValueSet-bpBodyPositionVS.html"},
 	"ValueSet/sPO2BodyLocationVS":{"base":"ValueSet-sPO2BodyLocationVS.html"},
 	"ValueSet/deltaFlagNumericNomVS":{"base":"ValueSet-deltaFlagNumericNomVS.html"},
 	"ValueSet/weightMeasurementMethodVS":{"base":"ValueSet-weightMeasurementMethodVS.html"},
