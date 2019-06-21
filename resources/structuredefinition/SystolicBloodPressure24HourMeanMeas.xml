@@ -38,7 +38,7 @@
         <strength value="preferred"/>
         <description value="The position that a patient is in when a heart rate measurement is taken."/>
         <valueSetReference>
-          <reference value="http://hl7.org/fhir/hspc/ValueSet/bpbodyposition"/>
+          <reference value="http://hl7.org/fhir/hspc/ValueSet/bpBodyPositionVS"/>
         </valueSetReference>
       </binding>
     </element>

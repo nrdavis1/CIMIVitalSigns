@@ -232,7 +232,7 @@
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="ValueSet/bPBodyPositionVS"/>
+				<reference value="ValueSet/bpBodyPositionVS"/>
 				<display value="Blood Pressure Body Position value set"/>
 			</sourceReference>
 		</resource>
