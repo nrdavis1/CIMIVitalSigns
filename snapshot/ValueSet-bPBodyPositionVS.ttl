@@ -5,9 +5,9 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/hspc/ValueSet/bpbodyposition> a fhir:ValueSet;
+<http://hl7.org/fhir/hspc/ValueSet/bPBodyPositionVS> a fhir:ValueSet;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "bpbodyposition"];
+  fhir:Resource.id [ fhir:value "bPBodyPositionVS"];
   fhir:Resource.meta [
      fhir:Meta.profile [
        fhir:value "http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition";
@@ -23,7 +23,7 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/valueset-extensible" ];
      fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
   ];
-  fhir:ValueSet.url [ fhir:value "http://hl7.org/fhir/hspc/ValueSet/bpbodyposition"];
+  fhir:ValueSet.url [ fhir:value "http://hl7.org/fhir/hspc/ValueSet/bPBodyPositionVS"];
   fhir:ValueSet.version [ fhir:value "0.01"];
   fhir:ValueSet.name [ fhir:value "Blood Pressure Measurement Body Position"];
   fhir:ValueSet.status [ fhir:value "draft"];
@@ -107,9 +107,9 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.org/fhir/hspc/ValueSet/bpbodyposition.ttl> a owl:Ontology;
+<http://hl7.org/fhir/hspc/ValueSet/bPBodyPositionVS.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl;
-  owl:versionIRI <http://build.fhir.org/hspc/ValueSet/bpbodyposition.ttl> .
+  owl:versionIRI <http://build.fhir.org/hspc/ValueSet/bPBodyPositionVS.ttl> .
 
 # -------------------------------------------------------------------------------------
 

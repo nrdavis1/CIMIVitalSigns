@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ValueSet xmlns="http://hl7.org/fhir">
-  <id value="bpbodyposition"/>
+  <id value="bPBodyPositionVS"/>
   <meta>
     <profile value="http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"/>
   </meta>
@@ -12,7 +12,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
     <valueBoolean value="true"/>
   </extension>
-  <url value="http://hl7.org/fhir/hspc/ValueSet/bpbodyposition"/>
+  <url value="http://hl7.org/fhir/hspc/ValueSet/bPBodyPositionVS"/>
   <version value="0.01"/>
   <name value="Blood Pressure Measurement Body Position"/>
   <status value="draft"/>

@@ -5,9 +5,9 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/hspc/ValueSet/bpmeasbodylocationprecoord> a fhir:ValueSet;
+<http://hl7.org/fhir/hspc/ValueSet/bpMeasBodyLocationPrecoordVS> a fhir:ValueSet;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "bpmeasbodylocationprecoord"];
+  fhir:Resource.id [ fhir:value "bpMeasBodyLocationPrecoordVS"];
   fhir:Resource.meta [
      fhir:Meta.profile [
        fhir:value "http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition";
@@ -23,7 +23,7 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/valueset-extensible" ];
      fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
   ];
-  fhir:ValueSet.url [ fhir:value "http://hl7.org/fhir/hspc/ValueSet/bpmeasbodylocationprecoord"];
+  fhir:ValueSet.url [ fhir:value "http://hl7.org/fhir/hspc/ValueSet/bpMeasBodyLocationPrecoordVS"];
   fhir:ValueSet.version [ fhir:value "0.01"];
   fhir:ValueSet.name [ fhir:value "Blood Pressure Measurement Body Location Precoodinated"];
   fhir:ValueSet.status [ fhir:value "draft"];
@@ -134,9 +134,9 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.org/fhir/hspc/ValueSet/bpmeasbodylocationprecoord.ttl> a owl:Ontology;
+<http://hl7.org/fhir/hspc/ValueSet/bpMeasBodyLocationPrecoordVS.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl;
-  owl:versionIRI <http://build.fhir.org/hspc/ValueSet/bpmeasbodylocationprecoord.ttl> .
+  owl:versionIRI <http://build.fhir.org/hspc/ValueSet/bpMeasBodyLocationPrecoordVS.ttl> .
 
 # -------------------------------------------------------------------------------------
 

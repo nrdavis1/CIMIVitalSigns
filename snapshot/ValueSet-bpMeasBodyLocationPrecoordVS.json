@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "id": "bpmeasbodylocationprecoord",
+  "id": "bpMeasBodyLocationPrecoordVS",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"
@@ -16,7 +16,7 @@
       "valueBoolean": true
     }
   ],
-  "url": "http://hl7.org/fhir/hspc/ValueSet/bpmeasbodylocationprecoord",
+  "url": "http://hl7.org/fhir/hspc/ValueSet/bpMeasBodyLocationPrecoordVS",
   "version": "0.01",
   "name": "Blood Pressure Measurement Body Location Precoodinated",
   "status": "draft",
