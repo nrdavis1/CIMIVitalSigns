@@ -93,7 +93,7 @@
             <binding>
                 <strength value="preferred"/>
                 <valueSetReference>
-                    <reference value="http://hl7.org/fhir/hspc/ValueSet/deltaFlagnumericNom"/>
+                    <reference value="http://hl7.org/fhir/hspc/ValueSet/deltaFlagNumericNomVS"/>
                 </valueSetReference>
             </binding>
         </element>
