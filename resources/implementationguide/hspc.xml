@@ -225,14 +225,14 @@
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="ValueSet/bpmeasbodylocationprecoord"/>
+				<reference value="ValueSet/bpMeasBodyLocationPrecoordVS"/>
 				<display value="Blood Pressure Measurement Body Location - precoordinated value set"/>
 			</sourceReference>
 		</resource>
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="ValueSet/bpbodyposition"/>
+				<reference value="ValueSet/bPBodyPositionVS"/>
 				<display value="Blood Pressure Body Position value set"/>
 			</sourceReference>
 		</resource>
@@ -246,7 +246,7 @@
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="ValueSet/deltaFlagnumericNom"/>
+				<reference value="ValueSet/deltaFlagNumericNomVS"/>
 				<display value="Delta Flag Numeric Nominal value set"/>
 			</sourceReference>
 		</resource>
