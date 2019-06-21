@@ -1,0 +1,304 @@
+﻿<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="author" content="http://hl7.org/fhir"/>
+
+  <link rel="stylesheet" href="fhir.css"/>
+
+
+    <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="dist/css/bootstrap.css"/>
+  <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+    <!-- Project extras -->
+  <link rel="stylesheet" href="assets/css/project.css"/>
+  <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+  <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- [if lt IE 9]>
+  <script src="assets/js/html5shiv.js"></script>
+  <script src="assets/js/respond.min.js"></script>
+  <![endif] -->
+
+    <!-- Favicons -->
+  <link sizes="144x144" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+  <link sizes="114x114" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+  <link sizes="72x72" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+  <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+  <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+
+
+  </head>
+  <body>
+  <!-- status-bar -->
+<div>
+ <div id="segment-header" class="segment">
+    <!-- segment-header -->
+  <div class="container">
+     <!-- container -->
+   <a no-external="true" id="logo" href="http://hl7.org/fhir">
+    <img src="assets/images/fhir-logo-www.png" alt="logo fhir"/>
+   </a>
+   <div id="hl7-status">
+    <b>Current Build</b>
+   </div>
+
+   <div id="hl7-nav">
+    <a no-external="true" id="hl7-logo" href="http://www.hl7.org">
+     <img src="assets/images/hl7-logo.png" alt="visit the hl7 website" width="42" height="50"/>
+    </a>
+   </div>
+   <div id="hl7-nav">
+    <a no-external="true" id="hl7-logo" href="http://hl7.org/fhir/search.cfm">
+     <img src="assets/images/search.png" alt="Search FHIR"/>
+    </a>
+   </div>
+  </div>
+  <div class="container">
+     <!-- container -->
+  </div>
+ </div>
+   <!-- /segment-header -->
+
+ <div id="segment-navbar" class="segment">
+    <!-- segment-navbar -->
+  <div id="stripe"> </div>
+  <div class="container">
+     <!-- container -->
+     <!-- HEADER CONTENT -->
+
+   <nav class="navbar navbar-inverse">
+    <div class="container">
+     <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+      <span class="icon-bar"> </span>
+      <span class="icon-bar"> </span>
+      <span class="icon-bar"> </span>
+     </button>
+     <a href="http://hl7.org/fhir/2017Jan/index.html" class="navbar-brand hidden">FHIR</a>
+     <div class="nav-collapse collapse navbar-inverse-collapse">
+      <ul class="nav navbar-nav">
+
+       <li>
+        <a href="http://hl7.org/fhir/2017Jan/index.html">Home</a>
+       </li>
+       <li>
+        <a href="http://hl7.org/fhir/2017Jan/documentation.html">Documentation</a>
+       </li>
+       <li>
+        <a href="http://hl7.org/fhir/2017Jan/modules.html">Modules</a>
+       </li>
+       <li>
+        <a href="http://hl7.org/fhir/2017Jan/resourcelist.html">Resources</a>
+       </li>
+       <li>
+        <a href="http://hl7.org/fhir/2017Jan/profilelist.html">Profiles</a>
+       </li>
+       <li>
+        <a href="http://hl7.org/fhir/2017Jan/extensibility-registry.html">Extensions</a>
+       </li>
+       <li>
+        <a href="http://hl7.org/fhir/2017Jan/operationslist.html">Operations</a>
+       </li>
+
+      </ul>
+     </div>
+       <!-- /.nav-collapse -->
+    </div>
+      <!-- /.container -->
+   </nav>
+     <!-- /.navbar -->
+
+     <!-- /HEADER CONTENT -->
+  </div>
+    <!-- /container -->
+ </div>
+   <!-- /segment-navbar -->
+</div>
+
+    <div id="segment-breadcrumb" class="segment">
+        <!-- segment-breadcrumb -->
+      <div class="container">
+          <!-- container -->
+        <ul class="breadcrumb">
+          <li title="CIMI Vital Signs Implementation Guide"><b>CIMI Vital Signs Implementation Guide</b></li>
+        </ul>
+      </div>
+        <!-- /container -->
+    </div>
+      <!-- /segment-breadcrumb -->
+    <div id="segment-content" class="segment">
+        <!-- segment-content -->
+      <div class="container">
+          <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+            <div class="col-9">
+              <a name="hspc"></a>
+
+              <ul role="tablist" class="nav nav-tabs">
+                <li role="presentation" class="active"><a data-toggle="tab" role="tab" aria-controls="home" href="#overview">Overview</a></li>
+                <li role="presentation"><a data-toggle="tab" role="tab" aria-controls="profile" href="#profiles">Profiles</a></li>
+                <li role="presentation"><a data-toggle="tab" role="tab" aria-controls="profile" href="#extensions">Extensions</a></li>
+                <li role="presentation"><a data-toggle="tab" role="tab" aria-controls="profile" href="#value-sets">Value Sets</a></li>
+              </ul>
+
+                <!-- Tab panes -->
+              <div class="tab-content">
+                <div role="tabpanel" id="overview" class="tab-pane active">
+                  <div>
+  <h2>Clinical Information Modeling Initiative Vital Signs Implementation Guide(IG)</h2>
+  <h3> Background </h3>
+  <p>
+    The Clinical Information Modeling Initiative created this implementation guide to promote the use and adoption of a set of logical data structures and panels, represented as FHIR profiles for vital signs.  The CIMI Vital Signs Panel includes height, body length, weight, blood pressure, body tempoerature, head circumference, body mass index, heart rate, respiratory rate, and oxygen staturation in arterial blood by pulse oximetry (SPO2).  More background to be added later.
+  </p>
+</div>
+
+
+
+                  <div>
+<h3> Overview </h3>
+<p>
+This is a preliminary implementation guide created by Clinical Information Modeling Initiative (CIMI) for Vital Signs.  This publication is intended to facilitate discussion about the content and design for these models.
+</p>
+</div>
+
+                </div>
+                <div role="tabpanel" id="profiles" class="tab-pane">
+                  <div>
+<p>This guide references the following profiles.</p>
+<p>
+<a href="StructureDefinition-BloodPressurePanel-definitions.html">BloodPressurePanel</a><br/>
+<a href="StructureDefinition-BodyLength-definitions.html">BodyLength</a><br/>
+<a href="StructureDefinition-BodyMassIndexMeas-definitions.html">BodyMassIndexMeas</a><br/>
+<a href="StructureDefinition-BodyTemperatureMeas-definitions.html">BodyTemperatureMeas</a><br/>
+<a href="StructureDefinition-BodyWeightMeas-definitions.html">BodyWeightMeas</a><br/>
+<a href="StructureDefinition-DiastolicBloodPressureMeas-definitions.html">DiastolicBloodPressureMeas</a><br/>
+<a href="StructureDefinition-DiastolicBloodPressure24HourMeanMeas-definitions.html">DiastolicBloodPressure24HourMeanMeas</a><br/>
+<a href="StructureDefinition-HL7FHIRVitalSignsPanel-definitions.html">HL7FHIRVitalSignsPanel</a><br/>
+<a href="StructureDefinition-HeadOccipitalFrontalCircumference-definitions.html">HeadOccipitalFrontalCircumference</a><br/>
+<a href="StructureDefinition-HeartRateMeas-definitions.html">HeartRateMeas</a><br/>
+<a href="StructureDefinition-HeightMeas-definitions.html">HeightMeas</a><br/>
+<a href="StructureDefinition-MeanArterialPressureMeas-definitions.html">MeanArterialPressureMeas</a><br/>
+<a href="StructureDefinition-OxygenSaturationArterialBloodMeas-definitions.html">OxygenSaturationArterialBloodMeas</a><br/>
+<a href="StructureDefinition-RespiratoryRateMeas-definitions.html">RespiratoryRateMeas</a><br/>
+<a href="StructureDefinition-SystolicBloodPressureMeas-definitions.html">SystolicBloodPressureMeas</a><br/>
+<a href="StructureDefinition-SystolicBloodPressure24HourMeanMeas-definitions.html">SystolicBloodPressure24HourMeanMeas</a><br/>
+</p>
+</div>
+
+                </div>
+                <div role="tabpanel" id="extensions" class="tab-pane">
+                  <div>
+<p>This guide references the following extensions.</p>
+<p>
+<a href="StructureDefinition-AssociatedPreconditionExt-definitions.html">AssociatedPreconditionExt</a><br/>
+<a href="StructureDefinition-BodyPositionExt-definitions.html">BodyPositionExt</a><br/>
+<a href="StructureDefinition-BloodPressureCuffSizeExt-definitions.html">BloodPressureCuffSizeExt</a><br/>
+<a href="StructureDefinition-DataAbsentReasonExt-definitions.html">DataAbsentReasonExt</a><br/>
+<a href="StructureDefinition-DataOriginationModeExt-definitions.html">DataOriginationModeExt</a><br/>
+<a href="StructureDefinition-DeltaFlagExt-definitions.html">DeltaFlagExt</a><br/>
+<a href="StructureDefinition-DeviceExt-definitions.html">DeviceExt</a><br/>
+<a href="StructureDefinition-EstimatedIndExt-definitions.html">EstimatedIndExt</a><br/>
+<a href="StructureDefinition-FocalSubjectExt-definitions.html">FocalSubjectExt</a><br/>
+<a href="StructureDefinition-MeasurementDeviceExt-definitions.html">MeasurementDeviceExt</a><br/>
+<a href="StructureDefinition-MethodDeviceExt-definitions.html">MethodDeviceExt</a><br/>
+<a href="StructureDefinition-SensorDescriptionExt-definitions.html">SensorDescriptionExt</a><br/>
+<a href="StructureDefinition-SleepStatusExt-definitions.html">SleepStatusExt</a><br/>
+</p>
+</div>
+
+                </div>
+                <div role="tabpanel" id="value-sets" class="tab-pane">
+                  <div>
+<p>This guide references the following value sets.</p>
+<p><a name="a4b327c4-f22f-48e1-b12f-0f5ad0bc05ac">​</a>
+<a href="ValueSet-abnIntNumericNom.html">abnIntNumericNom</a><br/>
+<a href="ValueSet-bodyPositionVS.html">bodyPositionVS</a><br/>
+<a href="ValueSet-bodyTempMeasBodyLocationPrecoordVS.html">bodyTempMeasBodyLocationPrecoordVS</a><br/>
+<a href="ValueSet-bodyTempMeasMethodDeviceVS.html">bodyTempMeasMethodDeviceVS</a><br/>
+<a href="ValueSet-bodyWeightMeasurementAssociatedPrecondVS.html">bodyWeightMeasurementAssociatedPrecondVS</a><br/>
+<a href="ValueSet-bpCuffSizeVS.html">bpCuffSizeVS</a><br/>
+<a href="ValueSet-bpMeasDeviceVS.html">bpMeasDeviceVS</a><br/>
+<a href="ValueSet-bpMeasMethodVS.html">bpMeasMethodVS</a><br/>
+<a href="ValueSet-bpBodyPositionVS.html">bpBodyPositionVS</a><br/>
+<a href="ValueSet-bpMeasBodyLocationPrecoordVS.html">bpMeasBodyLocationPrecoordVS</a><br/>
+<a href="ValueSet-dataOriginationModeVS.html">dataOriginationModeVS</a><br/>
+<a href="ValueSet-definedLimitsVS.html">definedLimitsVS</a><br/>
+<a href="ValueSet-deltaFlagnumericNom.html">deltaFlagnumericNom</a><br/>
+<a href="ValueSet-heartRateMeasBodyLocationPrecoordVS.html">heartRateMeasBodyLocationPrecoordVS</a><br/>
+<a href="ValueSet-heartRateMeasDeviceVS.html">heartRateMeasDeviceVS</a><br/>
+<a href="ValueSet-heartRateMeasMethodVS.html">heartRateMeasMethodVS</a><br/>
+<a href="ValueSet-heightBodyPositionVS.html">heightBodyPositionVS</a><br/>
+<a href="ValueSet-heightLengthMeasDeviceVS.html">heightLengthMeasDeviceVS</a><br/>
+<a href="ValueSet-heightLengthMeasMethodVS.html">heightLengthMeasMethodVS</a><br/>
+<a href="ValueSet-respiratoryRateMeasDeviceVS.html">respiratoryRateMeasDeviceVS</a><br/>
+<a href="ValueSet-respiratoryRateMeasMethodVS.html">respiratoryRateMeasMethodVS</a><br/>
+<a href="ValueSet-sPO2BodyLocationVS.html">sPO2BodyLocationVS</a><br/>
+<a href="ValueSet-sensorDescriptionVS.html">sensorDescriptionVS</a><br/>
+<a href="ValueSet-sleepStatusVS.html">sleepStatusVS</a><br/>
+<a href="ValueSet-vitalSignAssociatedPrecondVS.html">vitalSignAssociatedPrecondVS</a><br/>
+<a href="ValueSet-weightMeasurementDeviceVS.html">weightMeasurementDeviceVS</a><br/>
+<a href="ValueSet-weightMeasurementMethodVS.html">weightMeasurementMethodVS</a><br/>
+</p>
+</div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  <div igtool="footer" id="segment-footer" class="segment">
+      <!-- segment-footer -->
+    <div class="container">
+        <!-- container -->
+      <div class="inner-wrapper">
+        <p> &copy; HL7.org 2011+. FHIR STU3 Candidate (v3.0.1-11917) generated on
+          Fri, Jun 21, 2019 14:27-0600. <a href="qa.html">QA Page</a>
+          <br/>
+          <span style="color: #FFFF77"> Links: <a style="color: #81BEF7" href="http://hl7.org/fhir/search.cfm">Search <img src="external.png" style="text-align: baseline"/></a> | <a style="color: #81BEF7" href="http://hl7.org/fhir/2017Jan/history.html">Version History</a> | <a style="color: #81BEF7" href="http://hl7.org/fhir/2017Jan/toc.html">Table of Contents</a>
+            | <a rel="license" style="color: #81BEF7" href="http://hl7.org/fhir/2017Jan/license.html"><img src="cc0.png" alt="CC0" style="border-style: none;"/></a> | <a style="color: #81BEF7" href="http://gforge.hl7.org/gf/project/fhir/tracker/?action=TrackerItemAdd&amp;tracker_id=677" target="_blank">Propose a change <img src="external.png" style="text-align: baseline"/></a>
+          </span>
+        </p>
+      </div>
+        <!-- /inner-wrapper -->
+    </div>
+      <!-- /container -->
+  </div>
+    <!-- /segment-footer -->
+    <!-- disqus thread -->
+    <!-- disqus -->
+    <!-- end disqus -->
+
+  <div id="segment-post-footer" class="segment hidden">
+      <!-- segment-post-footer -->
+    <div class="container">
+        <!-- container -->
+    </div>
+      <!-- /container -->
+  </div>
+    <!-- /segment-post-footer -->
+
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/jquery-3.2.1.min.js"> </script>
+    <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js"> </script>
+  <script src="dist/js/bootstrap.min.js"> </script>
+  <script src="assets/js/respond.min.js"> </script>
+
+  <script src="assets/js/fhir.js"> </script>
+
+    <!-- Analytics Below
+================================================== -->
+
+
+  </body>
+</html>

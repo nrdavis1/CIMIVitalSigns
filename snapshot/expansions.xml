@@ -1,0 +1,4654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="9cf5a967-1234-47b2-bee7-b65593d3cebb"/>
+  <meta>
+    <lastUpdated value="2019-06-21T14:27:43.220-06:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/bpMeasBodyLocationPrecoordVS"/>
+    <resource>
+      <ValueSet>
+        <id value="bpMeasBodyLocationPrecoordVS"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 23 concepts</p>
+            <p>All codes from system 
+              <a href="http://hl7.org/fhir/2017Jan/codesystem-snomedct.html">
+                <code>http://snomed.info/sct</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-241784008"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=241784008">241784008</a>
+                </td>
+                <td>Left ankle (body structure)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-241699003"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=241699003">241699003</a>
+                </td>
+                <td>Right ankle (body structure)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-182245002"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=182245002">182245002</a>
+                </td>
+                <td>Arm (body structure)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-72098002"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=72098002">72098002</a>
+                </td>
+                <td>Left arm (body structure)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-59126009"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=59126009">59126009</a>
+                </td>
+                <td>Right arm (body structure)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-209672000"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=209672000">209672000</a>
+                </td>
+                <td>Left thigh (body structure)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-209570001"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=209570001">209570001</a>
+                </td>
+                <td>Right thigh (body structure)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-7569003"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=7569003">7569003</a>
+                </td>
+                <td>Finger structure</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-368208006"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368208006">368208006</a>
+                </td>
+                <td>Left upper arm structure</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-368209003"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368209003">368209003</a>
+                </td>
+                <td>Right upper arm structure</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-17137000"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=17137000">17137000</a>
+                </td>
+                <td>Structure of brachial artery</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-51636004"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=51636004">51636004</a>
+                </td>
+                <td>Structure of left ankle</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-113270003"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=113270003">113270003</a>
+                </td>
+                <td>Structure of left femoral artery</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-368504007"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368504007">368504007</a>
+                </td>
+                <td>Structure of left radial artery</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-61396006"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=61396006">61396006</a>
+                </td>
+                <td>Structure of left thigh</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-368506009"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368506009">368506009</a>
+                </td>
+                <td>Structure of left ulnar artery</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-6685009"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=6685009">6685009</a>
+                </td>
+                <td>Structure of right ankle</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-69833005"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=69833005">69833005</a>
+                </td>
+                <td>Structure of right femoral artery</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-368503001"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368503001">368503001</a>
+                </td>
+                <td>Structure of right radial artery</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-11207009"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=11207009">11207009</a>
+                </td>
+                <td>Structure of right thigh</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-368505008"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368505008">368505008</a>
+                </td>
+                <td>Structure of right ulnar artery</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-29707007"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=29707007">29707007</a>
+                </td>
+                <td>Toe structure</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-40983000"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=40983000">40983000</a>
+                </td>
+                <td>Upper arm structure</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
+          <valueBoolean value="true"/>
+        </extension>
+        <url value="http://hl7.org/fhir/hspc/ValueSet/bpMeasBodyLocationPrecoordVS"/>
+        <version value="0.01"/>
+        <name value="Blood Pressure Measurement Body Location Precoodinated"/>
+        <status value="draft"/>
+        <date value="2015-06-11T00:00:00-06:00"/>
+        <publisher value="Clinical Information Modeling Initiative (CIMI)"/>
+        <description value="SELECT SNOMED CT code system values."/>
+        <copyright value="TBD"/>
+        <expansion>
+          <identifier value="urn:uuid:b07cbab0-e3cb-4384-bc75-4d9fab9eb063"/>
+          <timestamp value="2019-06-21T14:28:06-06:00"/>
+          <total value="23"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueString value="-1"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueString value="http://snomed.info/sct?version=http://snomed.info/sct/20611000087101/version/20161031"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="241784008"/>
+            <display value="Left ankle (body structure)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="241699003"/>
+            <display value="Right ankle (body structure)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="182245002"/>
+            <display value="Arm (body structure)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="72098002"/>
+            <display value="Left arm (body structure)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="59126009"/>
+            <display value="Right arm (body structure)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="209672000"/>
+            <display value="Left thigh (body structure)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="209570001"/>
+            <display value="Right thigh (body structure)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="7569003"/>
+            <display value="Finger structure"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="368208006"/>
+            <display value="Left upper arm structure"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="368209003"/>
+            <display value="Right upper arm structure"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="17137000"/>
+            <display value="Structure of brachial artery"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="51636004"/>
+            <display value="Structure of left ankle"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="113270003"/>
+            <display value="Structure of left femoral artery"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="368504007"/>
+            <display value="Structure of left radial artery"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="61396006"/>
+            <display value="Structure of left thigh"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="368506009"/>
+            <display value="Structure of left ulnar artery"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="6685009"/>
+            <display value="Structure of right ankle"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="69833005"/>
+            <display value="Structure of right femoral artery"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="368503001"/>
+            <display value="Structure of right radial artery"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="11207009"/>
+            <display value="Structure of right thigh"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="368505008"/>
+            <display value="Structure of right ulnar artery"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="29707007"/>
+            <display value="Toe structure"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="40983000"/>
+            <display value="Upper arm structure"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/bPBodyPositionVS"/>
+    <resource>
+      <ValueSet>
+        <id value="bPBodyPositionVS"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 13 concepts</p>
+            <p>All codes from system 
+              <a href="http://hl7.org/fhir/2017Jan/codesystem-snomedct.html">
+                <code>http://snomed.info/sct</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-40199007"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=40199007">40199007</a>
+                </td>
+                <td>Supine body position</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-33586001"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=33586001">33586001</a>
+                </td>
+                <td>Sitting position</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-10904000"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=10904000">10904000</a>
+                </td>
+                <td>Orthostatic body position</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-414585002"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=414585002">414585002</a>
+                </td>
+                <td>Left lateral tilt</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-415346000"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=415346000">415346000</a>
+                </td>
+                <td>Right lateral tilt</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-30212006"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=30212006">30212006</a>
+                </td>
+                <td>Fowler&#39;s position</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-26527006"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=26527006">26527006</a>
+                </td>
+                <td>Inverse Trendelenburg position</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-102536004"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=102536004">102536004</a>
+                </td>
+                <td>Left lateral decubitus position</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-1240000"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1240000">1240000</a>
+                </td>
+                <td>Prone body position</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-102538003"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=102538003">102538003</a>
+                </td>
+                <td>Recumbent body position</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-423413008"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=423413008">423413008</a>
+                </td>
+                <td>Reverse trendelenburg positioning</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-102535000"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=102535000">102535000</a>
+                </td>
+                <td>Right lateral decubitus position</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-34106002"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=34106002">34106002</a>
+                </td>
+                <td>Trendelenburg position</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
+          <valueBoolean value="true"/>
+        </extension>
+        <url value="http://hl7.org/fhir/hspc/ValueSet/bPBodyPositionVS"/>
+        <version value="0.01"/>
+        <name value="Blood Pressure Measurement Body Position"/>
+        <status value="draft"/>
+        <date value="2018-11-08T00:00:00-07:00"/>
+        <publisher value="Clinical Information Modeling Initiative"/>
+        <description value="SELECT SNOMED CT code system values."/>
+        <immutable value="true"/>
+        <copyright value="TBD"/>
+        <expansion>
+          <identifier value="urn:uuid:cbd6dac0-e235-47ca-97cd-eeedd0523f0c"/>
+          <timestamp value="2019-06-21T14:28:07-06:00"/>
+          <total value="13"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueString value="-1"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueString value="http://snomed.info/sct?version=http://snomed.info/sct/20611000087101/version/20161031"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="40199007"/>
+            <display value="Supine body position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="33586001"/>
+            <display value="Sitting position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="10904000"/>
+            <display value="Orthostatic body position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="414585002"/>
+            <display value="Left lateral tilt"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="415346000"/>
+            <display value="Right lateral tilt"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="30212006"/>
+            <display value="Fowler&#39;s position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="26527006"/>
+            <display value="Inverse Trendelenburg position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="102536004"/>
+            <display value="Left lateral decubitus position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="1240000"/>
+            <display value="Prone body position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="102538003"/>
+            <display value="Recumbent body position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="423413008"/>
+            <display value="Reverse trendelenburg positioning"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="102535000"/>
+            <display value="Right lateral decubitus position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="34106002"/>
+            <display value="Trendelenburg position"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/sPO2BodyLocationVS"/>
+    <resource>
+      <ValueSet>
+        <id value="sPO2BodyLocationVS"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 4 concepts</p>
+            <p>All codes from system 
+              <a href="http://hl7.org/fhir/2017Jan/codesystem-snomedct.html">
+                <code>http://snomed.info/sct</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-48800003"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=48800003">48800003</a>
+                </td>
+                <td>Ear lobule structure</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-52795006"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=52795006">52795006</a>
+                </td>
+                <td>Forehead structure</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-29707007"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=29707007">29707007</a>
+                </td>
+                <td>Toe structure</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-7569003"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=7569003">7569003</a>
+                </td>
+                <td>Finger structure</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
+          <valueBoolean value="true"/>
+        </extension>
+        <url value="http://hl7.org/fhir/hspc/ValueSet/sPO2BodyLocationVS"/>
+        <version value="0.01"/>
+        <name value="Oxygen Saturation Body Location value set"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2018-11-09T00:00:00-07:00"/>
+        <publisher value="Clinical Information Modeling Initiative (CIMI)"/>
+        <description value="Select SNOMED CT codes. An set of codes for the location at which oxygen saturation was assessed."/>
+        <immutable value="true"/>
+        <copyright value="TBD"/>
+        <expansion>
+          <identifier value="urn:uuid:b25d4256-7bc6-428e-a36a-8b3454334d3c"/>
+          <timestamp value="2019-06-21T14:28:07-06:00"/>
+          <total value="4"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueString value="-1"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueString value="http://snomed.info/sct?version=http://snomed.info/sct/20611000087101/version/20161031"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="48800003"/>
+            <display value="Ear lobule structure"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="52795006"/>
+            <display value="Forehead structure"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="29707007"/>
+            <display value="Toe structure"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="7569003"/>
+            <display value="Finger structure"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/deltaFlagNumericNomVS"/>
+    <resource>
+      <ValueSet>
+        <id value="deltaFlagNumericNomVS"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 4 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on http://hl7.org/fhir/v3/ObservationInterpretation version 2016-11-11</p>
+            <p>All codes from system 
+              <a href="http://hl7.org/fhir/2017Jan/v3/ObservationInterpretation/cs.html">
+                <code>http://hl7.org/fhir/v3/ObservationInterpretation</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-v3-ObservationInterpretation-U"> </a>
+                  <a href="http://hl7.org/fhir/2017Jan/v3/ObservationInterpretation/cs.html#v3-ObservationInterpretation-U">U</a>
+                </td>
+                <td>Significant Change Up</td>
+                <td>The current result has increased from the previous result for a quantitative observation (the change is significant as defined in the respective test procedure).</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-v3-ObservationInterpretation-D"> </a>
+                  <a href="http://hl7.org/fhir/2017Jan/v3/ObservationInterpretation/cs.html#v3-ObservationInterpretation-D">D</a>
+                </td>
+                <td>Significant Change Down</td>
+                <td>The current result has decreased from the previous result for a quantitative observation (the change is significant as defined in the respective test procedure).</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-v3-ObservationInterpretation-B"> </a>
+                  <a href="http://hl7.org/fhir/2017Jan/v3/ObservationInterpretation/cs.html#v3-ObservationInterpretation-B">B</a>
+                </td>
+                <td>Better</td>
+                <td>The current result or observation value has improved compared to the previous result or observation value (the change is significant as defined in the respective test procedure).
+
+                        [Note: This can be applied to quantitative or qualitative observations.]</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-v3-ObservationInterpretation-W"> </a>
+                  <a href="http://hl7.org/fhir/2017Jan/v3/ObservationInterpretation/cs.html#v3-ObservationInterpretation-W">W</a>
+                </td>
+                <td>Worse</td>
+                <td>The current result or observation value has degraded compared to the previous result or observation value (the change is significant as defined in the respective test procedure).
+
+                        [Note: This can be applied to quantitative or qualitative observations.]</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/fhir/hspc/ValueSet/deltaFlagNumericNomVS"/>
+        <version value="0.01"/>
+        <name value="Delta Flag Numeric Nom"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2014-06-25T00:00:00-06:00"/>
+        <publisher value="HSPC"/>
+        <contact>
+          <telecom>
+            <system value="other"/>
+            <value value="http://healtcaresoa.org"/>
+          </telecom>
+        </contact>
+        <description value="HL7 V3:ObservationInterpretation OID: 2.16.840.1.113883.5.83 + SNOMED CT SNOMED CT concepts from the Degree findings (qualifier value)272520006, Presence findings (qualifier value)260411009, Absence findings (qualifier value)272519000"/>
+        <copyright value="IHC"/>
+        <expansion>
+          <identifier value="urn:uuid:177581a5-22d0-4b90-a141-d3e448687a51"/>
+          <timestamp value="2019-06-21T14:28:07-06:00"/>
+          <total value="4"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/v3/ObservationInterpretation|2016-11-11"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/v3/ObservationInterpretation"/>
+            <code value="U"/>
+            <display value="Significant Change Up"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/v3/ObservationInterpretation"/>
+            <code value="D"/>
+            <display value="Significant Change Down"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/v3/ObservationInterpretation"/>
+            <code value="B"/>
+            <display value="Better"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/v3/ObservationInterpretation"/>
+            <code value="W"/>
+            <display value="Worse"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/weightMeasurementMethodVS"/>
+    <resource>
+      <ValueSet>
+        <id value="weightMeasurementMethodVS"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 4 concepts</p>
+            <p>All codes from system 
+              <a href="http://hl7.org/fhir/2017Jan/codesystem-snomedct.html">
+                <code>http://snomed.info/sct</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-414135002"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=414135002">414135002</a>
+                </td>
+                <td>Estimated</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-258104002"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=258104002">258104002</a>
+                </td>
+                <td>Measured</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-77989009"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=77989009">77989009</a>
+                </td>
+                <td>Measurement of skin fold thickness</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-733985002"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=733985002">733985002</a>
+                </td>
+                <td>Reported</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
+          <valueBoolean value="true"/>
+        </extension>
+        <url value="http://hl7.org/fhir/hspc/ValueSet/weightMeasurementMethodVS"/>
+        <version value="0.01"/>
+        <name value="Weight Measurement Method"/>
+        <status value="draft"/>
+        <date value="2018-11-08T00:00:00-07:00"/>
+        <publisher value="Clinical Information Modeling Inititative"/>
+        <description value="SELECT SNOMED CT code system values."/>
+        <copyright value="TBD"/>
+        <expansion>
+          <identifier value="urn:uuid:61a09308-72ea-499a-afda-cf0ced7ead62"/>
+          <timestamp value="2019-06-21T14:28:07-06:00"/>
+          <total value="4"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueString value="-1"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueString value="http://snomed.info/sct?version=http://snomed.info/sct/20611000087101/version/20161031"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="414135002"/>
+            <display value="Estimated"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="258104002"/>
+            <display value="Measured"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="77989009"/>
+            <display value="Measurement of skin fold thickness"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="733985002"/>
+            <display value="Reported"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/weightMeasurementDeviceVS"/>
+    <resource>
+      <ValueSet>
+        <id value="weightMeasurementDeviceVS"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 7 concepts</p>
+            <p>All codes from system 
+              <a href="http://hl7.org/fhir/2017Jan/codesystem-snomedct.html">
+                <code>http://snomed.info/sct</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-466289007"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=466289007">466289007</a>
+                </td>
+                <td>Bed scale</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-720689000"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=720689000">720689000</a>
+                </td>
+                <td>Chair scale</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-462242008"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=462242008">462242008</a>
+                </td>
+                <td>Patient sling scale</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-58514003"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=58514003">58514003</a>
+                </td>
+                <td>Infant scale</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-444063009"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=444063009">444063009</a>
+                </td>
+                <td>Broselow Luten color coding system for pediatric weight estimation</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-469204003"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=469204003">469204003</a>
+                </td>
+                <td>Floor scale, electronic</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-469787007"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=469787007">469787007</a>
+                </td>
+                <td>Floor scale, mechanical</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
+          <valueBoolean value="true"/>
+        </extension>
+        <url value="http://hl7.org/fhir/hspc/ValueSet/weightMeasurementDeviceVS"/>
+        <version value="0.01"/>
+        <name value="Weight Measurement Device"/>
+        <status value="draft"/>
+        <date value="2018-11-08T00:00:00-07:00"/>
+        <publisher value="Clinical Information Modeling Inititative"/>
+        <description value="SELECT SNOMED CT code system values."/>
+        <copyright value="TBD"/>
+        <expansion>
+          <identifier value="urn:uuid:8d9b96da-ffd7-4fc9-8eaf-37b198e3ec38"/>
+          <timestamp value="2019-06-21T14:28:07-06:00"/>
+          <total value="7"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueString value="-1"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueString value="http://snomed.info/sct?version=http://snomed.info/sct/20611000087101/version/20161031"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="466289007"/>
+            <display value="Bed scale"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="720689000"/>
+            <display value="Chair scale"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="462242008"/>
+            <display value="Patient sling scale"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="58514003"/>
+            <display value="Infant scale"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="444063009"/>
+            <display value="Broselow Luten color coding system for pediatric weight estimation"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="469204003"/>
+            <display value="Floor scale, electronic"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="469787007"/>
+            <display value="Floor scale, mechanical"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/bodyWeightMeasurementAssociatedPrecondVS"/>
+    <resource>
+      <ValueSet>
+        <id value="bodyWeightMeasurementAssociatedPrecondVS"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 3 concepts</p>
+            <p>All codes from system 
+              <a href="http://hl7.org/fhir/2017Jan/codesystem-snomedct.html">
+                <code>http://snomed.info/sct</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-971000205103"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=971000205103">971000205103</a>
+                </td>
+                <td>Wearing street clothes with shoes</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-961000205106"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=961000205106">961000205106</a>
+                </td>
+                <td>Wearing street clothes, no shoes</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-951000205108"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=951000205108">951000205108</a>
+                </td>
+                <td>Wearing underwear or less</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
+          <valueBoolean value="true"/>
+        </extension>
+        <url value="http://hl7.org/fhir/hspc/ValueSet/bodyWeightMeasurementAssociatedPrecondVS"/>
+        <version value="0.01"/>
+        <name value="Body Weight Measurement Associated Precondition value set"/>
+        <status value="draft"/>
+        <date value="2018-11-08T00:00:00-07:00"/>
+        <publisher value="Clinical Information Modeling Inititative"/>
+        <description value="SELECT SNOMED CT code system values."/>
+        <copyright value="TBD"/>
+        <expansion>
+          <identifier value="urn:uuid:bc5aca8d-5676-45b3-a475-99bdd38e004b"/>
+          <timestamp value="2019-06-21T14:28:08-06:00"/>
+          <total value="3"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueString value="-1"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueString value="http://snomed.info/sct?version=http://snomed.info/sct/20611000087101/version/20161031"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="971000205103"/>
+            <display value="Wearing street clothes with shoes"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="961000205106"/>
+            <display value="Wearing street clothes, no shoes"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="951000205108"/>
+            <display value="Wearing underwear or less"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/abnIntNumericNom"/>
+    <resource>
+      <ValueSet>
+        <id value="abnIntNumericNom"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 5 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on http://hl7.org/fhir/v3/ObservationInterpretation version 2016-11-11</p>
+            <p>All codes from system 
+              <a href="http://hl7.org/fhir/2017Jan/v3/ObservationInterpretation/cs.html">
+                <code>http://hl7.org/fhir/v3/ObservationInterpretation</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-v3-ObservationInterpretation-H"> </a>
+                  <a href="http://hl7.org/fhir/2017Jan/v3/ObservationInterpretation/cs.html#v3-ObservationInterpretation-H">H</a>
+                </td>
+                <td>Higher Than Normal</td>
+                <td>The result for a quantitative observation is above the upper limit of the reference range (as defined for the respective test procedure).
+
+                        Synonym: Above high normal</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-v3-ObservationInterpretation-L"> </a>
+                  <a href="http://hl7.org/fhir/2017Jan/v3/ObservationInterpretation/cs.html#v3-ObservationInterpretation-L">L</a>
+                </td>
+                <td>Lower Than Normal</td>
+                <td>The result for a quantitative observation is below the lower limit of the reference range (as defined for the respective test procedure).
+
+                        Synonym: Below low normal</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-v3-ObservationInterpretation-A"> </a>
+                  <a href="http://hl7.org/fhir/2017Jan/v3/ObservationInterpretation/cs.html#v3-ObservationInterpretation-A">A</a>
+                </td>
+                <td>Abnormal</td>
+                <td>The result or observation value is outside the reference range or expected norm (as defined for the respective test procedure).
+
+                        [Note: Typically applies to non-numeric results.]</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-v3-ObservationInterpretation-HH"> </a>
+                  <a href="http://hl7.org/fhir/2017Jan/v3/ObservationInterpretation/cs.html#v3-ObservationInterpretation-HH">HH</a>
+                </td>
+                <td>Panic High</td>
+                <td>The result for a quantitative observation is above a reference level at which immediate action should be considered for patient safety (as defined for the respective test procedure).
+
+                        Synonym: Above upper panic limits.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-v3-ObservationInterpretation-LL"> </a>
+                  <a href="http://hl7.org/fhir/2017Jan/v3/ObservationInterpretation/cs.html#v3-ObservationInterpretation-LL">LL</a>
+                </td>
+                <td>Panic Low</td>
+                <td>The result for a quantitative observation is below a reference level at which immediate action should be considered for patient safety (as defined for the respective test procedure).
+
+                        Synonym: Below lower panic limits.</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/fhir/hspc/ValueSet/abnIntNumericNom"/>
+        <version value="0.01"/>
+        <name value="Abnormal Interpretation Numeric Nom"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2015-04-14T00:00:00-06:00"/>
+        <publisher value="HSPC"/>
+        <contact>
+          <telecom>
+            <system value="other"/>
+            <value value="http://healtcaresoa.org"/>
+          </telecom>
+        </contact>
+        <description value="HL7 V3:ObservationInterpretation OID: 2.16.840.1.113883.5.83 + SNOMED CT SNOMED CT concepts from the Degree findings (qualifier value)272520006, Presence findings (qualifier value)260411009, Absence findings (qualifier value)272519000"/>
+        <copyright value="IHC"/>
+        <expansion>
+          <identifier value="urn:uuid:c07c37cb-0172-4d7b-acfe-9020c52a19c6"/>
+          <timestamp value="2019-06-21T14:28:08-06:00"/>
+          <total value="5"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/v3/ObservationInterpretation|2016-11-11"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/v3/ObservationInterpretation"/>
+            <code value="H"/>
+            <display value="Higher Than Normal"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/v3/ObservationInterpretation"/>
+            <code value="L"/>
+            <display value="Lower Than Normal"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/v3/ObservationInterpretation"/>
+            <code value="A"/>
+            <display value="Abnormal"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/v3/ObservationInterpretation"/>
+            <code value="HH"/>
+            <display value="Panic High"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/v3/ObservationInterpretation"/>
+            <code value="LL"/>
+            <display value="Panic Low"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/heightLengthMeasMethodVS"/>
+    <resource>
+      <ValueSet>
+        <id value="heightLengthMeasMethodVS"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 3 concepts</p>
+            <p>All codes from system 
+              <a href="http://hl7.org/fhir/2017Jan/codesystem-snomedct.html">
+                <code>http://snomed.info/sct</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-414135002"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=414135002">414135002</a>
+                </td>
+                <td>Estimated</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-258104002"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=258104002">258104002</a>
+                </td>
+                <td>Measured</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-733985002"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=733985002">733985002</a>
+                </td>
+                <td>Reported</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
+          <valueBoolean value="true"/>
+        </extension>
+        <url value="http://hl7.org/fhir/hspc/ValueSet/heightLengthMeasMethodVS"/>
+        <version value="0.01"/>
+        <name value="Height/Length Measurement Method value set"/>
+        <status value="draft"/>
+        <date value="2018-11-08T00:00:00-07:00"/>
+        <publisher value="Clinical Information Modeling Inititative"/>
+        <description value="SELECT SNOMED CT code system values."/>
+        <copyright value="TBD"/>
+        <expansion>
+          <identifier value="urn:uuid:0725dd33-5308-4dfb-8b36-e349aba6537b"/>
+          <timestamp value="2019-06-21T14:28:08-06:00"/>
+          <total value="3"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueString value="-1"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueString value="http://snomed.info/sct?version=http://snomed.info/sct/20611000087101/version/20161031"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="414135002"/>
+            <display value="Estimated"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="258104002"/>
+            <display value="Measured"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="733985002"/>
+            <display value="Reported"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/heightLengthMeasDeviceVS"/>
+    <resource>
+      <ValueSet>
+        <id value="heightLengthMeasDeviceVS"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 2 concepts</p>
+            <p>All codes from system 
+              <a href="http://hl7.org/fhir/2017Jan/codesystem-snomedct.html">
+                <code>http://snomed.info/sct</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-51791000"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=51791000">51791000</a>
+                </td>
+                <td>Measuring tape</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-462588003"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=462588003">462588003</a>
+                </td>
+                <td>Patient-height measure</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
+          <valueBoolean value="true"/>
+        </extension>
+        <url value="http://hl7.org/fhir/hspc/ValueSet/heightLengthMeasDeviceVS"/>
+        <version value="0.01"/>
+        <name value="Height/Length Measurement Device value set"/>
+        <status value="draft"/>
+        <date value="2018-11-08T00:00:00-07:00"/>
+        <publisher value="Clinical Information Modeling Inititative"/>
+        <description value="SELECT SNOMED CT code system values."/>
+        <copyright value="TBD"/>
+        <expansion>
+          <identifier value="urn:uuid:2f471891-a762-4f41-81f0-5b9126b89d6d"/>
+          <timestamp value="2019-06-21T14:28:08-06:00"/>
+          <total value="2"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueString value="-1"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueString value="http://snomed.info/sct?version=http://snomed.info/sct/20611000087101/version/20161031"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="51791000"/>
+            <display value="Measuring tape"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="462588003"/>
+            <display value="Patient-height measure"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/vitalSignAssociatedPrecondVS"/>
+    <resource>
+      <ValueSet>
+        <id value="vitalSignAssociatedPrecondVS"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 17 concepts</p>
+            <p>All codes from system 
+              <a href="http://hl7.org/fhir/2017Jan/codesystem-snomedct.html">
+                <code>http://snomed.info/sct</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-250980009-3110006"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=250980009:3110006">250980009:3110006</a>
+                </td>
+                <td>After cardioversion</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-276986009"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=276986009">276986009</a>
+                </td>
+                <td>Antepartum</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-263678003"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=263678003">263678003</a>
+                </td>
+                <td>At rest</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-250980009-307153007"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=250980009:307153007">250980009:307153007</a>
+                </td>
+                <td>Before cardioversion</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-250980009-307154001"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=250980009:307154001">250980009:307154001</a>
+                </td>
+                <td>During cardioversion</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-255566006"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255566006">255566006</a>
+                </td>
+                <td>Post-dose</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-255235001"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255235001">255235001</a>
+                </td>
+                <td>Pre-dose</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-262068006"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=262068006">262068006</a>
+                </td>
+                <td>Preoperative</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-255410009"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255410009">255410009</a>
+                </td>
+                <td>Postpartum</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-262061000"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=262061000">262061000</a>
+                </td>
+                <td>Postoperative period</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-277671009"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=277671009">277671009</a>
+                </td>
+                <td>Intraoperative</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-255399007"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255399007">255399007</a>
+                </td>
+                <td>Congenital</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-307159006"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=307159006">307159006</a>
+                </td>
+                <td>Pregnancy time period</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-884001"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=884001">884001</a>
+                </td>
+                <td>Initial</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-309604004"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=309604004">309604004</a>
+                </td>
+                <td>During exercise</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-255214003"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255214003">255214003</a>
+                </td>
+                <td>After exercise</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-307166007"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=307166007">307166007</a>
+                </td>
+                <td>Before exercise</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
+          <valueBoolean value="true"/>
+        </extension>
+        <url value="http://hl7.org/fhir/hspc/ValueSet/vitalSignAssociatedPrecondVS"/>
+        <version value="0.01"/>
+        <name value="Vital Sign Associated Precondition value set"/>
+        <status value="draft"/>
+        <date value="2018-11-08T00:00:00-07:00"/>
+        <publisher value="Clinical Information Modeling Inititative"/>
+        <description value="SELECT SNOMED CT code system values."/>
+        <copyright value="TBD"/>
+        <expansion>
+          <identifier value="urn:uuid:85b04394-d537-4a35-b700-2ae9bab22d69"/>
+          <timestamp value="2019-06-21T14:28:08-06:00"/>
+          <total value="17"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueString value="-1"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueString value="http://snomed.info/sct?version=http://snomed.info/sct/20611000087101/version/20161031"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="250980009:3110006"/>
+            <display value="After cardioversion"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="276986009"/>
+            <display value="Antepartum"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="263678003"/>
+            <display value="At rest"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="250980009:307153007"/>
+            <display value="Before cardioversion"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="250980009:307154001"/>
+            <display value="During cardioversion"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="255566006"/>
+            <display value="Post-dose"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="255235001"/>
+            <display value="Pre-dose"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="262068006"/>
+            <display value="Preoperative"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="255410009"/>
+            <display value="Postpartum"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="262061000"/>
+            <display value="Postoperative period"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="277671009"/>
+            <display value="Intraoperative"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="255399007"/>
+            <display value="Congenital"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="307159006"/>
+            <display value="Pregnancy time period"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="884001"/>
+            <display value="Initial"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="309604004"/>
+            <display value="During exercise"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="255214003"/>
+            <display value="After exercise"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="307166007"/>
+            <display value="Before exercise"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/heartRateMeasMethodVS"/>
+    <resource>
+      <ValueSet>
+        <id value="heartRateMeasMethodVS"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 8 concepts</p>
+            <p>All codes from system 
+              <a href="http://hl7.org/fhir/2017Jan/codesystem-snomedct.html">
+                <code>http://snomed.info/sct</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-37931006"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=37931006">37931006</a>
+                </td>
+                <td>Auscultation</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-13385008"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=13385008">13385008</a>
+                </td>
+                <td>Mediate auscultation</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-246263003"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=246263003">246263003</a>
+                </td>
+                <td>Impedance</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-113011001"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=113011001">113011001</a>
+                </td>
+                <td>Palpation</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-260933004"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=260933004">260933004</a>
+                </td>
+                <td>Pressure waveform</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-32750006"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=32750006">32750006</a>
+                </td>
+                <td>Inspection</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-46825001"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=46825001">46825001</a>
+                </td>
+                <td>Electrocardiographic monitoring</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-268447006"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=268447006">268447006</a>
+                </td>
+                <td>Doppler studies</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
+          <valueBoolean value="true"/>
+        </extension>
+        <url value="http://hl7.org/fhir/hspc/ValueSet/heartRateMeasMethodVS"/>
+        <version value="0.01"/>
+        <name value="Heart Rate Measurement Method value set"/>
+        <status value="draft"/>
+        <date value="2018-11-08T00:00:00-07:00"/>
+        <publisher value="Clinical Information Modeling Inititative"/>
+        <description value="SELECT SNOMED CT code system values."/>
+        <copyright value="TBD"/>
+        <expansion>
+          <identifier value="urn:uuid:a97012e3-65f3-465c-8ad2-0d7eeb033686"/>
+          <timestamp value="2019-06-21T14:28:08-06:00"/>
+          <total value="8"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueString value="-1"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueString value="http://snomed.info/sct?version=http://snomed.info/sct/20611000087101/version/20161031"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="37931006"/>
+            <display value="Auscultation"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="13385008"/>
+            <display value="Mediate auscultation"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="246263003"/>
+            <display value="Impedance"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="113011001"/>
+            <display value="Palpation"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="260933004"/>
+            <display value="Pressure waveform"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="32750006"/>
+            <display value="Inspection"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="46825001"/>
+            <display value="Electrocardiographic monitoring"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="268447006"/>
+            <display value="Doppler studies"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/heartRateMeasDeviceVS"/>
+    <resource>
+      <ValueSet>
+        <id value="heartRateMeasDeviceVS"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 6 concepts</p>
+            <p>All codes from system 
+              <a href="http://hl7.org/fhir/2017Jan/codesystem-snomedct.html">
+                <code>http://snomed.info/sct</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-43770009"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=43770009">43770009</a>
+                </td>
+                <td>Doppler device</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-448703006"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=448703006">448703006</a>
+                </td>
+                <td>Pulse oximeter</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-467178001"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=467178001">467178001</a>
+                </td>
+                <td>Bedside heart rate monitor</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-469801002"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=469801002">469801002</a>
+                </td>
+                <td>Invasive blood pressure monitor</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-258057004"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=258057004">258057004</a>
+                </td>
+                <td>Non-invasive blood pressure monitor</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-86184003"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=86184003">86184003</a>
+                </td>
+                <td>Electrocardiographic monitor and recorder</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
+          <valueBoolean value="true"/>
+        </extension>
+        <url value="http://hl7.org/fhir/hspc/ValueSet/heartRateMeasDeviceVS"/>
+        <version value="0.01"/>
+        <name value="Heart Rate Measurement Device value set"/>
+        <status value="draft"/>
+        <date value="2018-11-08T00:00:00-07:00"/>
+        <publisher value="Clinical Information Modeling Inititative"/>
+        <description value="SELECT SNOMED CT code system values."/>
+        <copyright value="TBD"/>
+        <expansion>
+          <identifier value="urn:uuid:d3fc3c40-cee2-46cf-aaf8-1f86b209b76e"/>
+          <timestamp value="2019-06-21T14:28:09-06:00"/>
+          <total value="6"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueString value="-1"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueString value="http://snomed.info/sct?version=http://snomed.info/sct/20611000087101/version/20161031"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="43770009"/>
+            <display value="Doppler device"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="448703006"/>
+            <display value="Pulse oximeter"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="467178001"/>
+            <display value="Bedside heart rate monitor"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="469801002"/>
+            <display value="Invasive blood pressure monitor"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="258057004"/>
+            <display value="Non-invasive blood pressure monitor"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="86184003"/>
+            <display value="Electrocardiographic monitor and recorder"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/heartRateMeasBodyLocationPrecoordVS"/>
+    <resource>
+      <ValueSet>
+        <id value="heartRateMeasBodyLocationPrecoordVS"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 20 concepts</p>
+            <p>All codes from system 
+              <a href="http://hl7.org/fhir/2017Jan/codesystem-snomedct.html">
+                <code>http://snomed.info/sct</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-17137000"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=17137000">17137000</a>
+                </td>
+                <td>Structure of brachial artery</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-13383001"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=13383001">13383001</a>
+                </td>
+                <td>Structure of apex of heart</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-69105007"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=69105007">69105007</a>
+                </td>
+                <td>Carotid artery structure</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-25885001"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=25885001">25885001</a>
+                </td>
+                <td>Left popliteal artery structure</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-57832007"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=57832007">57832007</a>
+                </td>
+                <td>Structure of right popliteal artery</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-214912001"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=214912001">214912001</a>
+                </td>
+                <td>Structure of left posterior tibial artery</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-214811007"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=214811007">214811007</a>
+                </td>
+                <td>Structure of right posterior tibial artery</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-368504007"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368504007">368504007</a>
+                </td>
+                <td>Structure of left radial artery</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-368503001"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368503001">368503001</a>
+                </td>
+                <td>Structure of right radial artery</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-368506009"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368506009">368506009</a>
+                </td>
+                <td>Structure of left ulnar artery</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-368505008"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368505008">368505008</a>
+                </td>
+                <td>Structure of right ulnar artery</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-43899006"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=43899006">43899006</a>
+                </td>
+                <td>Structure of popliteal artery</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-15672000"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=15672000">15672000</a>
+                </td>
+                <td>Structure of superficial temporal artery</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-7657000"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=7657000">7657000</a>
+                </td>
+                <td>Structure of femoral artery</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-45631007"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=45631007">45631007</a>
+                </td>
+                <td>Structure of radial artery</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-44984001"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=44984001">44984001</a>
+                </td>
+                <td>Structure of ulnar artery</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-113270003"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=113270003">113270003</a>
+                </td>
+                <td>Structure of left femoral artery</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-69833005"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=69833005">69833005</a>
+                </td>
+                <td>Structure of right femoral artery</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-86547008"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=86547008">86547008</a>
+                </td>
+                <td>Structure of dorsalis pedis artery</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-13363002"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=13363002">13363002</a>
+                </td>
+                <td>Structure of posterior tibial artery</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
+          <valueBoolean value="true"/>
+        </extension>
+        <url value="http://hl7.org/fhir/hspc/ValueSet/heartRateMeasBodyLocationPrecoordVS"/>
+        <version value="0.01"/>
+        <name value="Heart Rate Measurement Body Location Precoordinated value set"/>
+        <status value="draft"/>
+        <date value="2018-11-08T00:00:00-07:00"/>
+        <publisher value="Clinical Information Modeling Inititative"/>
+        <description value="SELECT SNOMED CT code system values."/>
+        <copyright value="TBD"/>
+        <expansion>
+          <identifier value="urn:uuid:dcebe9b3-cba7-4a7d-82e5-05ed5f53d0e5"/>
+          <timestamp value="2019-06-21T14:28:09-06:00"/>
+          <total value="20"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueString value="-1"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueString value="http://snomed.info/sct?version=http://snomed.info/sct/20611000087101/version/20161031"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="17137000"/>
+            <display value="Structure of brachial artery"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="13383001"/>
+            <display value="Structure of apex of heart"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="69105007"/>
+            <display value="Carotid artery structure"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="25885001"/>
+            <display value="Left popliteal artery structure"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="57832007"/>
+            <display value="Structure of right popliteal artery"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="214912001"/>
+            <display value="Structure of left posterior tibial artery"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="214811007"/>
+            <display value="Structure of right posterior tibial artery"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="368504007"/>
+            <display value="Structure of left radial artery"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="368503001"/>
+            <display value="Structure of right radial artery"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="368506009"/>
+            <display value="Structure of left ulnar artery"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="368505008"/>
+            <display value="Structure of right ulnar artery"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="43899006"/>
+            <display value="Structure of popliteal artery"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="15672000"/>
+            <display value="Structure of superficial temporal artery"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="7657000"/>
+            <display value="Structure of femoral artery"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="45631007"/>
+            <display value="Structure of radial artery"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="44984001"/>
+            <display value="Structure of ulnar artery"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="113270003"/>
+            <display value="Structure of left femoral artery"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="69833005"/>
+            <display value="Structure of right femoral artery"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="86547008"/>
+            <display value="Structure of dorsalis pedis artery"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="13363002"/>
+            <display value="Structure of posterior tibial artery"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/respiratoryRateMeasMethodVS"/>
+    <resource>
+      <ValueSet>
+        <id value="respiratoryRateMeasMethodVS"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 3 concepts</p>
+            <p>All codes from system 
+              <a href="http://hl7.org/fhir/2017Jan/codesystem-snomedct.html">
+                <code>http://snomed.info/sct</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-37931006"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=37931006">37931006</a>
+                </td>
+                <td>Auscultation</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-32750006"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=32750006">32750006</a>
+                </td>
+                <td>Inspection</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-258104002"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=258104002">258104002</a>
+                </td>
+                <td>Measured</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
+          <valueBoolean value="true"/>
+        </extension>
+        <url value="http://hl7.org/fhir/hspc/ValueSet/respiratoryRateMeasMethodVS"/>
+        <version value="0.01"/>
+        <name value="Respiratory Rate Measurement Method value set"/>
+        <status value="draft"/>
+        <date value="2018-11-08T00:00:00-07:00"/>
+        <publisher value="Clinical Information Modeling Inititative"/>
+        <description value="SELECT SNOMED CT code system values."/>
+        <copyright value="TBD"/>
+        <expansion>
+          <identifier value="urn:uuid:15cbc69f-6008-4333-a64f-a54c23068cb2"/>
+          <timestamp value="2019-06-21T14:28:09-06:00"/>
+          <total value="3"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueString value="-1"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueString value="http://snomed.info/sct?version=http://snomed.info/sct/20611000087101/version/20161031"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="37931006"/>
+            <display value="Auscultation"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="32750006"/>
+            <display value="Inspection"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="258104002"/>
+            <display value="Measured"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/respiratoryRateMeasDeviceVS"/>
+    <resource>
+      <ValueSet>
+        <id value="respiratoryRateMeasDeviceVS"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 4 concepts</p>
+            <p>All codes from system 
+              <a href="http://hl7.org/fhir/2017Jan/codesystem-snomedct.html">
+                <code>http://snomed.info/sct</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-250863006"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=250863006">250863006</a>
+                </td>
+                <td>Capnograph waveform</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-334990001"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=334990001">334990001</a>
+                </td>
+                <td>Peak flow meter</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-717730001"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=717730001">717730001</a>
+                </td>
+                <td>Impedance pneumography recording/analysis system</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-17120007"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=17120007">17120007</a>
+                </td>
+                <td>Biofeedback, strain gauge</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
+          <valueBoolean value="true"/>
+        </extension>
+        <url value="http://hl7.org/fhir/hspc/ValueSet/respiratoryRateMeasDeviceVS"/>
+        <version value="0.01"/>
+        <name value="Respiratory Rate Measurement Device value set"/>
+        <status value="draft"/>
+        <date value="2018-11-08T00:00:00-07:00"/>
+        <publisher value="Clinical Information Modeling Inititative"/>
+        <description value="SELECT SNOMED CT code system values."/>
+        <copyright value="TBD"/>
+        <expansion>
+          <identifier value="urn:uuid:2483c57c-4ba9-452a-a4bc-c732739b7925"/>
+          <timestamp value="2019-06-21T14:28:09-06:00"/>
+          <total value="4"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueString value="-1"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueString value="http://snomed.info/sct?version=http://snomed.info/sct/20611000087101/version/20161031"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="250863006"/>
+            <display value="Capnograph waveform"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="334990001"/>
+            <display value="Peak flow meter"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="717730001"/>
+            <display value="Impedance pneumography recording/analysis system"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="17120007"/>
+            <display value="Biofeedback, strain gauge"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/bodyTempMeasBodyLocationPrecoordVS"/>
+    <resource>
+      <ValueSet>
+        <id value="bodyTempMeasBodyLocationPrecoordVS"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 12 concepts</p>
+            <p>All codes from system 
+              <a href="http://hl7.org/fhir/2017Jan/codesystem-snomedct.html">
+                <code>http://snomed.info/sct</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-52795006"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=52795006">52795006</a>
+                </td>
+                <td>Forehead structure</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-29707007"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=29707007">29707007</a>
+                </td>
+                <td>Toe structure</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-42859004"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=42859004">42859004</a>
+                </td>
+                <td>Tympanic membrane structure</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-117590005"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=117590005">117590005</a>
+                </td>
+                <td>Ear structure</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-91470000"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=91470000">91470000</a>
+                </td>
+                <td>Axillary region structure</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-7569003"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=7569003">7569003</a>
+                </td>
+                <td>Finger structure</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-123851003"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=123851003">123851003</a>
+                </td>
+                <td>Mouth region structure</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-89837001"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=89837001">89837001</a>
+                </td>
+                <td>Urinary bladder structure</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-71836000"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=71836000">71836000</a>
+                </td>
+                <td>Nasopharyngeal structure</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-34402009"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=34402009">34402009</a>
+                </td>
+                <td>Rectum structure</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-279549004"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=279549004">279549004</a>
+                </td>
+                <td>Nasal cavity structure</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-74262004"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=74262004">74262004</a>
+                </td>
+                <td>Oral cavity structure</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
+          <valueBoolean value="true"/>
+        </extension>
+        <url value="http://hl7.org/fhir/hspc/ValueSet/bodyTempMeasBodyLocationPrecoordVS"/>
+        <version value="0.01"/>
+        <name value="Body Temperature Measurement Body Location value set"/>
+        <status value="draft"/>
+        <date value="2018-11-08T00:00:00-07:00"/>
+        <publisher value="Clinical Information Modeling Inititative (CIMI)"/>
+        <description value="SELECT SNOMED CT code system values."/>
+        <copyright value="TBD"/>
+        <expansion>
+          <identifier value="urn:uuid:6d1f6db2-203b-4708-8061-e65e04c8e875"/>
+          <timestamp value="2019-06-21T14:28:10-06:00"/>
+          <total value="12"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueString value="-1"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueString value="http://snomed.info/sct?version=http://snomed.info/sct/20611000087101/version/20161031"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="52795006"/>
+            <display value="Forehead structure"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="29707007"/>
+            <display value="Toe structure"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="42859004"/>
+            <display value="Tympanic membrane structure"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="117590005"/>
+            <display value="Ear structure"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="91470000"/>
+            <display value="Axillary region structure"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="7569003"/>
+            <display value="Finger structure"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="123851003"/>
+            <display value="Mouth region structure"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="89837001"/>
+            <display value="Urinary bladder structure"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="71836000"/>
+            <display value="Nasopharyngeal structure"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="34402009"/>
+            <display value="Rectum structure"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="279549004"/>
+            <display value="Nasal cavity structure"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="74262004"/>
+            <display value="Oral cavity structure"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/dataOriginationModeVS"/>
+    <resource>
+      <ValueSet>
+        <id value="dataOriginationModeVS"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 2 concepts</p>
+            <p>All codes from system 
+              <a href="http://hl7.org/fhir/2017Jan/codesystem-snomedct.html">
+                <code>http://snomed.info/sct</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-258104002"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=258104002">258104002</a>
+                </td>
+                <td>Measured</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-733985002"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=733985002">733985002</a>
+                </td>
+                <td>Reported</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
+          <valueBoolean value="true"/>
+        </extension>
+        <url value="http://hl7.org/fhir/hspc/ValueSet/dataOriginationModeVS"/>
+        <version value="0.01"/>
+        <name value="Data Origination Mode value set"/>
+        <status value="draft"/>
+        <date value="2018-12-03T00:00:00-07:00"/>
+        <publisher value="Clinical Information Modeling Inititative"/>
+        <description value="SELECT SNOMED CT code system values."/>
+        <copyright value="TBD"/>
+        <expansion>
+          <identifier value="urn:uuid:edaccbbc-40f1-4dd8-a2ef-5cd83756d7bb"/>
+          <timestamp value="2019-06-21T14:28:10-06:00"/>
+          <total value="2"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueString value="-1"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueString value="http://snomed.info/sct?version=http://snomed.info/sct/20611000087101/version/20161031"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="258104002"/>
+            <display value="Measured"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="733985002"/>
+            <display value="Reported"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/definedLimitsVS"/>
+    <resource>
+      <ValueSet>
+        <id value="definedLimitsVS"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 1 concepts</p>
+            <p>All codes from system 
+              <a href="http://hl7.org/fhir/2017Jan/codesystem-snomedct.html">
+                <code>http://snomed.info/sct</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-449501000124109"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=449501000124109">449501000124109</a>
+                </td>
+                <td>Within defined limits</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
+          <valueBoolean value="true"/>
+        </extension>
+        <url value="http://hl7.org/fhir/hspc/ValueSet/definedLimitsVS"/>
+        <version value="0.01"/>
+        <name value="Defined Limits value set"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2018-11-09T00:00:00-07:00"/>
+        <publisher value="Clinical Information Modeling Initiative"/>
+        <description value="Select SNOMED CT codes."/>
+        <immutable value="true"/>
+        <copyright value="TBD"/>
+        <expansion>
+          <identifier value="urn:uuid:ea29d240-7cc3-4ab2-b0f7-7f02af5685e5"/>
+          <timestamp value="2019-06-21T14:28:10-06:00"/>
+          <total value="1"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueString value="-1"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueString value="http://snomed.info/sct?version=http://snomed.info/sct/20611000087101/version/20161031"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="449501000124109"/>
+            <display value="Within defined limits"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/heightBodyPositionVS"/>
+    <resource>
+      <ValueSet>
+        <id value="heightBodyPositionVS"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 11 concepts</p>
+            <p>All codes from system 
+              <a href="http://hl7.org/fhir/2017Jan/codesystem-snomedct.html">
+                <code>http://snomed.info/sct</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-40199007"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=40199007">40199007</a>
+                </td>
+                <td>Supine body position</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-10904000"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=10904000">10904000</a>
+                </td>
+                <td>Orthostatic body position</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-1240000"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1240000">1240000</a>
+                </td>
+                <td>Prone body position</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-34106002"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=34106002">34106002</a>
+                </td>
+                <td>Trendelenburg position</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-26527006"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=26527006">26527006</a>
+                </td>
+                <td>Inverse Trendelenburg position</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-33586001"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=33586001">33586001</a>
+                </td>
+                <td>Sitting position</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-102536004"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=102536004">102536004</a>
+                </td>
+                <td>Left lateral decubitus position</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-102535000"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=102535000">102535000</a>
+                </td>
+                <td>Right lateral decubitus position</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-414585002"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=414585002">414585002</a>
+                </td>
+                <td>Left lateral tilt</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-30212006"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=30212006">30212006</a>
+                </td>
+                <td>Fowler&#39;s position</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-102538003"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=102538003">102538003</a>
+                </td>
+                <td>Recumbent body position</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
+          <valueBoolean value="true"/>
+        </extension>
+        <url value="http://hl7.org/fhir/hspc/ValueSet/heightBodyPositionVS"/>
+        <version value="0.01"/>
+        <name value="Height Body Position value set"/>
+        <status value="draft"/>
+        <date value="2018-11-08T00:00:00-07:00"/>
+        <publisher value="Clinical Information Modeling Inititative"/>
+        <description value="SELECT SNOMED CT code system values."/>
+        <copyright value="TBD"/>
+        <expansion>
+          <identifier value="urn:uuid:d5a412f0-7fc5-4f4b-bb16-c065adec5daf"/>
+          <timestamp value="2019-06-21T14:28:10-06:00"/>
+          <total value="11"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueString value="-1"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueString value="http://snomed.info/sct?version=http://snomed.info/sct/20611000087101/version/20161031"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="40199007"/>
+            <display value="Supine body position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="10904000"/>
+            <display value="Orthostatic body position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="1240000"/>
+            <display value="Prone body position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="34106002"/>
+            <display value="Trendelenburg position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="26527006"/>
+            <display value="Inverse Trendelenburg position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="33586001"/>
+            <display value="Sitting position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="102536004"/>
+            <display value="Left lateral decubitus position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="102535000"/>
+            <display value="Right lateral decubitus position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="414585002"/>
+            <display value="Left lateral tilt"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="30212006"/>
+            <display value="Fowler&#39;s position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="102538003"/>
+            <display value="Recumbent body position"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/bpCuffSizeVS"/>
+    <resource>
+      <ValueSet>
+        <id value="bpCuffSizeVS"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 13 concepts</p>
+            <p>All codes from system 
+              <a href="http://hl7.org/fhir/2017Jan/codesystem-snomedct.html">
+                <code>http://snomed.info/sct</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-720740000"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=720740000">720740000</a>
+                </td>
+                <td>Blood pressure cuff, adult thigh type</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-720737000"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=720737000">720737000</a>
+                </td>
+                <td>Blood pressure cuff, adult size</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-720736009"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=720736009">720736009</a>
+                </td>
+                <td>Blood pressure cuff, pediatric size</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-720739002"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=720739002">720739002</a>
+                </td>
+                <td>Blood pressure cuff, adult size small</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-720738005"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=720738005">720738005</a>
+                </td>
+                <td>Blood pressure cuff, adult size large</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-8741000205104"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=8741000205104">8741000205104</a>
+                </td>
+                <td>Blood pressure cuff, ankle type</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-8731000205109"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=8731000205109">8731000205109</a>
+                </td>
+                <td>Blood pressure cuff, extra large adult thigh cuff</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-8861000205108"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=8861000205108">8861000205108</a>
+                </td>
+                <td>Blood pressure cuff, infant size</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-8841000205107"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=8841000205107">8841000205107</a>
+                </td>
+                <td>Blood pressure cuff, neonatal size 1</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-8851000205105"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=8851000205105">8851000205105</a>
+                </td>
+                <td>Blood pressure cuff, neonatal size 2</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-8821000205104"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=8821000205104">8821000205104</a>
+                </td>
+                <td>Blood pressure cuff, neonatal size 3</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-8811000205106"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=8811000205106">8811000205106</a>
+                </td>
+                <td>Blood pressure cuff, neonatal size 4</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-8801000205109"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=8801000205109">8801000205109</a>
+                </td>
+                <td>Blood pressure cuff, neonatal size 5</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
+          <valueBoolean value="true"/>
+        </extension>
+        <url value="http://hl7.org/fhir/hspc/ValueSet/bpCuffSizeVS"/>
+        <version value="0.01"/>
+        <name value="Blood Pressure Cuff Size value set"/>
+        <status value="draft"/>
+        <date value="2018-11-08T00:00:00-07:00"/>
+        <publisher value="Clinical Information Modeling Inititative"/>
+        <description value="SELECT SNOMED CT code system values."/>
+        <copyright value="TBD"/>
+        <expansion>
+          <identifier value="urn:uuid:8ed43b57-0842-474b-8431-8dc3e97f6620"/>
+          <timestamp value="2019-06-21T14:28:11-06:00"/>
+          <total value="13"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueString value="-1"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueString value="http://snomed.info/sct?version=http://snomed.info/sct/20611000087101/version/20161031"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="720740000"/>
+            <display value="Blood pressure cuff, adult thigh type"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="720737000"/>
+            <display value="Blood pressure cuff, adult size"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="720736009"/>
+            <display value="Blood pressure cuff, pediatric size"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="720739002"/>
+            <display value="Blood pressure cuff, adult size small"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="720738005"/>
+            <display value="Blood pressure cuff, adult size large"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="8741000205104"/>
+            <display value="Blood pressure cuff, ankle type"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="8731000205109"/>
+            <display value="Blood pressure cuff, extra large adult thigh cuff"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="8861000205108"/>
+            <display value="Blood pressure cuff, infant size"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="8841000205107"/>
+            <display value="Blood pressure cuff, neonatal size 1"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="8851000205105"/>
+            <display value="Blood pressure cuff, neonatal size 2"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="8821000205104"/>
+            <display value="Blood pressure cuff, neonatal size 3"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="8811000205106"/>
+            <display value="Blood pressure cuff, neonatal size 4"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="8801000205109"/>
+            <display value="Blood pressure cuff, neonatal size 5"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/bpMeasMethodVS"/>
+    <resource>
+      <ValueSet>
+        <id value="bpMeasMethodVS"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 9 concepts</p>
+            <p>All codes from system 
+              <a href="http://hl7.org/fhir/2017Jan/codesystem-snomedct.html">
+                <code>http://snomed.info/sct</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-37931006"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=37931006">37931006</a>
+                </td>
+                <td>Auscultation</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-13385008"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=13385008">13385008</a>
+                </td>
+                <td>Mediate auscultation</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-268447006"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=268447006">268447006</a>
+                </td>
+                <td>Doppler studies</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-113011001"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=113011001">113011001</a>
+                </td>
+                <td>Palpation</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-31813000"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=31813000">31813000</a>
+                </td>
+                <td>Oscillometry</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-17146006"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=17146006">17146006</a>
+                </td>
+                <td>Arterial pressure monitoring, non-invasive method</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-77938009"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=77938009">77938009</a>
+                </td>
+                <td>Arterial pressure monitoring, invasive method</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-641000205104"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=641000205104">641000205104</a>
+                </td>
+                <td>Computer aided auscultation</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-911000205109"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=911000205109">911000205109</a>
+                </td>
+                <td>Measurement of blood pressure using intravascular transducer</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
+          <valueBoolean value="true"/>
+        </extension>
+        <url value="http://hl7.org/fhir/hspc/ValueSet/bpMeasMethodVS"/>
+        <version value="0.01"/>
+        <name value="Blood Pressure Measurement Method value set"/>
+        <status value="draft"/>
+        <date value="2018-12-04T00:00:00-07:00"/>
+        <publisher value="Clinical Information Modeling Inititative"/>
+        <description value="SELECT SNOMED CT code system values."/>
+        <copyright value="TBD"/>
+        <expansion>
+          <identifier value="urn:uuid:9a15d984-b514-4e3b-8b8b-070bc435a38d"/>
+          <timestamp value="2019-06-21T14:28:11-06:00"/>
+          <total value="9"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueString value="-1"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueString value="http://snomed.info/sct?version=http://snomed.info/sct/20611000087101/version/20161031"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="37931006"/>
+            <display value="Auscultation"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="13385008"/>
+            <display value="Mediate auscultation"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="268447006"/>
+            <display value="Doppler studies"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="113011001"/>
+            <display value="Palpation"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="31813000"/>
+            <display value="Oscillometry"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="17146006"/>
+            <display value="Arterial pressure monitoring, non-invasive method"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="77938009"/>
+            <display value="Arterial pressure monitoring, invasive method"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="641000205104"/>
+            <display value="Computer aided auscultation"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="911000205109"/>
+            <display value="Measurement of blood pressure using intravascular transducer"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/heightBodyPositionVS"/>
+    <resource>
+      <ValueSet>
+        <id value="heightBodyPositionVS"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 11 concepts</p>
+            <p>All codes from system 
+              <a href="http://hl7.org/fhir/2017Jan/codesystem-snomedct.html">
+                <code>http://snomed.info/sct</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-40199007"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=40199007">40199007</a>
+                </td>
+                <td>Supine body position</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-10904000"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=10904000">10904000</a>
+                </td>
+                <td>Orthostatic body position</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-1240000"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1240000">1240000</a>
+                </td>
+                <td>Prone body position</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-34106002"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=34106002">34106002</a>
+                </td>
+                <td>Trendelenburg position</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-26527006"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=26527006">26527006</a>
+                </td>
+                <td>Inverse Trendelenburg position</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-33586001"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=33586001">33586001</a>
+                </td>
+                <td>Sitting position</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-102536004"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=102536004">102536004</a>
+                </td>
+                <td>Left lateral decubitus position</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-102535000"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=102535000">102535000</a>
+                </td>
+                <td>Right lateral decubitus position</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-414585002"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=414585002">414585002</a>
+                </td>
+                <td>Left lateral tilt</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-30212006"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=30212006">30212006</a>
+                </td>
+                <td>Fowler&#39;s position</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-102538003"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=102538003">102538003</a>
+                </td>
+                <td>Recumbent body position</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
+          <valueBoolean value="true"/>
+        </extension>
+        <url value="http://hl7.org/fhir/hspc/ValueSet/heightBodyPositionVS"/>
+        <version value="0.01"/>
+        <name value="Height Body Position value set"/>
+        <status value="draft"/>
+        <date value="2018-11-08T00:00:00-07:00"/>
+        <publisher value="Clinical Information Modeling Inititative"/>
+        <description value="SELECT SNOMED CT code system values."/>
+        <copyright value="TBD"/>
+        <expansion>
+          <identifier value="urn:uuid:d5a412f0-7fc5-4f4b-bb16-c065adec5daf"/>
+          <timestamp value="2019-06-21T14:28:10-06:00"/>
+          <total value="11"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueString value="-1"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueString value="http://snomed.info/sct?version=http://snomed.info/sct/20611000087101/version/20161031"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="40199007"/>
+            <display value="Supine body position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="10904000"/>
+            <display value="Orthostatic body position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="1240000"/>
+            <display value="Prone body position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="34106002"/>
+            <display value="Trendelenburg position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="26527006"/>
+            <display value="Inverse Trendelenburg position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="33586001"/>
+            <display value="Sitting position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="102536004"/>
+            <display value="Left lateral decubitus position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="102535000"/>
+            <display value="Right lateral decubitus position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="414585002"/>
+            <display value="Left lateral tilt"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="30212006"/>
+            <display value="Fowler&#39;s position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="102538003"/>
+            <display value="Recumbent body position"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/sensorDescriptionVS"/>
+    <resource>
+      <ValueSet>
+        <id value="sensorDescriptionVS"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 2 concepts</p>
+            <p>All codes from system 
+              <a href="http://hl7.org/fhir/2017Jan/codesystem-snomedct.html">
+                <code>http://snomed.info/sct</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-462664005"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=462664005">462664005</a>
+                </td>
+                <td>Pulse oximeter probe, single-use</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-462513001"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=462513001">462513001</a>
+                </td>
+                <td>Pulse oximeter probe, reusable</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
+          <valueBoolean value="true"/>
+        </extension>
+        <url value="http://hl7.org/fhir/hspc/ValueSet/sensorDescriptionVS"/>
+        <version value="0.01"/>
+        <name value="Sensor Description value set"/>
+        <status value="draft"/>
+        <date value="2018-12-04T00:00:00-07:00"/>
+        <publisher value="Clinical Information Modeling Inititative"/>
+        <description value="SELECT SNOMED CT code system values."/>
+        <copyright value="TBD"/>
+        <expansion>
+          <identifier value="urn:uuid:1cc28cf3-42e3-4d42-a322-ef60f1e9f277"/>
+          <timestamp value="2019-06-21T14:28:11-06:00"/>
+          <total value="2"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueString value="-1"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueString value="http://snomed.info/sct?version=http://snomed.info/sct/20611000087101/version/20161031"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="462664005"/>
+            <display value="Pulse oximeter probe, single-use"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="462513001"/>
+            <display value="Pulse oximeter probe, reusable"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/sleepStatusVS"/>
+    <resource>
+      <ValueSet>
+        <id value="sleepStatusVS"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 2 concepts</p>
+            <p>All codes from system 
+              <a href="http://hl7.org/fhir/2017Jan/codesystem-snomedct.html">
+                <code>http://snomed.info/sct</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-248218005"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=248218005">248218005</a>
+                </td>
+                <td>Awake</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-248220008"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=248220008">248220008</a>
+                </td>
+                <td>Asleep</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
+          <valueBoolean value="true"/>
+        </extension>
+        <url value="http://hl7.org/fhir/hspc/ValueSet/sleepStatusVS"/>
+        <version value="0.01"/>
+        <name value="Sleep Status value set"/>
+        <status value="draft"/>
+        <date value="2018-12-04T00:00:00-07:00"/>
+        <publisher value="Clinical Information Modeling Inititative"/>
+        <description value="SELECT SNOMED CT code system values."/>
+        <copyright value="TBD"/>
+        <expansion>
+          <identifier value="urn:uuid:6e1187c7-4f00-4097-b1f2-7df0a3d383ea"/>
+          <timestamp value="2019-06-21T14:28:11-06:00"/>
+          <total value="2"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueString value="-1"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueString value="http://snomed.info/sct?version=http://snomed.info/sct/20611000087101/version/20161031"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="248218005"/>
+            <display value="Awake"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="248220008"/>
+            <display value="Asleep"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/bpMeasDeviceVS"/>
+    <resource>
+      <ValueSet>
+        <id value="bpMeasDeviceVS"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 4 concepts</p>
+            <p>All codes from system 
+              <a href="http://hl7.org/fhir/2017Jan/codesystem-snomedct.html">
+                <code>http://snomed.info/sct</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-43770009"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=43770009">43770009</a>
+                </td>
+                <td>Doppler device</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-309642005"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=309642005">309642005</a>
+                </td>
+                <td>Mercury sphygmomanometer</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-309641003"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=309641003">309641003</a>
+                </td>
+                <td>Aneroid sphygmomanometer</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-469801002"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=469801002">469801002</a>
+                </td>
+                <td>Invasive blood pressure monitor</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
+          <valueBoolean value="true"/>
+        </extension>
+        <url value="http://hl7.org/fhir/hspc/ValueSet/bpMeasDeviceVS"/>
+        <version value="0.01"/>
+        <name value="Blood Pressure Measurement Device value set"/>
+        <status value="draft"/>
+        <date value="2018-11-08T00:00:00-07:00"/>
+        <publisher value="Clinical Information Modeling Inititative"/>
+        <description value="SELECT SNOMED CT code system values."/>
+        <copyright value="TBD"/>
+        <expansion>
+          <identifier value="urn:uuid:e91f4fbf-59c6-4978-b6b9-1c46dfead1c4"/>
+          <timestamp value="2019-06-21T14:28:12-06:00"/>
+          <total value="4"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueString value="-1"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueString value="http://snomed.info/sct?version=http://snomed.info/sct/20611000087101/version/20161031"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="43770009"/>
+            <display value="Doppler device"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="309642005"/>
+            <display value="Mercury sphygmomanometer"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="309641003"/>
+            <display value="Aneroid sphygmomanometer"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="469801002"/>
+            <display value="Invasive blood pressure monitor"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/bodyTempMeasMethodDeviceVS"/>
+    <resource>
+      <ValueSet>
+        <id value="bodyTempMeasMethodDeviceVS"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 11 concepts</p>
+            <p>All codes from system 
+              <a href="http://hl7.org/fhir/2017Jan/codesystem-snomedct.html">
+                <code>http://snomed.info/sct</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-260548002"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=260548002">260548002</a>
+                </td>
+                <td>Oral</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-255582007"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255582007">255582007</a>
+                </td>
+                <td>Rectal</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-467862000"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=467862000">467862000</a>
+                </td>
+                <td>Capillary patient thermometer, mercury</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-462983001"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=462983001">462983001</a>
+                </td>
+                <td>Liquid-crystal patient thermometer</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-118376009"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=118376009">118376009</a>
+                </td>
+                <td>Thermocouple</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-448349000"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=448349000">448349000</a>
+                </td>
+                <td>Tympanic thermometer</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-448735006"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=448735006">448735006</a>
+                </td>
+                <td>Forehead thermometer</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-706158001"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=706158001">706158001</a>
+                </td>
+                <td>Electronic patient thermometer</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-464210001"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=464210001">464210001</a>
+                </td>
+                <td>Thermographic camera</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-1461000205102"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1461000205102">1461000205102</a>
+                </td>
+                <td>Digital thermometer</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-2331000205106"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=2331000205106">2331000205106</a>
+                </td>
+                <td>Non-contact infrared thermometer</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
+          <valueBoolean value="true"/>
+        </extension>
+        <url value="http://hl7.org/fhir/hspc/ValueSet/bodyTempMeasMethodDeviceVS"/>
+        <version value="0.01"/>
+        <name value="Body Temperature Measurement Method/Device value set"/>
+        <status value="draft"/>
+        <date value="2018-11-08T00:00:00-07:00"/>
+        <publisher value="Clinical Information Modeling Inititative"/>
+        <description value="SELECT SNOMED CT code system values.  This value set is still being created, not all values have been added nor vetted."/>
+        <copyright value="TBD"/>
+        <expansion>
+          <identifier value="urn:uuid:6fb9c809-adcf-42b8-8e48-6c2843609038"/>
+          <timestamp value="2019-06-21T14:28:12-06:00"/>
+          <total value="11"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueString value="-1"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueString value="http://snomed.info/sct?version=http://snomed.info/sct/20611000087101/version/20161031"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="260548002"/>
+            <display value="Oral"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="255582007"/>
+            <display value="Rectal"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="467862000"/>
+            <display value="Capillary patient thermometer, mercury"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="462983001"/>
+            <display value="Liquid-crystal patient thermometer"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="118376009"/>
+            <display value="Thermocouple"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="448349000"/>
+            <display value="Tympanic thermometer"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="448735006"/>
+            <display value="Forehead thermometer"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="706158001"/>
+            <display value="Electronic patient thermometer"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="464210001"/>
+            <display value="Thermographic camera"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="1461000205102"/>
+            <display value="Digital thermometer"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="2331000205106"/>
+            <display value="Non-contact infrared thermometer"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/bpMeasMethodDeviceVS"/>
+    <resource>
+      <ValueSet>
+        <id value="bpMeasMethodDeviceVS"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 16 concepts</p>
+            <p>All codes from system 
+              <a href="http://hl7.org/fhir/2017Jan/codesystem-snomedct.html">
+                <code>http://snomed.info/sct</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-37931006"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=37931006">37931006</a>
+                </td>
+                <td>Auscultation</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-13385008"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=13385008">13385008</a>
+                </td>
+                <td>Mediate auscultation</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-268447006"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=268447006">268447006</a>
+                </td>
+                <td>Doppler studies</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-113011001"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=113011001">113011001</a>
+                </td>
+                <td>Palpation</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-31813000"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=31813000">31813000</a>
+                </td>
+                <td>Oscillometry</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-17146006"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=17146006">17146006</a>
+                </td>
+                <td>Arterial pressure monitoring, non-invasive method</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-77938009"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=77938009">77938009</a>
+                </td>
+                <td>Arterial pressure monitoring, invasive method</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-641000205104"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=641000205104">641000205104</a>
+                </td>
+                <td>Computer aided auscultation</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-911000205109"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=911000205109">911000205109</a>
+                </td>
+                <td>Measurement of blood pressure using intravascular transducer</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-43770009"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=43770009">43770009</a>
+                </td>
+                <td>Doppler device</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-309642005"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=309642005">309642005</a>
+                </td>
+                <td>Mercury sphygmomanometer</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-309641003"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=309641003">309641003</a>
+                </td>
+                <td>Aneroid sphygmomanometer</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-469801002"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=469801002">469801002</a>
+                </td>
+                <td>Invasive blood pressure monitor</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-720737000"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=720737000">720737000</a>
+                </td>
+                <td>Blood pressure cuff, adult size</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-720736009"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=720736009">720736009</a>
+                </td>
+                <td>Blood pressure cuff, pediatric size</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-720740000"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=720740000">720740000</a>
+                </td>
+                <td>Blood pressure cuff, adult thigh type</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
+          <valueBoolean value="true"/>
+        </extension>
+        <url value="http://hl7.org/fhir/hspc/ValueSet/bpMeasMethodDeviceVS"/>
+        <version value="0.01"/>
+        <name value="Blood Pressure Measurement Method/Device value set"/>
+        <status value="draft"/>
+        <date value="2018-12-04T00:00:00-07:00"/>
+        <publisher value="Clinical Information Modeling Inititative"/>
+        <description value="SELECT SNOMED CT code system values."/>
+        <copyright value="TBD"/>
+        <expansion>
+          <identifier value="urn:uuid:c44806ad-fdeb-4dd0-ac44-34dc3f75a7d8"/>
+          <timestamp value="2019-06-21T14:28:12-06:00"/>
+          <total value="16"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueString value="-1"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueString value="http://snomed.info/sct?version=http://snomed.info/sct/20611000087101/version/20161031"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="37931006"/>
+            <display value="Auscultation"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="13385008"/>
+            <display value="Mediate auscultation"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="268447006"/>
+            <display value="Doppler studies"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="113011001"/>
+            <display value="Palpation"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="31813000"/>
+            <display value="Oscillometry"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="17146006"/>
+            <display value="Arterial pressure monitoring, non-invasive method"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="77938009"/>
+            <display value="Arterial pressure monitoring, invasive method"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="641000205104"/>
+            <display value="Computer aided auscultation"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="911000205109"/>
+            <display value="Measurement of blood pressure using intravascular transducer"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="43770009"/>
+            <display value="Doppler device"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="309642005"/>
+            <display value="Mercury sphygmomanometer"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="309641003"/>
+            <display value="Aneroid sphygmomanometer"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="469801002"/>
+            <display value="Invasive blood pressure monitor"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="720737000"/>
+            <display value="Blood pressure cuff, adult size"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="720736009"/>
+            <display value="Blood pressure cuff, pediatric size"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="720740000"/>
+            <display value="Blood pressure cuff, adult thigh type"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>
