@@ -23,7 +23,7 @@
   fhir:ValueSet.name [ fhir:value "Abnormal Interpretation Numeric Nom"];
   fhir:ValueSet.status [ fhir:value "draft"];
   fhir:ValueSet.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:ValueSet.date [ fhir:value "2015-04-14T00:00:00-05:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2015-04-14T00:00:00-06:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "HSPC"];
   fhir:ValueSet.contact [
      fhir:index 0;

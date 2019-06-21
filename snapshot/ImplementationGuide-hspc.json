@@ -9,7 +9,7 @@
   "version": "1.0",
   "name": "CIMI Vital Signs Implementation Guide",
   "status": "draft",
-  "date": "2018-09-26T00:00:00-05:00",
+  "date": "2018-09-26T00:00:00-06:00",
   "publisher": "Health Services Platform Consortium",
   "contact": [
     {
@@ -300,6 +300,32 @@
           "sourceReference": {
             "reference": "StructureDefinition/BodyMassIndexMeas",
             "display": "Body Mass Index"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "StructureDefinition-DiastolicBloodPressure24HourMeanMeas.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "StructureDefinition/DiastolicBloodPressure24HourMeanMeas",
+            "display": "Diastolic Blood Pressure 24 Hour Mean"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "StructureDefinition-SystolicBloodPressure24HourMeanMeas.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "StructureDefinition/SystolicBloodPressure24HourMeanMeas",
+            "display": "Systolic Blood Pressure 24 Hour Mean"
           }
         },
         {
@@ -651,6 +677,19 @@
           "sourceReference": {
             "reference": "ValueSet/bodyTempMeasMethodDeviceVS",
             "display": "Body Temperature Measurement Method/Device value set"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-bpMeasMethodDeviceVS.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ValueSet/bpMeasMethodDeviceVS",
+            "display": "Blood Pressure Measurement Method/Device value set"
           }
         }
       ]

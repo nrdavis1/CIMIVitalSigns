@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "Body Position"];
   fhir:StructureDefinition.title [ fhir:value "Body Position"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
-  fhir:StructureDefinition.date [ fhir:value "2017-06-11T00:00:00-05:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2017-06-11T00:00:00-06:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "CIMI"];
   fhir:StructureDefinition.description [ fhir:value "The position of the body when the observation was done, e.g. standing, sitting. To be used only when the body position in not precoordinated in the observation code."];
   fhir:StructureDefinition.fhirVersion [ fhir:value "3.0.1"];

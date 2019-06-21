@@ -12,7 +12,7 @@
   <version value="2.0.0"/>
   <name value="Device (simple)"/>
   <status value="draft"/>
-  <date value="2018-10-18T00:00:00-05:00"/>
+  <date value="2018-10-18T00:00:00-06:00"/>
   <publisher value="HSPC"/>
   <description value="An instrument, tool, analyzer, etc.."/>
   <fhirVersion value="3.0.1"/>

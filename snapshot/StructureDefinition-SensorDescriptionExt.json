@@ -9,7 +9,7 @@
   "version": "2.0.0",
   "name": "Sensor Description",
   "status": "draft",
-  "date": "2018-12-04T00:00:00-06:00",
+  "date": "2018-12-04T00:00:00-07:00",
   "publisher": "CIMI",
   "description": "The kind of sensor used to measure the oxygen saturation.",
   "fhirVersion": "3.0.1",

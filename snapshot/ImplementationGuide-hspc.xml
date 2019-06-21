@@ -10,7 +10,7 @@
   <version value="1.0"/>
   <name value="CIMI Vital Signs Implementation Guide"/>
   <status value="draft"/>
-  <date value="2018-09-26T00:00:00-05:00"/>
+  <date value="2018-09-26T00:00:00-06:00"/>
   <publisher value="Health Services Platform Consortium"/>
   <contact>
     <telecom>
@@ -252,6 +252,26 @@
       <sourceReference>
         <reference value="StructureDefinition/BodyMassIndexMeas"/>
         <display value="Body Mass Index"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-DiastolicBloodPressure24HourMeanMeas.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/DiastolicBloodPressure24HourMeanMeas"/>
+        <display value="Diastolic Blood Pressure 24 Hour Mean"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-SystolicBloodPressure24HourMeanMeas.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/SystolicBloodPressure24HourMeanMeas"/>
+        <display value="Systolic Blood Pressure 24 Hour Mean"/>
       </sourceReference>
     </resource>
     <resource>
@@ -522,6 +542,16 @@
       <sourceReference>
         <reference value="ValueSet/bodyTempMeasMethodDeviceVS"/>
         <display value="Body Temperature Measurement Method/Device value set"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-bpMeasMethodDeviceVS.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/bpMeasMethodDeviceVS"/>
+        <display value="Blood Pressure Measurement Method/Device value set"/>
       </sourceReference>
     </resource>
   </package>

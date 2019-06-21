@@ -11,7 +11,7 @@
   <url value="http://hl7.org/fhir/hspc/StructureDefinition/DataAbsentReasonExt"/>
   <name value="Data Absent Reason"/>
   <status value="draft"/>
-  <date value="2017-05-23T00:00:00-05:00"/>
+  <date value="2017-05-23T00:00:00-06:00"/>
   <publisher value="HSPC"/>
   <description value="Data Absent Reason."/>
   <fhirVersion value="3.0.1"/>

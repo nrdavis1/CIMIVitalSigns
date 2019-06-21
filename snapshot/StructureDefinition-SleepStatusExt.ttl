@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "Sleep Status"];
   fhir:StructureDefinition.title [ fhir:value "Sleep Status"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
-  fhir:StructureDefinition.date [ fhir:value "2017-06-11T00:00:00-05:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2017-06-11T00:00:00-06:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "CIMI"];
   fhir:StructureDefinition.description [ fhir:value "The state of sleep of the patient."];
   fhir:StructureDefinition.fhirVersion [ fhir:value "3.0.1"];

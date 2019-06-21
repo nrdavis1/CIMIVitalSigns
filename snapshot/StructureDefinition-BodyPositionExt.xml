@@ -13,7 +13,7 @@
   <name value="Body Position"/>
   <title value="Body Position"/>
   <status value="draft"/>
-  <date value="2017-06-11T00:00:00-05:00"/>
+  <date value="2017-06-11T00:00:00-06:00"/>
   <publisher value="CIMI"/>
   <description value="The position of the body when the observation was done, e.g. standing, sitting. To be used only when the body position in not precoordinated in the observation code."/>
   <fhirVersion value="3.0.1"/>

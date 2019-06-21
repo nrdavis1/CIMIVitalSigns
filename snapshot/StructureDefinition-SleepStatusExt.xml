@@ -13,7 +13,7 @@
   <name value="Sleep Status"/>
   <title value="Sleep Status"/>
   <status value="draft"/>
-  <date value="2017-06-11T00:00:00-05:00"/>
+  <date value="2017-06-11T00:00:00-06:00"/>
   <publisher value="CIMI"/>
   <description value="The state of sleep of the patient."/>
   <fhirVersion value="3.0.1"/>

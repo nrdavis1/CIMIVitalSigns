@@ -9,7 +9,7 @@
   "version": "2.0.0",
   "name": "Measurement Device",
   "status": "draft",
-  "date": "2017-06-11T00:00:00-05:00",
+  "date": "2017-06-11T00:00:00-06:00",
   "publisher": "CIMI",
   "description": "The instrument by which a measurement was obtained.",
   "fhirVersion": "3.0.1",

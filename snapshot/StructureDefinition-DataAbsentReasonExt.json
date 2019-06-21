@@ -8,7 +8,7 @@
   "url": "http://hl7.org/fhir/hspc/StructureDefinition/DataAbsentReasonExt",
   "name": "Data Absent Reason",
   "status": "draft",
-  "date": "2017-05-23T00:00:00-05:00",
+  "date": "2017-05-23T00:00:00-06:00",
   "publisher": "HSPC",
   "description": "Data Absent Reason.",
   "fhirVersion": "3.0.1",

@@ -174,7 +174,7 @@
   <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.version">fhir:ImplementationGuide.version</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;1.0&quot;];
   <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.name">fhir:ImplementationGuide.name</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;CIMI Vital Signs Implementation Guide&quot;];
   <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.status">fhir:ImplementationGuide.status</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#code">fhir:value</a> &quot;draft&quot;];
-  <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.date">fhir:ImplementationGuide.date</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#dateTime">fhir:value</a> &quot;2018-09-26T00:00:00-05:00&quot;^^xsd:dateTime];
+  <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.date">fhir:ImplementationGuide.date</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#dateTime">fhir:value</a> &quot;2018-09-26T00:00:00-06:00&quot;^^xsd:dateTime];
   <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.publisher">fhir:ImplementationGuide.publisher</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;Health Services Platform Consortium&quot;];
   <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.contact">fhir:ImplementationGuide.contact</a> [
      <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 0;
@@ -386,12 +386,30 @@
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.extension">fhir:Element.extension</a> [
          <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 0;
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot; ];
+         <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Extension#Extension.value[x]">fhir:Extension.valueUri</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;StructureDefinition-DiastolicBloodPressure24HourMeanMeas.html&quot; ]       ];
+       <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.example">fhir:ImplementationGuide.package.resource.example</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#boolean">fhir:value</a> &quot;false&quot;^^xsd:boolean ];
+       <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.source[x]">fhir:ImplementationGuide.package.resource.sourceReference</a> [
+         <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;StructureDefinition/DiastolicBloodPressure24HourMeanMeas&quot; ];
+         <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.display">fhir:Reference.display</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;Diastolic Blood Pressure 24 Hour Mean&quot; ]       ]     ], [
+       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 28;
+       <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.extension">fhir:Element.extension</a> [
+         <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 0;
+         <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot; ];
+         <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Extension#Extension.value[x]">fhir:Extension.valueUri</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;StructureDefinition-SystolicBloodPressure24HourMeanMeas.html&quot; ]       ];
+       <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.example">fhir:ImplementationGuide.package.resource.example</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#boolean">fhir:value</a> &quot;false&quot;^^xsd:boolean ];
+       <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.source[x]">fhir:ImplementationGuide.package.resource.sourceReference</a> [
+         <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;StructureDefinition/SystolicBloodPressure24HourMeanMeas&quot; ];
+         <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.display">fhir:Reference.display</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;Systolic Blood Pressure 24 Hour Mean&quot; ]       ]     ], [
+       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 29;
+       <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.extension">fhir:Element.extension</a> [
+         <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 0;
+         <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot; ];
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Extension#Extension.value[x]">fhir:Extension.valueUri</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;ValueSet-bpmeasbodylocationprecoord.html&quot; ]       ];
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.example">fhir:ImplementationGuide.package.resource.example</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#boolean">fhir:value</a> &quot;false&quot;^^xsd:boolean ];
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.source[x]">fhir:ImplementationGuide.package.resource.sourceReference</a> [
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;ValueSet/bpmeasbodylocationprecoord&quot; ];
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.display">fhir:Reference.display</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;Blood Pressure Measurement Body Location - precoordinated value set&quot; ]       ]     ], [
-       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 28;
+       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 30;
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.extension">fhir:Element.extension</a> [
          <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 0;
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot; ];
@@ -400,7 +418,7 @@
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.source[x]">fhir:ImplementationGuide.package.resource.sourceReference</a> [
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;ValueSet/bpbodyposition&quot; ];
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.display">fhir:Reference.display</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;Blood Pressure Body Position value set&quot; ]       ]     ], [
-       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 29;
+       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 31;
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.extension">fhir:Element.extension</a> [
          <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 0;
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot; ];
@@ -409,7 +427,7 @@
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.source[x]">fhir:ImplementationGuide.package.resource.sourceReference</a> [
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;ValueSet/sPO2BodyLocationVS&quot; ];
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.display">fhir:Reference.display</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;Oxygen Saturation Body Location value set&quot; ]       ]     ], [
-       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 30;
+       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 32;
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.extension">fhir:Element.extension</a> [
          <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 0;
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot; ];
@@ -418,7 +436,7 @@
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.source[x]">fhir:ImplementationGuide.package.resource.sourceReference</a> [
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;ValueSet/deltaFlagnumericNom&quot; ];
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.display">fhir:Reference.display</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;Delta Flag Numeric Nominal value set&quot; ]       ]     ], [
-       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 31;
+       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 33;
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.extension">fhir:Element.extension</a> [
          <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 0;
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot; ];
@@ -427,7 +445,7 @@
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.source[x]">fhir:ImplementationGuide.package.resource.sourceReference</a> [
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;ValueSet/weightMeasurementMethodVS&quot; ];
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.display">fhir:Reference.display</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;Weight Measurement Method value set&quot; ]       ]     ], [
-       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 32;
+       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 34;
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.extension">fhir:Element.extension</a> [
          <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 0;
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot; ];
@@ -436,7 +454,7 @@
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.source[x]">fhir:ImplementationGuide.package.resource.sourceReference</a> [
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;ValueSet/weightMeasurementDeviceVS&quot; ];
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.display">fhir:Reference.display</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;Weight Measurement Device value set&quot; ]       ]     ], [
-       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 33;
+       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 35;
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.extension">fhir:Element.extension</a> [
          <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 0;
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot; ];
@@ -445,7 +463,7 @@
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.source[x]">fhir:ImplementationGuide.package.resource.sourceReference</a> [
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;ValueSet/bodyWeightMeasurementAssociatedPrecondVS&quot; ];
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.display">fhir:Reference.display</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;Body Weight Measurement Associated Precondition value set&quot; ]       ]     ], [
-       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 34;
+       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 36;
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.extension">fhir:Element.extension</a> [
          <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 0;
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot; ];
@@ -454,7 +472,7 @@
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.source[x]">fhir:ImplementationGuide.package.resource.sourceReference</a> [
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;ValueSet/abnIntNumericNom&quot; ];
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.display">fhir:Reference.display</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;Abnormal Interpretation Numeric Nominal value set&quot; ]       ]     ], [
-       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 35;
+       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 37;
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.extension">fhir:Element.extension</a> [
          <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 0;
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot; ];
@@ -463,7 +481,7 @@
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.source[x]">fhir:ImplementationGuide.package.resource.sourceReference</a> [
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;ValueSet/heightLengthMeasMethodVS&quot; ];
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.display">fhir:Reference.display</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;Height/Length Measurement Method value set&quot; ]       ]     ], [
-       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 36;
+       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 38;
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.extension">fhir:Element.extension</a> [
          <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 0;
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot; ];
@@ -472,7 +490,7 @@
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.source[x]">fhir:ImplementationGuide.package.resource.sourceReference</a> [
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;ValueSet/heightLengthMeasDeviceVS&quot; ];
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.display">fhir:Reference.display</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;Height/Length Measurement Device value set&quot; ]       ]     ], [
-       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 37;
+       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 39;
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.extension">fhir:Element.extension</a> [
          <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 0;
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot; ];
@@ -481,7 +499,7 @@
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.source[x]">fhir:ImplementationGuide.package.resource.sourceReference</a> [
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;ValueSet/vitalSignAssociatedPrecondVS&quot; ];
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.display">fhir:Reference.display</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;Vital Sign Associated Precondition value set&quot; ]       ]     ], [
-       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 38;
+       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 40;
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.extension">fhir:Element.extension</a> [
          <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 0;
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot; ];
@@ -490,7 +508,7 @@
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.source[x]">fhir:ImplementationGuide.package.resource.sourceReference</a> [
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;ValueSet/heartRateMeasMethodVS&quot; ];
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.display">fhir:Reference.display</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;Heart Rate Measurement Method value set&quot; ]       ]     ], [
-       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 39;
+       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 41;
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.extension">fhir:Element.extension</a> [
          <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 0;
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot; ];
@@ -499,7 +517,7 @@
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.source[x]">fhir:ImplementationGuide.package.resource.sourceReference</a> [
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;ValueSet/heartRateMeasDeviceVS&quot; ];
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.display">fhir:Reference.display</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;Heart Rate Measurement Device value set&quot; ]       ]     ], [
-       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 40;
+       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 42;
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.extension">fhir:Element.extension</a> [
          <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 0;
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot; ];
@@ -508,7 +526,7 @@
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.source[x]">fhir:ImplementationGuide.package.resource.sourceReference</a> [
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;ValueSet/heartRateMeasBodyLocationPrecoordVS&quot; ];
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.display">fhir:Reference.display</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;Heart Rate Measurement Body Location Precoordinated value set&quot; ]       ]     ], [
-       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 41;
+       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 43;
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.extension">fhir:Element.extension</a> [
          <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 0;
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot; ];
@@ -517,7 +535,7 @@
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.source[x]">fhir:ImplementationGuide.package.resource.sourceReference</a> [
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;ValueSet/respiratoryRateMeasMethodVS&quot; ];
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.display">fhir:Reference.display</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;Respiratory Rate Measurement Method value set&quot; ]       ]     ], [
-       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 42;
+       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 44;
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.extension">fhir:Element.extension</a> [
          <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 0;
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot; ];
@@ -526,7 +544,7 @@
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.source[x]">fhir:ImplementationGuide.package.resource.sourceReference</a> [
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;ValueSet/respiratoryRateMeasDeviceVS&quot; ];
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.display">fhir:Reference.display</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;Respiratory Rate Measurement Device value set&quot; ]       ]     ], [
-       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 43;
+       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 45;
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.extension">fhir:Element.extension</a> [
          <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 0;
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot; ];
@@ -535,7 +553,7 @@
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.source[x]">fhir:ImplementationGuide.package.resource.sourceReference</a> [
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;ValueSet/bodyTempMeasBodyLocationPrecoordVS&quot; ];
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.display">fhir:Reference.display</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;Body Temperature Body Location Precoordinated value set&quot; ]       ]     ], [
-       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 44;
+       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 46;
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.extension">fhir:Element.extension</a> [
          <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 0;
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot; ];
@@ -544,7 +562,7 @@
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.source[x]">fhir:ImplementationGuide.package.resource.sourceReference</a> [
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;ValueSet/dataOriginationModeVS&quot; ];
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.display">fhir:Reference.display</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;Data Origination Mode value set&quot; ]       ]     ], [
-       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 45;
+       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 47;
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.extension">fhir:Element.extension</a> [
          <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 0;
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot; ];
@@ -553,7 +571,7 @@
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.source[x]">fhir:ImplementationGuide.package.resource.sourceReference</a> [
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;ValueSet/definedLimitsVS&quot; ];
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.display">fhir:Reference.display</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;Defined Limits value set&quot; ]       ]     ], [
-       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 46;
+       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 48;
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.extension">fhir:Element.extension</a> [
          <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 0;
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot; ];
@@ -562,7 +580,7 @@
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.source[x]">fhir:ImplementationGuide.package.resource.sourceReference</a> [
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;ValueSet/heightBodyPositionVS&quot; ];
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.display">fhir:Reference.display</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;Height Body Position value set&quot; ]       ]     ], [
-       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 47;
+       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 49;
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.extension">fhir:Element.extension</a> [
          <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 0;
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot; ];
@@ -571,7 +589,7 @@
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.source[x]">fhir:ImplementationGuide.package.resource.sourceReference</a> [
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;ValueSet/bpCuffSizeVS&quot; ];
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.display">fhir:Reference.display</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;Blood Pressure Cuff Size value set&quot; ]       ]     ], [
-       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 48;
+       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 50;
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.extension">fhir:Element.extension</a> [
          <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 0;
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot; ];
@@ -580,7 +598,7 @@
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.source[x]">fhir:ImplementationGuide.package.resource.sourceReference</a> [
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;ValueSet/bpMeasMethodVS&quot; ];
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.display">fhir:Reference.display</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;Blood Pressure Measurement Method value set&quot; ]       ]     ], [
-       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 49;
+       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 51;
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.extension">fhir:Element.extension</a> [
          <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 0;
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot; ];
@@ -589,7 +607,7 @@
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.source[x]">fhir:ImplementationGuide.package.resource.sourceReference</a> [
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;ValueSet/bodyPositionVS&quot; ];
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.display">fhir:Reference.display</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;Body Position value set&quot; ]       ]     ], [
-       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 50;
+       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 52;
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.extension">fhir:Element.extension</a> [
          <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 0;
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot; ];
@@ -598,7 +616,7 @@
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.source[x]">fhir:ImplementationGuide.package.resource.sourceReference</a> [
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;ValueSet/sensorDescriptionVS&quot; ];
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.display">fhir:Reference.display</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;Sensor Description value set&quot; ]       ]     ], [
-       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 51;
+       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 53;
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.extension">fhir:Element.extension</a> [
          <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 0;
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot; ];
@@ -607,7 +625,7 @@
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.source[x]">fhir:ImplementationGuide.package.resource.sourceReference</a> [
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;ValueSet/sleepStatusVS&quot; ];
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.display">fhir:Reference.display</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;Sleep Status value set&quot; ]       ]     ], [
-       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 52;
+       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 54;
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.extension">fhir:Element.extension</a> [
          <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 0;
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot; ];
@@ -616,7 +634,7 @@
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.source[x]">fhir:ImplementationGuide.package.resource.sourceReference</a> [
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;ValueSet/bpMeasDeviceVS&quot; ];
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.display">fhir:Reference.display</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;Blood Pressure Measurement Device value set&quot; ]       ]     ], [
-       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 53;
+       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 55;
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.extension">fhir:Element.extension</a> [
          <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 0;
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot; ];
@@ -624,7 +642,16 @@
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.example">fhir:ImplementationGuide.package.resource.example</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#boolean">fhir:value</a> &quot;false&quot;^^xsd:boolean ];
        <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.source[x]">fhir:ImplementationGuide.package.resource.sourceReference</a> [
          <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;ValueSet/bodyTempMeasMethodDeviceVS&quot; ];
-         <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.display">fhir:Reference.display</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;Body Temperature Measurement Method/Device value set&quot; ]       ]     ]
+         <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.display">fhir:Reference.display</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;Body Temperature Measurement Method/Device value set&quot; ]       ]     ], [
+       <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 56;
+       <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.extension">fhir:Element.extension</a> [
+         <a href="http://hl7.org/fhir/2017Jan/rdf.html#index">fhir:index</a> 0;
+         <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot; ];
+         <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Extension#Extension.value[x]">fhir:Extension.valueUri</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#uri">fhir:value</a> &quot;ValueSet-bpMeasMethodDeviceVS.html&quot; ]       ];
+       <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.example">fhir:ImplementationGuide.package.resource.example</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#boolean">fhir:value</a> &quot;false&quot;^^xsd:boolean ];
+       <a href="http://hl7.org/fhir/2017Jan/implementationguide.html#ImplementationGuide.package.resource.source[x]">fhir:ImplementationGuide.package.resource.sourceReference</a> [
+         <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;ValueSet/bpMeasMethodDeviceVS&quot; ];
+         <a href="http://hl7.org/fhir/2017Jan/datatypes.html#Reference#Reference.display">fhir:Reference.display</a> [ <a href="http://hl7.org/fhir/2017Jan/datatypes.html#string">fhir:value</a> &quot;Blood Pressure Measurement Method/Device value set&quot; ]       ]     ]
   ].
 
 # - ontology header ------------------------------------------------------------
@@ -649,7 +676,7 @@
       <!-- container -->
       <div class="inner-wrapper">
         <p> &#169; HL7.org 2011+. FHIR STU3 Candidate (v3.0.1-11917) generated on
-          Wed, Jun 5, 2019 16:15-0500. <a href="qa.html">QA Page</a>
+          Thu, Jun 20, 2019 14:39-0600. <a href="qa.html">QA Page</a>
           <br/>
           <span style="color: #FFFF77"> Links: <a style="color: #81BEF7"
               href="http://hl7.org/fhir/search.cfm">Search <img style="text-align: baseline"

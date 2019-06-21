@@ -16,7 +16,7 @@
   fhir:StructureDefinition.version [ fhir:value "2.0.0"];
   fhir:StructureDefinition.name [ fhir:value "Associated Precondition"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
-  fhir:StructureDefinition.date [ fhir:value "2018-09-25T00:00:00-05:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2018-09-25T00:00:00-06:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "HSPC"];
   fhir:StructureDefinition.description [ fhir:value "The set of codes that describe conditions or events that effect an observation."];
   fhir:StructureDefinition.fhirVersion [ fhir:value "3.0.1"];

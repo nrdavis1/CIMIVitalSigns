@@ -12,7 +12,7 @@
   <version value="2.0.0"/>
   <name value="Sensor Description"/>
   <status value="draft"/>
-  <date value="2018-12-04T00:00:00-06:00"/>
+  <date value="2018-12-04T00:00:00-07:00"/>
   <publisher value="CIMI"/>
   <description value="The kind of sensor used to measure the oxygen saturation."/>
   <fhirVersion value="3.0.1"/>

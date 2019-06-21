@@ -8,7 +8,7 @@
   "url": "http://hl7.org/fhir/hspc/StructureDefinition/HL7FHIRVitalSignsPanel",
   "name": "HL7 FHIR Vital Signs Panel",
   "status": "draft",
-  "date": "2018-09-26T00:00:00-05:00",
+  "date": "2018-09-26T00:00:00-06:00",
   "publisher": "Clinical Information Modeling Initiative",
   "description": "CIMI HL7 FHIR Vital Signs Panel; a grouping of the vital signs elements.",
   "fhirVersion": "3.0.1",

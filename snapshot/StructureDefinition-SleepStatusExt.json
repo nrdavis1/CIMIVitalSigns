@@ -10,7 +10,7 @@
   "name": "Sleep Status",
   "title": "Sleep Status",
   "status": "draft",
-  "date": "2017-06-11T00:00:00-05:00",
+  "date": "2017-06-11T00:00:00-06:00",
   "publisher": "CIMI",
   "description": "The state of sleep of the patient.",
   "fhirVersion": "3.0.1",

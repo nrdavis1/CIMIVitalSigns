@@ -9,7 +9,7 @@
   "version": "2.0.0",
   "name": "Device (simple)",
   "status": "draft",
-  "date": "2018-10-18T00:00:00-05:00",
+  "date": "2018-10-18T00:00:00-06:00",
   "publisher": "HSPC",
   "description": "An instrument, tool, analyzer, etc..",
   "fhirVersion": "3.0.1",

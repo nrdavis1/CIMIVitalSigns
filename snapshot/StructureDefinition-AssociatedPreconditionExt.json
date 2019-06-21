@@ -9,7 +9,7 @@
   "version": "2.0.0",
   "name": "Associated Precondition",
   "status": "draft",
-  "date": "2018-09-25T00:00:00-05:00",
+  "date": "2018-09-25T00:00:00-06:00",
   "publisher": "HSPC",
   "description": "The set of codes that describe conditions or events that effect an observation.",
   "fhirVersion": "3.0.1",

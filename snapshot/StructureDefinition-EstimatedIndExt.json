@@ -9,7 +9,7 @@
   "version": "2.0.0",
   "name": "Estimated Indicator",
   "status": "draft",
-  "date": "2018-10-18T00:00:00-05:00",
+  "date": "2018-10-18T00:00:00-06:00",
   "publisher": "HSPC",
   "description": "An indication that a measurement was estimated.  Answered as yes or no.",
   "fhirVersion": "3.0.1",

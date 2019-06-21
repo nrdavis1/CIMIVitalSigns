@@ -10,7 +10,7 @@
   "name": "Blood Pressure Cuff Size",
   "title": "Blood Pressure Cuff Size",
   "status": "draft",
-  "date": "2018-12-04T00:00:00-06:00",
+  "date": "2018-12-04T00:00:00-07:00",
   "publisher": "CIMI",
   "description": "The size of pressure cuff used to measure blood pressure.",
   "fhirVersion": "3.0.1",
