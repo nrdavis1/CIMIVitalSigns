@@ -350,12 +350,12 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "ValueSet-bpmeasbodylocationprecoord.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-bpMeasBodyLocationPrecoordVS.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <http://hl7.org/fhir/hspc/ValueSet/bpmeasbodylocationprecoord>;
-         fhir:Reference.reference [ fhir:value "ValueSet/bpmeasbodylocationprecoord" ];
+         fhir:link <http://hl7.org/fhir/hspc/ValueSet/bpMeasBodyLocationPrecoordVS>;
+         fhir:Reference.reference [ fhir:value "ValueSet/bpMeasBodyLocationPrecoordVS" ];
          fhir:Reference.display [ fhir:value "Blood Pressure Measurement Body Location - precoordinated value set" ]
        ]
      ], [
@@ -363,12 +363,12 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "ValueSet-bpbodyposition.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-bPBodyPositionVS.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <http://hl7.org/fhir/hspc/ValueSet/bpbodyposition>;
-         fhir:Reference.reference [ fhir:value "ValueSet/bpbodyposition" ];
+         fhir:link <http://hl7.org/fhir/hspc/ValueSet/bPBodyPositionVS>;
+         fhir:Reference.reference [ fhir:value "ValueSet/bPBodyPositionVS" ];
          fhir:Reference.display [ fhir:value "Blood Pressure Body Position value set" ]
        ]
      ], [
@@ -389,12 +389,12 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "ValueSet-deltaFlagnumericNom.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-deltaFlagNumericNomVS.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <http://hl7.org/fhir/hspc/ValueSet/deltaFlagnumericNom>;
-         fhir:Reference.reference [ fhir:value "ValueSet/deltaFlagnumericNom" ];
+         fhir:link <http://hl7.org/fhir/hspc/ValueSet/deltaFlagNumericNomVS>;
+         fhir:Reference.reference [ fhir:value "ValueSet/deltaFlagNumericNomVS" ];
          fhir:Reference.display [ fhir:value "Delta Flag Numeric Nominal value set" ]
        ]
      ], [
@@ -770,13 +770,13 @@
 
 <http://hl7.org/fhir/hspc/StructureDefinition/SystolicBloodPressure24HourMeanMeas> a fhir:hspc .
 
-<http://hl7.org/fhir/hspc/ValueSet/bpmeasbodylocationprecoord> a fhir:hspc .
+<http://hl7.org/fhir/hspc/ValueSet/bpMeasBodyLocationPrecoordVS> a fhir:hspc .
 
-<http://hl7.org/fhir/hspc/ValueSet/bpbodyposition> a fhir:hspc .
+<http://hl7.org/fhir/hspc/ValueSet/bPBodyPositionVS> a fhir:hspc .
 
 <http://hl7.org/fhir/hspc/ValueSet/sPO2BodyLocationVS> a fhir:hspc .
 
-<http://hl7.org/fhir/hspc/ValueSet/deltaFlagnumericNom> a fhir:hspc .
+<http://hl7.org/fhir/hspc/ValueSet/deltaFlagNumericNomVS> a fhir:hspc .
 
 <http://hl7.org/fhir/hspc/ValueSet/weightMeasurementMethodVS> a fhir:hspc .
 

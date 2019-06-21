@@ -332,12 +332,12 @@
           "extension": [
             {
               "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-              "valueUri": "ValueSet-bpmeasbodylocationprecoord.html"
+              "valueUri": "ValueSet-bpMeasBodyLocationPrecoordVS.html"
             }
           ],
           "example": false,
           "sourceReference": {
-            "reference": "ValueSet/bpmeasbodylocationprecoord",
+            "reference": "ValueSet/bpMeasBodyLocationPrecoordVS",
             "display": "Blood Pressure Measurement Body Location - precoordinated value set"
           }
         },
@@ -345,12 +345,12 @@
           "extension": [
             {
               "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-              "valueUri": "ValueSet-bpbodyposition.html"
+              "valueUri": "ValueSet-bPBodyPositionVS.html"
             }
           ],
           "example": false,
           "sourceReference": {
-            "reference": "ValueSet/bpbodyposition",
+            "reference": "ValueSet/bPBodyPositionVS",
             "display": "Blood Pressure Body Position value set"
           }
         },
@@ -371,12 +371,12 @@
           "extension": [
             {
               "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-              "valueUri": "ValueSet-deltaFlagnumericNom.html"
+              "valueUri": "ValueSet-deltaFlagNumericNomVS.html"
             }
           ],
           "example": false,
           "sourceReference": {
-            "reference": "ValueSet/deltaFlagnumericNom",
+            "reference": "ValueSet/deltaFlagNumericNomVS",
             "display": "Delta Flag Numeric Nominal value set"
           }
         },

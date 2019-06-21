@@ -1,0 +1,129 @@
+{
+  "resourceType": "ValueSet",
+  "id": "bpMeasBodyLocationPrecoordVS",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Blood Pressure Measurement Body Location Precoodinated</h2><div><p>SELECT SNOMED CT code system values.</p>\n</div><p><b>Copyright Statement:</b> TBD</p><p>This value set includes codes from the following code systems:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=241784008\">241784008</a></td><td>Left ankle (body structure)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=241699003\">241699003</a></td><td>Right ankle (body structure)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=182245002\">182245002</a></td><td>Arm (body structure)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=72098002\">72098002</a></td><td>Left arm (body structure)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=59126009\">59126009</a></td><td>Right arm (body structure)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=209672000\">209672000</a></td><td>Left thigh (body structure)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=209570001\">209570001</a></td><td>Right thigh (body structure)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=7569003\">7569003</a></td><td>Finger structure</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368208006\">368208006</a></td><td>Left upper arm structure</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368209003\">368209003</a></td><td>Right upper arm structure</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=17137000\">17137000</a></td><td>Structure of brachial artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=51636004\">51636004</a></td><td>Structure of left ankle</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=113270003\">113270003</a></td><td>Structure of left femoral artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368504007\">368504007</a></td><td>Structure of left radial artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=61396006\">61396006</a></td><td>Structure of left thigh</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368506009\">368506009</a></td><td>Structure of left ulnar artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=6685009\">6685009</a></td><td>Structure of right ankle</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=69833005\">69833005</a></td><td>Structure of right femoral artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368503001\">368503001</a></td><td>Structure of right radial artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=11207009\">11207009</a></td><td>Structure of right thigh</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=368505008\">368505008</a></td><td>Structure of right ulnar artery</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=29707007\">29707007</a></td><td>Toe structure</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=40983000\">40983000</a></td><td>Upper arm structure</td><td/></tr></table></li></ul></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/valueset-extensible",
+      "valueBoolean": true
+    }
+  ],
+  "url": "http://hl7.org/fhir/hspc/ValueSet/bpMeasBodyLocationPrecoordVS",
+  "version": "0.01",
+  "name": "Blood Pressure Measurement Body Location Precoodinated",
+  "status": "draft",
+  "date": "2015-06-11T00:00:00-06:00",
+  "publisher": "Clinical Information Modeling Initiative (CIMI)",
+  "description": "SELECT SNOMED CT code system values.",
+  "copyright": "TBD",
+  "extensible": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "241784008",
+            "display": "Left ankle (body structure)"
+          },
+          {
+            "code": "241699003",
+            "display": "Right ankle (body structure)"
+          },
+          {
+            "code": "182245002",
+            "display": "Arm (body structure)"
+          },
+          {
+            "code": "72098002",
+            "display": "Left arm (body structure)"
+          },
+          {
+            "code": "59126009",
+            "display": "Right arm (body structure)"
+          },
+          {
+            "code": "209672000",
+            "display": "Left thigh (body structure)"
+          },
+          {
+            "code": "209570001",
+            "display": "Right thigh (body structure)"
+          },
+          {
+            "code": "7569003",
+            "display": "Finger structure"
+          },
+          {
+            "code": "368208006",
+            "display": "Left upper arm structure"
+          },
+          {
+            "code": "368209003",
+            "display": "Right upper arm structure"
+          },
+          {
+            "code": "17137000",
+            "display": "Structure of brachial artery"
+          },
+          {
+            "code": "51636004",
+            "display": "Structure of left ankle"
+          },
+          {
+            "code": "113270003",
+            "display": "Structure of left femoral artery"
+          },
+          {
+            "code": "368504007",
+            "display": "Structure of left radial artery"
+          },
+          {
+            "code": "61396006",
+            "display": "Structure of left thigh"
+          },
+          {
+            "code": "368506009",
+            "display": "Structure of left ulnar artery"
+          },
+          {
+            "code": "6685009",
+            "display": "Structure of right ankle"
+          },
+          {
+            "code": "69833005",
+            "display": "Structure of right femoral artery"
+          },
+          {
+            "code": "368503001",
+            "display": "Structure of right radial artery"
+          },
+          {
+            "code": "11207009",
+            "display": "Structure of right thigh"
+          },
+          {
+            "code": "368505008",
+            "display": "Structure of right ulnar artery"
+          },
+          {
+            "code": "29707007",
+            "display": "Toe structure"
+          },
+          {
+            "code": "40983000",
+            "display": "Upper arm structure"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "43f1bc10-7d64-4486-9bec-ee7389d15686",
+  "id" : "4fb2a73e-a25d-466d-ab36-ff141f41c52e",
   "meta" : {
-    "lastUpdated" : "2019-06-21T12:13:09.747-06:00"
+    "lastUpdated" : "2019-06-21T14:23:58.240-06:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -269,10 +269,10 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/hspc/ValueSet/deltaFlagnumericNom",
+    "fullUrl" : "http://hl7.org/fhir/hspc/ValueSet/deltaFlagNumericNomVS",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "deltaFlagnumericNom",
+      "id" : "deltaFlagNumericNomVS",
       "meta" : {
         "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
       },
@@ -280,7 +280,7 @@
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\">Expansion based on http://hl7.org/fhir/v3/ObservationInterpretation version 2016-11-11</p><p>All codes from system <a href=\"http://hl7.org/fhir/2017Jan/v3/ObservationInterpretation/cs.html\"><code>http://hl7.org/fhir/v3/ObservationInterpretation</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-v3-ObservationInterpretation-U\"> </a><a href=\"http://hl7.org/fhir/2017Jan/v3/ObservationInterpretation/cs.html#v3-ObservationInterpretation-U\">U</a></td><td>Significant Change Up</td><td>The current result has increased from the previous result for a quantitative observation (the change is significant as defined in the respective test procedure).</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-v3-ObservationInterpretation-D\"> </a><a href=\"http://hl7.org/fhir/2017Jan/v3/ObservationInterpretation/cs.html#v3-ObservationInterpretation-D\">D</a></td><td>Significant Change Down</td><td>The current result has decreased from the previous result for a quantitative observation (the change is significant as defined in the respective test procedure).</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-v3-ObservationInterpretation-B\"> </a><a href=\"http://hl7.org/fhir/2017Jan/v3/ObservationInterpretation/cs.html#v3-ObservationInterpretation-B\">B</a></td><td>Better</td><td>The current result or observation value has improved compared to the previous result or observation value (the change is significant as defined in the respective test procedure).\r\n\n                        [Note: This can be applied to quantitative or qualitative observations.]</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-v3-ObservationInterpretation-W\"> </a><a href=\"http://hl7.org/fhir/2017Jan/v3/ObservationInterpretation/cs.html#v3-ObservationInterpretation-W\">W</a></td><td>Worse</td><td>The current result or observation value has degraded compared to the previous result or observation value (the change is significant as defined in the respective test procedure).\r\n\n                        [Note: This can be applied to quantitative or qualitative observations.]</td></tr></table></div>"
       },
-      "url" : "http://hl7.org/fhir/hspc/ValueSet/deltaFlagnumericNom",
+      "url" : "http://hl7.org/fhir/hspc/ValueSet/deltaFlagNumericNomVS",
       "version" : "0.01",
       "name" : "Delta Flag Numeric Nom",
       "status" : "draft",
@@ -296,8 +296,8 @@
       "description" : "HL7 V3:ObservationInterpretation OID: 2.16.840.1.113883.5.83 + SNOMED CT SNOMED CT concepts from the Degree findings (qualifier value)272520006, Presence findings (qualifier value)260411009, Absence findings (qualifier value)272519000",
       "copyright" : "IHC",
       "expansion" : {
-        "identifier" : "urn:uuid:5dc09b38-6f18-4277-a327-5833ebd60c4c",
-        "timestamp" : "2019-06-21T12:13:29-06:00",
+        "identifier" : "urn:uuid:6b6c1c06-5830-4af7-b850-b91f4435e574",
+        "timestamp" : "2019-06-21T14:24:16-06:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -491,8 +491,8 @@
       "description" : "HL7 V3:ObservationInterpretation OID: 2.16.840.1.113883.5.83 + SNOMED CT SNOMED CT concepts from the Degree findings (qualifier value)272520006, Presence findings (qualifier value)260411009, Absence findings (qualifier value)272519000",
       "copyright" : "IHC",
       "expansion" : {
-        "identifier" : "urn:uuid:22d10062-7780-413a-86e4-b1373eb3f795",
-        "timestamp" : "2019-06-21T12:13:29-06:00",
+        "identifier" : "urn:uuid:e437c01f-4f00-437a-801a-ff613dda0725",
+        "timestamp" : "2019-06-21T14:24:16-06:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
