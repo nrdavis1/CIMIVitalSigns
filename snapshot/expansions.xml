@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="1c7da7e8-3e09-45df-bb00-c0423774eb15"/>
+  <id value="700d67af-f0e0-4498-8a55-c9fd9b636a1a"/>
   <meta>
-    <lastUpdated value="2019-06-20T14:39:54.324-06:00"/>
+    <lastUpdated value="2019-06-21T11:27:33.413-06:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -737,8 +737,8 @@
         <description value="HL7 V3:ObservationInterpretation OID: 2.16.840.1.113883.5.83 + SNOMED CT SNOMED CT concepts from the Degree findings (qualifier value)272520006, Presence findings (qualifier value)260411009, Absence findings (qualifier value)272519000"/>
         <copyright value="IHC"/>
         <expansion>
-          <identifier value="urn:uuid:c8bacf2b-88ee-4a3c-8fa3-91745b592637"/>
-          <timestamp value="2019-06-20T14:40:14-06:00"/>
+          <identifier value="urn:uuid:c19f99a4-6475-45c3-825d-8adfeef2a123"/>
+          <timestamp value="2019-06-21T11:27:53-06:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1179,8 +1179,8 @@
         <description value="HL7 V3:ObservationInterpretation OID: 2.16.840.1.113883.5.83 + SNOMED CT SNOMED CT concepts from the Degree findings (qualifier value)272520006, Presence findings (qualifier value)260411009, Absence findings (qualifier value)272519000"/>
         <copyright value="IHC"/>
         <expansion>
-          <identifier value="urn:uuid:4bd77517-fb1e-47c2-ae4e-a7ca38458e8a"/>
-          <timestamp value="2019-06-20T14:40:14-06:00"/>
+          <identifier value="urn:uuid:1685159d-7f83-4130-8bc5-af0273ef4e01"/>
+          <timestamp value="2019-06-21T11:27:53-06:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3851,13 +3851,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/hspc/ValueSet/bpMeasMethodDeviceVS"/>
     <resource>
       <ValueSet>
-        <id value="bpMeasMethodDeviceVS"/>
-        <meta>
-          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
-        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -4010,25 +4005,9 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
-          <valueBoolean value="true"/>
-        </extension>
-        <url value="http://hl7.org/fhir/hspc/ValueSet/bpMeasMethodDeviceVS"/>
-        <version value="0.01"/>
-        <name value="Blood Pressure Measurement Method/Device value set"/>
-        <status value="draft"/>
-        <date value="2018-12-04T00:00:00-07:00"/>
-        <publisher value="Clinical Information Modeling Inititative"/>
-        <description value="SELECT SNOMED CT code system values."/>
-        <copyright value="TBD"/>
         <expansion>
-          <identifier value="urn:uuid:1ea4ea38-9581-4de4-8773-ef42436c2961"/>
+          <identifier value="urn:uuid:65a28a24-e57b-440f-9ef7-a7e76b7bc49a"/>
           <timestamp value="2019-06-20T14:40:14-06:00"/>
-          <total value="16"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>

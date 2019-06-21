@@ -3,7 +3,7 @@
   "name": "CIMI Vital Signs Implementation Guide",
   "package-id": "hl7.fhir.hspc",
   "ig-ver": "1.0",
-  "date": "Thu, 20 Jun, 2019 14:39:54 -0600",
+  "date": "Fri, 21 Jun, 2019 11:27:33 -0600",
   "errs": 64,
   "warnings": 54,
   "hints": 0,

@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "1c7da7e8-3e09-45df-bb00-c0423774eb15",
+  "id" : "700d67af-f0e0-4498-8a55-c9fd9b636a1a",
   "meta" : {
-    "lastUpdated" : "2019-06-20T14:39:54.324-06:00"
+    "lastUpdated" : "2019-06-21T11:27:33.413-06:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -296,8 +296,8 @@
       "description" : "HL7 V3:ObservationInterpretation OID: 2.16.840.1.113883.5.83 + SNOMED CT SNOMED CT concepts from the Degree findings (qualifier value)272520006, Presence findings (qualifier value)260411009, Absence findings (qualifier value)272519000",
       "copyright" : "IHC",
       "expansion" : {
-        "identifier" : "urn:uuid:c8bacf2b-88ee-4a3c-8fa3-91745b592637",
-        "timestamp" : "2019-06-20T14:40:14-06:00",
+        "identifier" : "urn:uuid:c19f99a4-6475-45c3-825d-8adfeef2a123",
+        "timestamp" : "2019-06-21T11:27:53-06:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -491,8 +491,8 @@
       "description" : "HL7 V3:ObservationInterpretation OID: 2.16.840.1.113883.5.83 + SNOMED CT SNOMED CT concepts from the Degree findings (qualifier value)272520006, Presence findings (qualifier value)260411009, Absence findings (qualifier value)272519000",
       "copyright" : "IHC",
       "expansion" : {
-        "identifier" : "urn:uuid:4bd77517-fb1e-47c2-ae4e-a7ca38458e8a",
-        "timestamp" : "2019-06-20T14:40:14-06:00",
+        "identifier" : "urn:uuid:1685159d-7f83-4130-8bc5-af0273ef4e01",
+        "timestamp" : "2019-06-21T11:27:53-06:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1635,38 +1635,16 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/hspc/ValueSet/bpMeasMethodDeviceVS",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "bpMeasMethodDeviceVS",
-      "meta" : {
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-      },
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 16 concepts</p><p>All codes from system <a href=\"http://hl7.org/fhir/2017Jan/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-37931006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=37931006\">37931006</a></td><td>Auscultation</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-13385008\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=13385008\">13385008</a></td><td>Mediate auscultation</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-268447006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=268447006\">268447006</a></td><td>Doppler studies</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-113011001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=113011001\">113011001</a></td><td>Palpation</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-31813000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=31813000\">31813000</a></td><td>Oscillometry</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-17146006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=17146006\">17146006</a></td><td>Arterial pressure monitoring, non-invasive method</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-77938009\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=77938009\">77938009</a></td><td>Arterial pressure monitoring, invasive method</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-641000205104\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=641000205104\">641000205104</a></td><td>Computer aided auscultation</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-911000205109\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=911000205109\">911000205109</a></td><td>Measurement of blood pressure using intravascular transducer</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-43770009\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=43770009\">43770009</a></td><td>Doppler device</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-309642005\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=309642005\">309642005</a></td><td>Mercury sphygmomanometer</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-309641003\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=309641003\">309641003</a></td><td>Aneroid sphygmomanometer</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-469801002\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=469801002\">469801002</a></td><td>Invasive blood pressure monitor</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-720737000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=720737000\">720737000</a></td><td>Blood pressure cuff, adult size</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-720736009\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=720736009\">720736009</a></td><td>Blood pressure cuff, pediatric size</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-720740000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=720740000\">720740000</a></td><td>Blood pressure cuff, adult thigh type</td><td/></tr></table></div>"
       },
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-extensible",
-        "valueBoolean" : true
-      }],
-      "url" : "http://hl7.org/fhir/hspc/ValueSet/bpMeasMethodDeviceVS",
-      "version" : "0.01",
-      "name" : "Blood Pressure Measurement Method/Device value set",
-      "status" : "draft",
-      "date" : "2018-12-04T00:00:00-07:00",
-      "publisher" : "Clinical Information Modeling Inititative",
-      "description" : "SELECT SNOMED CT code system values.",
-      "copyright" : "TBD",
       "expansion" : {
-        "identifier" : "urn:uuid:1ea4ea38-9581-4de4-8773-ef42436c2961",
+        "identifier" : "urn:uuid:65a28a24-e57b-440f-9ef7-a7e76b7bc49a",
         "timestamp" : "2019-06-20T14:40:14-06:00",
-        "total" : 16,
         "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
           "name" : "limitedExpansion",
           "valueString" : "-1"
         },
