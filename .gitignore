@@ -4,6 +4,7 @@
 /qa/
 /temp/
 /txCache/
+*.jar
 *.swp
 *.zip
 /resources/implementationguide/ig-expansion-parameters.json
