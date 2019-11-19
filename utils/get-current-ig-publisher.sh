@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 mv org.hl7.fhir.igpublisher.jar org.hl7.fhir.igpublisher.$(date +%Y%m%d).jar  >/dev/null 2>&1
 curl -H "Accept: application/zip" \
-  http://build.fhir.org/org.hl7.fhir.igpublisher.jar \
+	https://fhir.github.io/latest-ig-publisher/org.hl7.fhir.publisher.jar \
   -o org.hl7.fhir.igpublisher.jar
 
 
